@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "total": 274,
+  "groupMeans": [
+    "无提示9055.1557.01+1.856.79",
+    "人工编写提示8653.4665.09+11.629.90",
+    "ChatGPT 提示9843.5160.52+17.009.58"
+  ],
+  "statisticsCount": 66,
+  "mobileWidth": 390,
+  "features": [
+    "4 subject filters",
+    "3 condition toggles",
+    "3 metrics",
+    "record keyboard arrows and selector",
+    "empty state",
+    "CSV download row count",
+    "SVG download metadata",
+    "evidence notebook download",
+    "hypothesis and quiz",
+    "offline file mode"
+  ],
+  "errors": []
+}

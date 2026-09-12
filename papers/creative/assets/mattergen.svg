@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+<title id="title">MatterGen：材料生成蓝图</title>
+<desc id="desc">可编辑矢量论文卡。目标约束、联合去噪与作者公开候选晶胞；实验估计体积模量158±11 GPa，最高169 GPa，目标200 GPa。附2026年关于新颖性与无序结构归属的后续争议。</desc>
+<metadata>Original research: Zeni et al., Nature 639, 624–632 (2025), DOI 10.1038/s41586-025-08628-5. Follow-up: Juelsholt, Materials Horizons (2026), DOI 10.1039/D6MH00268D. Crystal: author-generated TaCr2O6.cif from microsoft/mattergen data-release. Adaptation: original editorial diagrams and Chinese interpretation. Verified 2026-09-12. No raster assets.</metadata>
+<rect x="0" y="0" width="1200" height="1600" rx="0" fill="#fbf9f4" stroke="none"/>
+<rect x="0" y="0" width="15" height="1600" rx="0" fill="#594485" stroke="none"/>
+<text x="64" y="64" fill="#594485" font-size="15" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" letter-spacing="2">知屿  /  MATERIALS BLUEPRINT</text>
+<text x="1136" y="64" fill="#594485" font-size="14" font-weight="400" font-family="Consolas, monospace" text-anchor="end" >VECTOR EDITION 02</text>
+<text x="60" y="139" fill="#272132" font-size="52" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >让材料从「目标」开始。</text>
+<text x="64" y="196" fill="#594485" font-size="28" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >MatterGen · 无机晶体的条件生成</text>
+<text x="65" y="234" fill="#81748f" font-size="20" font-weight="400" font-family="Georgia, Times New Roman, serif" text-anchor="start" >A generative model for inorganic materials design</text>
+<line x1="64.00" y1="267.00" x2="1136.00" y2="267.00" stroke="#594485" stroke-width="2"/>
+<circle cx="76.00" cy="304.00" r="12" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="76" y="308" fill="#fbf9f4" font-size="11" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >01</text>
+<text x="99" y="311" fill="#594485" font-size="16" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >先给出想要的性质</text>
+<text x="64" y="357" fill="#272132" font-size="29" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >如果先指定性质，能否反推出晶体？</text>
+<rect x="64" y="383" width="203" height="67" rx="3" fill="#ede8f3" stroke="none"/>
+<text x="81" y="410" fill="#594485" font-size="17" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >化学组成</text>
+<text x="81" y="434" fill="#7d718c" font-size="14" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >元素与配比</text>
+<rect x="285" y="383" width="203" height="67" rx="3" fill="#ede8f3" stroke="none"/>
+<text x="302" y="410" fill="#594485" font-size="17" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >晶体对称性</text>
+<text x="302" y="434" fill="#7d718c" font-size="14" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >目标空间群</text>
+<rect x="506" y="383" width="203" height="67" rx="3" fill="#ede8f3" stroke="none"/>
+<text x="523" y="410" fill="#594485" font-size="17" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >标量性质</text>
+<text x="523" y="434" fill="#7d718c" font-size="14" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >力学 / 电子 / 磁性</text>
+<line x1="775.00" y1="307.00" x2="775.00" y2="450.00" stroke="#dcd6e3" stroke-width="1"/>
+<text x="818" y="315" fill="#594485" font-size="12" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" letter-spacing="1">训练基础  /  ALEX-MP-20</text>
+<text x="813" y="371" fill="#594485" font-size="49" font-weight="400" font-family="Consolas, monospace" text-anchor="start" >607,683</text>
+<text x="818" y="406" fill="#272132" font-size="16" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >稳定结构；每个晶胞 ≤ 20 原子</text>
+<text x="818" y="433" fill="#81748f" font-size="14" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >Materials Project + Alexandria</text>
+<line x1="64.00" y1="482.00" x2="1136.00" y2="482.00" stroke="#dcd6e3" stroke-width="1"/>
+<circle cx="76.00" cy="516.00" r="12" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="76" y="520" fill="#fbf9f4" font-size="11" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >02</text>
+<text x="99" y="523" fill="#594485" font-size="16" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >把晶体的三个部分，一起去噪</text>
+<text x="64" y="553" fill="#7d718c" font-size="17" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >一个等变评分网络，联合更新元素、位置与晶格。</text>
+<rect x="64" y="579" width="690" height="57" rx="3" fill="#594485" stroke="none"/>
+<text x="409" y="614" fill="#fbf9f4" font-size="20" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >条件适配器 Adapter  ·  根据目标微调</text>
+<line x1="409.00" y1="636.00" x2="409.00" y2="658.00" stroke="#594485" stroke-width="1.5"/>
+<line x1="183.00" y1="658.00" x2="635.00" y2="658.00" stroke="#594485" stroke-width="1.5"/>
+<line x1="183.00" y1="658.00" x2="183.00" y2="675.00" stroke="#594485" stroke-width="1.5"/>
+<path d="M179 671 L183 677 L187 671" fill="none" stroke="#594485" stroke-width="1.5"/>
+<line x1="409.00" y1="658.00" x2="409.00" y2="675.00" stroke="#594485" stroke-width="1.5"/>
+<path d="M405 671 L409 677 L413 671" fill="none" stroke="#594485" stroke-width="1.5"/>
+<line x1="635.00" y1="658.00" x2="635.00" y2="675.00" stroke="#594485" stroke-width="1.5"/>
+<path d="M631 671 L635 677 L639 671" fill="none" stroke="#594485" stroke-width="1.5"/>
+<rect x="87" y="687" width="192" height="150" rx="4" fill="#f3eff6" stroke="none"/>
+<rect x="313" y="687" width="192" height="150" rx="4" fill="#f3eff6" stroke="none"/>
+<rect x="539" y="687" width="192" height="150" rx="4" fill="#f3eff6" stroke="none"/>
+<circle cx="151.00" cy="740.00" r="27" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="151" y="746" fill="#fbf9f4" font-size="18" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >Ta</text>
+<circle cx="210.00" cy="744.00" r="23" fill="#a393be" stroke="none" stroke-width="1"/>
+<text x="210" y="750" fill="#fbf9f4" font-size="16" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >Cr</text>
+<circle cx="177.00" cy="799.00" r="18" fill="#fbf9f4" stroke="#594485" stroke-width="2"/>
+<text x="177" y="805" fill="#594485" font-size="17" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >O</text>
+<line x1="354.00" y1="713.00" x2="354.00" y2="811.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="389.00" y1="713.00" x2="389.00" y2="811.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="424.00" y1="713.00" x2="424.00" y2="811.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="459.00" y1="713.00" x2="459.00" y2="811.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="354.00" y1="713.00" x2="459.00" y2="713.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="354.00" y1="748.00" x2="459.00" y2="748.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="354.00" y1="783.00" x2="459.00" y2="783.00" stroke="#d2c6df" stroke-width="1"/>
+<line x1="354.00" y1="811.00" x2="459.00" y2="811.00" stroke="#d2c6df" stroke-width="1"/>
+<circle cx="363.00" cy="737.00" r="5" fill="#b3a5c5" stroke="none" stroke-width="1"/>
+<circle cx="397.00" cy="770.00" r="5" fill="#b3a5c5" stroke="none" stroke-width="1"/>
+<circle cx="437.00" cy="725.00" r="5" fill="#b3a5c5" stroke="none" stroke-width="1"/>
+<circle cx="449.00" cy="802.00" r="5" fill="#b3a5c5" stroke="none" stroke-width="1"/>
+<circle cx="354.00" cy="713.00" r="6" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="389.00" cy="748.00" r="6" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="424.00" cy="783.00" r="6" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="459.00" cy="811.00" r="6" fill="#594485" stroke="none" stroke-width="1"/>
+<path d="M380 773 L386 751 L379 757 M386 751 L390 760" fill="none" stroke="#594485" stroke-width="1.5"/>
+<polygon points="587,748 649,766 649,814 587,796" fill="none" stroke="#594485" stroke-width="2"/>
+<polygon points="622,717 684,735 684,783 622,765" fill="none" stroke="#594485" stroke-width="2"/>
+<line x1="587.00" y1="748.00" x2="622.00" y2="717.00" stroke="#594485" stroke-width="2"/>
+<line x1="649.00" y1="766.00" x2="684.00" y2="735.00" stroke="#594485" stroke-width="2"/>
+<line x1="649.00" y1="814.00" x2="684.00" y2="783.00" stroke="#594485" stroke-width="2"/>
+<line x1="587.00" y1="796.00" x2="622.00" y2="765.00" stroke="#594485" stroke-width="2"/>
+<circle cx="587.00" cy="748.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="649.00" cy="766.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="649.00" cy="814.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="587.00" cy="796.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="622.00" cy="717.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="684.00" cy="735.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="684.00" cy="783.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<circle cx="622.00" cy="765.00" r="3" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="183" y="869" fill="#594485" font-size="19" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >A · 原子类型</text>
+<text x="183" y="898" fill="#7d718c" font-size="15" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >决定由哪些元素组成</text>
+<text x="409" y="869" fill="#594485" font-size="19" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >X · 原子坐标</text>
+<text x="409" y="898" fill="#7d718c" font-size="15" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >决定原子在周期内的位置</text>
+<text x="635" y="869" fill="#594485" font-size="19" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >L · 周期晶格</text>
+<text x="635" y="898" fill="#7d718c" font-size="15" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >决定晶胞形状与尺度</text>
+<text x="409" y="939" fill="#594485" font-size="17" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >随机结构  →  反复去噪  →  晶体候选</text>
+<text x="409" y="966" fill="#92869f" font-size="12" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >过程示意；非模型运行输出</text>
+<line x1="791.00" y1="506.00" x2="791.00" y2="965.00" stroke="#dcd6e3" stroke-width="1"/>
+<circle cx="833.00" cy="516.00" r="12" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="833" y="520" fill="#fbf9f4" font-size="11" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >03</text>
+<text x="856" y="523" fill="#594485" font-size="16" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >读出一个候选</text>
+<text x="978" y="562" fill="#594485" font-size="31" font-weight="500" font-family="Georgia, Times New Roman, serif" text-anchor="middle" >TaCr₂O₆</text>
+<line x1="966.00" y1="800.00" x2="1053.75" y2="827.88" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="966.00" y1="800.00" x2="897.44" y2="835.69" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="966.00" y1="800.00" x2="966.00" y2="600.28" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="1053.75" y1="827.88" x2="985.19" y2="863.57" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="1053.75" y1="827.88" x2="1053.75" y2="628.17" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="897.44" y1="835.69" x2="985.19" y2="863.57" stroke="#a89abb" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="897.44" y1="835.69" x2="897.44" y2="635.97" stroke="#a89abb" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="985.19" y1="863.57" x2="985.19" y2="663.86" stroke="#a89abb" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="966.00" y1="600.28" x2="1053.75" y2="628.17" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="966.00" y1="600.28" x2="897.44" y2="635.97" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="1053.75" y1="628.17" x2="985.19" y2="663.86" stroke="#a89abb" stroke-width="1.2"/>
+<line x1="897.44" y1="635.97" x2="985.19" y2="663.86" stroke="#a89abb" stroke-width="1.2" stroke-dasharray="4 4"/>
+<g data-element="Ta" data-fractional="0.0,0.0,0.0">
+<circle cx="966.00" cy="800.00" r="12" fill="#594485" stroke="#594485" stroke-width="1.3"/>
+<title>Ta · fractional 0.0, 0.0, 0.0</title></g>
+<g data-element="Cr" data-fractional="0.0,0.0,0.33285057">
+<circle cx="966.00" cy="733.52" r="9" fill="#a493be" stroke="#594485" stroke-width="1.3"/>
+<title>Cr · fractional 0.0, 0.0, 0.33285057</title></g>
+<g data-element="Cr" data-fractional="0.0,0.0,0.66714943">
+<circle cx="966.00" cy="666.76" r="9" fill="#a493be" stroke="#594485" stroke-width="1.3"/>
+<title>Cr · fractional 0.0, 0.0, 0.66714943</title></g>
+<g data-element="O" data-fractional="0.19464118,0.19464118,0.5">
+<circle cx="969.74" cy="712.51" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.19464118, 0.19464118, 0.5</title></g>
+<g data-element="O" data-fractional="0.19756912,0.19756912,0.16559713">
+<circle cx="969.79" cy="779.49" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.19756912, 0.19756912, 0.16559713</title></g>
+<g data-element="O" data-fractional="0.19756912,0.19756912,0.83440287">
+<circle cx="969.79" cy="645.91" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.19756912, 0.19756912, 0.83440287</title></g>
+<g data-element="Ta" data-fractional="0.5,0.5,0.5">
+<circle cx="975.60" cy="731.93" r="12" fill="#594485" stroke="#594485" stroke-width="1.3"/>
+<title>Ta · fractional 0.5, 0.5, 0.5</title></g>
+<g data-element="Cr" data-fractional="0.5,0.5,0.83285057">
+<circle cx="975.60" cy="665.45" r="9" fill="#a493be" stroke="#594485" stroke-width="1.3"/>
+<title>Cr · fractional 0.5, 0.5, 0.83285057</title></g>
+<g data-element="Cr" data-fractional="0.5,0.5,0.16714943">
+<circle cx="975.60" cy="798.40" r="9" fill="#a493be" stroke="#594485" stroke-width="1.3"/>
+<title>Cr · fractional 0.5, 0.5, 0.16714943</title></g>
+<g data-element="O" data-fractional="0.30243088,0.69756912,0.66559713">
+<circle cx="944.71" cy="700.40" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.30243088, 0.69756912, 0.66559713</title></g>
+<g data-element="O" data-fractional="0.69756912,0.30243088,0.33440287">
+<circle cx="1006.48" cy="763.46" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.69756912, 0.30243088, 0.33440287</title></g>
+<g data-element="O" data-fractional="0.69756912,0.30243088,0.66559713">
+<circle cx="1006.48" cy="697.31" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.69756912, 0.30243088, 0.66559713</title></g>
+<g data-element="O" data-fractional="0.30243088,0.69756912,0.33440287">
+<circle cx="944.71" cy="766.54" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.30243088, 0.69756912, 0.33440287</title></g>
+<g data-element="O" data-fractional="0.30535882,0.69464118,0.0">
+<circle cx="945.17" cy="833.31" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.30535882, 0.69464118, 0.0</title></g>
+<g data-element="O" data-fractional="0.69464118,0.30535882,0.0">
+<circle cx="1006.02" cy="830.27" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.69464118, 0.30535882, 0.0</title></g>
+<g data-element="O" data-fractional="0.80243088,0.80243088,0.83440287">
+<circle cx="981.40" cy="684.37" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.80243088, 0.80243088, 0.83440287</title></g>
+<g data-element="O" data-fractional="0.80243088,0.80243088,0.16559713">
+<circle cx="981.40" cy="817.94" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.80243088, 0.80243088, 0.16559713</title></g>
+<g data-element="O" data-fractional="0.80535882,0.80535882,0.5">
+<circle cx="981.46" cy="751.34" r="6.5" fill="#fbf9f4" stroke="#594485" stroke-width="1.3"/>
+<title>O · fractional 0.80535882, 0.80535882, 0.5</title></g>
+<circle cx="870.00" cy="884.00" r="6" fill="#594485" stroke="#594485" stroke-width="1"/>
+<text x="883" y="889" fill="#594485" font-size="14" font-weight="400" font-family="Consolas, monospace" text-anchor="start" >Ta</text>
+<circle cx="956.00" cy="884.00" r="6" fill="#a493be" stroke="#594485" stroke-width="1"/>
+<text x="969" y="889" fill="#594485" font-size="14" font-weight="400" font-family="Consolas, monospace" text-anchor="start" >Cr</text>
+<circle cx="1042.00" cy="884.00" r="6" fill="#fbf9f4" stroke="#594485" stroke-width="1"/>
+<text x="1055" y="889" fill="#594485" font-size="14" font-weight="400" font-family="Consolas, monospace" text-anchor="start" >O</text>
+<text x="978" y="915" fill="#7d718c" font-size="13" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >a = b = 4.640 Å  ·  c = 9.109 Å</text>
+<text x="978" y="939" fill="#272132" font-size="15" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >作者生成的有序候选结构</text>
+<text x="978" y="962" fill="#81748f" font-size="12" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >不是实验精修结构；线框仅为晶胞边界</text>
+<rect x="64" y="994" width="1072" height="235" rx="4" fill="#594485" stroke="none"/>
+<text x="87" y="1030" fill="#fbf9f4" font-size="16" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >04  /  用证据约束生成的想象</text>
+<text x="88" y="1093" fill="#fbf9f4" font-size="53" font-weight="400" font-family="Consolas, monospace" text-anchor="start" >&gt; 2×</text>
+<text x="290" y="1080" fill="#fbf9f4" font-size="22" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >SUN 生成比例</text>
+<text x="290" y="1110" fill="#dfd5ec" font-size="17" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >稳定 · 唯一 · 新颖</text>
+<text x="89" y="1153" fill="#e2dbea" font-size="16" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >原文基准中超过既有生成模型的两倍。</text>
+<text x="89" y="1181" fill="#e2dbea" font-size="15" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >这是特定指标；不代表实验成功率翻倍。</text>
+<text x="89" y="1208" fill="#c8b9dc" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >稳定按 DFT 弛豫后的能量判据评估。</text>
+<line x1="590.00" y1="1047.00" x2="590.00" y2="1204.00" stroke="#8b76a8" stroke-width="1"/>
+<text x="626" y="1030" fill="#fbf9f4" font-size="17" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >体积模量：目标与实验估计</text>
+<text x="626" y="1060" fill="#d7cce5" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >纳米压痕杨氏模量 + DFT 泊松比 0.30</text>
+<line x1="630.00" y1="1124.00" x2="630.00" y2="1132.00" stroke="#b7a6ce" stroke-width="1"/>
+<text x="630.0" y="1151" fill="#d7cce5" font-size="12" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >0</text>
+<line x1="734.55" y1="1124.00" x2="734.55" y2="1132.00" stroke="#b7a6ce" stroke-width="1"/>
+<text x="734.5454545454545" y="1151" fill="#d7cce5" font-size="12" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >50</text>
+<line x1="839.09" y1="1124.00" x2="839.09" y2="1132.00" stroke="#b7a6ce" stroke-width="1"/>
+<text x="839.0909090909091" y="1151" fill="#d7cce5" font-size="12" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >100</text>
+<line x1="943.64" y1="1124.00" x2="943.64" y2="1132.00" stroke="#b7a6ce" stroke-width="1"/>
+<text x="943.6363636363636" y="1151" fill="#d7cce5" font-size="12" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >150</text>
+<line x1="1048.18" y1="1124.00" x2="1048.18" y2="1132.00" stroke="#b7a6ce" stroke-width="1"/>
+<text x="1048.1818181818182" y="1151" fill="#d7cce5" font-size="12" font-weight="400" font-family="Consolas, monospace" text-anchor="middle" >200</text>
+<line x1="630.00" y1="1128.00" x2="1090.00" y2="1128.00" stroke="#b7a6ce" stroke-width="1"/>
+<line x1="937.36" y1="1114.00" x2="983.36" y2="1114.00" stroke="#fbf9f4" stroke-width="3"/>
+<line x1="937.36" y1="1106.00" x2="937.36" y2="1122.00" stroke="#fbf9f4" stroke-width="2"/>
+<line x1="983.36" y1="1106.00" x2="983.36" y2="1122.00" stroke="#fbf9f4" stroke-width="2"/>
+<circle cx="960.36" cy="1114.00" r="6" fill="#fbf9f4" stroke="none" stroke-width="1"/>
+<line x1="1048.18" y1="1098.00" x2="1048.18" y2="1128.00" stroke="#d9cbec" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="1048.1818181818182" y="1090" fill="#fbf9f4" font-size="15" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="middle" >目标 200</text>
+<text x="626" y="1183" fill="#fbf9f4" font-size="17" font-weight="500" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >4 次：158 ± 11 GPa；最高 169 GPa</text>
+<text x="626" y="1209" fill="#e2dbea" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >“距目标 &lt; 20%”采用最高值，并非均值。</text>
+<circle cx="76.00" cy="1272.00" r="12" fill="#594485" stroke="none" stroke-width="1"/>
+<text x="76" y="1276" fill="#fbf9f4" font-size="11" font-weight="600" font-family="Consolas, monospace" text-anchor="middle" >05</text>
+<text x="99" y="1279" fill="#594485" font-size="16" font-weight="600" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >追踪到后续研究：保留争议，而非提前定论</text>
+<text x="64" y="1320" fill="#594485" font-size="23" font-weight="500" font-family="Consolas, monospace" text-anchor="start" >2025</text>
+<text x="175" y="1320" fill="#272132" font-size="20" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >原文提出 TaCr₂O₆ 生成与合成的概念验证。</text>
+<line x1="75.00" y1="1335.00" x2="75.00" y2="1369.00" stroke="#594485" stroke-width="1"/>
+<text x="64" y="1401" fill="#594485" font-size="23" font-weight="500" font-family="Consolas, monospace" text-anchor="start" >2026</text>
+<text x="175" y="1366" fill="#272132" font-size="18" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >Juelsholt 在 Materials Horizons 质疑其新颖性及无序结构归属，</text>
+<text x="175" y="1395" fill="#272132" font-size="18" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >认为与既有、且进入训练集的化合物相同。此处保留双方来源。</text>
+<text x="175" y="1424" fill="#7d718c" font-size="16" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >阅读重点：有序模型、无序实验相与数据库“新颖性”需分开核查。</text>
+<line x1="64.00" y1="1453.00" x2="1136.00" y2="1453.00" stroke="#594485" stroke-width="1"/>
+<text x="64" y="1485" fill="#594485" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >原文  Zeni et al. · Nature 639, 624–632 (2025) · DOI: 10.1038/s41586-025-08628-5</text>
+<text x="64" y="1510" fill="#594485" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >后续  Juelsholt · Materials Horizons (2026) · DOI: 10.1039/D6MH00268D</text>
+<text x="64" y="1535" fill="#81748f" font-size="13" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >代码与结构  github.com/microsoft/mattergen  ·  晶胞来自作者 data-release / TaCr2O6.cif</text>
+<text x="64" y="1568" fill="#92869f" font-size="12" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="start" >原创矢量重绘与中文解读 · 1200 × 1600 · 文字可编辑</text>
+<text x="1136" y="1568" fill="#92869f" font-size="12" font-weight="400" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" text-anchor="end" >核验日期 2026-09-12</text>
+</svg>

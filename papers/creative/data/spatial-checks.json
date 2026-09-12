@@ -1,0 +1,26 @@
+{
+  "app": 89,
+  "ranges": {
+    "app": {
+      "min": 0.46563019098721947,
+      "max": 0.9144526971839709
+    },
+    "expert": {
+      "min": 0.45880718119090214,
+      "max": 0.9577522301796708
+    }
+  },
+  "rotation": true,
+  "chapter": 4,
+  "pause": true,
+  "expert": 73,
+  "species": true,
+  "daily": true,
+  "mobileStep": "2",
+  "mobileRects": {
+    "stage": 354.46875,
+    "chapter": 481
+  },
+  "reducedMotion": true,
+  "errors": []
+}

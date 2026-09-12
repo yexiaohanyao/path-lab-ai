@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "desktop": {
+    "width": 1440,
+    "body": 1440,
+    "svg": 1200,
+    "fonts": "loaded"
+  },
+  "svg": {
+    "textCount": 72,
+    "images": 0,
+    "atoms": 18,
+    "bounds": []
+  },
+  "zoom": "1440px",
+  "fit": "840px",
+  "vector-downloaded.svg": {
+    "file": "MatterGen_材料生成蓝图_1200x1600.svg",
+    "bytes": 26389
+  },
+  "vector-downloaded.png": {
+    "file": "MatterGen_材料生成蓝图_2400x3200.png",
+    "bytes": 959301
+  },
+  "pngDimensions": {
+    "width": 2400,
+    "height": 3200
+  },
+  "downloadMatches": true,
+  "mobile": {
+    "width": 390,
+    "body": 390,
+    "sheet": 324,
+    "desk": 344
+  },
+  "mobileZoom": {
+    "body": 390,
+    "deskScroll": 980
+  },
+  "offlinePNG": "MatterGen_材料生成蓝图_2400x3200.png"
+}
