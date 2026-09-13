@@ -1,0 +1,225 @@
+{
+  "title": "知屿 · 论文的三种打开方式",
+  "date": "2026-09-12",
+  "entry": "index.html",
+  "artifacts": {
+    "interactive": "interactive.html",
+    "svg": "assets/mattergen.svg",
+    "vector_preview": "vector.html",
+    "spatial": "spatial.html",
+    "sources": "sources.html",
+    "complete_markdown": "三张论文卡片_完整正文与追踪.md"
+  },
+  "files": [
+    {
+      "path": "assets/mattergen.svg",
+      "bytes": 26389,
+      "sha256": "35fa40a29a650d0a8ba92a263c08427642de31f2ef4242a5f00fb536f3e63a0d"
+    },
+    {
+      "path": "data/birds-app-auc.csv",
+      "bytes": 6827,
+      "sha256": "80524aec33146653fe585d426e7bf427d04d1f16d501a70b6395bccabe51dc74"
+    },
+    {
+      "path": "data/birds-daily-recordings.csv",
+      "bytes": 36041,
+      "sha256": "eacdbfa32e29cae67f21fd38d7a9d3638f9ea6686c582dcba97fdc71e1a130af"
+    },
+    {
+      "path": "data/birds-expert-auc.csv",
+      "bytes": 5635,
+      "sha256": "3714bbb8bb587e877280d50fd96dede901048b2b8c97449db3d7d3f997437a42"
+    },
+    {
+      "path": "data/birds-source-3.xlsx",
+      "bytes": 62848,
+      "sha256": "f5de527c04a3217bfcec43a6da319f5091c967b42c583e43966e75e4ce77d1a5"
+    },
+    {
+      "path": "data/birds-source-4.xlsx",
+      "bytes": 19102,
+      "sha256": "de2788490c4ec1a9c64bc9c758eeb074f77289e2acda9b1b2025c0399a29db23"
+    },
+    {
+      "path": "data/interactive-qa.json",
+      "bytes": 547,
+      "sha256": "5142cfcf3cdac67ad7a03f43fce0553b3e79ee632542bed6d0ef375398ffeee0"
+    },
+    {
+      "path": "data/MatterGen-LICENSE.txt",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "data/papers.json",
+      "bytes": 12594,
+      "sha256": "501706f047172196e7ef801bcb9d5d0b7e3a6ea4eafc359314d25c2434b3a84e"
+    },
+    {
+      "path": "data/Participants.csv",
+      "bytes": 23144,
+      "sha256": "e6801fb72e0642df548d63fa75ec3487e3b4b283df5759ba2b70d7e2e41289c4"
+    },
+    {
+      "path": "data/research.json",
+      "bytes": 203429,
+      "sha256": "9c45d435c96b3191a79fc0e4417158e962e23e446bd8cd355a68707d81bd5de1"
+    },
+    {
+      "path": "data/spatial-checks.json",
+      "bytes": 442,
+      "sha256": "d5014c80ab3100b4448c105950761c1e640995a06f4a966afe42da92d6b38c00"
+    },
+    {
+      "path": "data/TaCr2O6.cif",
+      "bytes": 1655,
+      "sha256": "86836c2386747aabe2c67f8dc7fa86056bc764542334b48c4fc26b631f482a5d"
+    },
+    {
+      "path": "data/triptych-integration-checks.json",
+      "bytes": 2559,
+      "sha256": "37c4b677c693c1b68629300f5bbd6cc3ced4a7d82ec53854e4e932e66bb1d8af"
+    },
+    {
+      "path": "data/tutor-group-summary.csv",
+      "bytes": 1469,
+      "sha256": "5a9f706d1ae12387006319a0120ef77b5722a05ae6b334bd0840466f91de7886"
+    },
+    {
+      "path": "data/vector-checks.json",
+      "bytes": 766,
+      "sha256": "dca6ecaccedf3140165de2d536744a01703836b72cd91ba8fe751e2e858864cc"
+    },
+    {
+      "path": "data/verification.json",
+      "bytes": 2501,
+      "sha256": "0f02e328ba78794dc6696952bc2eff2113d4c6483b2b7e77da19457fd80ec7c5"
+    },
+    {
+      "path": "data.js",
+      "bytes": 133564,
+      "sha256": "ef21686fb3d697b80cc6c96a70471895c3c68c4dc81fb4afcc71f2c501490908"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 258,
+      "sha256": "ed7ebffc1b0ab3b31d70c96a4a1b165c6474bbfbbe19d0c0653f48ed9522f11f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5717,
+      "sha256": "bd3fb4e540644152c5bba7c23d49e3886cb078e2c444654640aed06e75bb3a9f"
+    },
+    {
+      "path": "interactive.css",
+      "bytes": 5104,
+      "sha256": "1b7e7c5db739900cd3ab9709aeb8dafd00d26d7115723dec6ce8a56dc5738309"
+    },
+    {
+      "path": "interactive.html",
+      "bytes": 9409,
+      "sha256": "4cc8083b06d96edd257f95b3695b57c6a8807d23c614549485c7fb741ab99a15"
+    },
+    {
+      "path": "interactive.js",
+      "bytes": 22973,
+      "sha256": "1e38b405009885496706c21a224cfc4a7746d4989029403ce763aa90f3f0614d"
+    },
+    {
+      "path": "originals/birds.md",
+      "bytes": 1022,
+      "sha256": "fd6db156a34b3be172453bc3c86924d5a4a0ca0a3f71b907df638450d60901ad"
+    },
+    {
+      "path": "originals/birds.png",
+      "bytes": 154623,
+      "sha256": "576c2fd77d8d1eba44967fa312872ba3067dae793c04d83f5ed037ccca65d817"
+    },
+    {
+      "path": "originals/mattergen.md",
+      "bytes": 864,
+      "sha256": "c508b0f2f711999d5656793612e5117a58f2ed290a6c23286d92db63a9c1ea0a"
+    },
+    {
+      "path": "originals/mattergen.png",
+      "bytes": 138889,
+      "sha256": "4dad30e61a612554e5a195b348ee051f55c30b7617f5b1b1fdfa3cbb71628b83"
+    },
+    {
+      "path": "originals/tutor.md",
+      "bytes": 1675,
+      "sha256": "99359545835a99960ab2af8175d062ef5561de5e0567ed3efdb3822905b147d0"
+    },
+    {
+      "path": "originals/tutor.png",
+      "bytes": 341107,
+      "sha256": "dfbb442404c8a47b224c5fc6fd22a331188ff9a1a92da21ad728432382fe2ab5"
+    },
+    {
+      "path": "shared.css",
+      "bytes": 19787,
+      "sha256": "b3f97dcf002a2c37087f0f426f2037fee5df6509cb4f2a555f9c231d8e145381"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 14764,
+      "sha256": "72e4a5e496815bd9035298ee2ce658b2710c625398d0e6803e294158837ea3f4"
+    },
+    {
+      "path": "spatial.css",
+      "bytes": 10314,
+      "sha256": "34066c7b3ed526dff10cccc05b25d1e99b18d481345385715f636188a409adf4"
+    },
+    {
+      "path": "spatial.html",
+      "bytes": 13219,
+      "sha256": "91eda179b040b0df0bd5a2b45d670893f9a32b30bb3c11e24f0c230701ec6cca"
+    },
+    {
+      "path": "spatial.js",
+      "bytes": 21542,
+      "sha256": "5f6924f6aa9ce51dbbb4b0236943b63c780711eb16366f66662139071b57cf48"
+    },
+    {
+      "path": "tools/build_vector.py",
+      "bytes": 13540,
+      "sha256": "c40623ecd6f24dc9ca542c4fd375b483a1d3f5fa653360b53724134a24fa7b1a"
+    },
+    {
+      "path": "tools/rebuild_web_data.py",
+      "bytes": 430,
+      "sha256": "9f9e07a031ab3bc431d44c0c3bc3d147eae4dc17508dba27971fb0b69cb2c535"
+    },
+    {
+      "path": "vector.css",
+      "bytes": 2677,
+      "sha256": "dc8a38469ef791f105ee903c3d0ae69debe19cf0ba6b5b6a3751253a43feac14"
+    },
+    {
+      "path": "vector.html",
+      "bytes": 6648,
+      "sha256": "ce2fb8dc59026adc6c4c87130e81b4ab001f386e87e61de5c8a6d0d3383baf1f"
+    },
+    {
+      "path": "vector.js",
+      "bytes": 32016,
+      "sha256": "564a4cf28aa17d6d2b4b67644112f2d5f7b64a321543ee557a76e798de22de85"
+    },
+    {
+      "path": "三张论文卡片_完整正文与追踪.md",
+      "bytes": 12358,
+      "sha256": "e42cf317881687f80a1d88fab6288e132714ce44329ce2c39b8f0b7662d222e3"
+    },
+    {
+      "path": "使用说明与交接.md",
+      "bytes": 2537,
+      "sha256": "4d04d345dd6f6fe9fe7f608b984fd14b9ca4c885013c1d66e5e2cafdcb9abacd"
+    },
+    {
+      "path": "验收说明.md",
+      "bytes": 1845,
+      "sha256": "24952979e0ad3fd2eb4932fffc4904ad07cb13e229c31a0264cd062e5cff0f72"
+    }
+  ]
+}
