@@ -1,0 +1,51 @@
+# 海洋科学 × 注意力U-Net
+
+## 用注意力U-Net完成活珊瑚覆盖率估计
+
+> 本地批次：LOCAL-07；源批次：B07-OCEAN-20260830；网站状态：待本地确认。
+
+### 论文来源
+
+- 原论文：Deep Learning-Based Automatic Estimation of Live Coral Cover from Underwater Video for Coral Reef Health Monitoring
+- 期刊/会议：Journal of Marine Science and Engineering（2024）
+- DOI：[10.3390/jmse12111980](https://doi.org/10.3390/jmse12111980)
+- 正式来源：[https://doi.org/10.3390/jmse12111980](https://doi.org/10.3390/jmse12111980)
+
+### 01 数据与问题
+
+- 研究问题：水下视频活珊瑚覆盖率自动估计
+- 数据来源：一手全文或作者稿
+- 数据集/样本：水下视频与活珊瑚覆盖标注
+- 数据规模：水下视频与活珊瑚覆盖标注
+- 数据格式：时空格点、序列或观测
+- 数据类型：海洋科学研究数据
+- 数据状态：一手全文或作者稿已核验；数据与代码入口未单独定位
+
+### 02 AI 怎么参与
+
+- AI 技术：Transformer或注意力网络、U-Net
+- 核心方法：注意力U-Net
+
+### 03 论文 Pipeline
+
+1. 整理研究数据
+2. 构建海洋输入
+3. 运行核心模型
+4. 生成任务输出
+5. 核对报告指标
+
+### 04 指标与成果
+
+- 重点指标：mIoU、mPA
+- 代表结果：mIoU 89.51%，mPA 94.47%
+- 使用边界：仅适用于论文数据与验证范围；外部推广需重新验证
+
+### 数据与代码入口
+
+- 数据入口：论文未提供可核实的独立公开入口
+- 代码入口：论文未提供可核实的独立开源入口
+
+### 本地验收状态
+
+- 源卡状态：pending_publish_review
+- 网站状态：待本地逐卡确认；当前未进入公开发布包。

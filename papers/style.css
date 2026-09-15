@@ -6,3 +6,66 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.paper-card:hover{transform:none}}
 
 .paper-form{margin:.6rem 0 0;font-size:.78rem;line-height:1.35;color:var(--color);font-weight:700}
+.results-footer .load-more{margin-left:auto;border:1px solid #b9cad6;border-radius:6px;background:#fff;color:var(--blue);padding:8px 16px;font-size:11px;font-weight:600}.results-footer .load-more:hover{background:var(--blue-soft);border-color:#7f9eb5}
+
+/* V3 分类：领域、方法、问题与课程实验室 */
+.filter-section{border-bottom:1px solid #e3e7e4;padding-bottom:12px;margin-bottom:14px}
+.filter-section summary{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;font-size:11px;font-weight:600;color:#536873;padding:4px 0 10px}
+.filter-section summary::-webkit-details-marker{display:none}
+.filter-section summary:after{content:'+';font-size:15px;line-height:1;color:#83949d;font-weight:400}
+.filter-section[open] summary:after{content:'−'}
+.filter-subgroup{margin:9px 0 2px;padding:9px 8px;background:#f0f3f1;border-radius:6px}
+.filter-subgroup>p{margin:0 0 7px;font-size:9px;color:#7d8b8e}
+.method-filter{display:inline-flex;align-items:center;gap:5px;max-width:100%;text-align:left;line-height:1.45}
+.method-filter .n{font-size:8px;opacity:.72;margin-left:auto}
+.domain-filter>span:nth-child(2){min-width:0;flex:1}
+.paper-taxonomy{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
+.paper-taxonomy button{font-size:8px;line-height:1.35;background:#f1f4f3;color:#637987;padding:3px 6px;border-radius:4px;border:1px solid transparent;text-align:left}
+.paper-taxonomy button:first-child{background:#edf4ed;color:#466b54}
+.paper-taxonomy button:hover{border-color:#91aabd;color:var(--blue)}
+.classification-strip{display:flex;gap:6px;flex-wrap:wrap;margin:11px 0}
+.classification-strip span{font-size:10px;color:#526f80;background:#edf2f4;border-radius:4px;padding:4px 7px}
+@media(max-width:760px){.filters.open #filter-body{grid-template-columns:1fr}.filters.open .filter-heading{grid-column:auto}.filter-section:first-of-type{grid-row:auto}.filter-section summary{font-size:11px}.filter-subgroup{padding:8px}.paper-taxonomy button{font-size:7px}}
+@media(min-width:1101px){.collection-layout{grid-template-columns:230px minmax(0,1fr)}}
+@media(min-width:761px) and (max-width:1100px){.collection-layout{grid-template-columns:195px minmax(0,1fr)}}
+
+/* Taxonomy v4: clearer majors and always-visible laboratory data types. */
+@media (min-width:981px){.collection-layout{grid-template-columns:214px minmax(0,1fr)}}
+.filter-subgroup{margin-top:10px;padding:10px 0 0 11px;border-left:2px solid #dce5e9}
+.filter-subgroup>p{margin:0 0 9px;font-size:11px;font-weight:600;color:#526b79}
+.major-filter{font-size:12px;line-height:1.45;border:1px solid #d7dfdd;border-radius:6px;padding:6px 9px;background:#fff;color:#4f626d}
+.major-filter.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.major-filter:hover:not(.active){border-color:#7a9aba;color:var(--blue)}
+.filter-helper{margin:-2px 0 10px;font-size:9px;line-height:1.65;color:#89959a}
+.lab-filter-group{padding:8px 0 12px;border-bottom:1px solid #e7ebe8}
+.lab-filter-group:last-child{border-bottom:0}
+.lab-filter-group>.domain-filter{font-size:12px;font-weight:600;padding-top:5px;padding-bottom:7px}
+.lab-data-types{display:grid;gap:3px;padding-left:15px}
+.data-type-filter{width:100%;display:flex;align-items:flex-start;gap:7px;padding:5px 7px;border-radius:5px;text-align:left;font-size:10px;line-height:1.45;color:#687982}
+.data-type-filter .n{margin-left:auto;color:#96a0a3;font-size:9px;padding-top:1px}
+.data-type-filter:hover{background:#edf1ef;color:var(--blue)}
+.data-type-filter.active{background:var(--blue-soft);color:var(--blue);font-weight:600}
+.paper-foot>button{min-width:0;text-align:left;font-size:9px;color:#627985;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.paper-foot>button:hover{color:var(--blue);text-decoration:underline}
+@media (max-width:980px){.major-filter{font-size:11px}.lab-data-types{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.lab-data-types{grid-template-columns:1fr}}
+
+/* Focused method map: overview first, readable paper groups second. */
+.method-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:8px 10px 20px}
+.method-overview-card{position:relative;min-height:150px;padding:18px 17px 15px;border:1px solid #dce3e4;border-radius:10px;background:#fff;text-align:left;display:grid;grid-template-columns:1fr auto;grid-template-rows:auto auto 1fr auto;column-gap:12px;overflow:hidden;transition:transform .18s,border-color .18s,box-shadow .18s}
+.method-overview-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--method-color,#00468b)}
+.method-overview-card:hover,.method-overview-card:focus-visible{transform:translateY(-2px);border-color:#9fb6c6;box-shadow:0 9px 20px #17384d10}
+.method-overview-index{font-size:9px;letter-spacing:.1em;color:#96a1a5}
+.method-overview-card>strong{grid-column:2;grid-row:1/3;font:600 29px/1 var(--serif);color:var(--method-color,#00468b)}
+.method-overview-card>b{font-size:13px;line-height:1.55;margin-top:8px;font-weight:600;color:#29485c}
+.method-overview-card>small{grid-column:1/3;font-size:10px;line-height:1.65;color:#7d898f;margin-top:9px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.method-overview-card>em{grid-column:1/3;font-style:normal;font-size:10px;color:var(--blue);margin-top:10px}
+.map-focus-label{display:flex;gap:9px;align-items:center;padding:5px 12px 12px;color:#6d7d85;font-size:10px}
+.map-focus-label strong{font-size:12px;color:var(--blue);font-weight:600}
+.map-canvas svg{max-height:none}
+.map-pagination{display:flex;align-items:center;justify-content:center;gap:18px;padding:15px 12px 20px;border-top:1px solid #e8ecea;font-size:10px;color:#738189}
+.map-pagination button{border:1px solid #ccd8dc;background:#fff;color:var(--blue);border-radius:6px;padding:7px 12px}
+.map-pagination button:hover:not(:disabled){background:var(--blue);color:#fff;border-color:var(--blue)}
+.map-pagination button:disabled{color:#aeb8bc;background:#f5f6f4}
+@media (max-width:1100px){.method-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:700px){.method-overview{grid-template-columns:1fr;padding-left:2px;padding-right:2px}.method-overview-card{min-height:132px}.map-pagination{justify-content:space-between;gap:7px}.map-pagination span{text-align:center}.map-focus-label{align-items:flex-start;flex-direction:column;gap:2px}}
