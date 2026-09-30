@@ -58494,8 +58494,8 @@ window.PAPER_LIBRARY = {
       ],
       "methodFamily": "计算机视觉、检测与分割",
       "problemType": "检测、定位与异常发现",
-      "laboratory": "AI+ 方向",
-      "dataSubtype": "知识图谱与语义关系",
+      "laboratory": "影像方向",
+      "dataSubtype": "视频与动态图像",
       "classificationReview": {
         "method": false,
         "problem": false,
