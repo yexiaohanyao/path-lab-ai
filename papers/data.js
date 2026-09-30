@@ -1,9 +1,9 @@
 window.PAPER_LIBRARY = {
   "schemaVersion": 2,
   "title": "点头教育 · 论文交互馆",
-  "subtitle": "17 个波次本地全量确认版",
+  "subtitle": "18 个波次本地待验收版",
   "sample": false,
-  "updated": "2026-09-14",
+  "updated": "2026-09-30",
   "cards": [
     {
       "slug": "paper-490fdbcf1f24b240",
@@ -53886,6 +53886,5260 @@ window.PAPER_LIBRARY = {
       "domainGroups": [
         "艺术与体育"
       ]
+    },
+    {
+      "slug": "paper-b66422c685093e6b",
+      "major": "高分子材料",
+      "short": "聚合物电解质的从头生成设计",
+      "summary": "论文研究聚合物生成设计：利用GPT与扩散生成模型、分子动力学验证处理论文构建的聚合物电解质数据库与分子动力学计算所对应的材料问题。",
+      "methods": [
+        "生成模型"
+      ],
+      "method": "生成模型",
+      "metric": "生成模型",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-b66422c685093e6b",
+      "title": "高分子材料＋生成模型｜聚合物电解质的从头生成设计",
+      "originalTitle": "De novo design of polymer electrolytes using GPT-based and diffusion-based generative models",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01470-9",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01470-9",
+      "question": "论文研究聚合物生成设计：利用GPT与扩散生成模型、分子动力学验证处理论文构建的聚合物电解质数据库与分子动力学计算所对应的材料问题。",
+      "data": "论文构建的聚合物电解质数据库与分子动力学计算；分子动力学测试46个生成候选",
+      "dataSource": "论文构建的聚合物电解质数据库与分子动力学计算",
+      "dataType": "聚合物结构 · 模拟离子电导率",
+      "availability": "部分公开",
+      "aiMethod": "GPT与扩散生成模型、分子动力学验证",
+      "pipeline": [
+        {
+          "title": "整理电解质库",
+          "detail": "以论文聚合物电解质数据库为生成设计的材料基础。"
+        },
+        {
+          "title": "比较两类生成",
+          "detail": "比较GPT生成模型与扩散生成模型并调节超参数。"
+        },
+        {
+          "title": "预训练与微调",
+          "detail": "论文评估预训练和微调对生成性能的影响。"
+        },
+        {
+          "title": "产生聚合物候选",
+          "detail": "由生成模型提出新聚合物电解质候选。"
+        },
+        {
+          "title": "分子动力学验证",
+          "detail": "对46个候选做全原子分子动力学评估，其中17个电导率超过库内已有聚合物。"
+        }
+      ],
+      "result": "46个受测候选中17个的离子电导率超过数据库既有聚合物，部分约为其两倍。；论文实际报告：46个受测候选中17个的离子电导率超过数据库既有聚合物，部分约为其两倍。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "46个受测候选中17个的离子电导率超过数据库既有聚合物，部分约为其两倍。；论文实际报告：46个受测候选中17个的离子电导率超过数据库既有聚合物，部分约为其两倍。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41524-024-01470-9",
+      "codeUrl": "https://github.com/TRI-AMDD/PolyGen",
+      "image": "assets/library/paper-b66422c685093e6b.webp",
+      "markdownUrl": "cards/library/paper-b66422c685093e6b.md",
+      "markdown": "# 高分子材料 × 生成式AI\r\n\r\n> **副标题：聚合物生成设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：De novo design of polymer electrolytes using GPT-based and diffusion-based generative models\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01470-9\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01470-9\r\n- **OpenAlex ID**：https://openalex.org/W4405613539\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405613539\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究聚合物生成设计：利用GPT与扩散生成模型、分子动力学验证处理论文构建的聚合物电解质数据库与分子动力学计算所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：论文构建的聚合物电解质数据库与分子动力学计算\r\n- **数据规模**：分子动力学测试46个生成候选\r\n- **数据类型**：聚合物结构、模拟离子电导率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability All data are available in the main text and Supplementary Information . Additional data that support the findings of this work are available from the corresponding author upon reasonable request.\r\n- **给模型看什么**：论文构建的聚合物电解质数据库与分子动力学计算；数据类型为聚合物结构、模拟离子电导率。\r\n- **让模型判断什么**：聚合物生成设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：GPT与扩散生成模型、分子动力学验证\r\n- **实际作用**：用于聚合物生成设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理电解质库**：以论文聚合物电解质数据库为生成设计的材料基础。\r\n2. **比较两类生成**：比较GPT生成模型与扩散生成模型并调节超参数。\r\n3. **预训练与微调**：论文评估预训练和微调对生成性能的影响。\r\n4. **产生聚合物候选**：由生成模型提出新聚合物电解质候选。\r\n5. **分子动力学验证**：对46个候选做全原子分子动力学评估，其中17个电导率超过库内已有聚合物。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：46个受测候选中17个的离子电导率超过数据库既有聚合物，部分约为其两倍。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41524-024-01470-9\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/TRI-AMDD/PolyGen\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-062a11022cef977d",
+      "major": "高分子材料",
+      "short": "PolyTAO按目标性质逆向设计聚合物",
+      "summary": "论文研究聚合物生成设计：利用PolyTAO预训练Transformer与目标属性条件生成处理作者构建的PI1M聚合物结构—性质对所对应的材料问题。",
+      "methods": [
+        "Transformer"
+      ],
+      "method": "Transformer",
+      "metric": "Transformer",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-062a11022cef977d",
+      "title": "高分子材料＋Transformer｜PolyTAO按目标性质逆向设计聚合物",
+      "originalTitle": "On-demand reverse design of polymers with PolyTAO",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01466-5",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01466-5",
+      "question": "论文研究聚合物生成设计：利用PolyTAO预训练Transformer与目标属性条件生成处理作者构建的PI1M聚合物结构—性质对所对应的材料问题。",
+      "data": "作者构建的PI1M聚合物结构—性质对；近100万结构—性质对；约20万生成聚合物用于top-1评估",
+      "dataSource": "作者构建的PI1M聚合物结构—性质对",
+      "dataType": "聚合物SMILES/结构 · 计算性质",
+      "availability": "部分公开",
+      "aiMethod": "PolyTAO预训练Transformer与目标属性条件生成",
+      "pipeline": [
+        {
+          "title": "汇集结构性质",
+          "detail": "整理近100万组聚合物结构—性质对。"
+        },
+        {
+          "title": "预训练聚合模型",
+          "detail": "以结构—性质数据预训练Transformer模型PolyTAO。"
+        },
+        {
+          "title": "输入目标属性",
+          "detail": "将预定性质作为按需逆向生成条件。"
+        },
+        {
+          "title": "生成候选聚合物",
+          "detail": "模型生成约20万个聚合物用于top-1评价。"
+        },
+        {
+          "title": "核验目标吻合",
+          "detail": "报告化学有效率99.27%和15项性质目标吻合的平均R² 0.96。"
+        }
+      ],
+      "result": "top-1生成化学有效率99.27%；15项预定性质的生成值与目标值平均R²为0.96。；论文实际报告：top-1生成化学有效率99.27%；15项预定性质的生成值与目标值平均R²为0.96。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "top-1生成化学有效率99.27%；15项预定性质的生成值与目标值平均R²为0.96。；论文实际报告：top-1生成化学有效率99.27%；15项预定性质的生成值与目标值平均R²为0.96。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/RUIMINMA1996/PI1M",
+      "codeUrl": "https://github.com/hkqiu/PolymerGenerationPretrainedModel",
+      "image": "assets/library/paper-062a11022cef977d.webp",
+      "markdownUrl": "cards/library/paper-062a11022cef977d.md",
+      "markdown": "# 高分子材料 × 生成式AI\r\n\r\n> **副标题：聚合物生成设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：On-demand reverse design of polymers with PolyTAO\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01466-5\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01466-5\r\n- **OpenAlex ID**：https://openalex.org/W4404840891\r\n- **OpenAlex API**：https://api.openalex.org/works/W4404840891\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究聚合物生成设计：利用PolyTAO预训练Transformer与目标属性条件生成处理作者构建的PI1M聚合物结构—性质对所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者构建的PI1M聚合物结构—性质对\r\n- **数据规模**：近100万结构—性质对；约20万生成聚合物用于top-1评估\r\n- **数据类型**：聚合物SMILES/结构、计算性质\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The PI1M dataset is publicly available at https://github.com/RUIMINMA1996/PI1M . The 15 fundamental properties in the pre-training stage were calculated using the RDKit package (version: 2023.3.2). Our pre-trained model is publicly available at https://huggingface.co/hkqiu/PolymerGenerationPretrainedModel . Any other data and code related to reproducing the results will be provided promptly upon request.\r\n- **给模型看什么**：作者构建的PI1M聚合物结构—性质对；数据类型为聚合物SMILES/结构、计算性质。\r\n- **让模型判断什么**：聚合物生成设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：PolyTAO预训练Transformer与目标属性条件生成\r\n- **实际作用**：用于聚合物生成设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇集结构性质**：整理近100万组聚合物结构—性质对。\r\n2. **预训练聚合模型**：以结构—性质数据预训练Transformer模型PolyTAO。\r\n3. **输入目标属性**：将预定性质作为按需逆向生成条件。\r\n4. **生成候选聚合物**：模型生成约20万个聚合物用于top-1评价。\r\n5. **核验目标吻合**：报告化学有效率99.27%和15项性质目标吻合的平均R² 0.96。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：top-1生成化学有效率99.27%；15项预定性质的生成值与目标值平均R²为0.96。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://github.com/RUIMINMA1996/PI1M\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/hkqiu/PolymerGenerationPretrainedModel\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "Transformer与基础模型",
+      "problemType": "设计、发现与合成",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "分子、药物与化学结构",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-377141bcb082fbd6",
+      "major": "高分子材料",
+      "short": "可回收vitrimer聚合物逆向设计",
+      "summary": "论文研究可回收聚合物设计：利用图变分自编码器、分子动力学和高斯过程校准处理ZINC15单体库扩充的可回收vitrimer化学空间所对应的材料问题。",
+      "methods": [
+        "图VAE"
+      ],
+      "method": "图VAE",
+      "metric": "图VAE",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-377141bcb082fbd6",
+      "title": "高分子材料＋图VAE｜可回收vitrimer聚合物逆向设计",
+      "originalTitle": "AI‐Guided Inverse Design and Discovery of Recyclable Vitrimeric Polymers",
+      "venue": "Advanced Science",
+      "year": 2024,
+      "doi": "10.1002/advs.202411385",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11809429/",
+      "question": "论文研究可回收聚合物设计：利用图变分自编码器、分子动力学和高斯过程校准处理ZINC15单体库扩充的可回收vitrimer化学空间所对应的材料问题。",
+      "data": "ZINC15单体库扩充的可回收vitrimer化学空间；约100万种候选化学组成；8424种计算Tg",
+      "dataSource": "ZINC15单体库扩充的可回收vitrimer化学空间",
+      "dataType": "单体与vitrimer结构 · 模拟和实验玻璃化转变温度",
+      "availability": "公开",
+      "aiMethod": "图变分自编码器、分子动力学和高斯过程校准",
+      "pipeline": [
+        {
+          "title": "构建可回收聚合库",
+          "detail": "整理约100万种vitrimer候选化学组成。"
+        },
+        {
+          "title": "模拟计算玻转",
+          "detail": "对8424种候选计算Tg，并使用高斯过程校准分子动力学结果。"
+        },
+        {
+          "title": "训练图生成模型",
+          "detail": "用图变分自编码器表示多组分vitrimer化学。"
+        },
+        {
+          "title": "逆向生成配方",
+          "detail": "围绕目标Tg 323 K生成候选化学组成。"
+        },
+        {
+          "title": "合成验证性能",
+          "detail": "实验合成候选并测得Tg 311–317 K，同时展示可愈合与流动性。"
+        }
+      ],
+      "result": "目标Tg为323 K的逆向设计中，合成vitrimer实测Tg为311–317 K，并展示可愈合与流动性。；论文实际报告：目标Tg为323 K的逆向设计中，合成vitrimer实测Tg为311–317 K，并展示可愈合与流动性。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "目标Tg为323 K的逆向设计中，合成vitrimer实测Tg为311–317 K，并展示可愈合与流动性。；论文实际报告：目标Tg为323 K的逆向设计中，合成vitrimer实测Tg为311–317 K，并展示可愈合与流动性。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/vashisth-lab/VitrimerVAE",
+      "codeUrl": "https://github.com/vashisth-lab/VitrimerVAE",
+      "image": "assets/library/paper-377141bcb082fbd6.webp",
+      "markdownUrl": "cards/library/paper-377141bcb082fbd6.md",
+      "markdown": "# 高分子材料 × 生成式AI\r\n\r\n> **副标题：可回收聚合物设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：AI‐Guided Inverse Design and Discovery of Recyclable Vitrimeric Polymers\r\n- **期刊与年份**：Advanced Science，2024\r\n- **DOI**：10.1002/advs.202411385\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11809429/\r\n- **OpenAlex ID**：https://openalex.org/W4405458039\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405458039\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究可回收聚合物设计：利用图变分自编码器、分子动力学和高斯过程校准处理ZINC15单体库扩充的可回收vitrimer化学空间所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：ZINC15单体库扩充的可回收vitrimer化学空间\r\n- **数据规模**：约100万种候选化学组成；8424种计算Tg\r\n- **数据类型**：单体与vitrimer结构、模拟和实验玻璃化转变温度\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式全文的数据可用性声明称数据及代码公开于官方GitHub。\r\n- **给模型看什么**：ZINC15单体库扩充的可回收vitrimer化学空间；数据类型为单体与vitrimer结构、模拟和实验玻璃化转变温度。\r\n- **让模型判断什么**：可回收聚合物设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：图变分自编码器、分子动力学和高斯过程校准\r\n- **实际作用**：用于可回收聚合物设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **构建可回收聚合库**：整理约100万种vitrimer候选化学组成。\r\n2. **模拟计算玻转**：对8424种候选计算Tg，并使用高斯过程校准分子动力学结果。\r\n3. **训练图生成模型**：用图变分自编码器表示多组分vitrimer化学。\r\n4. **逆向生成配方**：围绕目标Tg 323 K生成候选化学组成。\r\n5. **合成验证性能**：实验合成候选并测得Tg 311–317 K，同时展示可愈合与流动性。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：目标Tg为323 K的逆向设计中，合成vitrimer实测Tg为311–317 K，并展示可愈合与流动性。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/vashisth-lab/VitrimerVAE\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/vashisth-lab/VitrimerVAE\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-bd15e58baf76b03e",
+      "major": "高分子材料",
+      "short": "全天然替塑薄膜发现",
+      "summary": "论文研究天然替塑材料发现：利用机器人实验、支持向量机、主动学习与人工神经网络处理作者制备的全天然纳米复合薄膜实验所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-bd15e58baf76b03e",
+      "title": "高分子材料＋主动学习｜全天然替塑薄膜发现",
+      "originalTitle": "Machine intelligence-accelerated discovery of all-natural plastic substitutes",
+      "venue": "Nature Nanotechnology",
+      "year": 2024,
+      "doi": "10.1038/s41565-024-01635-z",
+      "sourceUrl": "https://www.nature.com/articles/s41565-024-01635-z",
+      "question": "论文研究天然替塑材料发现：利用机器人实验、支持向量机、主动学习与人工神经网络处理作者制备的全天然纳米复合薄膜实验所对应的材料问题。",
+      "data": "作者制备的全天然纳米复合薄膜实验；初始286片薄膜；14轮主动学习另制备135片",
+      "dataSource": "作者制备的全天然纳米复合薄膜实验",
+      "dataType": "薄膜配方 · 光学/热学/力学性质",
+      "availability": "部分公开",
+      "aiMethod": "机器人实验、支持向量机、主动学习与人工神经网络",
+      "pipeline": [
+        {
+          "title": "机器人制备薄膜",
+          "detail": "自动移液机器人先制备286片天然组分纳米复合薄膜。"
+        },
+        {
+          "title": "训练支持向量机",
+          "detail": "以初始薄膜性能数据训练支持向量机分类器。"
+        },
+        {
+          "title": "主动学习迭代",
+          "detail": "经14轮主动学习分阶段另制备135片薄膜。"
+        },
+        {
+          "title": "建立性能预测",
+          "detail": "使用扩充数据建立人工神经网络预测模型。"
+        },
+        {
+          "title": "正反向设计检验",
+          "detail": "比较配方到性能预测及目标性能反向设计得到的全天然替塑样品。"
+        }
+      ],
+      "result": "模型支持由配方预测性能及按目标性能反向生成全天然替塑材料；作者制备了具有与部分石化塑料相近性质的样品。；论文实际报告：模型支持由配方预测性能及按目标性能反向生成全天然替塑材料；作者制备了具有与部分石化塑料相近性质的样品。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型支持由配方预测性能及按目标性能反向生成全天然替塑材料；作者制备了具有与部分石化塑料相近性质的样品。；论文实际报告：模型支持由配方预测性能及按目标性能反向生成全天然替塑材料；作者制备了具有与部分石化塑料相近性质的样品。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5281/zenodo.7916360",
+      "codeUrl": "https://github.com/chentl/MatAL",
+      "image": "assets/library/paper-bd15e58baf76b03e.webp",
+      "markdownUrl": "cards/library/paper-bd15e58baf76b03e.md",
+      "markdown": "# 高分子材料 × 主动学习\r\n\r\n> **副标题：天然替塑材料发现**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine intelligence-accelerated discovery of all-natural plastic substitutes\r\n- **期刊与年份**：Nature Nanotechnology，2024\r\n- **DOI**：10.1038/s41565-024-01635-z\r\n- **正式来源**：https://www.nature.com/articles/s41565-024-01635-z\r\n- **OpenAlex ID**：https://openalex.org/W4392919047\r\n- **OpenAlex API**：https://api.openalex.org/works/W4392919047\r\n- **OA 状态**：is_oa=true；oa_status=hybrid\r\n\r\n## 研究问题\r\n\r\n论文研究天然替塑材料发现：利用机器人实验、支持向量机、主动学习与人工神经网络处理作者制备的全天然纳米复合薄膜实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者制备的全天然纳米复合薄膜实验\r\n- **数据规模**：初始286片薄膜；14轮主动学习另制备135片\r\n- **数据类型**：薄膜配方、光学/热学/力学性质\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The data that used for model training are available from the Zenodo repository Data for: Machine Intelligence-Accelerated Discovery of All-Natural Plastic Substitutes, accessible via https://doi.org/10.5281/zenodo.7916360 . The data that support the plots within this paper and other findings of this study are available from the corresponding authors upon reasonable request.\r\n- **给模型看什么**：作者制备的全天然纳米复合薄膜实验；数据类型为薄膜配方、光学/热学/力学性质。\r\n- **让模型判断什么**：天然替塑材料发现\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器人实验、支持向量机、主动学习与人工神经网络\r\n- **实际作用**：用于天然替塑材料发现。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **机器人制备薄膜**：自动移液机器人先制备286片天然组分纳米复合薄膜。\r\n2. **训练支持向量机**：以初始薄膜性能数据训练支持向量机分类器。\r\n3. **主动学习迭代**：经14轮主动学习分阶段另制备135片薄膜。\r\n4. **建立性能预测**：使用扩充数据建立人工神经网络预测模型。\r\n5. **正反向设计检验**：比较配方到性能预测及目标性能反向设计得到的全天然替塑样品。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型支持由配方预测性能及按目标性能反向生成全天然替塑材料；作者制备了具有与部分石化塑料相近性质的样品。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://doi.org/10.5281/zenodo.7916360\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/chentl/MatAL\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-f10973dbc52f7a59",
+      "major": "高分子材料",
+      "short": "聚合物共混热导率优化",
+      "summary": "论文研究聚合物热性能优化：利用高通量分子动力学结合主动学习处理约600种单组分聚合物、200种共混物的MD热导率计算所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-f10973dbc52f7a59",
+      "title": "高分子材料＋主动学习｜聚合物共混热导率优化",
+      "originalTitle": "Unlocking enhanced thermal conductivity in polymer blends through active learning",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01261-2",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01261-2",
+      "question": "论文研究聚合物热性能优化：利用高通量分子动力学结合主动学习处理约600种单组分聚合物、200种共混物的MD热导率计算所对应的材料问题。",
+      "data": "约600种单组分聚合物、200种共混物的MD热导率计算；初始约800组模拟；主动学习探索约55万未标注共混候选",
+      "dataSource": "约600种单组分聚合物、200种共混物的MD热导率计算",
+      "dataType": "聚合物共混配方 · 模拟热导率",
+      "availability": "公开",
+      "aiMethod": "高通量分子动力学结合主动学习",
+      "pipeline": [
+        {
+          "title": "模拟单体共混",
+          "detail": "初始分子动力学计算约600种单组分和200种共混聚合物。"
+        },
+        {
+          "title": "编码共混组成",
+          "detail": "采用加权和表示不同配比的聚合物共混物。"
+        },
+        {
+          "title": "主动学习探索",
+          "detail": "结合机器学习和分子动力学探索约55万未标注共混候选。"
+        },
+        {
+          "title": "筛选高热导率",
+          "detail": "寻找热导率优于相应单组分的共混物。"
+        },
+        {
+          "title": "分析增强机制",
+          "detail": "对照回转半径、氢键作用与热传输增强的论文分析。"
+        }
+      ],
+      "result": "找到热导率优于相应单组分的聚合物共混物，并指出回转半径增加与氢键作用和热传输增强有关。；论文实际报告：找到热导率优于相应单组分的聚合物共混物，并指出回转半径增加与氢键作用和热传输增强有关。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "找到热导率优于相应单组分的聚合物共混物，并指出回转半径增加与氢键作用和热传输增强有关。；论文实际报告：找到热导率优于相应单组分的聚合物共混物，并指出回转半径增加与氢键作用和热传输增强有关。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/Jiaxin-Xu/PolymerBlendTC-ActiveLearning",
+      "codeUrl": "https://github.com/Jiaxin-Xu/PolymerBlendTC-ActiveLearning",
+      "image": "assets/library/paper-f10973dbc52f7a59.webp",
+      "markdownUrl": "cards/library/paper-f10973dbc52f7a59.md",
+      "markdown": "# 高分子材料 × 主动学习\r\n\r\n> **副标题：聚合物热性能优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Unlocking enhanced thermal conductivity in polymer blends through active learning\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01261-2\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01261-2\r\n- **OpenAlex ID**：https://openalex.org/W4394845241\r\n- **OpenAlex API**：https://api.openalex.org/works/W4394845241\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究聚合物热性能优化：利用高通量分子动力学结合主动学习处理约600种单组分聚合物、200种共混物的MD热导率计算所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：约600种单组分聚合物、200种共混物的MD热导率计算\r\n- **数据规模**：初始约800组模拟；主动学习探索约55万未标注共混候选\r\n- **数据类型**：聚合物共混配方、模拟热导率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The authors declare that the data supporting the findings of this study are available within the article and its supplementary information files or will be available for download from https://github.com/Jiaxin-Xu/PolymerBlendTC-ActiveLearning upon publication.\r\n- **给模型看什么**：约600种单组分聚合物、200种共混物的MD热导率计算；数据类型为聚合物共混配方、模拟热导率。\r\n- **让模型判断什么**：聚合物热性能优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：高通量分子动力学结合主动学习\r\n- **实际作用**：用于聚合物热性能优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **模拟单体共混**：初始分子动力学计算约600种单组分和200种共混聚合物。\r\n2. **编码共混组成**：采用加权和表示不同配比的聚合物共混物。\r\n3. **主动学习探索**：结合机器学习和分子动力学探索约55万未标注共混候选。\r\n4. **筛选高热导率**：寻找热导率优于相应单组分的共混物。\r\n5. **分析增强机制**：对照回转半径、氢键作用与热传输增强的论文分析。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：找到热导率优于相应单组分的聚合物共混物，并指出回转半径增加与氢键作用和热传输增强有关。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/Jiaxin-Xu/PolymerBlendTC-ActiveLearning\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/Jiaxin-Xu/PolymerBlendTC-ActiveLearning\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-7662c3ccfd3fcb5e",
+      "major": "高分子材料",
+      "short": "低场NMR驱动的聚乳酸工艺优化",
+      "summary": "论文研究生物降解聚合物优化：利用低场NMR弛豫曲线CNN特征提取与贝叶斯优化处理聚乳酸加工条件与低场NMR弛豫实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-7662c3ccfd3fcb5e",
+      "title": "高分子材料＋贝叶斯优化｜低场NMR驱动的聚乳酸工艺优化",
+      "originalTitle": "Bayesian optimization of biodegradable polymers via machine learning driven features from low-field NMR data",
+      "venue": "npj Materials Degradation",
+      "year": 2025,
+      "doi": "10.1038/s41529-025-00613-7",
+      "sourceUrl": "https://www.nature.com/articles/s41529-025-00613-7",
+      "question": "论文研究生物降解聚合物优化：利用低场NMR弛豫曲线CNN特征提取与贝叶斯优化处理聚乳酸加工条件与低场NMR弛豫实验所对应的材料问题。",
+      "data": "聚乳酸加工条件与低场NMR弛豫实验；正式摘要未量化样本数",
+      "dataSource": "聚乳酸加工条件与低场NMR弛豫实验",
+      "dataType": "NMR弛豫曲线 · 聚乳酸加工条件与性质",
+      "availability": "公开",
+      "aiMethod": "低场NMR弛豫曲线CNN特征提取与贝叶斯优化",
+      "pipeline": [
+        {
+          "title": "获取低场NMR",
+          "detail": "使用低场NMR弛豫曲线表征聚合物状态。"
+        },
+        {
+          "title": "CNN提取特征",
+          "detail": "卷积神经网络从弛豫曲线提取学习特征并重建去噪曲线。"
+        },
+        {
+          "title": "关联材料性质",
+          "detail": "分析学习特征与材料性质的联系。"
+        },
+        {
+          "title": "优化工艺条件",
+          "detail": "以学习特征驱动贝叶斯优化选择工艺条件。"
+        },
+        {
+          "title": "比较优化速率",
+          "detail": "与直接使用材料性质值优化的速率比较；摘要未量化样本数。"
+        }
+      ],
+      "result": "使用NMR学习特征优化工艺条件的速率，与直接使用材料性质值进行优化相当。；论文实际报告：使用NMR学习特征优化工艺条件的速率，与直接使用材料性质值进行优化相当。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "使用NMR学习特征优化工艺条件的速率，与直接使用材料性质值进行优化相当。；论文实际报告：使用NMR学习特征优化工艺条件的速率，与直接使用材料性质值进行优化相当。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/neko166/Python-Code-for-NMR-denoising-and-analysis/tree/main",
+      "codeUrl": "",
+      "image": "assets/library/paper-7662c3ccfd3fcb5e.webp",
+      "markdownUrl": "cards/library/paper-7662c3ccfd3fcb5e.md",
+      "markdown": "# 高分子材料 × 贝叶斯优化\r\n\r\n> **副标题：生物降解聚合物优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Bayesian optimization of biodegradable polymers via machine learning driven features from low-field NMR data\r\n- **期刊与年份**：npj Materials Degradation，2025\r\n- **DOI**：10.1038/s41529-025-00613-7\r\n- **正式来源**：https://www.nature.com/articles/s41529-025-00613-7\r\n- **OpenAlex ID**：https://openalex.org/W4411410027\r\n- **OpenAlex API**：https://api.openalex.org/works/W4411410027\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究生物降解聚合物优化：利用低场NMR弛豫曲线CNN特征提取与贝叶斯优化处理聚乳酸加工条件与低场NMR弛豫实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：聚乳酸加工条件与低场NMR弛豫实验\r\n- **数据规模**：正式摘要未量化样本数\r\n- **数据类型**：NMR弛豫曲线、聚乳酸加工条件与性质\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All data and code used in this study are publicly available. The datasets and source code can be accessed on GitHub ( https://github.com/neko166/Python-Code-for-NMR-denoising-and-analysis/tree/main ).\r\n- **给模型看什么**：聚乳酸加工条件与低场NMR弛豫实验；数据类型为NMR弛豫曲线、聚乳酸加工条件与性质。\r\n- **让模型判断什么**：生物降解聚合物优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：低场NMR弛豫曲线CNN特征提取与贝叶斯优化\r\n- **实际作用**：用于生物降解聚合物优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **获取低场NMR**：使用低场NMR弛豫曲线表征聚合物状态。\r\n2. **CNN提取特征**：卷积神经网络从弛豫曲线提取学习特征并重建去噪曲线。\r\n3. **关联材料性质**：分析学习特征与材料性质的联系。\r\n4. **优化工艺条件**：以学习特征驱动贝叶斯优化选择工艺条件。\r\n5. **比较优化速率**：与直接使用材料性质值优化的速率比较；摘要未量化样本数。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：使用NMR学习特征优化工艺条件的速率，与直接使用材料性质值进行优化相当。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/neko166/Python-Code-for-NMR-denoising-and-analysis/tree/main\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "时间序列与业务指标",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-45e108109098e9b5",
+      "major": "高分子材料",
+      "short": "液晶聚酰亚胺筛选与热导率发现",
+      "summary": "论文研究聚合物热性能发现：利用由聚合物化学结构预测液晶态的机器学习分类模型与反向筛选处理聚酰亚胺结构与实验合成验证所对应的材料问题。",
+      "methods": [
+        "分类模型"
+      ],
+      "method": "分类模型",
+      "metric": "分类模型",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-45e108109098e9b5",
+      "title": "高分子材料＋分类模型｜液晶聚酰亚胺筛选与热导率发现",
+      "originalTitle": "Discovery of liquid crystalline polymers with high thermal conductivity using machine learning",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-025-01671-w",
+      "sourceUrl": "https://www.nature.com/articles/s41524-025-01671-w",
+      "question": "论文研究聚合物热性能发现：利用由聚合物化学结构预测液晶态的机器学习分类模型与反向筛选处理聚酰亚胺结构与实验合成验证所对应的材料问题。",
+      "data": "聚酰亚胺结构与实验合成验证；正式摘要未量化训练样本数；报告多种合成聚合物",
+      "dataSource": "聚酰亚胺结构与实验合成验证",
+      "dataType": "聚合物结构 · 液晶态与热导率",
+      "availability": "部分公开",
+      "aiMethod": "由聚合物化学结构预测液晶态的机器学习分类模型与反向筛选",
+      "pipeline": [
+        {
+          "title": "编码聚合物结构",
+          "detail": "以聚合物化学结构作为液晶态形成预测输入。"
+        },
+        {
+          "title": "预测液晶形成",
+          "detail": "机器学习分类模型预测是否形成液晶态，报告准确率超过96%。"
+        },
+        {
+          "title": "反向筛选结构",
+          "detail": "通过模型逆向映射识别液晶聚酰亚胺结构。"
+        },
+        {
+          "title": "合成候选聚合物",
+          "detail": "对筛选出的聚合物进行实验合成。"
+        },
+        {
+          "title": "核验相态热导",
+          "detail": "验证液晶相，并报告计算热导率0.722–1.26 W m⁻¹ K⁻¹。"
+        }
+      ],
+      "result": "液晶态形成预测准确率超过96%；所合成聚合物计算热导率为0.722–1.26 W m⁻¹ K⁻¹。；论文实际报告：液晶态形成预测准确率超过96%；所合成聚合物计算热导率为0.722–1.26 W m⁻¹ K⁻¹。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "液晶态形成预测准确率超过96%；所合成聚合物计算热导率为0.722–1.26 W m⁻¹ K⁻¹。；论文实际报告：液晶态形成预测准确率超过96%；所合成聚合物计算热导率为0.722–1.26 W m⁻¹ K⁻¹。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41524-025-01671-w",
+      "codeUrl": "",
+      "image": "assets/library/paper-45e108109098e9b5.webp",
+      "markdownUrl": "cards/library/paper-45e108109098e9b5.md",
+      "markdown": "# 高分子材料 × 机器学习\r\n\r\n> **副标题：聚合物热性能发现**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Discovery of liquid crystalline polymers with high thermal conductivity using machine learning\r\n- **期刊与年份**：npj Computational Materials，2025\r\n- **DOI**：10.1038/s41524-025-01671-w\r\n- **正式来源**：https://www.nature.com/articles/s41524-025-01671-w\r\n- **OpenAlex ID**：https://openalex.org/W4411894238\r\n- **OpenAlex API**：https://api.openalex.org/works/W4411894238\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究聚合物热性能发现：利用由聚合物化学结构预测液晶态的机器学习分类模型与反向筛选处理聚酰亚胺结构与实验合成验证所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：聚酰亚胺结构与实验合成验证\r\n- **数据规模**：正式摘要未量化训练样本数；报告多种合成聚合物\r\n- **数据类型**：聚合物结构、液晶态与热导率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Information. Data and Python codes supporting the findings of this study will be made available upon reasonable request to the corresponding authors.\r\n- **给模型看什么**：聚酰亚胺结构与实验合成验证；数据类型为聚合物结构、液晶态与热导率。\r\n- **让模型判断什么**：聚合物热性能发现\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：由聚合物化学结构预测液晶态的机器学习分类模型与反向筛选\r\n- **实际作用**：用于聚合物热性能发现。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **编码聚合物结构**：以聚合物化学结构作为液晶态形成预测输入。\r\n2. **预测液晶形成**：机器学习分类模型预测是否形成液晶态，报告准确率超过96%。\r\n3. **反向筛选结构**：通过模型逆向映射识别液晶聚酰亚胺结构。\r\n4. **合成候选聚合物**：对筛选出的聚合物进行实验合成。\r\n5. **核验相态热导**：验证液晶相，并报告计算热导率0.722–1.26 W m⁻¹ K⁻¹。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：液晶态形成预测准确率超过96%；所合成聚合物计算热导率为0.722–1.26 W m⁻¹ K⁻¹。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41524-025-01671-w\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-c92d938be0b13cc1",
+      "major": "高分子材料",
+      "short": "SPACIER闭环设计光学聚合物",
+      "summary": "论文研究聚合物自动化设计：利用RadonPy全原子分子动力学与贝叶斯优化的SPACIER闭环处理自动化模拟与光学聚合物实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-c92d938be0b13cc1",
+      "title": "高分子材料＋贝叶斯优化｜SPACIER闭环设计光学聚合物",
+      "originalTitle": "SPACIER: on-demand polymer design with fully automated all-atom classical molecular dynamics integrated into machine learning pipelines",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-024-01492-3",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01492-3",
+      "question": "论文研究聚合物自动化设计：利用RadonPy全原子分子动力学与贝叶斯优化的SPACIER闭环处理自动化模拟与光学聚合物实验所对应的材料问题。",
+      "data": "自动化模拟与光学聚合物实验；正式摘要未量化实验样本数",
+      "dataSource": "自动化模拟与光学聚合物实验",
+      "dataType": "聚合物结构 · 模拟与实验光学性质",
+      "availability": "公开",
+      "aiMethod": "RadonPy全原子分子动力学与贝叶斯优化的SPACIER闭环",
+      "pipeline": [
+        {
+          "title": "设定光学目标",
+          "detail": "以折射率与阿贝数的权衡为光学聚合物设计目标。"
+        },
+        {
+          "title": "全原子自动模拟",
+          "detail": "RadonPy执行全原子分子动力学性质计算。"
+        },
+        {
+          "title": "贝叶斯优化选材",
+          "detail": "SPACIER将自动模拟与贝叶斯优化联成闭环。"
+        },
+        {
+          "title": "合成概念验证",
+          "detail": "合成闭环设计的光学聚合物作为概念验证。"
+        },
+        {
+          "title": "比较帕累托边界",
+          "detail": "验证候选越过折射率与阿贝数的既有帕累托边界。"
+        }
+      ],
+      "result": "概念验证合成的光学聚合物越过了折射率与阿贝数的既有帕累托边界。；论文实际报告：概念验证合成的光学聚合物越过了折射率与阿贝数的既有帕累托边界。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "概念验证合成的光学聚合物越过了折射率与阿贝数的既有帕累托边界。；论文实际报告：概念验证合成的光学聚合物越过了折射率与阿贝数的既有帕累托边界。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/s-nanjo/Spacier/tree/main/Optical_Polymer_Dataset",
+      "codeUrl": "https://github.com/s-nanjo/Spacier/",
+      "image": "assets/library/paper-c92d938be0b13cc1.webp",
+      "markdownUrl": "cards/library/paper-c92d938be0b13cc1.md",
+      "markdown": "# 高分子材料 × 贝叶斯优化\r\n\r\n> **副标题：聚合物自动化设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：SPACIER: on-demand polymer design with fully automated all-atom classical molecular dynamics integrated into machine learning pipelines\r\n- **期刊与年份**：npj Computational Materials，2025\r\n- **DOI**：10.1038/s41524-024-01492-3\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01492-3\r\n- **OpenAlex ID**：https://openalex.org/W4406916876\r\n- **OpenAlex API**：https://api.openalex.org/works/W4406916876\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究聚合物自动化设计：利用RadonPy全原子分子动力学与贝叶斯优化的SPACIER闭环处理自动化模拟与光学聚合物实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：自动化模拟与光学聚合物实验\r\n- **数据规模**：正式摘要未量化实验样本数\r\n- **数据类型**：聚合物结构、模拟与实验光学性质\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The experimental and computational datasets are available at GitHub .\r\n- **给模型看什么**：自动化模拟与光学聚合物实验；数据类型为聚合物结构、模拟与实验光学性质。\r\n- **让模型判断什么**：聚合物自动化设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：RadonPy全原子分子动力学与贝叶斯优化的SPACIER闭环\r\n- **实际作用**：用于聚合物自动化设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定光学目标**：以折射率与阿贝数的权衡为光学聚合物设计目标。\r\n2. **全原子自动模拟**：RadonPy执行全原子分子动力学性质计算。\r\n3. **贝叶斯优化选材**：SPACIER将自动模拟与贝叶斯优化联成闭环。\r\n4. **合成概念验证**：合成闭环设计的光学聚合物作为概念验证。\r\n5. **比较帕累托边界**：验证候选越过折射率与阿贝数的既有帕累托边界。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：概念验证合成的光学聚合物越过了折射率与阿贝数的既有帕累托边界。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/s-nanjo/Spacier/tree/main/Optical_Polymer_Dataset\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/s-nanjo/Spacier/\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0a33e81203aa67b0",
+      "major": "纳米材料",
+      "short": "微流控纳米颗粒的细胞摄取优化",
+      "summary": "论文研究纳米颗粒高通量设计：利用微流控制备、高内涵成像与贝叶斯神经网络主动学习处理PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0a33e81203aa67b0",
+      "title": "纳米材料＋主动学习｜微流控纳米颗粒的细胞摄取优化",
+      "originalTitle": "Machine learning-guided high throughput nanoparticle design",
+      "venue": "Digital Discovery",
+      "year": 2024,
+      "doi": "10.1039/d4dd00104d",
+      "sourceUrl": "https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00104d",
+      "question": "论文研究纳米颗粒高通量设计：利用微流控制备、高内涵成像与贝叶斯神经网络主动学习处理PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验所对应的材料问题。",
+      "data": "PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验；初始29种配方；虚拟设计库10万种配方；后续两轮模型引导实验",
+      "dataSource": "PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验",
+      "dataType": "纳米颗粒配方 · 细胞摄取与显微图像",
+      "availability": "公开",
+      "aiMethod": "微流控制备、高内涵成像与贝叶斯神经网络主动学习",
+      "pipeline": [
+        {
+          "title": "微流控制备颗粒",
+          "detail": "以微流控制备纳米颗粒，初始实验为29种配方。"
+        },
+        {
+          "title": "高内涵成像测量",
+          "detail": "用高内涵成像评价颗粒与细胞摄取表现。"
+        },
+        {
+          "title": "构建虚拟配方库",
+          "detail": "论文设置约10万种配方的虚拟设计空间。"
+        },
+        {
+          "title": "主动学习选配方",
+          "detail": "贝叶斯神经网络引导两轮后续实验。"
+        },
+        {
+          "title": "对照细胞摄取",
+          "detail": "相对对照的摄取倍数由约5倍提高到约15倍。"
+        }
+      ],
+      "result": "细胞摄取相对对照的倍数从约5倍提高至约15倍，历经两轮每轮约一周的模型引导设计。；论文实际报告：细胞摄取相对对照的倍数从约5倍提高至约15倍，历经两轮每轮约一周的模型引导设计。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "细胞摄取相对对照的倍数从约5倍提高至约15倍，历经两轮每轮约一周的模型引导设计。；论文实际报告：细胞摄取相对对照的倍数从约5倍提高至约15倍，历经两轮每轮约一周的模型引导设计。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/molML/Nano_Particles_Active_Learning",
+      "codeUrl": "https://github.com/molML/Nano_Particles_Active_Learning",
+      "image": "assets/library/paper-0a33e81203aa67b0.webp",
+      "markdownUrl": "cards/library/paper-0a33e81203aa67b0.md",
+      "markdown": "# 纳米材料 × 主动学习\r\n\r\n> **副标题：纳米颗粒高通量设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning-guided high throughput nanoparticle design\r\n- **期刊与年份**：Digital Discovery，2024\r\n- **DOI**：10.1039/d4dd00104d\r\n- **正式来源**：https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00104d\r\n- **OpenAlex ID**：https://openalex.org/W4399309416\r\n- **OpenAlex API**：https://api.openalex.org/works/W4399309416\r\n- **OA 状态**：is_oa=true；oa_status=diamond\r\n\r\n## 研究问题\r\n\r\n论文研究纳米颗粒高通量设计：利用微流控制备、高内涵成像与贝叶斯神经网络主动学习处理PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验\r\n- **数据规模**：初始29种配方；虚拟设计库10万种配方；后续两轮模型引导实验\r\n- **数据类型**：纳米颗粒配方、细胞摄取与显微图像\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式论文与作者官方仓库披露代码、模型及各轮实验数据。\r\n- **给模型看什么**：PLGA-PEG纳米颗粒在MDA-MB-468乳腺癌细胞的摄取实验；数据类型为纳米颗粒配方、细胞摄取与显微图像。\r\n- **让模型判断什么**：纳米颗粒高通量设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：微流控制备、高内涵成像与贝叶斯神经网络主动学习\r\n- **实际作用**：用于纳米颗粒高通量设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **微流控制备颗粒**：以微流控制备纳米颗粒，初始实验为29种配方。\r\n2. **高内涵成像测量**：用高内涵成像评价颗粒与细胞摄取表现。\r\n3. **构建虚拟配方库**：论文设置约10万种配方的虚拟设计空间。\r\n4. **主动学习选配方**：贝叶斯神经网络引导两轮后续实验。\r\n5. **对照细胞摄取**：相对对照的摄取倍数由约5倍提高到约15倍。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：细胞摄取相对对照的倍数从约5倍提高至约15倍，历经两轮每轮约一周的模型引导设计。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/molML/Nano_Particles_Active_Learning\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/molML/Nano_Particles_Active_Learning\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-5da7b62f3088c63a",
+      "major": "纳米材料",
+      "short": "全色高量子产率碳量子点合成",
+      "summary": "论文研究量子点合成与光学性能：利用多目标机器学习闭环引导水热合成处理碳量子点水热合成实验所对应的材料问题。",
+      "methods": [
+        "多目标优化"
+      ],
+      "method": "多目标优化",
+      "metric": "多目标优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-5da7b62f3088c63a",
+      "title": "纳米材料＋多目标优化｜全色高量子产率碳量子点合成",
+      "originalTitle": "Machine learning-guided realization of full-color high-quantum-yield carbon quantum dots",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-49172-6",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-49172-6",
+      "question": "论文研究量子点合成与光学性能：利用多目标机器学习闭环引导水热合成处理碳量子点水热合成实验所对应的材料问题。",
+      "data": "碳量子点水热合成实验；63次实验",
+      "dataSource": "碳量子点水热合成实验",
+      "dataType": "合成参数 · 发光波长与量子产率",
+      "availability": "公开",
+      "aiMethod": "多目标机器学习闭环引导水热合成",
+      "pipeline": [
+        {
+          "title": "设定发光目标",
+          "detail": "同时优化碳量子点发光颜色与光致发光量子产率。"
+        },
+        {
+          "title": "构建多目标模型",
+          "detail": "机器学习关联水热合成条件和多项光学目标。"
+        },
+        {
+          "title": "闭环建议条件",
+          "detail": "模型依据已有实验建议后续水热合成条件。"
+        },
+        {
+          "title": "实施水热实验",
+          "detail": "闭环总计实施63次实验。"
+        },
+        {
+          "title": "核验全色产率",
+          "detail": "获得全色荧光且各颜色量子产率均超过60%。"
+        }
+      ],
+      "result": "通过63次实验获得全色荧光碳量子点，各颜色光致发光量子产率均超过60%。；论文实际报告：通过63次实验获得全色荧光碳量子点，各颜色光致发光量子产率均超过60%。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "通过63次实验获得全色荧光碳量子点，各颜色光致发光量子产率均超过60%。；论文实际报告：通过63次实验获得全色荧光碳量子点，各颜色光致发光量子产率均超过60%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/MS-w-ML/MOO-data.git",
+      "codeUrl": "https://github.com/MS-w-ML/MOO-code.git",
+      "image": "assets/library/paper-5da7b62f3088c63a.webp",
+      "markdownUrl": "cards/library/paper-5da7b62f3088c63a.md",
+      "markdown": "# 纳米材料 × 机器学习\r\n\r\n> **副标题：量子点合成与光学性能**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning-guided realization of full-color high-quantum-yield carbon quantum dots\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-49172-6\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-49172-6\r\n- **OpenAlex ID**：https://openalex.org/W4399394644\r\n- **OpenAlex API**：https://api.openalex.org/works/W4399394644\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究量子点合成与光学性能：利用多目标机器学习闭环引导水热合成处理碳量子点水热合成实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：碳量子点水热合成实验\r\n- **数据规模**：63次实验\r\n- **数据类型**：合成参数、发光波长与量子产率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability Data that supports the findings of this study have been deposited in the GitHub repository and can be found with the following link: https://github.com/MS-w-ML/MOO-data.git . The data shown in Figs. 2 – 4 and Supplementary Figs. 3 – 24 are provided in the Source Data file. Source data are provided in this paper.\r\n- **给模型看什么**：碳量子点水热合成实验；数据类型为合成参数、发光波长与量子产率。\r\n- **让模型判断什么**：量子点合成与光学性能\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：多目标机器学习闭环引导水热合成\r\n- **实际作用**：用于量子点合成与光学性能。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定发光目标**：同时优化碳量子点发光颜色与光致发光量子产率。\r\n2. **构建多目标模型**：机器学习关联水热合成条件和多项光学目标。\r\n3. **闭环建议条件**：模型依据已有实验建议后续水热合成条件。\r\n4. **实施水热实验**：闭环总计实施63次实验。\r\n5. **核验全色产率**：获得全色荧光且各颜色量子产率均超过60%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：通过63次实验获得全色荧光碳量子点，各颜色光致发光量子产率均超过60%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/MS-w-ML/MOO-data.git\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/MS-w-ML/MOO-code.git\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-a68ebd7432650a99",
+      "major": "纳米材料",
+      "short": "AFION自驱实验筛选等离激元颗粒",
+      "summary": "论文研究等离激元颗粒自驱实验：利用AFION微流体自驱实验与机器学习优化处理等离激元纳米颗粒光化学合成及在线光谱所对应的材料问题。",
+      "methods": [
+        "机器学习优化"
+      ],
+      "method": "机器学习优化",
+      "metric": "机器学习优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-a68ebd7432650a99",
+      "title": "纳米材料＋机器学习优化｜AFION自驱实验筛选等离激元颗粒",
+      "originalTitle": "Self-driving lab for the photochemical synthesis of plasmonic nanoparticles with targeted structural and optical properties",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-56788-9",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-56788-9",
+      "question": "论文研究等离激元颗粒自驱实验：利用AFION微流体自驱实验与机器学习优化处理等离激元纳米颗粒光化学合成及在线光谱所对应的材料问题。",
+      "data": "等离激元纳米颗粒光化学合成及在线光谱；正式摘要未量化实验数",
+      "dataSource": "等离激元纳米颗粒光化学合成及在线光谱",
+      "dataType": "反应条件 · 在线光谱 · TEM图像",
+      "availability": "部分公开",
+      "aiMethod": "AFION微流体自驱实验与机器学习优化",
+      "pipeline": [
+        {
+          "title": "设定目标光谱",
+          "detail": "指定与颗粒形貌、尺寸和组成相关的光谱目标。"
+        },
+        {
+          "title": "微流体光化合成",
+          "detail": "AFION微流体反应器开展等离激元纳米颗粒光化学合成。"
+        },
+        {
+          "title": "在线光谱表征",
+          "detail": "在流动过程中测量纳米颗粒的光谱响应。"
+        },
+        {
+          "title": "机器学习优化",
+          "detail": "根据在线表征反馈搜索反应条件。"
+        },
+        {
+          "title": "识别目标条件",
+          "detail": "找到可产生指定形貌、尺寸和组成颗粒的条件。"
+        }
+      ],
+      "result": "平台按目标光谱性质识别可产生指定形貌、尺寸和组成颗粒的反应条件。；论文实际报告：平台按目标光谱性质识别可产生指定形貌、尺寸和组成颗粒的反应条件。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "平台按目标光谱性质识别可产生指定形貌、尺寸和组成颗粒的反应条件。；论文实际报告：平台按目标光谱性质识别可产生指定形貌、尺寸和组成颗粒的反应条件。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/Taylorwutianyi/AFION-LAB",
+      "codeUrl": "https://github.com/Taylorwutianyi/AFION-LAB",
+      "image": "assets/library/paper-a68ebd7432650a99.webp",
+      "markdownUrl": "cards/library/paper-a68ebd7432650a99.md",
+      "markdown": "# 纳米材料 × 机器学习\r\n\r\n> **副标题：等离激元颗粒自驱实验**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Self-driving lab for the photochemical synthesis of plasmonic nanoparticles with targeted structural and optical properties\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-56788-9\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-56788-9\r\n- **OpenAlex ID**：https://openalex.org/W4407270575\r\n- **OpenAlex API**：https://api.openalex.org/works/W4407270575\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究等离激元颗粒自驱实验：利用AFION微流体自驱实验与机器学习优化处理等离激元纳米颗粒光化学合成及在线光谱所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：等离激元纳米颗粒光化学合成及在线光谱\r\n- **数据规模**：正式摘要未量化实验数\r\n- **数据类型**：反应条件、在线光谱、TEM图像\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The data that support the findings of this study are available from the corresponding author upon request. TEM images are available from Github and Zenodo 78 . Source data are provided with this paper.\r\n- **给模型看什么**：等离激元纳米颗粒光化学合成及在线光谱；数据类型为反应条件、在线光谱、TEM图像。\r\n- **让模型判断什么**：等离激元颗粒自驱实验\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：AFION微流体自驱实验与机器学习优化\r\n- **实际作用**：用于等离激元颗粒自驱实验。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定目标光谱**：指定与颗粒形貌、尺寸和组成相关的光谱目标。\r\n2. **微流体光化合成**：AFION微流体反应器开展等离激元纳米颗粒光化学合成。\r\n3. **在线光谱表征**：在流动过程中测量纳米颗粒的光谱响应。\r\n4. **机器学习优化**：根据在线表征反馈搜索反应条件。\r\n5. **识别目标条件**：找到可产生指定形貌、尺寸和组成颗粒的条件。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：平台按目标光谱性质识别可产生指定形貌、尺寸和组成颗粒的反应条件。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://github.com/Taylorwutianyi/AFION-LAB\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/Taylorwutianyi/AFION-LAB\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "影像方向",
+      "dataSubtype": "自然、工业与艺术图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-21f7ab11fc784702",
+      "major": "纳米材料",
+      "short": "二维合金原子势与拉曼计算",
+      "summary": "论文研究二维材料原子势与合金：利用MACE等变神经网络机器学习原子势处理Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟所对应的材料问题。",
+      "methods": [
+        "等变神经网络"
+      ],
+      "method": "等变神经网络",
+      "metric": "等变神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-21f7ab11fc784702",
+      "title": "纳米材料＋等变神经网络｜二维合金原子势与拉曼计算",
+      "originalTitle": "Machine-learned interatomic potentials for transition metal dichalcogenide Mo1−xWxS2−2ySe2y alloys",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01357-9",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01357-9",
+      "question": "论文研究二维材料原子势与合金：利用MACE等变神经网络机器学习原子势处理Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟所对应的材料问题。",
+      "data": "Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟；正式摘要未量化DFT样本数",
+      "dataSource": "Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟",
+      "dataType": "DFT构型 · 声子与拉曼光谱",
+      "availability": "公开",
+      "aiMethod": "MACE等变神经网络机器学习原子势",
+      "pipeline": [
+        {
+          "title": "整理TMD构型",
+          "detail": "研究Mo-W-S-Se过渡金属二硫族合金构型。"
+        },
+        {
+          "title": "训练等变原子势",
+          "detail": "以等变神经网络MACE建立机器学习原子势。"
+        },
+        {
+          "title": "计算振动性质",
+          "detail": "应用原子势计算声子、振动态密度和拉曼谱。"
+        },
+        {
+          "title": "扩展成分采样",
+          "detail": "跨合金成分范围扩大可模拟结构和构型。"
+        },
+        {
+          "title": "对照DFT精度",
+          "detail": "检验接近DFT的精度并解析拉曼活性模式。"
+        }
+      ],
+      "result": "模型保留接近DFT的精度，同时扩展可模拟的结构尺寸和合金构型，并解析整个成分范围的拉曼活性模式。；论文实际报告：模型保留接近DFT的精度，同时扩展可模拟的结构尺寸和合金构型，并解析整个成分范围的拉曼活性模式。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型保留接近DFT的精度，同时扩展可模拟的结构尺寸和合金构型，并解析整个成分范围的拉曼活性模式。；论文实际报告：模型保留接近DFT的精度，同时扩展可模拟的结构尺寸和合金构型，并解析整个成分范围的拉曼活性模式。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5281/zenodo.10912290",
+      "codeUrl": "",
+      "image": "assets/library/paper-21f7ab11fc784702.webp",
+      "markdownUrl": "cards/library/paper-21f7ab11fc784702.md",
+      "markdown": "# 纳米材料 × 图神经网络\r\n\r\n> **副标题：二维材料原子势与合金**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine-learned interatomic potentials for transition metal dichalcogenide Mo1−xWxS2−2ySe2y alloys\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01357-9\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01357-9\r\n- **OpenAlex ID**：https://openalex.org/W4401284655\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401284655\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究二维材料原子势与合金：利用MACE等变神经网络机器学习原子势处理Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟\r\n- **数据规模**：正式摘要未量化DFT样本数\r\n- **数据类型**：DFT构型、声子与拉曼光谱\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All the relevant data to this study is presented in the main text and the ESI.† The underlying raw data used in this publication, including the training data and the trained MACE model, are accessible via the Zenodo repository at https://doi.org/10.5281/zenodo.10912290 .\r\n- **给模型看什么**：Mo-W-S-Se二维过渡金属硫族化物DFT训练与模拟；数据类型为DFT构型、声子与拉曼光谱。\r\n- **让模型判断什么**：二维材料原子势与合金\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：MACE等变神经网络机器学习原子势\r\n- **实际作用**：用于二维材料原子势与合金。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理TMD构型**：研究Mo-W-S-Se过渡金属二硫族合金构型。\r\n2. **训练等变原子势**：以等变神经网络MACE建立机器学习原子势。\r\n3. **计算振动性质**：应用原子势计算声子、振动态密度和拉曼谱。\r\n4. **扩展成分采样**：跨合金成分范围扩大可模拟结构和构型。\r\n5. **对照DFT精度**：检验接近DFT的精度并解析拉曼活性模式。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型保留接近DFT的精度，同时扩展可模拟的结构尺寸和合金构型，并解析整个成分范围的拉曼活性模式。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.5281/zenodo.10912290\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "仿真、反演与科学计算",
+      "laboratory": "时序方向",
+      "dataSubtype": "传感器、波形与生理信号",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-9880c165cf965355",
+      "major": "纳米材料",
+      "short": "二维载流子迁移率预测",
+      "summary": "论文研究二维材料载流子迁移率：利用对抗迁移学习融合领域知识处理体材料有效质量数据与二维材料迁移率数据库所对应的材料问题。",
+      "methods": [
+        "对抗迁移学习"
+      ],
+      "method": "对抗迁移学习",
+      "metric": "对抗迁移学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-9880c165cf965355",
+      "title": "纳米材料＋对抗迁移学习｜二维载流子迁移率预测",
+      "originalTitle": "From bulk effective mass to 2D carrier mobility accurate prediction via adversarial transfer learning",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-49686-z",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-49686-z",
+      "question": "论文研究二维材料载流子迁移率：利用对抗迁移学习融合领域知识处理体材料有效质量数据与二维材料迁移率数据库所对应的材料问题。",
+      "data": "体材料有效质量数据与二维材料迁移率数据库；筛得21种二维半导体候选；正式摘要未量化训练样本数",
+      "dataSource": "体材料有效质量数据与二维材料迁移率数据库",
+      "dataType": "晶体结构 · 有效质量 · 载流子迁移率",
+      "availability": "公开",
+      "aiMethod": "对抗迁移学习融合领域知识",
+      "pipeline": [
+        {
+          "title": "汇集体块知识",
+          "detail": "利用体材料有效质量相关知识辅助小样本二维材料任务。"
+        },
+        {
+          "title": "对抗迁移共享",
+          "detail": "对抗训练提取体材料与二维材料间可迁移知识。"
+        },
+        {
+          "title": "融入领域知识",
+          "detail": "结合专家知识提高二维载流子迁移率预测。"
+        },
+        {
+          "title": "结构预测迁移率",
+          "detail": "仅由晶体结构预测二维材料载流子迁移率。"
+        },
+        {
+          "title": "筛选二维半导体",
+          "detail": "报告准确率超过90%并筛出21种候选半导体。"
+        }
+      ],
+      "result": "仅依据晶体结构预测二维载流子迁移率的准确率超过90%，并筛得21种迁移率高于硅且带隙合适的半导体。；论文实际报告：仅依据晶体结构预测二维载流子迁移率的准确率超过90%，并筛得21种迁移率高于硅且带隙合适的半导体。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "仅依据晶体结构预测二维载流子迁移率的准确率超过90%，并筛得21种迁移率高于硅且带隙合适的半导体。；论文实际报告：仅依据晶体结构预测二维载流子迁移率的准确率超过90%，并筛得21种迁移率高于硅且带隙合适的半导体。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://cmr.fysik.dtu.dk/c2db/c2db.html",
+      "codeUrl": "https://github.com/XinYu-Chen98/Hybrid-ATL-and-expert-knowledge-for-materials-design",
+      "image": "assets/library/paper-9880c165cf965355.webp",
+      "markdownUrl": "cards/library/paper-9880c165cf965355.md",
+      "markdown": "# 纳米材料 × 迁移学习\r\n\r\n> **副标题：二维材料载流子迁移率**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：From bulk effective mass to 2D carrier mobility accurate prediction via adversarial transfer learning\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-49686-z\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-49686-z\r\n- **OpenAlex ID**：https://openalex.org/W4399996512\r\n- **OpenAlex API**：https://api.openalex.org/works/W4399996512\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究二维材料载流子迁移率：利用对抗迁移学习融合领域知识处理体材料有效质量数据与二维材料迁移率数据库所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：体材料有效质量数据与二维材料迁移率数据库\r\n- **数据规模**：筛得21种二维半导体候选；正式摘要未量化训练样本数\r\n- **数据类型**：晶体结构、有效质量、载流子迁移率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The carrier mobility data generated in this study are provided in the manuscript file, the Supplementary Information files, and Source Data files. The data of 2D materials and bulk effective mass used in this study are available at public websites, C2DB 50 , 51 ( https://cmr.fysik.dtu.dk/c2db/c2db.html ), 2Dmatpedia 52 ( http://www.2dmatpedia.org ) and MP 53 ( https://materialsproject.org/ ). The carrier mobility data for model training are provided in Supplementary Data 2 . Source data are provided with this paper.\r\n- **给模型看什么**：体材料有效质量数据与二维材料迁移率数据库；数据类型为晶体结构、有效质量、载流子迁移率。\r\n- **让模型判断什么**：二维材料载流子迁移率\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：对抗迁移学习融合领域知识\r\n- **实际作用**：用于二维材料载流子迁移率。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇集体块知识**：利用体材料有效质量相关知识辅助小样本二维材料任务。\r\n2. **对抗迁移共享**：对抗训练提取体材料与二维材料间可迁移知识。\r\n3. **融入领域知识**：结合专家知识提高二维载流子迁移率预测。\r\n4. **结构预测迁移率**：仅由晶体结构预测二维材料载流子迁移率。\r\n5. **筛选二维半导体**：报告准确率超过90%并筛出21种候选半导体。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：仅依据晶体结构预测二维载流子迁移率的准确率超过90%，并筛得21种迁移率高于硅且带隙合适的半导体。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://cmr.fysik.dtu.dk/c2db/c2db.html\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/XinYu-Chen98/Hybrid-ATL-and-expert-knowledge-for-materials-design\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "晶体与材料结构图",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-623b0f2775d5e2cb",
+      "major": "纳米材料",
+      "short": "单帧电镜图像畸变复原",
+      "summary": "论文研究电子显微图像复原：利用卷积神经网络校正电镜图像畸变处理模拟与实验TEM/STEM图像所对应的材料问题。",
+      "methods": [
+        "卷积神经网络"
+      ],
+      "method": "卷积神经网络",
+      "metric": "卷积神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-623b0f2775d5e2cb",
+      "title": "纳米材料＋卷积神经网络｜单帧电镜图像畸变复原",
+      "originalTitle": "Deep convolutional neural networks to restore single-shot electron microscopy images",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-023-01188-0",
+      "sourceUrl": "https://www.nature.com/articles/s41524-023-01188-0",
+      "question": "论文研究电子显微图像复原：利用卷积神经网络校正电镜图像畸变处理模拟与实验TEM/STEM图像所对应的材料问题。",
+      "data": "模拟与实验TEM/STEM图像；论文提供6个训练模型；正式摘要未量化图像数",
+      "dataSource": "模拟与实验TEM/STEM图像",
+      "dataType": "TEM/STEM图像 · 结构表征",
+      "availability": "公开",
+      "aiMethod": "卷积神经网络校正电镜图像畸变",
+      "pipeline": [
+        {
+          "title": "描述电镜畸变",
+          "detail": "分析TEM与S(T)EM图像的仪器和环境畸变。"
+        },
+        {
+          "title": "构建校正模型",
+          "detail": "以卷积神经网络学习电镜图像校正。"
+        },
+        {
+          "title": "复原单帧图像",
+          "detail": "模型对单次采集图像进行畸变复原。"
+        },
+        {
+          "title": "模拟实验验证",
+          "detail": "在模拟与实验电镜图像上验证。"
+        },
+        {
+          "title": "比较结构提取",
+          "detail": "检验信噪比提升与定量结构信息提取的可靠性。"
+        }
+      ],
+      "result": "在模拟及实验图像验证中提高信噪比，使结构信息的定量提取更可靠；正式摘要未给统一增幅。；论文实际报告：在模拟及实验图像验证中提高信噪比，使结构信息的定量提取更可靠；正式摘要未给统一增幅。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "在模拟及实验图像验证中提高信噪比，使结构信息的定量提取更可靠；正式摘要未给统一增幅。；论文实际报告：在模拟及实验图像验证中提高信噪比，使结构信息的定量提取更可靠；正式摘要未给统一增幅。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/Ivanlh20/tk_r_em",
+      "codeUrl": "",
+      "image": "assets/library/paper-623b0f2775d5e2cb.webp",
+      "markdownUrl": "cards/library/paper-623b0f2775d5e2cb.md",
+      "markdown": "# 纳米材料 × 深度学习\r\n\r\n> **副标题：电子显微图像复原**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep convolutional neural networks to restore single-shot electron microscopy images\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-023-01188-0\r\n- **正式来源**：https://www.nature.com/articles/s41524-023-01188-0\r\n- **OpenAlex ID**：https://openalex.org/W4390744083\r\n- **OpenAlex API**：https://api.openalex.org/works/W4390744083\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究电子显微图像复原：利用卷积神经网络校正电镜图像畸变处理模拟与实验TEM/STEM图像所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：模拟与实验TEM/STEM图像\r\n- **数据规模**：论文提供6个训练模型；正式摘要未量化图像数\r\n- **数据类型**：TEM/STEM图像、结构表征\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The trained models for the six distinct neural networks described in this study are openly accessible. These models, together with illustrative scripts demonstrating their utilization, are provided to facilitate replication and further exploration. In addition, the script used for training these models is also included. All these resources are hosted in a dedicated GitHub repository, ensuring easy accessibility and version control. The repository can be accessed at the following URL: https://github.com/Ivanlh20/tk_r_em .\r\n- **给模型看什么**：模拟与实验TEM/STEM图像；数据类型为TEM/STEM图像、结构表征。\r\n- **让模型判断什么**：电子显微图像复原\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：卷积神经网络校正电镜图像畸变\r\n- **实际作用**：用于电子显微图像复原。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **描述电镜畸变**：分析TEM与S(T)EM图像的仪器和环境畸变。\r\n2. **构建校正模型**：以卷积神经网络学习电镜图像校正。\r\n3. **复原单帧图像**：模型对单次采集图像进行畸变复原。\r\n4. **模拟实验验证**：在模拟与实验电镜图像上验证。\r\n5. **比较结构提取**：检验信噪比提升与定量结构信息提取的可靠性。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：在模拟及实验图像验证中提高信噪比，使结构信息的定量提取更可靠；正式摘要未给统一增幅。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/Ivanlh20/tk_r_em\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "仿真、反演与科学计算",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-15e03bf8ed6e92cb",
+      "major": "纳米材料",
+      "short": "合成数据驱动HRTEM颗粒分割",
+      "summary": "论文研究纳米材料电镜合成数据表征：利用Construction Zone合成原子结构数据生成与神经网络图像分割处理模拟HRTEM图像与真实纳米材料电镜基准所对应的材料问题。",
+      "methods": [
+        "神经网络分割"
+      ],
+      "method": "神经网络分割",
+      "metric": "神经网络分割",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-15e03bf8ed6e92cb",
+      "title": "纳米材料＋神经网络分割｜合成数据驱动HRTEM颗粒分割",
+      "originalTitle": "A robust synthetic data generation framework for machine learning in high-resolution transmission electron microscopy (HRTEM)",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01336-0",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01336-0",
+      "question": "论文研究纳米材料电镜合成数据表征：利用Construction Zone合成原子结构数据生成与神经网络图像分割处理模拟HRTEM图像与真实纳米材料电镜基准所对应的材料问题。",
+      "data": "模拟HRTEM图像与真实纳米材料电镜基准；3个实验HRTEM基准数据集",
+      "dataSource": "模拟HRTEM图像与真实纳米材料电镜基准",
+      "dataType": "合成及实验HRTEM图像 · 像素分割标签",
+      "availability": "公开",
+      "aiMethod": "Construction Zone合成原子结构数据生成与神经网络图像分割",
+      "pipeline": [
+        {
+          "title": "生成原子结构",
+          "detail": "Construction Zone生成多样纳米尺度原子结构。"
+        },
+        {
+          "title": "构建合成图像",
+          "detail": "以模拟结构创建HRTEM训练数据。"
+        },
+        {
+          "title": "训练分割网络",
+          "detail": "仅以合成数据库训练神经网络分割模型。"
+        },
+        {
+          "title": "分割实验图像",
+          "detail": "将模型用于实验原子分辨HRTEM图像。"
+        },
+        {
+          "title": "核验三个基准",
+          "detail": "在3个实验HRTEM基准集上报告分割表现。"
+        }
+      ],
+      "result": "仅以合成数据库训练的模型在3个实验基准上达到论文所称的先进分割表现。；论文实际报告：仅以合成数据库训练的模型在3个实验基准上达到论文所称的先进分割表现。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "仅以合成数据库训练的模型在3个实验基准上达到论文所称的先进分割表现。；论文实际报告：仅以合成数据库训练的模型在3个实验基准上达到论文所称的先进分割表现。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://zenodo.org/doi/10.5281/zenodo.11554183",
+      "codeUrl": "https://github.com/ScottLabUCB/HRTEM-robust-synthetic-data",
+      "image": "assets/library/paper-15e03bf8ed6e92cb.webp",
+      "markdownUrl": "cards/library/paper-15e03bf8ed6e92cb.md",
+      "markdown": "# 纳米材料 × 生成式AI\r\n\r\n> **副标题：纳米材料电镜合成数据表征**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：A robust synthetic data generation framework for machine learning in high-resolution transmission electron microscopy (HRTEM)\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01336-0\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01336-0\r\n- **OpenAlex ID**：https://openalex.org/W4401100781\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401100781\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究纳米材料电镜合成数据表征：利用Construction Zone合成原子结构数据生成与神经网络图像分割处理模拟HRTEM图像与真实纳米材料电镜基准所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：模拟HRTEM图像与真实纳米材料电镜基准\r\n- **数据规模**：3个实验HRTEM基准数据集\r\n- **数据类型**：合成及实验HRTEM图像、像素分割标签\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The original atomic structures and the processed images used to train segmentation models in this study have been made available via Zenodo at https://zenodo.org/doi/10.5281/zenodo.11554183 ; we also include a series of trained model weights, from models trained on the baseline, substrate varying, and optimized datasets.\r\n- **给模型看什么**：模拟HRTEM图像与真实纳米材料电镜基准；数据类型为合成及实验HRTEM图像、像素分割标签。\r\n- **让模型判断什么**：纳米材料电镜合成数据表征\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：Construction Zone合成原子结构数据生成与神经网络图像分割\r\n- **实际作用**：用于纳米材料电镜合成数据表征。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **生成原子结构**：Construction Zone生成多样纳米尺度原子结构。\r\n2. **构建合成图像**：以模拟结构创建HRTEM训练数据。\r\n3. **训练分割网络**：仅以合成数据库训练神经网络分割模型。\r\n4. **分割实验图像**：将模型用于实验原子分辨HRTEM图像。\r\n5. **核验三个基准**：在3个实验HRTEM基准集上报告分割表现。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：仅以合成数据库训练的模型在3个实验基准上达到论文所称的先进分割表现。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://zenodo.org/doi/10.5281/zenodo.11554183\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/ScottLabUCB/HRTEM-robust-synthetic-data\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "设计、发现与合成",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-728b757aa5229531",
+      "major": "纳米材料",
+      "short": "等离激元纳米环的正逆向设计",
+      "summary": "论文研究纳米光学结构逆向设计：利用深度学习正向光谱预测与逆向纳米环设计处理金属—绝缘体—金属等离激元环谐振器仿真所对应的材料问题。",
+      "methods": [
+        "深度学习"
+      ],
+      "method": "深度学习",
+      "metric": "深度学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-728b757aa5229531",
+      "title": "纳米材料＋深度学习｜等离激元纳米环的正逆向设计",
+      "originalTitle": "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches",
+      "venue": "Scientific Reports",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-56522-3",
+      "sourceUrl": "https://www.nature.com/articles/s41598-024-56522-3",
+      "question": "论文研究纳米光学结构逆向设计：利用深度学习正向光谱预测与逆向纳米环设计处理金属—绝缘体—金属等离激元环谐振器仿真所对应的材料问题。",
+      "data": "金属—绝缘体—金属等离激元环谐振器仿真；正式摘要未量化仿真样本数",
+      "dataSource": "金属—绝缘体—金属等离激元环谐振器仿真",
+      "dataType": "纳米环几何参数 · 透射光谱",
+      "availability": "公开",
+      "aiMethod": "深度学习正向光谱预测与逆向纳米环设计",
+      "pipeline": [
+        {
+          "title": "设定纳米环参数",
+          "detail": "以非线性等离激元环谐振器结构参数为设计空间。"
+        },
+        {
+          "title": "训练正向光谱",
+          "detail": "深度学习正向模型由结构预测透射光谱。"
+        },
+        {
+          "title": "输入目标光谱",
+          "detail": "以期望光谱响应进行逆向设计。"
+        },
+        {
+          "title": "逆向生成结构",
+          "detail": "逆向模型提出纳米环结构参数。"
+        },
+        {
+          "title": "对照仿真损失",
+          "detail": "正向与逆向预测相对仿真的损失均约10⁻⁴量级。"
+        }
+      ],
+      "result": "正向与逆向模型相对仿真的预测损失均约为10⁻⁴量级。；论文实际报告：正向与逆向模型相对仿真的预测损失均约为10⁻⁴量级。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "正向与逆向模型相对仿真的预测损失均约为10⁻⁴量级。；论文实际报告：正向与逆向模型相对仿真的预测损失均约为10⁻⁴量级。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/ehsan20e20e/CircularRR_AOPS/releases/tag/1",
+      "codeUrl": "",
+      "image": "assets/library/paper-728b757aa5229531.webp",
+      "markdownUrl": "cards/library/paper-728b757aa5229531.md",
+      "markdown": "# 纳米材料 × 深度学习\r\n\r\n> **副标题：纳米光学结构逆向设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches\r\n- **期刊与年份**：Scientific Reports，2024\r\n- **DOI**：10.1038/s41598-024-56522-3\r\n- **正式来源**：https://www.nature.com/articles/s41598-024-56522-3\r\n- **OpenAlex ID**：https://openalex.org/W4392620603\r\n- **OpenAlex API**：https://api.openalex.org/works/W4392620603\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究纳米光学结构逆向设计：利用深度学习正向光谱预测与逆向纳米环设计处理金属—绝缘体—金属等离激元环谐振器仿真所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：金属—绝缘体—金属等离激元环谐振器仿真\r\n- **数据规模**：正式摘要未量化仿真样本数\r\n- **数据类型**：纳米环几何参数、透射光谱\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The data obtained and analyzed throughout the research can be readily accessed via the GitHub repository by utilizing the provided link: https://github.com/ehsan20e20e/CircularRR_AOPS/releases/tag/1 . For supplementary data associated with the study, including the manuscript and Supplementary Information, the GitHub repository can be referenced: https://github.com/ehsan20e20e/CircularRR_AOPS . All the data are provided and made available for access.\r\n- **给模型看什么**：金属—绝缘体—金属等离激元环谐振器仿真；数据类型为纳米环几何参数、透射光谱。\r\n- **让模型判断什么**：纳米光学结构逆向设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：深度学习正向光谱预测与逆向纳米环设计\r\n- **实际作用**：用于纳米光学结构逆向设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定纳米环参数**：以非线性等离激元环谐振器结构参数为设计空间。\r\n2. **训练正向光谱**：深度学习正向模型由结构预测透射光谱。\r\n3. **输入目标光谱**：以期望光谱响应进行逆向设计。\r\n4. **逆向生成结构**：逆向模型提出纳米环结构参数。\r\n5. **对照仿真损失**：正向与逆向预测相对仿真的损失均约10⁻⁴量级。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：正向与逆向模型相对仿真的预测损失均约为10⁻⁴量级。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/ehsan20e20e/CircularRR_AOPS/releases/tag/1\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "传感器、波形与生理信号",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-e2e21c9e7b9b9c9c",
+      "major": "金属材料",
+      "short": "轻质难熔高熵合金的硬度与耐蚀设计",
+      "summary": "论文研究高熵合金性能设计：利用机器学习组成—组织—性能建模与多目标优化处理Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验所对应的材料问题。",
+      "methods": [
+        "多目标优化"
+      ],
+      "method": "多目标优化",
+      "metric": "多目标优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-e2e21c9e7b9b9c9c",
+      "title": "金属材料＋多目标优化｜轻质难熔高熵合金的硬度与耐蚀设计",
+      "originalTitle": "Data-driven design of novel lightweight refractory high-entropy alloys with superb hardness and corrosion resistance",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01457-6",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01457-6",
+      "question": "论文研究高熵合金性能设计：利用机器学习组成—组织—性能建模与多目标优化处理Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验所对应的材料问题。",
+      "data": "Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验；实验验证3种设计合金",
+      "dataSource": "Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验",
+      "dataType": "合金成分 · 相结构与硬度/腐蚀测量",
+      "availability": "公开",
+      "aiMethod": "机器学习组成—组织—性能建模与多目标优化",
+      "pipeline": [
+        {
+          "title": "建立组构性能",
+          "detail": "建立高熵合金组成—组织—性能机器学习关系。"
+        },
+        {
+          "title": "分析关键元素",
+          "detail": "分析Cr等组成特征与耐蚀性能的关系。"
+        },
+        {
+          "title": "逐层筛选合金",
+          "detail": "依次考虑相结构、密度、熔点、硬度及耐蚀性。"
+        },
+        {
+          "title": "多目标设计三种",
+          "detail": "多目标优化提出3种轻质难熔高熵合金。"
+        },
+        {
+          "title": "实验核验性能",
+          "detail": "报告密度约6.5 g cm⁻³、最高硬度593 HV及点蚀电位2.5 V_SCE。"
+        }
+      ],
+      "result": "3种目标合金密度约6.5 g cm⁻³；最高硬度593 HV，最大点蚀电位2.5 V_SCE。；论文实际报告：3种目标合金密度约6.5 g cm⁻³；最高硬度593 HV，最大点蚀电位2.5 V_SCE。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "3种目标合金密度约6.5 g cm⁻³；最高硬度593 HV，最大点蚀电位2.5 V_SCE。；论文实际报告：3种目标合金密度约6.5 g cm⁻³；最高硬度593 HV，最大点蚀电位2.5 V_SCE。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41524-024-01457-6",
+      "codeUrl": "",
+      "image": "assets/library/paper-e2e21c9e7b9b9c9c.webp",
+      "markdownUrl": "cards/library/paper-e2e21c9e7b9b9c9c.md",
+      "markdown": "# 金属材料 × 机器学习\r\n\r\n> **副标题：高熵合金性能设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Data-driven design of novel lightweight refractory high-entropy alloys with superb hardness and corrosion resistance\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01457-6\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01457-6\r\n- **OpenAlex ID**：https://openalex.org/W4404311345\r\n- **OpenAlex API**：https://api.openalex.org/works/W4404311345\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究高熵合金性能设计：利用机器学习组成—组织—性能建模与多目标优化处理Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验\r\n- **数据规模**：实验验证3种设计合金\r\n- **数据类型**：合金成分、相结构与硬度/腐蚀测量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All data used in this study were list in Supplementary information.\r\n- **给模型看什么**：Al-Nb-Ti-V-Zr-Cr-Mo-Hf轻质难熔高熵合金实验；数据类型为合金成分、相结构与硬度/腐蚀测量。\r\n- **让模型判断什么**：高熵合金性能设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习组成—组织—性能建模与多目标优化\r\n- **实际作用**：用于高熵合金性能设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **建立组构性能**：建立高熵合金组成—组织—性能机器学习关系。\r\n2. **分析关键元素**：分析Cr等组成特征与耐蚀性能的关系。\r\n3. **逐层筛选合金**：依次考虑相结构、密度、熔点、硬度及耐蚀性。\r\n4. **多目标设计三种**：多目标优化提出3种轻质难熔高熵合金。\r\n5. **实验核验性能**：报告密度约6.5 g cm⁻³、最高硬度593 HV及点蚀电位2.5 V_SCE。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：3种目标合金密度约6.5 g cm⁻³；最高硬度593 HV，最大点蚀电位2.5 V_SCE。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41524-024-01457-6\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-2d5b57bfb0f874c2",
+      "major": "金属材料",
+      "short": "高熵合金抗氧化设计",
+      "summary": "论文研究高熵合金抗氧化设计：利用机器学习筛选与高通量热力学计算排序处理Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验所对应的材料问题。",
+      "methods": [
+        "机器学习筛选"
+      ],
+      "method": "机器学习筛选",
+      "metric": "机器学习筛选",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-2d5b57bfb0f874c2",
+      "title": "金属材料＋机器学习筛选｜高熵合金抗氧化设计",
+      "originalTitle": "Machine learning and high-throughput computational guided development of high temperature oxidation-resisting Ni-Co-Cr-Al-Fe based high-entropy alloys",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-025-01568-8",
+      "sourceUrl": "https://www.nature.com/articles/s41524-025-01568-8",
+      "question": "论文研究高熵合金抗氧化设计：利用机器学习筛选与高通量热力学计算排序处理Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验所对应的材料问题。",
+      "data": "Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验；正式摘要未量化设计候选数",
+      "dataSource": "Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验",
+      "dataType": "合金成分 · 热力学计算 · 氧化实验",
+      "availability": "公开",
+      "aiMethod": "机器学习筛选与高通量热力学计算排序",
+      "pipeline": [
+        {
+          "title": "设置非等原子比",
+          "detail": "探索Ni-Co-Cr-Al-Fe非等原子比高熵合金组成。"
+        },
+        {
+          "title": "机器学习初筛",
+          "detail": "机器学习筛选抗高温氧化候选。"
+        },
+        {
+          "title": "热力学计算排序",
+          "detail": "用高通量热力学计算对候选排序。"
+        },
+        {
+          "title": "实验制备候选",
+          "detail": "实验验证筛出的多种非等原子比合金。"
+        },
+        {
+          "title": "对照MCrAlY",
+          "detail": "比较候选与论文采用的MCrAlY抗氧化基准。"
+        }
+      ],
+      "result": "筛出并实验验证多种非等原子比合金，其抗氧化表现优于文中采用的MCrAlY基准。；论文实际报告：筛出并实验验证多种非等原子比合金，其抗氧化表现优于文中采用的MCrAlY基准。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "筛出并实验验证多种非等原子比合金，其抗氧化表现优于文中采用的MCrAlY基准。；论文实际报告：筛出并实验验证多种非等原子比合金，其抗氧化表现优于文中采用的MCrAlY基准。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/XRTan-github/MLdevelopment_oxidation_resisting_NiCoCrAlFe_HEAs",
+      "codeUrl": "https://github.com/XRTan-github/MLdevelopment_oxidation_resisting_NiCoCrAlFe_HEAs",
+      "image": "assets/library/paper-2d5b57bfb0f874c2.webp",
+      "markdownUrl": "cards/library/paper-2d5b57bfb0f874c2.md",
+      "markdown": "# 金属材料 × 机器学习\r\n\r\n> **副标题：高熵合金抗氧化设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning and high-throughput computational guided development of high temperature oxidation-resisting Ni-Co-Cr-Al-Fe based high-entropy alloys\r\n- **期刊与年份**：npj Computational Materials，2025\r\n- **DOI**：10.1038/s41524-025-01568-8\r\n- **正式来源**：https://www.nature.com/articles/s41524-025-01568-8\r\n- **OpenAlex ID**：https://openalex.org/W4409157455\r\n- **OpenAlex API**：https://api.openalex.org/works/W4409157455\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究高熵合金抗氧化设计：利用机器学习筛选与高通量热力学计算排序处理Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验\r\n- **数据规模**：正式摘要未量化设计候选数\r\n- **数据类型**：合金成分、热力学计算、氧化实验\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The data that support the findings of this study are available on GitHub ( https://github.com/XRTan-github/MLdevelopment_oxidation_resisting_NiCoCrAlFe_HEAs ).\r\n- **给模型看什么**：Ni-Co-Cr-Al-Fe高熵合金计算与抗氧化实验；数据类型为合金成分、热力学计算、氧化实验。\r\n- **让模型判断什么**：高熵合金抗氧化设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习筛选与高通量热力学计算排序\r\n- **实际作用**：用于高熵合金抗氧化设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设置非等原子比**：探索Ni-Co-Cr-Al-Fe非等原子比高熵合金组成。\r\n2. **机器学习初筛**：机器学习筛选抗高温氧化候选。\r\n3. **热力学计算排序**：用高通量热力学计算对候选排序。\r\n4. **实验制备候选**：实验验证筛出的多种非等原子比合金。\r\n5. **对照MCrAlY**：比较候选与论文采用的MCrAlY抗氧化基准。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：筛出并实验验证多种非等原子比合金，其抗氧化表现优于文中采用的MCrAlY基准。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/XRTan-github/MLdevelopment_oxidation_resisting_NiCoCrAlFe_HEAs\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/XRTan-github/MLdevelopment_oxidation_resisting_NiCoCrAlFe_HEAs\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0e98c8fb863701f4",
+      "major": "金属材料",
+      "short": "4D-STEM识别合金显微组织",
+      "summary": "论文研究合金显微组织无监督表征：利用4D-STEM衍射谱降维、无监督聚类与倒谱变换处理NiTiHfAl形状记忆合金4D-STEM实验所对应的材料问题。",
+      "methods": [
+        "无监督聚类"
+      ],
+      "method": "无监督聚类",
+      "metric": "无监督聚类",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0e98c8fb863701f4",
+      "title": "金属材料＋无监督聚类｜4D-STEM识别合金显微组织",
+      "originalTitle": "Unsupervised machine learning and cepstral analysis with 4D-STEM for characterizing complex microstructures of metallic alloys",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01414-3",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01414-3",
+      "question": "论文研究合金显微组织无监督表征：利用4D-STEM衍射谱降维、无监督聚类与倒谱变换处理NiTiHfAl形状记忆合金4D-STEM实验所对应的材料问题。",
+      "data": "NiTiHfAl形状记忆合金4D-STEM实验；1种案例合金；正式摘要未量化扫描点数",
+      "dataSource": "NiTiHfAl形状记忆合金4D-STEM实验",
+      "dataType": "4D-STEM衍射图 · 显微组织与应变图",
+      "availability": "未公开",
+      "aiMethod": "4D-STEM衍射谱降维、无监督聚类与倒谱变换",
+      "pipeline": [
+        {
+          "title": "采集四维衍射",
+          "detail": "使用NiTiHfAl案例合金的4D-STEM衍射数据。"
+        },
+        {
+          "title": "倒谱分离相位",
+          "detail": "对原始衍射数据作倒谱变换，以减轻倾角和厚度干扰。"
+        },
+        {
+          "title": "降维无监督聚类",
+          "detail": "对衍射谱降维并用无监督聚类辨别共存结构。"
+        },
+        {
+          "title": "映射共存组织",
+          "detail": "将聚类类别映射回合金显微组织。"
+        },
+        {
+          "title": "检验应变映射",
+          "detail": "比较低对比度结构识别及聚类支持的应变映射。"
+        }
+      ],
+      "result": "在常规图像低对比度条件下分离共存结构，并改善由聚类结果支持的应变映射。；论文实际报告：在常规图像低对比度条件下分离共存结构，并改善由聚类结果支持的应变映射。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "在常规图像低对比度条件下分离共存结构，并改善由聚类结果支持的应变映射。；论文实际报告：在常规图像低对比度条件下分离共存结构，并改善由聚类结果支持的应变映射。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-0e98c8fb863701f4.webp",
+      "markdownUrl": "cards/library/paper-0e98c8fb863701f4.md",
+      "markdown": "# 金属材料 × 无监督学习\r\n\r\n> **副标题：合金显微组织无监督表征**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Unsupervised machine learning and cepstral analysis with 4D-STEM for characterizing complex microstructures of metallic alloys\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01414-3\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01414-3\r\n- **OpenAlex ID**：https://openalex.org/W4402632987\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402632987\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究合金显微组织无监督表征：利用4D-STEM衍射谱降维、无监督聚类与倒谱变换处理NiTiHfAl形状记忆合金4D-STEM实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：NiTiHfAl形状记忆合金4D-STEM实验\r\n- **数据规模**：1种案例合金；正式摘要未量化扫描点数\r\n- **数据类型**：4D-STEM衍射图、显微组织与应变图\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：Data availability The 4D-STEM datasets used to support the findings in this work will be made available in a repository at https://zenodo.org/communities/kimgroup-uf/ .\r\n- **给模型看什么**：NiTiHfAl形状记忆合金4D-STEM实验；数据类型为4D-STEM衍射图、显微组织与应变图。\r\n- **让模型判断什么**：合金显微组织无监督表征\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：4D-STEM衍射谱降维、无监督聚类与倒谱变换\r\n- **实际作用**：用于合金显微组织无监督表征。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集四维衍射**：使用NiTiHfAl案例合金的4D-STEM衍射数据。\r\n2. **倒谱分离相位**：对原始衍射数据作倒谱变换，以减轻倾角和厚度干扰。\r\n3. **降维无监督聚类**：对衍射谱降维并用无监督聚类辨别共存结构。\r\n4. **映射共存组织**：将聚类类别映射回合金显微组织。\r\n5. **检验应变映射**：比较低对比度结构识别及聚类支持的应变映射。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：在常规图像低对比度条件下分离共存结构，并改善由聚类结果支持的应变映射。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n- **特殊事实口径**：数据尚未公开；Zenodo社区页仅为未来拟入库位置，不是现成可下载数据；代码依请求获取。\r\n\r\n- **证据限制**：数据未公开，尚未核到实际Zenodo数据记录；代码依请求获取。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "识别、诊断与筛查",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0d46e956f115ddc3",
+      "major": "金属材料",
+      "short": "衍射潜变量揭示组织异质性",
+      "summary": "论文研究金属微结构衍射表征：利用衍射数据变分自编码器或对比学习与空间潜变量映射处理轧制与增材制造金属合金的衍射数据所对应的材料问题。",
+      "methods": [
+        "变分自编码器"
+      ],
+      "method": "变分自编码器",
+      "metric": "变分自编码器",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0d46e956f115ddc3",
+      "title": "金属材料＋变分自编码器｜衍射潜变量揭示组织异质性",
+      "originalTitle": "Learning metal microstructural heterogeneity through spatial mapping of diffraction latent space features",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-025-01770-8",
+      "sourceUrl": "https://www.nature.com/articles/s41524-025-01770-8",
+      "question": "论文研究金属微结构衍射表征：利用衍射数据变分自编码器或对比学习与空间潜变量映射处理轧制与增材制造金属合金的衍射数据所对应的材料问题。",
+      "data": "轧制与增材制造金属合金的衍射数据；2类工艺来源合金案例；正式摘要未量化衍射点数",
+      "dataSource": "轧制与增材制造金属合金的衍射数据",
+      "dataType": "衍射数据 · 显微组织空间映射",
+      "availability": "部分公开",
+      "aiMethod": "衍射数据变分自编码器或对比学习与空间潜变量映射",
+      "pipeline": [
+        {
+          "title": "采集金属衍射",
+          "detail": "使用两类工艺来源金属合金案例的点衍射数据。"
+        },
+        {
+          "title": "编码衍射特征",
+          "detail": "用变分自编码器或对比学习获得衍射潜变量。"
+        },
+        {
+          "title": "映射空间位置",
+          "detail": "把潜变量映射到样品真实空间位置。"
+        },
+        {
+          "title": "比较工艺案例",
+          "detail": "在不同工艺来源合金的显微组织上展示方法。"
+        },
+        {
+          "title": "识别组织异质",
+          "detail": "揭示传统离散物理描述符难辨的空间异质性。"
+        }
+      ],
+      "result": "潜变量空间映射揭示传统物理描述符无法直接辨认的显微组织异质性。；论文实际报告：潜变量空间映射揭示传统物理描述符无法直接辨认的显微组织异质性。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "潜变量空间映射揭示传统物理描述符无法直接辨认的显微组织异质性。；论文实际报告：潜变量空间映射揭示传统物理描述符无法直接辨认的显微组织异质性。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5061/dryad.zcrjdfnr9",
+      "codeUrl": "",
+      "image": "assets/library/paper-0d46e956f115ddc3.webp",
+      "markdownUrl": "cards/library/paper-0d46e956f115ddc3.md",
+      "markdown": "# 金属材料 × 生成式AI\r\n\r\n> **副标题：金属微结构衍射表征**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Learning metal microstructural heterogeneity through spatial mapping of diffraction latent space features\r\n- **期刊与年份**：npj Computational Materials，2025\r\n- **DOI**：10.1038/s41524-025-01770-8\r\n- **正式来源**：https://www.nature.com/articles/s41524-025-01770-8\r\n- **OpenAlex ID**：https://openalex.org/W4413892895\r\n- **OpenAlex API**：https://api.openalex.org/works/W4413892895\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究金属微结构衍射表征：利用衍射数据变分自编码器或对比学习与空间潜变量映射处理轧制与增材制造金属合金的衍射数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：轧制与增材制造金属合金的衍射数据\r\n- **数据规模**：2类工艺来源合金案例；正式摘要未量化衍射点数\r\n- **数据类型**：衍射数据、显微组织空间映射\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability Binned and preprocessed data are available through the Dryad Digital Repository ( https://doi.org/10.5061/dryad.zcrjdfnr9 ). The full-resolution raw data will be provided upon request to the corresponding author. The architectures used in this study were implemented on MATLAB and the associated code will be made available upon request to the corresponding author.\r\n- **给模型看什么**：轧制与增材制造金属合金的衍射数据；数据类型为衍射数据、显微组织空间映射。\r\n- **让模型判断什么**：金属微结构衍射表征\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：衍射数据变分自编码器或对比学习与空间潜变量映射\r\n- **实际作用**：用于金属微结构衍射表征。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集金属衍射**：使用两类工艺来源金属合金案例的点衍射数据。\r\n2. **编码衍射特征**：用变分自编码器或对比学习获得衍射潜变量。\r\n3. **映射空间位置**：把潜变量映射到样品真实空间位置。\r\n4. **比较工艺案例**：在不同工艺来源合金的显微组织上展示方法。\r\n5. **识别组织异质**：揭示传统离散物理描述符难辨的空间异质性。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：潜变量空间映射揭示传统物理描述符无法直接辨认的显微组织异质性。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://doi.org/10.5061/dryad.zcrjdfnr9\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "聚类、表征与数据融合",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-3d277ed2d1154e38",
+      "major": "金属材料",
+      "short": "钛合金增材制造的强度与塑性优化",
+      "summary": "论文研究金属增材制造主动学习：利用帕累托主动学习与定向实验验证处理Ti-6Al-4V激光粉床熔融工艺与热处理实验所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-3d277ed2d1154e38",
+      "title": "金属材料＋主动学习｜钛合金增材制造的强度与塑性优化",
+      "originalTitle": "Active learning framework to optimize process parameters for additive-manufactured Ti-6Al-4V with high strength and ductility",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-56267-1",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-56267-1",
+      "question": "论文研究金属增材制造主动学习：利用帕累托主动学习与定向实验验证处理Ti-6Al-4V激光粉床熔融工艺与热处理实验所对应的材料问题。",
+      "data": "Ti-6Al-4V激光粉床熔融工艺与热处理实验；探索296种工艺候选",
+      "dataSource": "Ti-6Al-4V激光粉床熔融工艺与热处理实验",
+      "dataType": "工艺参数 · 拉伸强度与延伸率",
+      "availability": "公开",
+      "aiMethod": "帕累托主动学习与定向实验验证",
+      "pipeline": [
+        {
+          "title": "定义强塑目标",
+          "detail": "同时考虑Ti-6Al-4V的强度和延伸率。"
+        },
+        {
+          "title": "探索工艺候选",
+          "detail": "帕累托主动学习探索296种制造与热处理参数候选。"
+        },
+        {
+          "title": "定向实验选择",
+          "detail": "选择兼顾强度与塑性的工艺做定向实验。"
+        },
+        {
+          "title": "制备目标合金",
+          "detail": "按选出的参数制备Ti-6Al-4V合金。"
+        },
+        {
+          "title": "测量强塑表现",
+          "detail": "报告极限抗拉强度1190 MPa和总延伸率16.5%。"
+        }
+      ],
+      "result": "优化工艺制得合金的极限抗拉强度1190 MPa、总延伸率16.5%。；论文实际报告：优化工艺制得合金的极限抗拉强度1190 MPa、总延伸率16.5%。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "优化工艺制得合金的极限抗拉强度1190 MPa、总延伸率16.5%。；论文实际报告：优化工艺制得合金的极限抗拉强度1190 MPa、总延伸率16.5%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.6084/m9.figshare.25971973",
+      "codeUrl": "https://doi.org/10.24433/CO.0857013.v1",
+      "image": "assets/library/paper-3d277ed2d1154e38.webp",
+      "markdownUrl": "cards/library/paper-3d277ed2d1154e38.md",
+      "markdown": "# 金属材料 × 主动学习\r\n\r\n> **副标题：金属增材制造主动学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Active learning framework to optimize process parameters for additive-manufactured Ti-6Al-4V with high strength and ductility\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-56267-1\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-56267-1\r\n- **OpenAlex ID**：https://openalex.org/W4406714008\r\n- **OpenAlex API**：https://api.openalex.org/works/W4406714008\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究金属增材制造主动学习：利用帕累托主动学习与定向实验验证处理Ti-6Al-4V激光粉床熔融工艺与热处理实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Ti-6Al-4V激光粉床熔融工艺与热处理实验\r\n- **数据规模**：探索296种工艺候选\r\n- **数据类型**：工艺参数、拉伸强度与延伸率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The raw data generated in this study are available within the article and its supplementary data 1 and 2 . There is no restriction on data availability. The same dataset has been deposited in the Figshare repository under the https://doi.org/10.6084/m9.figshare.25971973 . Source data are provided with this paper.\r\n- **给模型看什么**：Ti-6Al-4V激光粉床熔融工艺与热处理实验；数据类型为工艺参数、拉伸强度与延伸率。\r\n- **让模型判断什么**：金属增材制造主动学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：帕累托主动学习与定向实验验证\r\n- **实际作用**：用于金属增材制造主动学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **定义强塑目标**：同时考虑Ti-6Al-4V的强度和延伸率。\r\n2. **探索工艺候选**：帕累托主动学习探索296种制造与热处理参数候选。\r\n3. **定向实验选择**：选择兼顾强度与塑性的工艺做定向实验。\r\n4. **制备目标合金**：按选出的参数制备Ti-6Al-4V合金。\r\n5. **测量强塑表现**：报告极限抗拉强度1190 MPa和总延伸率16.5%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：优化工艺制得合金的极限抗拉强度1190 MPa、总延伸率16.5%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.6084/m9.figshare.25971973\r\n- **代码状态**：公开\r\n- **代码入口**：https://doi.org/10.24433/CO.0857013.v1\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-4f76cf01a697ffd6",
+      "major": "金属材料",
+      "short": "增材制造的瞬时激光吸收率预测",
+      "summary": "论文研究增材制造激光吸收深度学习：利用卷积神经网络与语义分割—回归两路线预测激光吸收率处理同步辐射X射线图像及同步激光吸收测量所对应的材料问题。",
+      "methods": [
+        "卷积神经网络"
+      ],
+      "method": "卷积神经网络",
+      "metric": "卷积神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-4f76cf01a697ffd6",
+      "title": "金属材料＋卷积神经网络｜增材制造的瞬时激光吸收率预测",
+      "originalTitle": "Deep learning approaches for instantaneous laser absorptance prediction in additive manufacturing",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-023-01172-8",
+      "sourceUrl": "https://www.nature.com/articles/s41524-023-01172-8",
+      "question": "论文研究增材制造激光吸收深度学习：利用卷积神经网络与语义分割—回归两路线预测激光吸收率处理同步辐射X射线图像及同步激光吸收测量所对应的材料问题。",
+      "data": "同步辐射X射线图像及同步激光吸收测量；正式摘要未量化总图像数；全文报告局部训练集364帧案例",
+      "dataSource": "同步辐射X射线图像及同步激光吸收测量",
+      "dataType": "高速X射线图像 · 瞬时激光吸收率",
+      "availability": "部分公开",
+      "aiMethod": "卷积神经网络与语义分割—回归两路线预测激光吸收率",
+      "pipeline": [
+        {
+          "title": "配对X射线吸收",
+          "detail": "将高速X射线蒸汽凹陷图像与瞬时激光吸收率配对。"
+        },
+        {
+          "title": "端到端卷积预测",
+          "detail": "卷积网络由X射线图像直接预测激光吸收率。"
+        },
+        {
+          "title": "分割提取几何",
+          "detail": "另一流程先语义分割再提取几何特征。"
+        },
+        {
+          "title": "回归瞬时吸收",
+          "detail": "用几何特征回归瞬时吸收率。"
+        },
+        {
+          "title": "比较两路线误差",
+          "detail": "两路线平均绝对误差均低于3.3%。"
+        }
+      ],
+      "result": "端到端和两阶段模型对瞬时激光吸收率的平均绝对误差均低于3.3%。；论文实际报告：端到端和两阶段模型对瞬时激光吸收率的平均绝对误差均低于3.3%。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "端到端和两阶段模型对瞬时激光吸收率的平均绝对误差均低于3.3%。；论文实际报告：端到端和两阶段模型对瞬时激光吸收率的平均绝对误差均低于3.3%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://data.nist.gov/od/id/mds2-2525",
+      "codeUrl": "https://rubyjiang18.github.io/keyholeofficial/",
+      "image": "assets/library/paper-4f76cf01a697ffd6.webp",
+      "markdownUrl": "cards/library/paper-4f76cf01a697ffd6.md",
+      "markdown": "# 金属材料 × 深度学习\r\n\r\n> **副标题：增材制造激光吸收深度学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep learning approaches for instantaneous laser absorptance prediction in additive manufacturing\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-023-01172-8\r\n- **正式来源**：https://www.nature.com/articles/s41524-023-01172-8\r\n- **OpenAlex ID**：https://openalex.org/W4390619325\r\n- **OpenAlex API**：https://api.openalex.org/works/W4390619325\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究增材制造激光吸收深度学习：利用卷积神经网络与语义分割—回归两路线预测激光吸收率处理同步辐射X射线图像及同步激光吸收测量所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：同步辐射X射线图像及同步激光吸收测量\r\n- **数据规模**：正式摘要未量化总图像数；全文报告局部训练集364帧案例\r\n- **数据类型**：高速X射线图像、瞬时激光吸收率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability A fragment of the laser energy absorption datasets is openly available at the NIST Public Data Repository 40 under the link https://data.nist.gov/od/id/mds2-2525 . Full absorption datasets can be made available upon reasonable request to B.J.S. The X-ray keyhole image segmentation dataset is openly available at https://rubyjiang18.github.io/keyholeofficial/ .\r\n- **给模型看什么**：同步辐射X射线图像及同步激光吸收测量；数据类型为高速X射线图像、瞬时激光吸收率。\r\n- **让模型判断什么**：增材制造激光吸收深度学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：卷积神经网络与语义分割—回归两路线预测激光吸收率\r\n- **实际作用**：用于增材制造激光吸收深度学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **配对X射线吸收**：将高速X射线蒸汽凹陷图像与瞬时激光吸收率配对。\r\n2. **端到端卷积预测**：卷积网络由X射线图像直接预测激光吸收率。\r\n3. **分割提取几何**：另一流程先语义分割再提取几何特征。\r\n4. **回归瞬时吸收**：用几何特征回归瞬时吸收率。\r\n5. **比较两路线误差**：两路线平均绝对误差均低于3.3%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：端到端和两阶段模型对瞬时激光吸收率的平均绝对误差均低于3.3%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://data.nist.gov/od/id/mds2-2525\r\n- **代码状态**：公开\r\n- **代码入口**：https://rubyjiang18.github.io/keyholeofficial/\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "影像方向",
+      "dataSubtype": "自然、工业与艺术图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-77dbc37fd404391f",
+      "major": "金属材料",
+      "short": "高熵合金相分数代理模型比较",
+      "summary": "论文研究高熵合金相分数预测：利用随机森林与深度神经网络对比的CALPHAD相分数代理模型处理自建CALPHAD高熵合金相稳定性数据所对应的材料问题。",
+      "methods": [
+        "深度神经网络"
+      ],
+      "method": "深度神经网络",
+      "metric": "深度神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-77dbc37fd404391f",
+      "title": "金属材料＋深度神经网络｜高熵合金相分数代理模型比较",
+      "originalTitle": "A comparative study of predicting high entropy alloy phase fractions with traditional machine learning and deep neural networks",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01335-1",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01335-1",
+      "question": "论文研究高熵合金相分数预测：利用随机森林与深度神经网络对比的CALPHAD相分数代理模型处理自建CALPHAD高熵合金相稳定性数据所对应的材料问题。",
+      "data": "自建CALPHAD高熵合金相稳定性数据；4.8亿数据点",
+      "dataSource": "自建CALPHAD高熵合金相稳定性数据",
+      "dataType": "合金成分与温度 · 相分数",
+      "availability": "部分公开",
+      "aiMethod": "随机森林与深度神经网络对比的CALPHAD相分数代理模型",
+      "pipeline": [
+        {
+          "title": "生成相分数数据",
+          "detail": "使用CALPHAD产生的4.8亿条合金相分数数据点。"
+        },
+        {
+          "title": "训练随机森林",
+          "detail": "建立随机森林相分数代理模型。"
+        },
+        {
+          "title": "训练深度网络",
+          "detail": "建立深度神经网络相分数代理模型。"
+        },
+        {
+          "title": "评估同阶插值",
+          "detail": "比较训练与测试同阶合金系统的插值误差。"
+        },
+        {
+          "title": "评估跨阶外推",
+          "detail": "比较由低阶到高阶系统的外推能力。"
+        }
+      ],
+      "result": "随机森林在插值场景误差较小；深度网络对低阶到高阶合金系统的外推更强。；论文实际报告：随机森林在插值场景误差较小；深度网络对低阶到高阶合金系统的外推更强。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "随机森林在插值场景误差较小；深度网络对低阶到高阶合金系统的外推更强。；论文实际报告：随机森林在插值场景误差较小；深度网络对低阶到高阶合金系统的外推更强。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41524-024-01335-1",
+      "codeUrl": "",
+      "image": "assets/library/paper-77dbc37fd404391f.webp",
+      "markdownUrl": "cards/library/paper-77dbc37fd404391f.md",
+      "markdown": "# 金属材料 × 深度学习\r\n\r\n> **副标题：高熵合金相分数预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：A comparative study of predicting high entropy alloy phase fractions with traditional machine learning and deep neural networks\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01335-1\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01335-1\r\n- **OpenAlex ID**：https://openalex.org/W4401452192\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401452192\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究高熵合金相分数预测：利用随机森林与深度神经网络对比的CALPHAD相分数代理模型处理自建CALPHAD高熵合金相稳定性数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：自建CALPHAD高熵合金相稳定性数据\r\n- **数据规模**：4.8亿数据点\r\n- **数据类型**：合金成分与温度、相分数\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability All data generated or analyzed during this study will be included in this published article (and its supplementary information files) upon acceptance.\r\n- **给模型看什么**：自建CALPHAD高熵合金相稳定性数据；数据类型为合金成分与温度、相分数。\r\n- **让模型判断什么**：高熵合金相分数预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：随机森林与深度神经网络对比的CALPHAD相分数代理模型\r\n- **实际作用**：用于高熵合金相分数预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **生成相分数数据**：使用CALPHAD产生的4.8亿条合金相分数数据点。\r\n2. **训练随机森林**：建立随机森林相分数代理模型。\r\n3. **训练深度网络**：建立深度神经网络相分数代理模型。\r\n4. **评估同阶插值**：比较训练与测试同阶合金系统的插值误差。\r\n5. **评估跨阶外推**：比较由低阶到高阶系统的外推能力。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：随机森林在插值场景误差较小；深度网络对低阶到高阶合金系统的外推更强。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41524-024-01335-1\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-54d3e35cb224fc37",
+      "major": "金属材料",
+      "short": "小数据优化燃料箱隔板挤压铸造",
+      "summary": "论文研究合金铸造工艺优化：利用修正拉丁超立方采样与贝叶斯优化，辅以SHAP和相场模拟处理挤压铸造燃料箱隔板工艺实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-54d3e35cb224fc37",
+      "title": "金属材料＋贝叶斯优化｜小数据优化燃料箱隔板挤压铸造",
+      "originalTitle": "Optimizing casting process using a combination of small data machine learning and phase-field simulations",
+      "venue": "npj Computational Materials",
+      "year": 2025,
+      "doi": "10.1038/s41524-025-01524-6",
+      "sourceUrl": "https://www.nature.com/articles/s41524-025-01524-6",
+      "question": "论文研究合金铸造工艺优化：利用修正拉丁超立方采样与贝叶斯优化，辅以SHAP和相场模拟处理挤压铸造燃料箱隔板工艺实验所对应的材料问题。",
+      "data": "挤压铸造燃料箱隔板工艺实验；初始25样本，后续6轮实验",
+      "dataSource": "挤压铸造燃料箱隔板工艺实验",
+      "dataType": "铸造参数 · 强度与延伸率",
+      "availability": "未公开",
+      "aiMethod": "修正拉丁超立方采样与贝叶斯优化，辅以SHAP和相场模拟",
+      "pipeline": [
+        {
+          "title": "初始采样25组",
+          "detail": "以25个初始挤压铸造样本建立小数据设计。"
+        },
+        {
+          "title": "改进拉丁超方",
+          "detail": "用近邻搜索改进分层拉丁超立方采样。"
+        },
+        {
+          "title": "贝叶斯迭代优化",
+          "detail": "结合贝叶斯优化实施后续6轮实验。"
+        },
+        {
+          "title": "模拟解释工艺",
+          "detail": "以SHAP和相场模拟辅助分析优化工艺。"
+        },
+        {
+          "title": "验证强度延伸",
+          "detail": "最优铸件测得239.7 MPa抗拉强度及12.2%延伸率。"
+        }
+      ],
+      "result": "最优工艺铸件极限抗拉强度239.7 MPa、延伸率12.2%，分别较初始最优值提高17.6%和18.4%。；论文实际报告：最优工艺铸件极限抗拉强度239.7 MPa、延伸率12.2%，分别较初始最优值提高17.6%和18.4%。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "最优工艺铸件极限抗拉强度239.7 MPa、延伸率12.2%，分别较初始最优值提高17.6%和18.4%。；论文实际报告：最优工艺铸件极限抗拉强度239.7 MPa、延伸率12.2%，分别较初始最优值提高17.6%和18.4%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-54d3e35cb224fc37.webp",
+      "markdownUrl": "cards/library/paper-54d3e35cb224fc37.md",
+      "markdown": "# 金属材料 × 贝叶斯优化\r\n\r\n> **副标题：合金铸造工艺优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Optimizing casting process using a combination of small data machine learning and phase-field simulations\r\n- **期刊与年份**：npj Computational Materials，2025\r\n- **DOI**：10.1038/s41524-025-01524-6\r\n- **正式来源**：https://www.nature.com/articles/s41524-025-01524-6\r\n- **OpenAlex ID**：https://openalex.org/W4407368560\r\n- **OpenAlex API**：https://api.openalex.org/works/W4407368560\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究合金铸造工艺优化：利用修正拉丁超立方采样与贝叶斯优化，辅以SHAP和相场模拟处理挤压铸造燃料箱隔板工艺实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：挤压铸造燃料箱隔板工艺实验\r\n- **数据规模**：初始25样本，后续6轮实验\r\n- **数据类型**：铸造参数、强度与延伸率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：Data availability The raw/processed data required to reproduce these findings cannot be shared at this time as the data also forms part of an ongoing study.\r\n- **给模型看什么**：挤压铸造燃料箱隔板工艺实验；数据类型为铸造参数、强度与延伸率。\r\n- **让模型判断什么**：合金铸造工艺优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：修正拉丁超立方采样与贝叶斯优化，辅以SHAP和相场模拟\r\n- **实际作用**：用于合金铸造工艺优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **初始采样25组**：以25个初始挤压铸造样本建立小数据设计。\r\n2. **改进拉丁超方**：用近邻搜索改进分层拉丁超立方采样。\r\n3. **贝叶斯迭代优化**：结合贝叶斯优化实施后续6轮实验。\r\n4. **模拟解释工艺**：以SHAP和相场模拟辅助分析优化工艺。\r\n5. **验证强度延伸**：最优铸件测得239.7 MPa抗拉强度及12.2%延伸率。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：最优工艺铸件极限抗拉强度239.7 MPa、延伸率12.2%，分别较初始最优值提高17.6%和18.4%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-9c963aa80d8fd3cb",
+      "major": "无机材料",
+      "short": "无铅高熵弛豫陶瓷的储能组成设计",
+      "summary": "论文研究高熵陶瓷组成设计：利用随机森林高熵弛豫铁电陶瓷组成筛选处理已报道实验数据与新制备无铅弛豫陶瓷所对应的材料问题。",
+      "methods": [
+        "随机森林"
+      ],
+      "method": "随机森林",
+      "metric": "随机森林",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-9c963aa80d8fd3cb",
+      "title": "无机材料＋随机森林｜无铅高熵弛豫陶瓷的储能组成设计",
+      "originalTitle": "Machine learning assisted composition design of high-entropy Pb-free relaxors with giant energy-storage",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-56443-3",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-56443-3",
+      "question": "论文研究高熵陶瓷组成设计：利用随机森林高熵弛豫铁电陶瓷组成筛选处理已报道实验数据与新制备无铅弛豫陶瓷所对应的材料问题。",
+      "data": "已报道实验数据与新制备无铅弛豫陶瓷；正式摘要称训练数据有限但未量化样本数",
+      "dataSource": "已报道实验数据与新制备无铅弛豫陶瓷",
+      "dataType": "陶瓷成分 · 储能和放电测量",
+      "availability": "公开",
+      "aiMethod": "随机森林高熵弛豫铁电陶瓷组成筛选",
+      "pipeline": [
+        {
+          "title": "整理有限实验",
+          "detail": "以已报道的有限实验数据建立组成描述符。"
+        },
+        {
+          "title": "随机森林筛选",
+          "detail": "随机森林回归预测并筛选高熵无铅弛豫陶瓷组成。"
+        },
+        {
+          "title": "制备目标陶瓷",
+          "detail": "据筛选开展基础实验并识别目标弛豫陶瓷。"
+        },
+        {
+          "title": "测量击穿储能",
+          "detail": "测定击穿强度、储能密度与效率。"
+        },
+        {
+          "title": "核验储能结果",
+          "detail": "报告20.7 J cm⁻³、86%效率和95 kV mm⁻¹击穿强度。"
+        }
+      ],
+      "result": "报告储能密度20.7 J cm⁻³、效率86%，击穿强度95 kV mm⁻¹。；论文实际报告：报告储能密度20.7 J cm⁻³、效率86%，击穿强度95 kV mm⁻¹。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "报告储能密度20.7 J cm⁻³、效率86%，击穿强度95 kV mm⁻¹。；论文实际报告：报告储能密度20.7 J cm⁻³、效率86%，击穿强度95 kV mm⁻¹。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-025-56443-3",
+      "codeUrl": "https://codeocean.com/capsule/4347581/tree/v2",
+      "image": "assets/library/paper-9c963aa80d8fd3cb.webp",
+      "markdownUrl": "cards/library/paper-9c963aa80d8fd3cb.md",
+      "markdown": "# 无机材料 × 机器学习\r\n\r\n> **副标题：高熵陶瓷组成设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning assisted composition design of high-entropy Pb-free relaxors with giant energy-storage\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-56443-3\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-56443-3\r\n- **OpenAlex ID**：https://openalex.org/W4407064821\r\n- **OpenAlex API**：https://api.openalex.org/works/W4407064821\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究高熵陶瓷组成设计：利用随机森林高熵弛豫铁电陶瓷组成筛选处理已报道实验数据与新制备无铅弛豫陶瓷所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：已报道实验数据与新制备无铅弛豫陶瓷\r\n- **数据规模**：正式摘要称训练数据有限但未量化样本数\r\n- **数据类型**：陶瓷成分、储能和放电测量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability Relevant data supporting the key findings of this study are available within the paper and the supplementary information file. Source data are provided with this paper.\r\n- **给模型看什么**：已报道实验数据与新制备无铅弛豫陶瓷；数据类型为陶瓷成分、储能和放电测量。\r\n- **让模型判断什么**：高熵陶瓷组成设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：随机森林高熵弛豫铁电陶瓷组成筛选\r\n- **实际作用**：用于高熵陶瓷组成设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理有限实验**：以已报道的有限实验数据建立组成描述符。\r\n2. **随机森林筛选**：随机森林回归预测并筛选高熵无铅弛豫陶瓷组成。\r\n3. **制备目标陶瓷**：据筛选开展基础实验并识别目标弛豫陶瓷。\r\n4. **测量击穿储能**：测定击穿强度、储能密度与效率。\r\n5. **核验储能结果**：报告20.7 J cm⁻³、86%效率和95 kV mm⁻¹击穿强度。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：报告储能密度20.7 J cm⁻³、效率86%，击穿强度95 kV mm⁻¹。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-025-56443-3\r\n- **代码状态**：公开\r\n- **代码入口**：https://codeocean.com/capsule/4347581/tree/v2\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-4d27905b3da8a8da",
+      "major": "无机材料",
+      "short": "高熵介电薄膜的逆向储能设计",
+      "summary": "论文研究陶瓷介电材料生成设计：利用相场模拟与生成学习的高熵介电薄膜逆向设计处理相场模拟、有限实验数据与靶向介电薄膜实验所对应的材料问题。",
+      "methods": [
+        "生成学习"
+      ],
+      "method": "生成学习",
+      "metric": "生成学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-4d27905b3da8a8da",
+      "title": "无机材料＋生成学习｜高熵介电薄膜的逆向储能设计",
+      "originalTitle": "Generative learning facilitated discovery of high-entropy ceramic dielectrics for capacitive energy storage",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-49170-8",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-49170-8",
+      "question": "论文研究陶瓷介电材料生成设计：利用相场模拟与生成学习的高熵介电薄膜逆向设计处理相场模拟、有限实验数据与靶向介电薄膜实验所对应的材料问题。",
+      "data": "相场模拟、有限实验数据与靶向介电薄膜实验；搜索空间超过10¹¹组合；5组定向实验",
+      "dataSource": "相场模拟、有限实验数据与靶向介电薄膜实验",
+      "dataType": "陶瓷薄膜成分 · 介电储能数据",
+      "availability": "部分公开",
+      "aiMethod": "相场模拟与生成学习的高熵介电薄膜逆向设计",
+      "pipeline": [
+        {
+          "title": "模拟介电薄膜",
+          "detail": "以相场模拟和有限实验数据构建候选基础。"
+        },
+        {
+          "title": "生成学习采样",
+          "detail": "用潜空间编码解码加速超10¹¹组成空间的采样。"
+        },
+        {
+          "title": "逆向排序组合",
+          "detail": "对高熵介电组合逆向筛选并排序。"
+        },
+        {
+          "title": "定向实验五组",
+          "detail": "对5组候选开展定向实验。"
+        },
+        {
+          "title": "测量储能密度",
+          "detail": "得到156 J cm⁻³薄膜，约为原始薄膜8倍。"
+        }
+      ],
+      "result": "5组实验得到储能密度156 J cm⁻³的薄膜，超过原始薄膜8倍。；论文实际报告：5组实验得到储能密度156 J cm⁻³的薄膜，超过原始薄膜8倍。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "5组实验得到储能密度156 J cm⁻³的薄膜，超过原始薄膜8倍。；论文实际报告：5组实验得到储能密度156 J cm⁻³的薄膜，超过原始薄膜8倍。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-024-49170-8",
+      "codeUrl": "",
+      "image": "assets/library/paper-4d27905b3da8a8da.webp",
+      "markdownUrl": "cards/library/paper-4d27905b3da8a8da.md",
+      "markdown": "# 无机材料 × 生成式AI\r\n\r\n> **副标题：陶瓷介电材料生成设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Generative learning facilitated discovery of high-entropy ceramic dielectrics for capacitive energy storage\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-49170-8\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-49170-8\r\n- **OpenAlex ID**：https://openalex.org/W4399495948\r\n- **OpenAlex API**：https://api.openalex.org/works/W4399495948\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究陶瓷介电材料生成设计：利用相场模拟与生成学习的高熵介电薄膜逆向设计处理相场模拟、有限实验数据与靶向介电薄膜实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：相场模拟、有限实验数据与靶向介电薄膜实验\r\n- **数据规模**：搜索空间超过10¹¹组合；5组定向实验\r\n- **数据类型**：陶瓷薄膜成分、介电储能数据\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability All data used are available within this paper and Supplementary Information. Further information can be acquired from the corresponding authors upon reasonable request.\r\n- **给模型看什么**：相场模拟、有限实验数据与靶向介电薄膜实验；数据类型为陶瓷薄膜成分、介电储能数据。\r\n- **让模型判断什么**：陶瓷介电材料生成设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：相场模拟与生成学习的高熵介电薄膜逆向设计\r\n- **实际作用**：用于陶瓷介电材料生成设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **模拟介电薄膜**：以相场模拟和有限实验数据构建候选基础。\r\n2. **生成学习采样**：用潜空间编码解码加速超10¹¹组成空间的采样。\r\n3. **逆向排序组合**：对高熵介电组合逆向筛选并排序。\r\n4. **定向实验五组**：对5组候选开展定向实验。\r\n5. **测量储能密度**：得到156 J cm⁻³薄膜，约为原始薄膜8倍。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：5组实验得到储能密度156 J cm⁻³的薄膜，超过原始薄膜8倍。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-024-49170-8\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-7a2fdb36e3712e25",
+      "major": "无机材料",
+      "short": "硫系玻璃的多性质预测",
+      "summary": "论文研究硫系玻璃性质建模：利用基于图分类的玻璃多性质深度学习预测处理公开SciGlass数据库中的硫系玻璃实验记录所对应的材料问题。",
+      "methods": [
+        "图深度学习"
+      ],
+      "method": "图深度学习",
+      "metric": "图深度学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-7a2fdb36e3712e25",
+      "title": "无机材料＋图深度学习｜硫系玻璃的多性质预测",
+      "originalTitle": "Deep learning-assisted attribute prediction of chalcogenide glasses based on graph classification",
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-04391-9",
+      "sourceUrl": "https://www.nature.com/articles/s41598-025-04391-9",
+      "question": "论文研究硫系玻璃性质建模：利用基于图分类的玻璃多性质深度学习预测处理公开SciGlass数据库中的硫系玻璃实验记录所对应的材料问题。",
+      "data": "公开SciGlass数据库中的硫系玻璃实验记录；正式摘要未量化收集的样本数",
+      "dataSource": "公开SciGlass数据库中的硫系玻璃实验记录",
+      "dataType": "硫系玻璃成分 · 光电和热学性质",
+      "availability": "部分公开",
+      "aiMethod": "基于图分类的玻璃多性质深度学习预测",
+      "pipeline": [
+        {
+          "title": "汇集玻璃数据库",
+          "detail": "从公开SciGlass数据库收集硫系玻璃实验数据。"
+        },
+        {
+          "title": "构建玻璃图表示",
+          "detail": "以图表示玻璃组成与性质关系。"
+        },
+        {
+          "title": "训练图深度模型",
+          "detail": "训练图分类基础的多性质深度学习模型。"
+        },
+        {
+          "title": "预测关键性质",
+          "detail": "同时预测硫系玻璃多项关键属性。"
+        },
+        {
+          "title": "系统评估稳定",
+          "detail": "正式摘要报告预测稳定，未给统一量化指标。"
+        }
+      ],
+      "result": "正式摘要报告模型在关键硫系玻璃性质预测中表现稳定；未给统一量化指标。；论文实际报告：正式摘要报告模型在关键硫系玻璃性质预测中表现稳定；未给统一量化指标。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "正式摘要报告模型在关键硫系玻璃性质预测中表现稳定；未给统一量化指标。；论文实际报告：正式摘要报告模型在关键硫系玻璃性质预测中表现稳定；未给统一量化指标。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41598-025-04391-9",
+      "codeUrl": "",
+      "image": "assets/library/paper-7a2fdb36e3712e25.webp",
+      "markdownUrl": "cards/library/paper-7a2fdb36e3712e25.md",
+      "markdown": "# 无机材料 × 深度学习\r\n\r\n> **副标题：硫系玻璃性质建模**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep learning-assisted attribute prediction of chalcogenide glasses based on graph classification\r\n- **期刊与年份**：Scientific Reports，2025\r\n- **DOI**：10.1038/s41598-025-04391-9\r\n- **正式来源**：https://www.nature.com/articles/s41598-025-04391-9\r\n- **OpenAlex ID**：https://openalex.org/W4411008832\r\n- **OpenAlex API**：https://api.openalex.org/works/W4411008832\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究硫系玻璃性质建模：利用基于图分类的玻璃多性质深度学习预测处理公开SciGlass数据库中的硫系玻璃实验记录所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：公开SciGlass数据库中的硫系玻璃实验记录\r\n- **数据规模**：正式摘要未量化收集的样本数\r\n- **数据类型**：硫系玻璃成分、光电和热学性质\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The data that support the findings of this study are available upon reasonable request from Shaoyun Liu (2465493353@qq.com).Chalcogenide glasses data can be found on SciGlass database.(https://github.com/epam/SciGlass).\r\n- **给模型看什么**：公开SciGlass数据库中的硫系玻璃实验记录；数据类型为硫系玻璃成分、光电和热学性质。\r\n- **让模型判断什么**：硫系玻璃性质建模\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：基于图分类的玻璃多性质深度学习预测\r\n- **实际作用**：用于硫系玻璃性质建模。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇集玻璃数据库**：从公开SciGlass数据库收集硫系玻璃实验数据。\r\n2. **构建玻璃图表示**：以图表示玻璃组成与性质关系。\r\n3. **训练图深度模型**：训练图分类基础的多性质深度学习模型。\r\n4. **预测关键性质**：同时预测硫系玻璃多项关键属性。\r\n5. **系统评估稳定**：正式摘要报告预测稳定，未给统一量化指标。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：正式摘要报告模型在关键硫系玻璃性质预测中表现稳定；未给统一量化指标。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41598-025-04391-9\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "图神经网络与关系学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-01bc8bbc62d4d3d8",
+      "major": "无机材料",
+      "short": "非晶结构库驱动的锂离子扩散预测",
+      "summary": "论文研究非晶结构数据库：利用从头算分子动力学非晶结构库与锂离子扩散机器学习模型处理作者生成的非晶结构与AIMD轨迹数据库所对应的材料问题。",
+      "methods": [
+        "机器学习预测"
+      ],
+      "method": "机器学习预测",
+      "metric": "机器学习预测",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-01bc8bbc62d4d3d8",
+      "title": "无机材料＋机器学习预测｜非晶结构库驱动的锂离子扩散预测",
+      "originalTitle": "The ab initio non-crystalline structure database: empowering machine learning to decode diffusivity",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01469-2",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01469-2",
+      "question": "论文研究非晶结构数据库：利用从头算分子动力学非晶结构库与锂离子扩散机器学习模型处理作者生成的非晶结构与AIMD轨迹数据库所对应的材料问题。",
+      "data": "作者生成的非晶结构与AIMD轨迹数据库；正式摘要称为当时规模最大的计算非晶结构库，未在摘要给出条目数",
+      "dataSource": "作者生成的非晶结构与AIMD轨迹数据库",
+      "dataType": "非晶结构 · AIMD轨迹 · 离子扩散率",
+      "availability": "公开",
+      "aiMethod": "从头算分子动力学非晶结构库与锂离子扩散机器学习模型",
+      "pipeline": [
+        {
+          "title": "从头算非晶库",
+          "detail": "以从头算分子动力学生成计算非晶结构数据库。"
+        },
+        {
+          "title": "编码组成结构",
+          "detail": "从数据库连接非晶材料组成、结构和性质。"
+        },
+        {
+          "title": "训练性质模型",
+          "detail": "用机器学习模型预测锂离子扩散率。"
+        },
+        {
+          "title": "预测锂离子扩散",
+          "detail": "在非晶材料上进行扩散率预测。"
+        },
+        {
+          "title": "对照DFT成本",
+          "detail": "与昂贵DFT计算比较速度与预测表现。"
+        }
+      ],
+      "result": "基于数据库训练的模型可更快速预测锂离子扩散率，作为高成本DFT计算的替代。；论文实际报告：基于数据库训练的模型可更快速预测锂离子扩散率，作为高成本DFT计算的替代。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "基于数据库训练的模型可更快速预测锂离子扩散率，作为高成本DFT计算的替代。；论文实际报告：基于数据库训练的模型可更快速预测锂离子扩散率，作为高成本DFT计算的替代。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://contribs.materialsproject.org/projects/amorphous_diffusivity",
+      "codeUrl": "https://github.com/materialsproject/mpmorph",
+      "image": "assets/library/paper-01bc8bbc62d4d3d8.webp",
+      "markdownUrl": "cards/library/paper-01bc8bbc62d4d3d8.md",
+      "markdown": "# 无机材料 × 生成式AI\r\n\r\n> **副标题：非晶结构数据库**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：The ab initio non-crystalline structure database: empowering machine learning to decode diffusivity\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01469-2\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01469-2\r\n- **OpenAlex ID**：https://openalex.org/W4405566600\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405566600\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究非晶结构数据库：利用从头算分子动力学非晶结构库与锂离子扩散机器学习模型处理作者生成的非晶结构与AIMD轨迹数据库所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者生成的非晶结构与AIMD轨迹数据库\r\n- **数据规模**：正式摘要称为当时规模最大的计算非晶结构库，未在摘要给出条目数\r\n- **数据类型**：非晶结构、AIMD轨迹、离子扩散率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The non-crystalline structures and diffusivity are made accessible to the public via the Material Project’s MPContribs 42 website https://contribs.materialsproject.org/projects/amorphous_diffusivity and advanced application programming interface (API) with a dedicated Python client 43 . The zipped json files are also available at Figshare https://figshare.com/s/30601968f9244d8dffaa .\r\n- **给模型看什么**：作者生成的非晶结构与AIMD轨迹数据库；数据类型为非晶结构、AIMD轨迹、离子扩散率。\r\n- **让模型判断什么**：非晶结构数据库\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：从头算分子动力学非晶结构库与锂离子扩散机器学习模型\r\n- **实际作用**：用于非晶结构数据库。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **从头算非晶库**：以从头算分子动力学生成计算非晶结构数据库。\r\n2. **编码组成结构**：从数据库连接非晶材料组成、结构和性质。\r\n3. **训练性质模型**：用机器学习模型预测锂离子扩散率。\r\n4. **预测锂离子扩散**：在非晶材料上进行扩散率预测。\r\n5. **对照DFT成本**：与昂贵DFT计算比较速度与预测表现。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：基于数据库训练的模型可更快速预测锂离子扩散率，作为高成本DFT计算的替代。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://contribs.materialsproject.org/projects/amorphous_diffusivity\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/materialsproject/mpmorph\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "时空序列与轨迹",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-b61ad4004be6d99a",
+      "major": "无机材料",
+      "short": "晶体生成方法的DFT基线比较",
+      "summary": "论文研究无机晶体生成基线：利用电荷平衡原型随机枚举、离子交换与生成模型的DFT基准比较处理Materials Project、AFLOW原型及生成晶体结构所对应的材料问题。",
+      "methods": [
+        "生成模型"
+      ],
+      "method": "生成模型",
+      "metric": "生成模型",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-b61ad4004be6d99a",
+      "title": "无机材料＋生成模型｜晶体生成方法的DFT基线比较",
+      "originalTitle": "Establishing baselines for generative discovery of inorganic crystals",
+      "venue": "Materials Horizons",
+      "year": 2025,
+      "doi": "10.1039/d5mh00010f",
+      "sourceUrl": "https://pubs.rsc.org/en/content/articlehtml/2025/mh/d5mh00010f",
+      "question": "论文研究无机晶体生成基线：利用电荷平衡原型随机枚举、离子交换与生成模型的DFT基准比较处理Materials Project、AFLOW原型及生成晶体结构所对应的材料问题。",
+      "data": "Materials Project、AFLOW原型及生成晶体结构；6种方法各抽取500种MP中未出现的材料作DFT计算",
+      "dataSource": "Materials Project、AFLOW原型及生成晶体结构",
+      "dataType": "晶体结构CIF · DFT分解能",
+      "availability": "公开",
+      "aiMethod": "电荷平衡原型随机枚举、离子交换与生成模型的DFT基准比较",
+      "pipeline": [
+        {
+          "title": "建立六法候选",
+          "detail": "比较两种传统基线和四种生成式晶体生成方法。"
+        },
+        {
+          "title": "各抽五百结构",
+          "detail": "每法抽取500种Materials Project未出现的材料。"
+        },
+        {
+          "title": "筛查稳定性质",
+          "detail": "对生成结构作稳定性和目标性质筛选。"
+        },
+        {
+          "title": "DFT复核结构",
+          "detail": "用DFT计算比较候选晶体的稳定性。"
+        },
+        {
+          "title": "比较生成基线",
+          "detail": "离子交换稳定比例9.2%，随机枚举为1.4%。"
+        }
+      ],
+      "result": "在每法500个新材料的比较中，离子交换生成的热力学稳定比例9.2%，随机枚举为1.4%。；论文实际报告：在每法500个新材料的比较中，离子交换生成的热力学稳定比例9.2%，随机枚举为1.4%。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "在每法500个新材料的比较中，离子交换生成的热力学稳定比例9.2%，随机枚举为1.4%。；论文实际报告：在每法500个新材料的比较中，离子交换生成的热力学稳定比例9.2%，随机枚举为1.4%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/Bartel-Group/matgen_baselines",
+      "codeUrl": "https://github.com/Bartel-Group/matgen_baselines",
+      "image": "assets/library/paper-b61ad4004be6d99a.webp",
+      "markdownUrl": "cards/library/paper-b61ad4004be6d99a.md",
+      "markdown": "# 无机材料 × 生成式AI\r\n\r\n> **副标题：无机晶体生成基线**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Establishing baselines for generative discovery of inorganic crystals\r\n- **期刊与年份**：Materials Horizons，2025\r\n- **DOI**：10.1039/d5mh00010f\r\n- **正式来源**：https://pubs.rsc.org/en/content/articlehtml/2025/mh/d5mh00010f\r\n- **OpenAlex ID**：https://openalex.org/W4412032218\r\n- **OpenAlex API**：https://api.openalex.org/works/W4412032218\r\n- **OA 状态**：is_oa=false；oa_status=closed\r\n\r\n## 研究问题\r\n\r\n论文研究无机晶体生成基线：利用电荷平衡原型随机枚举、离子交换与生成模型的DFT基准比较处理Materials Project、AFLOW原型及生成晶体结构所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Materials Project、AFLOW原型及生成晶体结构\r\n- **数据规模**：6种方法各抽取500种MP中未出现的材料作DFT计算\r\n- **数据类型**：晶体结构CIF、DFT分解能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式全文Data availability提供生成结构、预训练模型及代码的公开GitHub。\r\n- **给模型看什么**：Materials Project、AFLOW原型及生成晶体结构；数据类型为晶体结构CIF、DFT分解能。\r\n- **让模型判断什么**：无机晶体生成基线\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：电荷平衡原型随机枚举、离子交换与生成模型的DFT基准比较\r\n- **实际作用**：用于无机晶体生成基线。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **建立六法候选**：比较两种传统基线和四种生成式晶体生成方法。\r\n2. **各抽五百结构**：每法抽取500种Materials Project未出现的材料。\r\n3. **筛查稳定性质**：对生成结构作稳定性和目标性质筛选。\r\n4. **DFT复核结构**：用DFT计算比较候选晶体的稳定性。\r\n5. **比较生成基线**：离子交换稳定比例9.2%，随机枚举为1.4%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：在每法500个新材料的比较中，离子交换生成的热力学稳定比例9.2%，随机枚举为1.4%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/Bartel-Group/matgen_baselines\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/Bartel-Group/matgen_baselines\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "机制解释、关联与效果评估",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "晶体与材料结构图",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-992a37e09e578a6f",
+      "major": "无机材料",
+      "short": "多目标约束下的无机氧化物逆向设计",
+      "summary": "论文研究无机材料晶体逆向设计：利用无机氧化物组成的多目标深度强化学习处理Materials Project无机化合物训练与测试数据所对应的材料问题。",
+      "methods": [
+        "强化学习"
+      ],
+      "method": "强化学习",
+      "metric": "强化学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-992a37e09e578a6f",
+      "title": "无机材料＋强化学习｜多目标约束下的无机氧化物逆向设计",
+      "originalTitle": "Deep reinforcement learning for inverse inorganic materials design",
+      "venue": "npj Computational Materials",
+      "year": 2024,
+      "doi": "10.1038/s41524-024-01474-5",
+      "sourceUrl": "https://www.nature.com/articles/s41524-024-01474-5",
+      "question": "论文研究无机材料晶体逆向设计：利用无机氧化物组成的多目标深度强化学习处理Materials Project无机化合物训练与测试数据所对应的材料问题。",
+      "data": "Materials Project无机化合物训练与测试数据；正式摘要未量化训练样本数",
+      "dataSource": "Materials Project无机化合物训练与测试数据",
+      "dataType": "无机组成 · 性质与合成温度",
+      "availability": "部分公开",
+      "aiMethod": "无机氧化物组成的多目标深度强化学习",
+      "pipeline": [
+        {
+          "title": "设定多目标约束",
+          "detail": "同时设定带隙、形成能、模量与烧结/煅烧温度目标。"
+        },
+        {
+          "title": "训练强化学习",
+          "detail": "比较两种无机氧化物组成逆向设计强化学习方法。"
+        },
+        {
+          "title": "施加化学规则",
+          "detail": "纳入电荷中性、形成能和电负性平衡等约束。"
+        },
+        {
+          "title": "生成目标组成",
+          "detail": "提出满足目标性质及合成条件的候选组成。"
+        },
+        {
+          "title": "匹配晶体模板",
+          "detail": "用模板结构预测检查候选组成的结构可行性。"
+        }
+      ],
+      "result": "模型同时满足形成能、价态平衡等化学约束，并生成针对带隙、模量和较低烧结/煅烧温度的候选组成。；论文实际报告：模型同时满足形成能、价态平衡等化学约束，并生成针对带隙、模量和较低烧结/煅烧温度的候选组成。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型同时满足形成能、价态平衡等化学约束，并生成针对带隙、模量和较低烧结/煅烧温度的候选组成。；论文实际报告：模型同时满足形成能、价态平衡等化学约束，并生成针对带隙、模量和较低烧结/煅烧温度的候选组成。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41524-024-01474-5",
+      "codeUrl": "https://github.com/olivettigroup/deep-rl-inorganic",
+      "image": "assets/library/paper-992a37e09e578a6f.webp",
+      "markdownUrl": "cards/library/paper-992a37e09e578a6f.md",
+      "markdown": "# 无机材料 × 强化学习\r\n\r\n> **副标题：无机材料晶体逆向设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep reinforcement learning for inverse inorganic materials design\r\n- **期刊与年份**：npj Computational Materials，2024\r\n- **DOI**：10.1038/s41524-024-01474-5\r\n- **正式来源**：https://www.nature.com/articles/s41524-024-01474-5\r\n- **OpenAlex ID**：https://openalex.org/W4405577466\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405577466\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究无机材料晶体逆向设计：利用无机氧化物组成的多目标深度强化学习处理Materials Project无机化合物训练与测试数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Materials Project无机化合物训练与测试数据\r\n- **数据规模**：正式摘要未量化训练样本数\r\n- **数据类型**：无机组成、性质与合成温度\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The inorganic compound training and test data for the reinforcement learning models are downloaded from the Materials Project database. Other results data used and analyzed during the current study is available from the corresponding author on reasonable request.\r\n- **给模型看什么**：Materials Project无机化合物训练与测试数据；数据类型为无机组成、性质与合成温度。\r\n- **让模型判断什么**：无机材料晶体逆向设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：无机氧化物组成的多目标深度强化学习\r\n- **实际作用**：用于无机材料晶体逆向设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定多目标约束**：同时设定带隙、形成能、模量与烧结/煅烧温度目标。\r\n2. **训练强化学习**：比较两种无机氧化物组成逆向设计强化学习方法。\r\n3. **施加化学规则**：纳入电荷中性、形成能和电负性平衡等约束。\r\n4. **生成目标组成**：提出满足目标性质及合成条件的候选组成。\r\n5. **匹配晶体模板**：用模板结构预测检查候选组成的结构可行性。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型同时满足形成能、价态平衡等化学约束，并生成针对带隙、模量和较低烧结/煅烧温度的候选组成。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41524-024-01474-5\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/olivettigroup/deep-rl-inorganic\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "强化学习、多智能体与模仿学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-9ef8148da5de1eca",
+      "major": "无机材料",
+      "short": "钙钛矿氧化物的碱性析氧筛选",
+      "summary": "论文研究钙钛矿氧化物转移学习：利用预训练模型、集成学习和主动学习的迁移学习框架处理钙钛矿氧化物组成空间与电化学实验所对应的材料问题。",
+      "methods": [
+        "迁移学习"
+      ],
+      "method": "迁移学习",
+      "metric": "迁移学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-9ef8148da5de1eca",
+      "title": "无机材料＋迁移学习｜钙钛矿氧化物的碱性析氧筛选",
+      "originalTitle": "Transfer learning guided discovery of efficient perovskite oxide for alkaline water oxidation",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-50605-5",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-50605-5",
+      "question": "论文研究钙钛矿氧化物转移学习：利用预训练模型、集成学习和主动学习的迁移学习框架处理钙钛矿氧化物组成空间与电化学实验所对应的材料问题。",
+      "data": "钙钛矿氧化物组成空间与电化学实验；筛选16050种组成；合成36种新氧化物，其中13种纯钙钛矿",
+      "dataSource": "钙钛矿氧化物组成空间与电化学实验",
+      "dataType": "氧化物组成 · 析氧反应电化学测量",
+      "availability": "公开",
+      "aiMethod": "预训练模型、集成学习和主动学习的迁移学习框架",
+      "pipeline": [
+        {
+          "title": "预训练氧化物模型",
+          "detail": "用预训练模型迁移钙钛矿氧化物知识。"
+        },
+        {
+          "title": "集成主动学习",
+          "detail": "结合集成学习和主动学习预测候选组成。"
+        },
+        {
+          "title": "筛选组成一万六",
+          "detail": "共筛查16050种钙钛矿氧化物组成。"
+        },
+        {
+          "title": "合成三十六种",
+          "detail": "合成36种新氧化物，其中13种为纯钙钛矿。"
+        },
+        {
+          "title": "电化学测过电位",
+          "detail": "两种代表组成在10 mA cm⁻²下测得327和315 mV。"
+        }
+      ],
+      "result": "两种代表组成在10 mA cm⁻²下分别获得327 mV和315 mV过电位。；论文实际报告：两种代表组成在10 mA cm⁻²下分别获得327 mV和315 mV过电位。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "两种代表组成在10 mA cm⁻²下分别获得327 mV和315 mV过电位。；论文实际报告：两种代表组成在10 mA cm⁻²下分别获得327 mV和315 mV过电位。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-024-50605-5",
+      "codeUrl": "https://github.com/helaoer/Transfer-learning-guided-the-discovery-of-efficient-perovskite-oxide-for-alkaline-water-oxidation",
+      "image": "assets/library/paper-9ef8148da5de1eca.webp",
+      "markdownUrl": "cards/library/paper-9ef8148da5de1eca.md",
+      "markdown": "# 无机材料 × 迁移学习\r\n\r\n> **副标题：钙钛矿氧化物转移学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Transfer learning guided discovery of efficient perovskite oxide for alkaline water oxidation\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-50605-5\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-50605-5\r\n- **OpenAlex ID**：https://openalex.org/W4401011715\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401011715\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究钙钛矿氧化物转移学习：利用预训练模型、集成学习和主动学习的迁移学习框架处理钙钛矿氧化物组成空间与电化学实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：钙钛矿氧化物组成空间与电化学实验\r\n- **数据规模**：筛选16050种组成；合成36种新氧化物，其中13种纯钙钛矿\r\n- **数据类型**：氧化物组成、析氧反应电化学测量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All data supporting our findings are available in this paper and its associated supplementary materials (Supplementary Information and Supplementary Data 1 ). Source data for the figures, including Supplementary figures, can be found in the Source Data file. Source data are provided with this paper.\r\n- **给模型看什么**：钙钛矿氧化物组成空间与电化学实验；数据类型为氧化物组成、析氧反应电化学测量。\r\n- **让模型判断什么**：钙钛矿氧化物转移学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：预训练模型、集成学习和主动学习的迁移学习框架\r\n- **实际作用**：用于钙钛矿氧化物转移学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **预训练氧化物模型**：用预训练模型迁移钙钛矿氧化物知识。\r\n2. **集成主动学习**：结合集成学习和主动学习预测候选组成。\r\n3. **筛选组成一万六**：共筛查16050种钙钛矿氧化物组成。\r\n4. **合成三十六种**：合成36种新氧化物，其中13种为纯钙钛矿。\r\n5. **电化学测过电位**：两种代表组成在10 mA cm⁻²下测得327和315 mV。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：两种代表组成在10 mA cm⁻²下分别获得327 mV和315 mV过电位。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-024-50605-5\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/helaoer/Transfer-learning-guided-the-discovery-of-efficient-perovskite-oxide-for-alkaline-water-oxidation\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-de10cbe05e37256b",
+      "major": "无机材料",
+      "short": "统一硅氧原子势的多结构建模",
+      "summary": "论文研究硅氧结构主动学习：利用原子机器学习势与主动学习工作流处理硅—氧体系SCAN标注参考数据及模拟所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-de10cbe05e37256b",
+      "title": "无机材料＋主动学习｜统一硅氧原子势的多结构建模",
+      "originalTitle": "Modelling atomic and nanoscale structure in the silicon–oxygen system through active machine learning",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-45840-9",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-45840-9",
+      "question": "论文研究硅氧结构主动学习：利用原子机器学习势与主动学习工作流处理硅—氧体系SCAN标注参考数据及模拟所对应的材料问题。",
+      "data": "硅—氧体系SCAN标注参考数据及模拟；正式摘要未量化训练构型数",
+      "dataSource": "硅—氧体系SCAN标注参考数据及模拟",
+      "dataType": "Si-O原子构型 · 势能标注与模拟轨迹",
+      "availability": "公开",
+      "aiMethod": "原子机器学习势与主动学习工作流",
+      "pipeline": [
+        {
+          "title": "覆盖硅氧构型",
+          "detail": "将高压二氧化硅、表面、气凝胶与非晶一氧化硅纳入研究范围。"
+        },
+        {
+          "title": "主动学习取样",
+          "detail": "用主动学习工作流选择硅氧体系训练构型。"
+        },
+        {
+          "title": "训练原子机器势",
+          "detail": "建立统一的硅氧原子机器学习势。"
+        },
+        {
+          "title": "模拟多类结构",
+          "detail": "将模型应用于高压、表面、气凝胶与非晶结构问题。"
+        },
+        {
+          "title": "检验统一描述",
+          "detail": "论文展示一个模型覆盖多种硅氧结构情形。"
+        }
+      ],
+      "result": "统一模型应用于高压二氧化硅、表面、气凝胶与非晶一氧化硅等结构问题。；论文实际报告：统一模型应用于高压二氧化硅、表面、气凝胶与非晶一氧化硅等结构问题。",
+      "validation": "源批次 MAT-EXP-20260926-B01；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "统一模型应用于高压二氧化硅、表面、气凝胶与非晶一氧化硅等结构问题。；论文实际报告：统一模型应用于高压二氧化硅、表面、气凝胶与非晶一氧化硅等结构问题。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5281/zenodo.10419194",
+      "codeUrl": "",
+      "image": "assets/library/paper-de10cbe05e37256b.webp",
+      "markdownUrl": "cards/library/paper-de10cbe05e37256b.md",
+      "markdown": "# 无机材料 × 主动学习\r\n\r\n> **副标题：硅氧结构主动学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Modelling atomic and nanoscale structure in the silicon–oxygen system through active machine learning\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-45840-9\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-45840-9\r\n- **OpenAlex ID**：https://openalex.org/W4392348184\r\n- **OpenAlex API**：https://api.openalex.org/works/W4392348184\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究硅氧结构主动学习：利用原子机器学习势与主动学习工作流处理硅—氧体系SCAN标注参考数据及模拟所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：硅—氧体系SCAN标注参考数据及模拟\r\n- **数据规模**：正式摘要未量化训练构型数\r\n- **数据类型**：Si-O原子构型、势能标注与模拟轨迹\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The potential parameter files, the reference data with SCAN labels, and additional supporting data (including LAMMPS scripts and input configurations) generated in thus study are openly available in the Zenodo repository at https://doi.org/10.5281/zenodo.10419194 70 . Source data are provided with this paper.\r\n- **给模型看什么**：硅—氧体系SCAN标注参考数据及模拟；数据类型为Si-O原子构型、势能标注与模拟轨迹。\r\n- **让模型判断什么**：硅氧结构主动学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：原子机器学习势与主动学习工作流\r\n- **实际作用**：用于硅氧结构主动学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **覆盖硅氧构型**：将高压二氧化硅、表面、气凝胶与非晶一氧化硅纳入研究范围。\r\n2. **主动学习取样**：用主动学习工作流选择硅氧体系训练构型。\r\n3. **训练原子机器势**：建立统一的硅氧原子机器学习势。\r\n4. **模拟多类结构**：将模型应用于高压、表面、气凝胶与非晶结构问题。\r\n5. **检验统一描述**：论文展示一个模型覆盖多种硅氧结构情形。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：统一模型应用于高压二氧化硅、表面、气凝胶与非晶一氧化硅等结构问题。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.5281/zenodo.10419194\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "仿真、反演与科学计算",
+      "laboratory": "时序方向",
+      "dataSubtype": "时空序列与轨迹",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-783ae76eb364b40e",
+      "major": "光电材料",
+      "short": "双层氧化物晶体管的溅射工艺优化",
+      "summary": "论文研究半导体薄膜器件工艺优化：利用贝叶斯优化指导氧化物薄膜晶体管溅射工艺处理作者的IZO/IGZO薄膜晶体管工艺与迁移率实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-783ae76eb364b40e",
+      "title": "光电材料＋贝叶斯优化｜双层氧化物晶体管的溅射工艺优化",
+      "originalTitle": "Machine Learning Strategy for Optimizing Multiple Electrical Characteristics in Dual-Layer Oxide Thin Film Transistors",
+      "venue": "ACS Applied Materials & Interfaces",
+      "year": 2024,
+      "doi": "10.1021/acsami.4c17179",
+      "sourceUrl": "https://pubs.acs.org/doi/abs/10.1021/acsami.4c17179",
+      "question": "论文研究半导体薄膜器件工艺优化：利用贝叶斯优化指导氧化物薄膜晶体管溅射工艺处理作者的IZO/IGZO薄膜晶体管工艺与迁移率实验所对应的材料问题。",
+      "data": "作者的IZO/IGZO薄膜晶体管工艺与迁移率实验；正式论文报告19组数据集和84种工艺情境",
+      "dataSource": "作者的IZO/IGZO薄膜晶体管工艺与迁移率实验",
+      "dataType": "薄膜制备参数 · 晶体管迁移率",
+      "availability": "部分公开",
+      "aiMethod": "贝叶斯优化指导氧化物薄膜晶体管溅射工艺",
+      "pipeline": [
+        {
+          "title": "设置双层沟道",
+          "detail": "研究IZO/IGZO双层氧化物晶体管沟道。"
+        },
+        {
+          "title": "汇集溅射条件",
+          "detail": "以19组数据集、84种工艺情境表示溅射参数。"
+        },
+        {
+          "title": "贝叶斯优化工艺",
+          "detail": "优化等离子体功率、压力与气体比例。"
+        },
+        {
+          "title": "制备器件测电性",
+          "detail": "测量迁移率、阈值电压和亚阈值摆幅。"
+        },
+        {
+          "title": "对照IGZO性能",
+          "detail": "迁移率达46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件两倍以上。"
+        }
+      ],
+      "result": "优化器件迁移率达到46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件的两倍以上。；论文实际报告：优化器件迁移率达到46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件的两倍以上。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "优化器件迁移率达到46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件的两倍以上。；论文实际报告：优化器件迁移率达到46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件的两倍以上。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pubs.acs.org/doi/abs/10.1021/acsami.4c17179",
+      "codeUrl": "",
+      "image": "assets/library/paper-783ae76eb364b40e.webp",
+      "markdownUrl": "cards/library/paper-783ae76eb364b40e.md",
+      "markdown": "# 光电材料 × 贝叶斯优化\r\n\r\n> **副标题：半导体薄膜器件工艺优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine Learning Strategy for Optimizing Multiple Electrical Characteristics in Dual-Layer Oxide Thin Film Transistors\r\n- **期刊与年份**：ACS Applied Materials & Interfaces，2024\r\n- **DOI**：10.1021/acsami.4c17179\r\n- **正式来源**：https://pubs.acs.org/doi/abs/10.1021/acsami.4c17179\r\n- **OpenAlex ID**：https://openalex.org/W4405692370\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405692370\r\n- **OA 状态**：is_oa=false；oa_status=closed\r\n\r\n## 研究问题\r\n\r\n论文研究半导体薄膜器件工艺优化：利用贝叶斯优化指导氧化物薄膜晶体管溅射工艺处理作者的IZO/IGZO薄膜晶体管工艺与迁移率实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者的IZO/IGZO薄膜晶体管工艺与迁移率实验\r\n- **数据规模**：正式论文报告19组数据集和84种工艺情境\r\n- **数据类型**：薄膜制备参数、晶体管迁移率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：ACS正式页提供免费Supporting Information；未确认完整原始实验数据独立公开。\r\n- **给模型看什么**：作者的IZO/IGZO薄膜晶体管工艺与迁移率实验；数据类型为薄膜制备参数、晶体管迁移率。\r\n- **让模型判断什么**：半导体薄膜器件工艺优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：贝叶斯优化指导氧化物薄膜晶体管溅射工艺\r\n- **实际作用**：用于半导体薄膜器件工艺优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设置双层沟道**：研究IZO/IGZO双层氧化物晶体管沟道。\r\n2. **汇集溅射条件**：以19组数据集、84种工艺情境表示溅射参数。\r\n3. **贝叶斯优化工艺**：优化等离子体功率、压力与气体比例。\r\n4. **制备器件测电性**：测量迁移率、阈值电压和亚阈值摆幅。\r\n5. **对照IGZO性能**：迁移率达46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件两倍以上。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：优化器件迁移率达到46.7 cm² V⁻¹ s⁻¹，为传统IGZO器件的两倍以上。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pubs.acs.org/doi/abs/10.1021/acsami.4c17179\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-afcc667a15e540d7",
+      "major": "光电材料",
+      "short": "可结晶有机半导体分子的发现",
+      "summary": "论文研究有机半导体分子发现：利用XGBoost预测熔点/熔融焓并筛选可溶有机半导体处理作者汇编的分子热性质训练集与虚拟有机半导体库所对应的材料问题。",
+      "methods": [
+        "XGBoost"
+      ],
+      "method": "XGBoost",
+      "metric": "XGBoost",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-afcc667a15e540d7",
+      "title": "光电材料＋XGBoost｜可结晶有机半导体分子的发现",
+      "originalTitle": "Discovery of Crystallizable Organic Semiconductors with Machine Learning",
+      "venue": "Journal of the American Chemical Society",
+      "year": 2024,
+      "doi": "10.1021/jacs.4c05245",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11311223/",
+      "question": "论文研究有机半导体分子发现：利用XGBoost预测熔点/熔融焓并筛选可溶有机半导体处理作者汇编的分子热性质训练集与虚拟有机半导体库所对应的材料问题。",
+      "data": "作者汇编的分子热性质训练集与虚拟有机半导体库；约26.7万条熔点记录、约5000条熔融焓记录；筛选46.2万候选",
+      "dataSource": "作者汇编的分子热性质训练集与虚拟有机半导体库",
+      "dataType": "分子结构 · 熔点和熔融焓 · 实验结晶表征",
+      "availability": "公开",
+      "aiMethod": "XGBoost预测熔点/熔融焓并筛选可溶有机半导体",
+      "pipeline": [
+        {
+          "title": "汇集热性质记录",
+          "detail": "整理约26.7万条熔点和约5000条熔融焓记录。"
+        },
+        {
+          "title": "预测分子热性质",
+          "detail": "用XGBoost估计候选有机半导体热性质。"
+        },
+        {
+          "title": "筛选可结晶候选",
+          "detail": "从约46.2万个分子中缩至44个优先候选。"
+        },
+        {
+          "title": "实验测试六分子",
+          "detail": "实验测试6个优先有机分子。"
+        },
+        {
+          "title": "观察片状晶体",
+          "detail": "其中3个形成晶体片状结构。"
+        }
+      ],
+      "result": "虚拟筛选缩至44个优先候选，实验测试6个，其中3个形成晶体片状结构。；论文实际报告：虚拟筛选缩至44个优先候选，实验测试6个，其中3个形成晶体片状结构。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "虚拟筛选缩至44个优先候选，实验测试6个，其中3个形成晶体片状结构。；论文实际报告：虚拟筛选缩至44个优先候选，实验测试6个，其中3个形成晶体片状结构。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/isayevlab/Discovery_COS_wML",
+      "codeUrl": "https://github.com/isayevlab/Discovery_COS_wML",
+      "image": "assets/library/paper-afcc667a15e540d7.webp",
+      "markdownUrl": "cards/library/paper-afcc667a15e540d7.md",
+      "markdown": "# 光电材料 × 机器学习\r\n\r\n> **副标题：有机半导体分子发现**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Discovery of Crystallizable Organic Semiconductors with Machine Learning\r\n- **期刊与年份**：Journal of the American Chemical Society，2024\r\n- **DOI**：10.1021/jacs.4c05245\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11311223/\r\n- **OpenAlex ID**：https://openalex.org/W4400981703\r\n- **OpenAlex API**：https://api.openalex.org/works/W4400981703\r\n- **OA 状态**：is_oa=true；oa_status=hybrid\r\n\r\n## 研究问题\r\n\r\n论文研究有机半导体分子发现：利用XGBoost预测熔点/熔融焓并筛选可溶有机半导体处理作者汇编的分子热性质训练集与虚拟有机半导体库所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者汇编的分子热性质训练集与虚拟有机半导体库\r\n- **数据规模**：约26.7万条熔点记录、约5000条熔融焓记录；筛选46.2万候选\r\n- **数据类型**：分子结构、熔点和熔融焓、实验结晶表征\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式PMC全文及作者仓库公开训练CSV、模型和代码。\r\n- **给模型看什么**：作者汇编的分子热性质训练集与虚拟有机半导体库；数据类型为分子结构、熔点和熔融焓、实验结晶表征。\r\n- **让模型判断什么**：有机半导体分子发现\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：XGBoost预测熔点/熔融焓并筛选可溶有机半导体\r\n- **实际作用**：用于有机半导体分子发现。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇集热性质记录**：整理约26.7万条熔点和约5000条熔融焓记录。\r\n2. **预测分子热性质**：用XGBoost估计候选有机半导体热性质。\r\n3. **筛选可结晶候选**：从约46.2万个分子中缩至44个优先候选。\r\n4. **实验测试六分子**：实验测试6个优先有机分子。\r\n5. **观察片状晶体**：其中3个形成晶体片状结构。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：虚拟筛选缩至44个优先候选，实验测试6个，其中3个形成晶体片状结构。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/isayevlab/Discovery_COS_wML\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/isayevlab/Discovery_COS_wML\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "分子、药物与化学结构",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-f5e6fdc4b3305991",
+      "major": "光电材料",
+      "short": "空气中制备钙钛矿电池的自主优化",
+      "summary": "论文研究钙钛矿光伏自主实验：利用机器学习引导自主实验平台搜索钙钛矿电池工艺处理作者的环境条件下钙钛矿太阳能电池制备与效率实验所对应的材料问题。",
+      "methods": [
+        "机器学习"
+      ],
+      "method": "机器学习",
+      "metric": "机器学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-f5e6fdc4b3305991",
+      "title": "光电材料＋机器学习｜空气中制备钙钛矿电池的自主优化",
+      "originalTitle": "Autonomous Optimization of Air‐Processed Perovskite Solar Cell in a Multidimensional Parameter Space",
+      "venue": "Advanced Energy Materials",
+      "year": 2025,
+      "doi": "10.1002/aenm.202404957",
+      "sourceUrl": "https://doi.org/10.1002/aenm.202404957",
+      "question": "论文研究钙钛矿光伏自主实验：利用机器学习引导自主实验平台搜索钙钛矿电池工艺处理作者的环境条件下钙钛矿太阳能电池制备与效率实验所对应的材料问题。",
+      "data": "作者的环境条件下钙钛矿太阳能电池制备与效率实验；6维工艺参数空间；找到5组效率超过23%的参数",
+      "dataSource": "作者的环境条件下钙钛矿太阳能电池制备与效率实验",
+      "dataType": "制备工艺参数 · 光伏转换效率",
+      "availability": "公开",
+      "aiMethod": "机器学习引导自主实验平台搜索钙钛矿电池工艺",
+      "pipeline": [
+        {
+          "title": "设定六维工艺",
+          "detail": "定义空气中制备钙钛矿电池的6维工艺空间。"
+        },
+        {
+          "title": "机器学习导实验",
+          "detail": "自动化平台由机器学习引导工艺搜索。"
+        },
+        {
+          "title": "迭代制备器件",
+          "detail": "在有限实验预算下调整制备条件并测量器件效率。"
+        },
+        {
+          "title": "筛出高效参数",
+          "detail": "找到5组效率超过23%的参数。"
+        },
+        {
+          "title": "测量最高效率",
+          "detail": "最佳器件效率为23.7%。"
+        }
+      ],
+      "result": "最高器件效率23.7%。；论文实际报告：最高器件效率23.7%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "最高器件效率23.7%。；论文实际报告：最高器件效率23.7%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://onlinelibrary.wiley.com/doi/full/10.1002/aenm.202404957",
+      "codeUrl": "",
+      "image": "assets/library/paper-f5e6fdc4b3305991.webp",
+      "markdownUrl": "cards/library/paper-f5e6fdc4b3305991.md",
+      "markdown": "# 光电材料 × 机器学习\r\n\r\n> **副标题：钙钛矿光伏自主实验**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Autonomous Optimization of Air‐Processed Perovskite Solar Cell in a Multidimensional Parameter Space\r\n- **期刊与年份**：Advanced Energy Materials，2025\r\n- **DOI**：10.1002/aenm.202404957\r\n- **正式来源**：https://doi.org/10.1002/aenm.202404957\r\n- **OpenAlex ID**：https://openalex.org/W4405982125\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405982125\r\n- **OA 状态**：is_oa=true；oa_status=hybrid\r\n\r\n## 研究问题\r\n\r\n论文研究钙钛矿光伏自主实验：利用机器学习引导自主实验平台搜索钙钛矿电池工艺处理作者的环境条件下钙钛矿太阳能电池制备与效率实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者的环境条件下钙钛矿太阳能电池制备与效率实验\r\n- **数据规模**：6维工艺参数空间；找到5组效率超过23%的参数\r\n- **数据类型**：制备工艺参数、光伏转换效率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式发表论文的数据可用性声明称本研究数据见Supporting Information。\r\n- **给模型看什么**：作者的环境条件下钙钛矿太阳能电池制备与效率实验；数据类型为制备工艺参数、光伏转换效率。\r\n- **让模型判断什么**：钙钛矿光伏自主实验\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习引导自主实验平台搜索钙钛矿电池工艺\r\n- **实际作用**：用于钙钛矿光伏自主实验。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定六维工艺**：定义空气中制备钙钛矿电池的6维工艺空间。\r\n2. **机器学习导实验**：自动化平台由机器学习引导工艺搜索。\r\n3. **迭代制备器件**：在有限实验预算下调整制备条件并测量器件效率。\r\n4. **筛出高效参数**：找到5组效率超过23%的参数。\r\n5. **测量最高效率**：最佳器件效率为23.7%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：最高器件效率23.7%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://onlinelibrary.wiley.com/doi/full/10.1002/aenm.202404957\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-96eb6f91215668fb",
+      "major": "光电材料",
+      "short": "全印刷钙钛矿电池的器件内优化",
+      "summary": "论文研究钙钛矿器件闭环优化：利用机器学习与高通量实验联动优化钙钛矿器件处理作者制备的钙钛矿器件批次与性能测量所对应的材料问题。",
+      "methods": [
+        "闭环优化"
+      ],
+      "method": "闭环优化",
+      "metric": "闭环优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-96eb6f91215668fb",
+      "title": "光电材料＋闭环优化｜全印刷钙钛矿电池的器件内优化",
+      "originalTitle": "Machine-Learning-Driven in-Device Optimization of All-Printed Perovskite Solar Cells",
+      "venue": "ACS Energy Letters",
+      "year": 2025,
+      "doi": "10.1021/acsenergylett.5c01475",
+      "sourceUrl": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01475",
+      "question": "论文研究钙钛矿器件闭环优化：利用机器学习与高通量实验联动优化钙钛矿器件处理作者制备的钙钛矿器件批次与性能测量所对应的材料问题。",
+      "data": "作者制备的钙钛矿器件批次与性能测量；每批81个器件；正式摘要称实施两批实验",
+      "dataSource": "作者制备的钙钛矿器件批次与性能测量",
+      "dataType": "器件工艺参数 · 光伏器件性能",
+      "availability": "部分公开",
+      "aiMethod": "机器学习与高通量实验联动优化钙钛矿器件",
+      "pipeline": [
+        {
+          "title": "批量印刷器件",
+          "detail": "三介孔丝网印刷架构每批可形成81个独特器件。"
+        },
+        {
+          "title": "高通量测性能",
+          "detail": "高通量实验测量钙钛矿器件效率与稳定性。"
+        },
+        {
+          "title": "机器学习选添加",
+          "detail": "机器学习在论文所列钙钛矿组成空间选择添加剂。"
+        },
+        {
+          "title": "两批实验优化",
+          "detail": "正式摘要报告实施两批器件实验。"
+        },
+        {
+          "title": "比较人工基线",
+          "detail": "通量提高逾100倍，测量变异约为手工方案25%。"
+        }
+      ],
+      "result": "相对手工实验通量提高逾100倍，测量变异约为手工方案的25%，优化性能达到原始MAPbI3的5.75倍。；论文实际报告：相对手工实验通量提高逾100倍，测量变异约为手工方案的25%，优化性能达到原始MAPbI3的5.75倍。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "相对手工实验通量提高逾100倍，测量变异约为手工方案的25%，优化性能达到原始MAPbI3的5.75倍。；论文实际报告：相对手工实验通量提高逾100倍，测量变异约为手工方案的25%，优化性能达到原始MAPbI3的5.75倍。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01475",
+      "codeUrl": "",
+      "image": "assets/library/paper-96eb6f91215668fb.webp",
+      "markdownUrl": "cards/library/paper-96eb6f91215668fb.md",
+      "markdown": "# 光电材料 × 机器学习\r\n\r\n> **副标题：钙钛矿器件闭环优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine-Learning-Driven in-Device Optimization of All-Printed Perovskite Solar Cells\r\n- **期刊与年份**：ACS Energy Letters，2025\r\n- **DOI**：10.1021/acsenergylett.5c01475\r\n- **正式来源**：https://pubs.acs.org/doi/10.1021/acsenergylett.5c01475\r\n- **OpenAlex ID**：https://openalex.org/W4412614202\r\n- **OpenAlex API**：https://api.openalex.org/works/W4412614202\r\n- **OA 状态**：is_oa=false；oa_status=closed\r\n\r\n## 研究问题\r\n\r\n论文研究钙钛矿器件闭环优化：利用机器学习与高通量实验联动优化钙钛矿器件处理作者制备的钙钛矿器件批次与性能测量所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者制备的钙钛矿器件批次与性能测量\r\n- **数据规模**：每批81个器件；正式摘要称实施两批实验\r\n- **数据类型**：器件工艺参数、光伏器件性能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：ACS正式页列有免费Supporting Information；未确认完整原始器件数据单独公开。\r\n- **给模型看什么**：作者制备的钙钛矿器件批次与性能测量；数据类型为器件工艺参数、光伏器件性能。\r\n- **让模型判断什么**：钙钛矿器件闭环优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习与高通量实验联动优化钙钛矿器件\r\n- **实际作用**：用于钙钛矿器件闭环优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **批量印刷器件**：三介孔丝网印刷架构每批可形成81个独特器件。\r\n2. **高通量测性能**：高通量实验测量钙钛矿器件效率与稳定性。\r\n3. **机器学习选添加**：机器学习在论文所列钙钛矿组成空间选择添加剂。\r\n4. **两批实验优化**：正式摘要报告实施两批器件实验。\r\n5. **比较人工基线**：通量提高逾100倍，测量变异约为手工方案25%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：相对手工实验通量提高逾100倍，测量变异约为手工方案的25%，优化性能达到原始MAPbI3的5.75倍。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pubs.acs.org/doi/10.1021/acsenergylett.5c01475\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-9de1c4d02076fd4d",
+      "major": "光电材料",
+      "short": "量子点外延生长的实时反馈调控",
+      "summary": "论文研究量子点生长实时调控：利用3D ResNet50解析RHEED视频并实时反馈控制量子点外延生长处理InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量所对应的材料问题。",
+      "methods": [
+        "3D ResNet50"
+      ],
+      "method": "3D ResNet50",
+      "metric": "3D ResNet50",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-9de1c4d02076fd4d",
+      "title": "光电材料＋3D ResNet50｜量子点外延生长的实时反馈调控",
+      "originalTitle": "Machine-learning-assisted and real-time-feedback-controlled growth of InAs/GaAs quantum dots",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-47087-w",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-47087-w",
+      "question": "论文研究量子点生长实时调控：利用3D ResNet50解析RHEED视频并实时反馈控制量子点外延生长处理InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量所对应的材料问题。",
+      "data": "InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量；正式摘要未给视频样本数；报告不同目标密度的生长实验",
+      "dataSource": "InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量",
+      "dataType": "RHEED视频 · 量子点密度",
+      "availability": "公开",
+      "aiMethod": "3D ResNet50解析RHEED视频并实时反馈控制量子点外延生长",
+      "pipeline": [
+        {
+          "title": "采集原位衍射",
+          "detail": "采集量子点外延生长期间的RHEED视频。"
+        },
+        {
+          "title": "训练三维视频网",
+          "detail": "3D ResNet50以视频而非单帧图像学习表面形貌。"
+        },
+        {
+          "title": "实时预测密度",
+          "detail": "由既有生长数据预测量子点生长后密度。"
+        },
+        {
+          "title": "反馈调整外延",
+          "detail": "模型反馈用于近实时控制外延生长。"
+        },
+        {
+          "title": "核验密度范围",
+          "detail": "将密度由1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。"
+        }
+      ],
+      "result": "将密度从1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。；论文实际报告：将密度从1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "将密度从1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。；论文实际报告：将密度从1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.6084/m9.figshare.24347053",
+      "codeUrl": "",
+      "image": "assets/library/paper-9de1c4d02076fd4d.webp",
+      "markdownUrl": "cards/library/paper-9de1c4d02076fd4d.md",
+      "markdown": "# 光电材料 × 深度学习\r\n\r\n> **副标题：量子点生长实时调控**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine-learning-assisted and real-time-feedback-controlled growth of InAs/GaAs quantum dots\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-47087-w\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-47087-w\r\n- **OpenAlex ID**：https://openalex.org/W4393309191\r\n- **OpenAlex API**：https://api.openalex.org/works/W4393309191\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究量子点生长实时调控：利用3D ResNet50解析RHEED视频并实时反馈控制量子点外延生长处理InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量\r\n- **数据规模**：正式摘要未给视频样本数；报告不同目标密度的生长实验\r\n- **数据类型**：RHEED视频、量子点密度\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The datasets generated during and/or analyzed during the current study are available in the Figshare repository, https://doi.org/10.6084/m9.figshare.24347053 61 . Source data are provided with this paper.\r\n- **给模型看什么**：InAs/GaAs量子点分子束外延RHEED视频与量子点密度测量；数据类型为RHEED视频、量子点密度。\r\n- **让模型判断什么**：量子点生长实时调控\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：3D ResNet50解析RHEED视频并实时反馈控制量子点外延生长\r\n- **实际作用**：用于量子点生长实时调控。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集原位衍射**：采集量子点外延生长期间的RHEED视频。\r\n2. **训练三维视频网**：3D ResNet50以视频而非单帧图像学习表面形貌。\r\n3. **实时预测密度**：由既有生长数据预测量子点生长后密度。\r\n4. **反馈调整外延**：模型反馈用于近实时控制外延生长。\r\n5. **核验密度范围**：将密度由1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：将密度从1.5×10¹⁰ cm⁻²调至3.8×10⁸或1.4×10¹¹ cm⁻²。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.6084/m9.figshare.24347053\r\n- **代码状态**：依请求获取\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "控制、决策与推荐",
+      "laboratory": "影像方向",
+      "dataSubtype": "视频与动态图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-55d37d582af2239c",
+      "major": "光电材料",
+      "short": "超薄硅膜的银纳米环宽带吸收设计",
+      "summary": "论文研究超薄硅光吸收结构设计：利用深度学习由目标吸收光谱逆向设计双纳米环银超表面处理20 nm非晶硅及银纳米环光学仿真与实测所对应的材料问题。",
+      "methods": [
+        "逆向设计网络"
+      ],
+      "method": "逆向设计网络",
+      "metric": "逆向设计网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-55d37d582af2239c",
+      "title": "光电材料＋逆向设计网络｜超薄硅膜的银纳米环宽带吸收设计",
+      "originalTitle": "Machine learning assisted plasmonic metascreen for enhanced broadband absorption in ultra-thin silicon films",
+      "venue": "Light: Science & Applications",
+      "year": 2025,
+      "doi": "10.1038/s41377-024-01723-8",
+      "sourceUrl": "https://www.nature.com/articles/s41377-024-01723-8",
+      "question": "论文研究超薄硅光吸收结构设计：利用深度学习由目标吸收光谱逆向设计双纳米环银超表面处理20 nm非晶硅及银纳米环光学仿真与实测所对应的材料问题。",
+      "data": "20 nm非晶硅及银纳米环光学仿真与实测；20 nm厚硅有源层；正式摘要未量化训练样本数",
+      "dataSource": "20 nm非晶硅及银纳米环光学仿真与实测",
+      "dataType": "纳米环几何 · 吸收光谱",
+      "availability": "未公开",
+      "aiMethod": "深度学习由目标吸收光谱逆向设计双纳米环银超表面",
+      "pipeline": [
+        {
+          "title": "定义硅膜结构",
+          "detail": "以20 nm硅有源层和双纳米环银超表面为研究结构。"
+        },
+        {
+          "title": "学习光谱映射",
+          "detail": "深度学习由吸收光谱映射到结构设计空间。"
+        },
+        {
+          "title": "逆向优化纳米环",
+          "detail": "调整等离激元共振以匹配硅层吸收区。"
+        },
+        {
+          "title": "实验检验器件",
+          "detail": "对优化结构开展论文报告的实验验证。"
+        },
+        {
+          "title": "比较裸硅吸收",
+          "detail": "相对裸硅平面器件吸收增强超过100%。"
+        }
+      ],
+      "result": "优化结构相对裸硅平面器件吸收增强超过100%，并获实验验证。；论文实际报告：优化结构相对裸硅平面器件吸收增强超过100%，并获实验验证。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "优化结构相对裸硅平面器件吸收增强超过100%，并获实验验证。；论文实际报告：优化结构相对裸硅平面器件吸收增强超过100%，并获实验验证。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-55d37d582af2239c.webp",
+      "markdownUrl": "cards/library/paper-55d37d582af2239c.md",
+      "markdown": "# 光电材料 × 生成式AI\r\n\r\n> **副标题：超薄硅光吸收结构设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning assisted plasmonic metascreen for enhanced broadband absorption in ultra-thin silicon films\r\n- **期刊与年份**：Light: Science & Applications，2025\r\n- **DOI**：10.1038/s41377-024-01723-8\r\n- **正式来源**：https://www.nature.com/articles/s41377-024-01723-8\r\n- **OpenAlex ID**：https://openalex.org/W4406229799\r\n- **OpenAlex API**：https://api.openalex.org/works/W4406229799\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究超薄硅光吸收结构设计：利用深度学习由目标吸收光谱逆向设计双纳米环银超表面处理20 nm非晶硅及银纳米环光学仿真与实测所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：20 nm非晶硅及银纳米环光学仿真与实测\r\n- **数据规模**：20 nm厚硅有源层；正式摘要未量化训练样本数\r\n- **数据类型**：纳米环几何、吸收光谱\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：Data availability The source data are available from the corresponding authors upon reasonable request.\r\n- **给模型看什么**：20 nm非晶硅及银纳米环光学仿真与实测；数据类型为纳米环几何、吸收光谱。\r\n- **让模型判断什么**：超薄硅光吸收结构设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：深度学习由目标吸收光谱逆向设计双纳米环银超表面\r\n- **实际作用**：用于超薄硅光吸收结构设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **定义硅膜结构**：以20 nm硅有源层和双纳米环银超表面为研究结构。\r\n2. **学习光谱映射**：深度学习由吸收光谱映射到结构设计空间。\r\n3. **逆向优化纳米环**：调整等离激元共振以匹配硅层吸收区。\r\n4. **实验检验器件**：对优化结构开展论文报告的实验验证。\r\n5. **比较裸硅吸收**：相对裸硅平面器件吸收增强超过100%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：优化结构相对裸硅平面器件吸收增强超过100%，并获实验验证。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "传感器、波形与生理信号",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-5cba563bff840528",
+      "major": "光电材料",
+      "short": "钙钛矿电池的效率与稳定性预测",
+      "summary": "论文研究钙钛矿效率与稳定性多模态预测：利用融合SEM微结构、成分与工艺参数的多模态机器学习处理作者汇编的钙钛矿太阳能电池微结构和性能数据所对应的材料问题。",
+      "methods": [
+        "多模态学习"
+      ],
+      "method": "多模态学习",
+      "metric": "多模态学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-5cba563bff840528",
+      "title": "光电材料＋多模态学习｜钙钛矿电池的效率与稳定性预测",
+      "originalTitle": "Enhancing perovskite solar cell efficiency and stability: a multimodal prediction approach integrating microstructure, composition, and processing technology",
+      "venue": "Nanoscale",
+      "year": 2025,
+      "doi": "10.1039/d5nr00364d",
+      "sourceUrl": "https://pubs.rsc.org/en/content/articlepdf/2025/nr/d5nr00364d",
+      "question": "论文研究钙钛矿效率与稳定性多模态预测：利用融合SEM微结构、成分与工艺参数的多模态机器学习处理作者汇编的钙钛矿太阳能电池微结构和性能数据所对应的材料问题。",
+      "data": "作者汇编的钙钛矿太阳能电池微结构和性能数据；正式摘要未量化样本数；正式论文提供补充资料",
+      "dataSource": "作者汇编的钙钛矿太阳能电池微结构和性能数据",
+      "dataType": "SEM图像 · 化学成分 · 工艺参数 · 效率和稳定性",
+      "availability": "部分公开",
+      "aiMethod": "融合SEM微结构、成分与工艺参数的多模态机器学习",
+      "pipeline": [
+        {
+          "title": "汇合三类输入",
+          "detail": "融合SEM微结构、材料成分和制备工艺参数。"
+        },
+        {
+          "title": "建立多模态模型",
+          "detail": "用机器学习预测钙钛矿器件效率、带隙与稳定性。"
+        },
+        {
+          "title": "回归效率带隙",
+          "detail": "分别评估效率和带隙预测。"
+        },
+        {
+          "title": "分类稳定状态",
+          "detail": "按论文定义的稳定性类别做分类。"
+        },
+        {
+          "title": "报告模型指标",
+          "detail": "效率R² 0.84、带隙R² 0.95，稳定性AUC 0.76—0.81；训练规模未量化。"
+        }
+      ],
+      "result": "效率预测R²为0.84，带隙预测R²为0.95；稳定性分类AUC依指标为0.76—0.81。；论文实际报告：效率预测R²为0.84，带隙预测R²为0.95；稳定性分类AUC依指标为0.76—0.81。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "效率预测R²为0.84，带隙预测R²为0.95；稳定性分类AUC依指标为0.76—0.81。；论文实际报告：效率预测R²为0.84，带隙预测R²为0.95；稳定性分类AUC依指标为0.76—0.81。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pubs.rsc.org/en/content/articlepdf/2025/nr/d5nr00364d",
+      "codeUrl": "",
+      "image": "assets/library/paper-5cba563bff840528.webp",
+      "markdownUrl": "cards/library/paper-5cba563bff840528.md",
+      "markdown": "# 光电材料 × 多模态学习\r\n\r\n> **副标题：钙钛矿效率与稳定性多模态预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Enhancing perovskite solar cell efficiency and stability: a multimodal prediction approach integrating microstructure, composition, and processing technology\r\n- **期刊与年份**：Nanoscale，2025\r\n- **DOI**：10.1039/d5nr00364d\r\n- **正式来源**：https://pubs.rsc.org/en/content/articlepdf/2025/nr/d5nr00364d\r\n- **OpenAlex ID**：https://openalex.org/W4410956465\r\n- **OpenAlex API**：https://api.openalex.org/works/W4410956465\r\n- **OA 状态**：is_oa=false；oa_status=closed\r\n\r\n## 研究问题\r\n\r\n论文研究钙钛矿效率与稳定性多模态预测：利用融合SEM微结构、成分与工艺参数的多模态机器学习处理作者汇编的钙钛矿太阳能电池微结构和性能数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者汇编的钙钛矿太阳能电池微结构和性能数据\r\n- **数据规模**：正式摘要未量化样本数；正式论文提供补充资料\r\n- **数据类型**：SEM图像、化学成分、工艺参数、效率和稳定性\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：RSC正式论文提供657 KB补充信息；未确认完整原始数据集公开。\r\n- **给模型看什么**：作者汇编的钙钛矿太阳能电池微结构和性能数据；数据类型为SEM图像、化学成分、工艺参数、效率和稳定性。\r\n- **让模型判断什么**：钙钛矿效率与稳定性多模态预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：融合SEM微结构、成分与工艺参数的多模态机器学习\r\n- **实际作用**：用于钙钛矿效率与稳定性多模态预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇合三类输入**：融合SEM微结构、材料成分和制备工艺参数。\r\n2. **建立多模态模型**：用机器学习预测钙钛矿器件效率、带隙与稳定性。\r\n3. **回归效率带隙**：分别评估效率和带隙预测。\r\n4. **分类稳定状态**：按论文定义的稳定性类别做分类。\r\n5. **报告模型指标**：效率R² 0.84、带隙R² 0.95，稳定性AUC 0.76—0.81；训练规模未量化。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：效率预测R²为0.84，带隙预测R²为0.95；稳定性分类AUC依指标为0.76—0.81。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pubs.rsc.org/en/content/articlepdf/2025/nr/d5nr00364d\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n- **特殊事实口径**：正式摘要未量化训练规模；不推断或补造样本数。\r\n\r\n- **证据限制**：正式摘要未量化数据规模，官方PDF未取得；保持未知。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "多模态与跨模态学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-bf23068ea73e68f6",
+      "major": "光电材料",
+      "short": "深蓝OLED发光分子的模型引导设计",
+      "summary": "论文研究蓝光OLED分子设计：利用分子结构—光电性质机器学习模型引导MR-TADF发光分子设计处理硼基MR-TADF候选分子与OLED实验所对应的材料问题。",
+      "methods": [
+        "KPLS"
+      ],
+      "method": "KPLS",
+      "metric": "KPLS",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-bf23068ea73e68f6",
+      "title": "光电材料＋KPLS｜深蓝OLED发光分子的模型引导设计",
+      "originalTitle": "Advancing efficiency in deep-blue OLEDs: Exploring a machine learning–driven multiresonance TADF molecular design",
+      "venue": "Science Advances",
+      "year": 2025,
+      "doi": "10.1126/sciadv.adr1326",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11753437/",
+      "question": "论文研究蓝光OLED分子设计：利用分子结构—光电性质机器学习模型引导MR-TADF发光分子设计处理硼基MR-TADF候选分子与OLED实验所对应的材料问题。",
+      "data": "硼基MR-TADF候选分子与OLED实验；SCIE文献汇编约400组MR-TADF化合物实验数据用于建模；所示测试集含60个有机硼化合物（约400组不是纯训练集规模）",
+      "dataSource": "硼基MR-TADF候选分子与OLED实验",
+      "dataType": "分子结构 · 发射峰和谱宽 · OLED效率",
+      "availability": "部分公开",
+      "aiMethod": "分子结构—光电性质机器学习模型引导MR-TADF发光分子设计",
+      "pipeline": [
+        {
+          "title": "汇编MR分子数据",
+          "detail": "约400组MR-TADF化合物实验数据用于建模，并非纯训练集。"
+        },
+        {
+          "title": "预测光电性质",
+          "detail": "建立结构—性质模型预测半峰宽和主发射峰波长。"
+        },
+        {
+          "title": "测试六十分子",
+          "detail": "论文展示含60个有机硼化合物的测试集。"
+        },
+        {
+          "title": "设计深蓝发光体",
+          "detail": "据模型设计ν-DABNA-O-xy深蓝发光分子。"
+        },
+        {
+          "title": "验证OLED器件",
+          "detail": "报告CIE y=0.07、半峰宽19 nm及约27.5%/41.3%外量子效率。"
+        }
+      ],
+      "result": "深蓝OLED色坐标CIE y=0.07、半峰宽19 nm；外量子效率二元器件约27.5%，超荧光器件41.3%。；论文实际报告：深蓝OLED色坐标CIE y=0.07、半峰宽19 nm；外量子效率二元器件约27.5%，超荧光器件41.3%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "深蓝OLED色坐标CIE y=0.07、半峰宽19 nm；外量子效率二元器件约27.5%，超荧光器件41.3%。；论文实际报告：深蓝OLED色坐标CIE y=0.07、半峰宽19 nm；外量子效率二元器件约27.5%，超荧光器件41.3%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11753437/",
+      "codeUrl": "",
+      "image": "assets/library/paper-bf23068ea73e68f6.webp",
+      "markdownUrl": "cards/library/paper-bf23068ea73e68f6.md",
+      "markdown": "# 光电材料 × 机器学习\r\n\r\n> **副标题：蓝光OLED分子设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Advancing efficiency in deep-blue OLEDs: Exploring a machine learning–driven multiresonance TADF molecular design\r\n- **期刊与年份**：Science Advances，2025\r\n- **DOI**：10.1126/sciadv.adr1326\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11753437/\r\n- **OpenAlex ID**：https://openalex.org/W4406728146\r\n- **OpenAlex API**：https://api.openalex.org/works/W4406728146\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究蓝光OLED分子设计：利用分子结构—光电性质机器学习模型引导MR-TADF发光分子设计处理硼基MR-TADF候选分子与OLED实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：硼基MR-TADF候选分子与OLED实验\r\n- **数据规模**：SCIE文献汇编约400组MR-TADF化合物实验数据用于建模；所示测试集含60个有机硼化合物（约400组不是纯训练集规模）\r\n- **数据类型**：分子结构、发射峰和谱宽、OLED效率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式PMC全文记载从SCIE文献汇编约400组MR-TADF化合物实验数据用于机器学习，所示测试集含60个有机硼化合物；约400组不可写成纯训练集规模。数据公开性仍以全文数据与材料声明及补充材料为准。\r\n- **给模型看什么**：硼基MR-TADF候选分子与OLED实验；数据类型为分子结构、发射峰和谱宽、OLED效率。\r\n- **让模型判断什么**：蓝光OLED分子设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：分子结构—光电性质机器学习模型引导MR-TADF发光分子设计\r\n- **实际作用**：用于蓝光OLED分子设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇编MR分子数据**：约400组MR-TADF化合物实验数据用于建模，并非纯训练集。\r\n2. **预测光电性质**：建立结构—性质模型预测半峰宽和主发射峰波长。\r\n3. **测试六十分子**：论文展示含60个有机硼化合物的测试集。\r\n4. **设计深蓝发光体**：据模型设计ν-DABNA-O-xy深蓝发光分子。\r\n5. **验证OLED器件**：报告CIE y=0.07、半峰宽19 nm及约27.5%/41.3%外量子效率。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：深蓝OLED色坐标CIE y=0.07、半峰宽19 nm；外量子效率二元器件约27.5%，超荧光器件41.3%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11753437/\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n- **特殊事实口径**：约400组MR-TADF化合物实验数据用于建模，不等于纯训练集规模；所示测试集含60个有机硼化合物。\r\n\r\n- **证据限制**：约400组文献实验数据不是纯训练集；所示测试集含60个有机硼化合物。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "分子、药物与化学结构",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0fa40ded8952d033",
+      "major": "能源材料",
+      "short": "无负极锂金属电池电解液筛选",
+      "summary": "论文研究锂金属电池电解液筛选：利用贝叶斯模型平均与序贯主动学习设计无负极锂金属电池电解液处理作者Cu||LiFePO4电池循环数据和虚拟电解液空间所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0fa40ded8952d033",
+      "title": "能源材料＋主动学习｜无负极锂金属电池电解液筛选",
+      "originalTitle": "Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-63303-7",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-63303-7",
+      "question": "论文研究锂金属电池电解液筛选：利用贝叶斯模型平均与序贯主动学习设计无负极锂金属电池电解液处理作者Cu||LiFePO4电池循环数据和虚拟电解液空间所对应的材料问题。",
+      "data": "作者Cu||LiFePO4电池循环数据和虚拟电解液空间；初始58组循环数据；约100万种虚拟电解液；7轮各约10种验证",
+      "dataSource": "作者Cu||LiFePO4电池循环数据和虚拟电解液空间",
+      "dataType": "电解液组成 · 容量保持率",
+      "availability": "公开",
+      "aiMethod": "贝叶斯模型平均与序贯主动学习设计无负极锂金属电池电解液",
+      "pipeline": [
+        {
+          "title": "采集初始循环",
+          "detail": "用58组无负极电池循环数据启动搜索。"
+        },
+        {
+          "title": "贝叶斯模型平均",
+          "detail": "用贝叶斯模型平均处理小数据和有噪声标签。"
+        },
+        {
+          "title": "主动筛选电解液",
+          "detail": "在约100万种虚拟电解液中序贯选择候选。"
+        },
+        {
+          "title": "七轮电池验证",
+          "detail": "开展7轮、每轮约10种候选的循环验证。"
+        },
+        {
+          "title": "比较容量保持",
+          "detail": "发现4种表现接近先进配方的电解液溶剂。"
+        }
+      ],
+      "result": "发现4种表现接近先进配方的电解液溶剂。；论文实际报告：发现4种表现接近先进配方的电解液溶剂。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "发现4种表现接近先进配方的电解液溶剂。；论文实际报告：发现4种表现接近先进配方的电解液溶剂。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-025-63303-7",
+      "codeUrl": "https://github.com/AmanchukwuLab/AL-anode-free",
+      "image": "assets/library/paper-0fa40ded8952d033.webp",
+      "markdownUrl": "cards/library/paper-0fa40ded8952d033.md",
+      "markdown": "# 能源材料 × 主动学习\r\n\r\n> **副标题：锂金属电池电解液筛选**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-63303-7\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-63303-7\r\n- **OpenAlex ID**：https://openalex.org/W4414512361\r\n- **OpenAlex API**：https://api.openalex.org/works/W4414512361\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究锂金属电池电解液筛选：利用贝叶斯模型平均与序贯主动学习设计无负极锂金属电池电解液处理作者Cu||LiFePO4电池循环数据和虚拟电解液空间所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者Cu||LiFePO4电池循环数据和虚拟电解液空间\r\n- **数据规模**：初始58组循环数据；约100万种虚拟电解液；7轮各约10种验证\r\n- **数据类型**：电解液组成、容量保持率\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All experimental cycling data can be found in the Supporting Information and on the accompanying GitHub repository. Source data are provided with this paper.\r\n- **给模型看什么**：作者Cu||LiFePO4电池循环数据和虚拟电解液空间；数据类型为电解液组成、容量保持率。\r\n- **让模型判断什么**：锂金属电池电解液筛选\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：贝叶斯模型平均与序贯主动学习设计无负极锂金属电池电解液\r\n- **实际作用**：用于锂金属电池电解液筛选。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集初始循环**：用58组无负极电池循环数据启动搜索。\r\n2. **贝叶斯模型平均**：用贝叶斯模型平均处理小数据和有噪声标签。\r\n3. **主动筛选电解液**：在约100万种虚拟电解液中序贯选择候选。\r\n4. **七轮电池验证**：开展7轮、每轮约10种候选的循环验证。\r\n5. **比较容量保持**：发现4种表现接近先进配方的电解液溶剂。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：发现4种表现接近先进配方的电解液溶剂。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-025-63303-7\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/AmanchukwuLab/AL-anode-free\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-2b4e186803f1253d",
+      "major": "能源材料",
+      "short": "高压LNMO电池添加剂设计",
+      "summary": "论文研究高压电池添加剂设计：利用机器学习预测高压LNMO电池添加剂的阻抗与容量处理Gr||LNMO电池电解液添加剂实验所对应的材料问题。",
+      "methods": [
+        "机器学习"
+      ],
+      "method": "机器学习",
+      "metric": "机器学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-2b4e186803f1253d",
+      "title": "能源材料＋机器学习｜高压LNMO电池添加剂设计",
+      "originalTitle": "Data-driven design of electrolyte additives supporting high-performance 5 V LiNi0.5Mn1.5O4 positive electrodes",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-57961-w",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-57961-w",
+      "question": "论文研究高压电池添加剂设计：利用机器学习预测高压LNMO电池添加剂的阻抗与容量处理Gr||LNMO电池电解液添加剂实验所对应的材料问题。",
+      "data": "Gr||LNMO电池电解液添加剂实验；28种单/双添加剂训练；从125种二元组合中推荐6种",
+      "dataSource": "Gr||LNMO电池电解液添加剂实验",
+      "dataType": "电解液添加剂组成 · 阻抗 · 比容量",
+      "availability": "公开",
+      "aiMethod": "机器学习预测高压LNMO电池添加剂的阻抗与容量",
+      "pipeline": [
+        {
+          "title": "实验测试添加剂",
+          "detail": "先测试28种单一或双添加剂配方。"
+        },
+        {
+          "title": "训练电池预测器",
+          "detail": "机器学习预测阻抗、阻抗增长与最终比容量。"
+        },
+        {
+          "title": "筛选二元组合",
+          "detail": "从125种二元组合推荐6种新配方。"
+        },
+        {
+          "title": "电池实验复核",
+          "detail": "对模型建议配方开展电池测试。"
+        },
+        {
+          "title": "比较初始样本",
+          "detail": "6种新配方在论文比较中优于初始测试集。"
+        }
+      ],
+      "result": "模型推荐的6种新配方在论文比较中优于原始测试集。；论文实际报告：模型推荐的6种新配方在论文比较中优于原始测试集。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型推荐的6种新配方在论文比较中优于原始测试集。；论文实际报告：模型推荐的6种新配方在论文比较中优于原始测试集。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-025-57961-w",
+      "codeUrl": "https://github.com/hieuadoan/ML-LNMO-additives",
+      "image": "assets/library/paper-2b4e186803f1253d.webp",
+      "markdownUrl": "cards/library/paper-2b4e186803f1253d.md",
+      "markdown": "# 能源材料 × 机器学习\r\n\r\n> **副标题：高压电池添加剂设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Data-driven design of electrolyte additives supporting high-performance 5 V LiNi0.5Mn1.5O4 positive electrodes\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-57961-w\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-57961-w\r\n- **OpenAlex ID**：https://openalex.org/W4409329723\r\n- **OpenAlex API**：https://api.openalex.org/works/W4409329723\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究高压电池添加剂设计：利用机器学习预测高压LNMO电池添加剂的阻抗与容量处理Gr||LNMO电池电解液添加剂实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：Gr||LNMO电池电解液添加剂实验\r\n- **数据规模**：28种单/双添加剂训练；从125种二元组合中推荐6种\r\n- **数据类型**：电解液添加剂组成、阻抗、比容量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All data generated in this study are provided in the Supplementary Information Source data file. Source data are provided with this paper.\r\n- **给模型看什么**：Gr||LNMO电池电解液添加剂实验；数据类型为电解液添加剂组成、阻抗、比容量。\r\n- **让模型判断什么**：高压电池添加剂设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习预测高压LNMO电池添加剂的阻抗与容量\r\n- **实际作用**：用于高压电池添加剂设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **实验测试添加剂**：先测试28种单一或双添加剂配方。\r\n2. **训练电池预测器**：机器学习预测阻抗、阻抗增长与最终比容量。\r\n3. **筛选二元组合**：从125种二元组合推荐6种新配方。\r\n4. **电池实验复核**：对模型建议配方开展电池测试。\r\n5. **比较初始样本**：6种新配方在论文比较中优于初始测试集。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型推荐的6种新配方在论文比较中优于原始测试集。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-025-57961-w\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/hieuadoan/ML-LNMO-additives\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0a4dd990eb027c33",
+      "major": "能源材料",
+      "short": "无序岩盐正极放电曲线预测",
+      "summary": "论文研究电池正极实验电化学学习：利用DRXNet深度学习从电池放电曲线学习无序岩盐正极电化学处理多金属无序岩盐正极放电曲线实验所对应的材料问题。",
+      "methods": [
+        "DRXNet"
+      ],
+      "method": "DRXNet",
+      "metric": "DRXNet",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0a4dd990eb027c33",
+      "title": "能源材料＋DRXNet｜无序岩盐正极放电曲线预测",
+      "originalTitle": "Deep learning of experimental electrochemistry for battery cathodes across diverse compositions",
+      "venue": "Joule",
+      "year": 2024,
+      "doi": "10.1016/j.joule.2024.03.010",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S2542435124001454",
+      "question": "论文研究电池正极实验电化学学习：利用DRXNet深度学习从电池放电曲线学习无序岩盐正极电化学处理多金属无序岩盐正极放电曲线实验所对应的材料问题。",
+      "data": "多金属无序岩盐正极放电曲线实验；逾1.9万条放电电压曲线、14种金属；公开子集12,688条",
+      "dataSource": "多金属无序岩盐正极放电曲线实验",
+      "dataType": "正极化学成分 · 充放电曲线",
+      "availability": "部分公开",
+      "aiMethod": "DRXNet深度学习从电池放电曲线学习无序岩盐正极电化学",
+      "pipeline": [
+        {
+          "title": "汇集放电曲线",
+          "detail": "使用逾1.9万条放电电压曲线，覆盖14种金属。"
+        },
+        {
+          "title": "训练放电曲线网",
+          "detail": "DRXNet由实验电化学数据学习无序岩盐正极响应。"
+        },
+        {
+          "title": "预测电压响应",
+          "detail": "模型预测跨多金属化学体系的放电电压曲线。"
+        },
+        {
+          "title": "预测容量表现",
+          "detail": "模型同时预测容量响应。"
+        },
+        {
+          "title": "用于材料筛选",
+          "detail": "论文将电压与容量预测用于正极材料筛选。"
+        }
+      ],
+      "result": "模型可跨多金属化学体系预测电压曲线和容量响应；论文将此用于材料筛选。；论文实际报告：模型可跨多金属化学体系预测电压曲线和容量响应；论文将此用于材料筛选。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型可跨多金属化学体系预测电压曲线和容量响应；论文将此用于材料筛选。；论文实际报告：模型可跨多金属化学体系预测电压曲线和容量响应；论文将此用于材料筛选。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.6084/m9.figshare.25328578.v1",
+      "codeUrl": "https://github.com/zhongpc/DRXNet",
+      "image": "assets/library/paper-0a4dd990eb027c33.webp",
+      "markdownUrl": "cards/library/paper-0a4dd990eb027c33.md",
+      "markdown": "# 能源材料 × 深度学习\r\n\r\n> **副标题：电池正极实验电化学学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep learning of experimental electrochemistry for battery cathodes across diverse compositions\r\n- **期刊与年份**：Joule，2024\r\n- **DOI**：10.1016/j.joule.2024.03.010\r\n- **正式来源**：https://www.sciencedirect.com/science/article/pii/S2542435124001454\r\n- **OpenAlex ID**：https://openalex.org/W4394687313\r\n- **OpenAlex API**：https://api.openalex.org/works/W4394687313\r\n- **OA 状态**：is_oa=true；oa_status=bronze\r\n\r\n## 研究问题\r\n\r\n论文研究电池正极实验电化学学习：利用DRXNet深度学习从电池放电曲线学习无序岩盐正极电化学处理多金属无序岩盐正极放电曲线实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：多金属无序岩盐正极放电曲线实验\r\n- **数据规模**：逾1.9万条放电电压曲线、14种金属；公开子集12,688条\r\n- **数据类型**：正极化学成分、充放电曲线\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：作者正式论文和关联仓库公开DRXNet代码及可下载数据子集。\r\n- **给模型看什么**：多金属无序岩盐正极放电曲线实验；数据类型为正极化学成分、充放电曲线。\r\n- **让模型判断什么**：电池正极实验电化学学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：DRXNet深度学习从电池放电曲线学习无序岩盐正极电化学\r\n- **实际作用**：用于电池正极实验电化学学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **汇集放电曲线**：使用逾1.9万条放电电压曲线，覆盖14种金属。\r\n2. **训练放电曲线网**：DRXNet由实验电化学数据学习无序岩盐正极响应。\r\n3. **预测电压响应**：模型预测跨多金属化学体系的放电电压曲线。\r\n4. **预测容量表现**：模型同时预测容量响应。\r\n5. **用于材料筛选**：论文将电压与容量预测用于正极材料筛选。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型可跨多金属化学体系预测电压曲线和容量响应；论文将此用于材料筛选。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://doi.org/10.6084/m9.figshare.25328578.v1\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/zhongpc/DRXNet\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "时间序列与业务指标",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-f3cf44477c83777a",
+      "major": "能源材料",
+      "short": "锂硫电池双金属电催化设计",
+      "summary": "论文研究锂硫电池电催化材料设计：利用多视角机器学习解析Li-S电池电催化位点与轨道耦合处理过渡金属电催化剂表征、DFT及Li-S袋式电池实验所对应的材料问题。",
+      "methods": [
+        "多视角学习"
+      ],
+      "method": "多视角学习",
+      "metric": "多视角学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-f3cf44477c83777a",
+      "title": "能源材料＋多视角学习｜锂硫电池双金属电催化设计",
+      "originalTitle": "Machine learning-based design of electrocatalytic materials towards high-energy lithium||sulfur batteries development",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-52550-9",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-52550-9",
+      "question": "论文研究锂硫电池电催化材料设计：利用多视角机器学习解析Li-S电池电催化位点与轨道耦合处理过渡金属电催化剂表征、DFT及Li-S袋式电池实验所对应的材料问题。",
+      "data": "过渡金属电催化剂表征、DFT及Li-S袋式电池实验；正式摘要未量化训练数据集；报告高载硫贫电解液袋式电池验证",
+      "dataSource": "过渡金属电催化剂表征、DFT及Li-S袋式电池实验",
+      "dataType": "电催化剂结构与轨道特征 · 电池性能",
+      "availability": "公开",
+      "aiMethod": "多视角机器学习解析Li-S电池电催化位点与轨道耦合",
+      "pipeline": [
+        {
+          "title": "整理电催化位点",
+          "detail": "以Li-S电池电催化位点与内禀因素为研究对象。"
+        },
+        {
+          "title": "建立多视角模型",
+          "detail": "用多视角机器学习分析有限数据中的位点特征。"
+        },
+        {
+          "title": "解析轨道耦合",
+          "detail": "研究位点间轨道耦合与电催化表现。"
+        },
+        {
+          "title": "制备双金属催化",
+          "detail": "论文验证Fe/Co电催化材料的袋式电池。"
+        },
+        {
+          "title": "测量整电池比能",
+          "detail": "高载硫贫电解液条件下初始比能436 Wh kg⁻¹。"
+        }
+      ],
+      "result": "Fe/Co电催化袋式电池初始比能436 Wh kg⁻¹（整电池质量，67 mA、25°C）。；论文实际报告：Fe/Co电催化袋式电池初始比能436 Wh kg⁻¹（整电池质量，67 mA、25°C）。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "Fe/Co电催化袋式电池初始比能436 Wh kg⁻¹（整电池质量，67 mA、25°C）。；论文实际报告：Fe/Co电催化袋式电池初始比能436 Wh kg⁻¹（整电池质量，67 mA、25°C）。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5281/zenodo.13786952",
+      "codeUrl": "https://aimslab.cn/#/soft_materials_imvf",
+      "image": "assets/library/paper-f3cf44477c83777a.webp",
+      "markdownUrl": "cards/library/paper-f3cf44477c83777a.md",
+      "markdown": "# 能源材料 × 机器学习\r\n\r\n> **副标题：锂硫电池电催化材料设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning-based design of electrocatalytic materials towards high-energy lithium||sulfur batteries development\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-52550-9\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-52550-9\r\n- **OpenAlex ID**：https://openalex.org/W4404111570\r\n- **OpenAlex API**：https://api.openalex.org/works/W4404111570\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究锂硫电池电催化材料设计：利用多视角机器学习解析Li-S电池电催化位点与轨道耦合处理过渡金属电催化剂表征、DFT及Li-S袋式电池实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：过渡金属电催化剂表征、DFT及Li-S袋式电池实验\r\n- **数据规模**：正式摘要未量化训练数据集；报告高载硫贫电解液袋式电池验证\r\n- **数据类型**：电催化剂结构与轨道特征、电池性能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The data used in this study have been deposited in the Zenodo repository (DOI: 10.5281/zenodo.13786952). Source data are provided with this paper.\r\n- **给模型看什么**：过渡金属电催化剂表征、DFT及Li-S袋式电池实验；数据类型为电催化剂结构与轨道特征、电池性能。\r\n- **让模型判断什么**：锂硫电池电催化材料设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：多视角机器学习解析Li-S电池电催化位点与轨道耦合\r\n- **实际作用**：用于锂硫电池电催化材料设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理电催化位点**：以Li-S电池电催化位点与内禀因素为研究对象。\r\n2. **建立多视角模型**：用多视角机器学习分析有限数据中的位点特征。\r\n3. **解析轨道耦合**：研究位点间轨道耦合与电催化表现。\r\n4. **制备双金属催化**：论文验证Fe/Co电催化材料的袋式电池。\r\n5. **测量整电池比能**：高载硫贫电解液条件下初始比能436 Wh kg⁻¹。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：Fe/Co电催化袋式电池初始比能436 Wh kg⁻¹（整电池质量，67 mA、25°C）。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.5281/zenodo.13786952\r\n- **代码状态**：公开\r\n- **代码入口**：https://aimslab.cn/#/soft_materials_imvf\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-b8baf7522ec51b80",
+      "major": "能源材料",
+      "short": "酸性析氧催化剂发现",
+      "summary": "论文研究析氧电催化主动学习：利用数据挖掘、主动学习及领域适配联动发现酸性析氧催化剂处理文献抽取、实验及DFT电催化剂数据所对应的材料问题。",
+      "methods": [
+        "主动学习"
+      ],
+      "method": "主动学习",
+      "metric": "主动学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-b8baf7522ec51b80",
+      "title": "能源材料＋主动学习｜酸性析氧催化剂发现",
+      "originalTitle": "Leveraging data mining, active learning, and domain adaptation for efficient discovery of advanced oxygen evolution electrocatalysts",
+      "venue": "Science Advances",
+      "year": 2025,
+      "doi": "10.1126/sciadv.adr9038",
+      "sourceUrl": "https://knowledge.uchicago.edu/record/14848/files/sciadv.adr9038.pdf",
+      "question": "论文研究析氧电催化主动学习：利用数据挖掘、主动学习及领域适配联动发现酸性析氧催化剂处理文献抽取、实验及DFT电催化剂数据所对应的材料问题。",
+      "data": "文献抽取、实验及DFT电催化剂数据；正式摘要未量化总训练数；数据挖掘与多轮主动学习实验",
+      "dataSource": "文献抽取、实验及DFT电催化剂数据",
+      "dataType": "催化剂成分与合成条件 · 析氧性能 · DFT计算",
+      "availability": "公开",
+      "aiMethod": "数据挖掘、主动学习及领域适配联动发现酸性析氧催化剂",
+      "pipeline": [
+        {
+          "title": "挖掘析氧数据",
+          "detail": "数据挖掘建立酸性析氧多金属催化剂候选基础。"
+        },
+        {
+          "title": "领域知识缩范围",
+          "detail": "利用领域知识和领域适配缩小组合搜索。"
+        },
+        {
+          "title": "主动学习迭代",
+          "detail": "主动学习根据实验反馈优化元素组成与合成条件。"
+        },
+        {
+          "title": "实验发现氧化物",
+          "detail": "最终得到Ru-Mn-Ca-Pr氧化物催化剂。"
+        },
+        {
+          "title": "比较催化表现",
+          "detail": "论文报告实验性能具有竞争力，摘要未给统一数值增益。"
+        }
+      ],
+      "result": "发现Ru-Mn-Ca-Pr氧化物酸性析氧催化剂，论文称实验性能具有竞争力；摘要未报告统一数值增益。；论文实际报告：发现Ru-Mn-Ca-Pr氧化物酸性析氧催化剂，论文称实验性能具有竞争力；摘要未报告统一数值增益。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "发现Ru-Mn-Ca-Pr氧化物酸性析氧催化剂，论文称实验性能具有竞争力；摘要未报告统一数值增益。；论文实际报告：发现Ru-Mn-Ca-Pr氧化物酸性析氧催化剂，论文称实验性能具有竞争力；摘要未报告统一数值增益。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5061/dryad.nk98sf83q",
+      "codeUrl": "https://github.com/ruiding-chicago/DASH",
+      "image": "assets/library/paper-b8baf7522ec51b80.webp",
+      "markdownUrl": "cards/library/paper-b8baf7522ec51b80.md",
+      "markdown": "# 能源材料 × 主动学习\r\n\r\n> **副标题：析氧电催化主动学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Leveraging data mining, active learning, and domain adaptation for efficient discovery of advanced oxygen evolution electrocatalysts\r\n- **期刊与年份**：Science Advances，2025\r\n- **DOI**：10.1126/sciadv.adr9038\r\n- **正式来源**：https://knowledge.uchicago.edu/record/14848/files/sciadv.adr9038.pdf\r\n- **OpenAlex ID**：https://openalex.org/W4409157280\r\n- **OpenAlex API**：https://api.openalex.org/works/W4409157280\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究析氧电催化主动学习：利用数据挖掘、主动学习及领域适配联动发现酸性析氧催化剂处理文献抽取、实验及DFT电催化剂数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：文献抽取、实验及DFT电催化剂数据\r\n- **数据规模**：正式摘要未量化总训练数；数据挖掘与多轮主动学习实验\r\n- **数据类型**：催化剂成分与合成条件、析氧性能、DFT计算\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：正式发表PDF的数据与材料声明：训练/数据挖掘脚本、文献数据、实验及DFT数据公开于Dryad并镜像GitHub。\r\n- **给模型看什么**：文献抽取、实验及DFT电催化剂数据；数据类型为催化剂成分与合成条件、析氧性能、DFT计算。\r\n- **让模型判断什么**：析氧电催化主动学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：数据挖掘、主动学习及领域适配联动发现酸性析氧催化剂\r\n- **实际作用**：用于析氧电催化主动学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **挖掘析氧数据**：数据挖掘建立酸性析氧多金属催化剂候选基础。\r\n2. **领域知识缩范围**：利用领域知识和领域适配缩小组合搜索。\r\n3. **主动学习迭代**：主动学习根据实验反馈优化元素组成与合成条件。\r\n4. **实验发现氧化物**：最终得到Ru-Mn-Ca-Pr氧化物催化剂。\r\n5. **比较催化表现**：论文报告实验性能具有竞争力，摘要未给统一数值增益。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：发现Ru-Mn-Ca-Pr氧化物酸性析氧催化剂，论文称实验性能具有竞争力；摘要未报告统一数值增益。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.5061/dryad.nk98sf83q\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/ruiding-chicago/DASH\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-8c352f056d83f8a9",
+      "major": "能源材料",
+      "short": "双原子电催化位点设计",
+      "summary": "论文研究双原子电催化位点设计：利用PFESS特征工程和稀疏化构建可解释ARSC双原子催化位点描述符处理双原子催化位点DFT、文献与实验验证所对应的材料问题。",
+      "methods": [
+        "可解释机器学习"
+      ],
+      "method": "可解释机器学习",
+      "metric": "可解释机器学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-8c352f056d83f8a9",
+      "title": "能源材料＋可解释机器学习｜双原子电催化位点设计",
+      "originalTitle": "Machine learning-assisted dual-atom sites design with interpretable descriptors unifying electrocatalytic reactions",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-52519-8",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-52519-8",
+      "question": "论文研究双原子电催化位点设计：利用PFESS特征工程和稀疏化构建可解释ARSC双原子催化位点描述符处理双原子催化位点DFT、文献与实验验证所对应的材料问题。",
+      "data": "双原子催化位点DFT、文献与实验验证；描述符替代超过5万次DFT候选计算",
+      "dataSource": "双原子催化位点DFT、文献与实验验证",
+      "dataType": "原子结构 · DFT反应描述符 · 电催化测量",
+      "availability": "公开",
+      "aiMethod": "PFESS特征工程和稀疏化构建可解释ARSC双原子催化位点描述符",
+      "pipeline": [
+        {
+          "title": "构建物理特征",
+          "detail": "PFESS从可得内禀性质构建物理特征。"
+        },
+        {
+          "title": "稀疏化ARSC",
+          "detail": "建立原子、反应物、协同和配位效应的ARSC描述符。"
+        },
+        {
+          "title": "预测多反应位点",
+          "detail": "用可解释描述符评估多类电催化反应的双原子位点。"
+        },
+        {
+          "title": "替代DFT筛选",
+          "detail": "描述符替代超过5万次候选DFT计算。"
+        },
+        {
+          "title": "实验验证双功能",
+          "detail": "筛出Co-Co/Ir-Qv3并进行氧还原/析氧实验验证。"
+        }
+      ],
+      "result": "筛出Co-Co/Ir-Qv3作为氧还原/析氧双功能电催化剂并获实验验证。；论文实际报告：筛出Co-Co/Ir-Qv3作为氧还原/析氧双功能电催化剂并获实验验证。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "筛出Co-Co/Ir-Qv3作为氧还原/析氧双功能电催化剂并获实验验证。；论文实际报告：筛出Co-Co/Ir-Qv3作为氧还原/析氧双功能电催化剂并获实验验证。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-024-52519-8",
+      "codeUrl": "https://github.com/TJU-ECAT-AI/PFESS",
+      "image": "assets/library/paper-8c352f056d83f8a9.webp",
+      "markdownUrl": "cards/library/paper-8c352f056d83f8a9.md",
+      "markdown": "# 能源材料 × 可解释AI\r\n\r\n> **副标题：双原子电催化位点设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning-assisted dual-atom sites design with interpretable descriptors unifying electrocatalytic reactions\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-52519-8\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-52519-8\r\n- **OpenAlex ID**：https://openalex.org/W4402619868\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402619868\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究双原子电催化位点设计：利用PFESS特征工程和稀疏化构建可解释ARSC双原子催化位点描述符处理双原子催化位点DFT、文献与实验验证所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：双原子催化位点DFT、文献与实验验证\r\n- **数据规模**：描述符替代超过5万次DFT候选计算\r\n- **数据类型**：原子结构、DFT反应描述符、电催化测量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The data that support the findings of this study are available within the paper and its Supplementary Information. The atomic coordinates of the optimized model for electronic structure calculations are provided as a separate Supplementary Data 1 . Source data are provided with this paper.\r\n- **给模型看什么**：双原子催化位点DFT、文献与实验验证；数据类型为原子结构、DFT反应描述符、电催化测量。\r\n- **让模型判断什么**：双原子电催化位点设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：PFESS特征工程和稀疏化构建可解释ARSC双原子催化位点描述符\r\n- **实际作用**：用于双原子电催化位点设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **构建物理特征**：PFESS从可得内禀性质构建物理特征。\r\n2. **稀疏化ARSC**：建立原子、反应物、协同和配位效应的ARSC描述符。\r\n3. **预测多反应位点**：用可解释描述符评估多类电催化反应的双原子位点。\r\n4. **替代DFT筛选**：描述符替代超过5万次候选DFT计算。\r\n5. **实验验证双功能**：筛出Co-Co/Ir-Qv3并进行氧还原/析氧实验验证。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：筛出Co-Co/Ir-Qv3作为氧还原/析氧双功能电催化剂并获实验验证。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-024-52519-8\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/TJU-ECAT-AI/PFESS\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-c67ddfd597b719d2",
+      "major": "能源材料",
+      "short": "有序气体扩散层燃料电池优化",
+      "summary": "论文研究燃料电池气体扩散层设计：利用神经网络代理模型和贝叶斯优化闭环设计燃料电池气体扩散层处理重构GDL传质模拟与电纺实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-c67ddfd597b719d2",
+      "title": "能源材料＋贝叶斯优化｜有序气体扩散层燃料电池优化",
+      "originalTitle": "Artificial-intelligence-guided design of ordered gas diffusion layers for high-performing fuel cells via Bayesian machine learning",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "doi": "10.1038/s41467-025-61794-y",
+      "sourceUrl": "https://www.nature.com/articles/s41467-025-61794-y",
+      "question": "论文研究燃料电池气体扩散层设计：利用神经网络代理模型和贝叶斯优化闭环设计燃料电池气体扩散层处理重构GDL传质模拟与电纺实验所对应的材料问题。",
+      "data": "重构GDL传质模拟与电纺实验；贝叶斯优化40步",
+      "dataSource": "重构GDL传质模拟与电纺实验",
+      "dataType": "纤维结构 · 传质性质 · 燃料电池功率与电流",
+      "availability": "公开",
+      "aiMethod": "神经网络代理模型和贝叶斯优化闭环设计燃料电池气体扩散层",
+      "pipeline": [
+        {
+          "title": "重建GDL结构",
+          "detail": "构建有序纤维气体扩散层候选结构。"
+        },
+        {
+          "title": "神经网络做代理",
+          "detail": "神经网络加速各向异性输运性质计算。"
+        },
+        {
+          "title": "四十步贝叶斯选",
+          "detail": "贝叶斯优化以40步寻找高极限电流结构。"
+        },
+        {
+          "title": "电纺制备目标层",
+          "detail": "通过受控静电纺丝制备优化结构。"
+        },
+        {
+          "title": "比较商业GDL",
+          "detail": "优化电池功率密度2.17 W cm⁻²、极限电流约7200 mA cm⁻²。"
+        }
+      ],
+      "result": "优化电池功率密度2.17 W cm⁻²、极限电流密度约7200 mA cm⁻²，商业GDL分别为1.33 W cm⁻²和约2700 mA cm⁻²。；论文实际报告：优化电池功率密度2.17 W cm⁻²、极限电流密度约7200 mA cm⁻²，商业GDL分别为1.33 W cm⁻²和约2700 mA cm⁻²。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "优化电池功率密度2.17 W cm⁻²、极限电流密度约7200 mA cm⁻²，商业GDL分别为1.33 W cm⁻²和约2700 mA cm⁻²。；论文实际报告：优化电池功率密度2.17 W cm⁻²、极限电流密度约7200 mA cm⁻²，商业GDL分别为1.33 W cm⁻²和约2700 mA cm⁻²。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://doi.org/10.5281/zenodo.15622653",
+      "codeUrl": "https://doi.org/10.5281/zenodo.15622653",
+      "image": "assets/library/paper-c67ddfd597b719d2.webp",
+      "markdownUrl": "cards/library/paper-c67ddfd597b719d2.md",
+      "markdown": "# 能源材料 × 生成式AI\r\n\r\n> **副标题：燃料电池气体扩散层设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Artificial-intelligence-guided design of ordered gas diffusion layers for high-performing fuel cells via Bayesian machine learning\r\n- **期刊与年份**：Nature Communications，2025\r\n- **DOI**：10.1038/s41467-025-61794-y\r\n- **正式来源**：https://www.nature.com/articles/s41467-025-61794-y\r\n- **OpenAlex ID**：https://openalex.org/W4412441285\r\n- **OpenAlex API**：https://api.openalex.org/works/W4412441285\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究燃料电池气体扩散层设计：利用神经网络代理模型和贝叶斯优化闭环设计燃料电池气体扩散层处理重构GDL传质模拟与电纺实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：重构GDL传质模拟与电纺实验\r\n- **数据规模**：贝叶斯优化40步\r\n- **数据类型**：纤维结构、传质性质、燃料电池功率与电流\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability The dataset developed and used for this study is available at deposited in the Zenodo repository under an MIT license at https://doi.org/10.5281/zenodo.15622653 63 . Source data are provided with this paper.\r\n- **给模型看什么**：重构GDL传质模拟与电纺实验；数据类型为纤维结构、传质性质、燃料电池功率与电流。\r\n- **让模型判断什么**：燃料电池气体扩散层设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：神经网络代理模型和贝叶斯优化闭环设计燃料电池气体扩散层\r\n- **实际作用**：用于燃料电池气体扩散层设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **重建GDL结构**：构建有序纤维气体扩散层候选结构。\r\n2. **神经网络做代理**：神经网络加速各向异性输运性质计算。\r\n3. **四十步贝叶斯选**：贝叶斯优化以40步寻找高极限电流结构。\r\n4. **电纺制备目标层**：通过受控静电纺丝制备优化结构。\r\n5. **比较商业GDL**：优化电池功率密度2.17 W cm⁻²、极限电流约7200 mA cm⁻²。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：优化电池功率密度2.17 W cm⁻²、极限电流密度约7200 mA cm⁻²，商业GDL分别为1.33 W cm⁻²和约2700 mA cm⁻²。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://doi.org/10.5281/zenodo.15622653\r\n- **代码状态**：公开\r\n- **代码入口**：https://doi.org/10.5281/zenodo.15622653\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-bf528059f791defa",
+      "major": "能源材料",
+      "short": "高温储能聚合物介电材料发现",
+      "summary": "论文研究储能介电材料发现：利用AI聚合物结构生成与性质预测辅助电介质发现处理polyVERSE聚合物结构库及电介质实验所对应的材料问题。",
+      "methods": [
+        "图神经网络"
+      ],
+      "method": "图神经网络",
+      "metric": "图神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-bf528059f791defa",
+      "title": "能源材料＋图神经网络｜高温储能聚合物介电材料发现",
+      "originalTitle": "AI-assisted discovery of high-temperature dielectrics for energy storage",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-50413-x",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-50413-x",
+      "question": "论文研究储能介电材料发现：利用AI聚合物结构生成与性质预测辅助电介质发现处理polyVERSE聚合物结构库及电介质实验所对应的材料问题。",
+      "data": "polyVERSE聚合物结构库及电介质实验；正式摘要未量化生成结构数；论文测试多种聚降冰片烯/聚酰亚胺",
+      "dataSource": "polyVERSE聚合物结构库及电介质实验",
+      "dataType": "聚合物结构 · 介电储能与热稳定性",
+      "availability": "部分公开",
+      "aiMethod": "AI聚合物结构生成与性质预测辅助电介质发现",
+      "pipeline": [
+        {
+          "title": "设定高温储能",
+          "detail": "兼顾聚合物电介质的高温稳定和高能量密度。"
+        },
+        {
+          "title": "AI生成聚合物",
+          "detail": "以AI、聚合物化学与分子工程提出候选结构。"
+        },
+        {
+          "title": "筛选两类家族",
+          "detail": "重点研究聚降冰片烯与聚酰亚胺家族。"
+        },
+        {
+          "title": "测试高温性能",
+          "detail": "对候选电介质进行高温储能测试。"
+        },
+        {
+          "title": "对照商业介质",
+          "detail": "某材料200°C下8.3 J cm⁻³，为同温商业介质11倍。"
+        }
+      ],
+      "result": "某电介质在200°C储能密度8.3 J cm⁻³，为同温商业聚合物电介质的11倍。；论文实际报告：某电介质在200°C储能密度8.3 J cm⁻³，为同温商业聚合物电介质的11倍。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "某电介质在200°C储能密度8.3 J cm⁻³，为同温商业聚合物电介质的11倍。；论文实际报告：某电介质在200°C储能密度8.3 J cm⁻³，为同温商业聚合物电介质的11倍。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/Ramprasad-Group/polyVERSE/tree/main/Virtual-Polymer/VFS/ROMP_and_polyimide",
+      "codeUrl": "https://github.com/Ramprasad-Group/polyVERSE/tree/main/Virtual-Polymer/VFS/ROMP_and_polyimide",
+      "image": "assets/library/paper-bf528059f791defa.webp",
+      "markdownUrl": "cards/library/paper-bf528059f791defa.md",
+      "markdown": "# 能源材料 × 生成式AI\r\n\r\n> **副标题：储能介电材料发现**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：AI-assisted discovery of high-temperature dielectrics for energy storage\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-50413-x\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-50413-x\r\n- **OpenAlex ID**：https://openalex.org/W4400805295\r\n- **OpenAlex API**：https://api.openalex.org/works/W4400805295\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究储能介电材料发现：利用AI聚合物结构生成与性质预测辅助电介质发现处理polyVERSE聚合物结构库及电介质实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：polyVERSE聚合物结构库及电介质实验\r\n- **数据规模**：正式摘要未量化生成结构数；论文测试多种聚降冰片烯/聚酰亚胺\r\n- **数据类型**：聚合物结构、介电储能与热稳定性\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The polymer chemical structures generated in this work may be found at https://github.com/Ramprasad-Group/polyVERSE/tree/main/Virtual-Polymer/VFS/ROMP_and_polyimide 50 . This represents the first version of the polyVERSE database. The database will grow in future versions, to include polymers and reaction templates beyond those considered in this work. Source data are provided in this paper.\r\n- **给模型看什么**：polyVERSE聚合物结构库及电介质实验；数据类型为聚合物结构、介电储能与热稳定性。\r\n- **让模型判断什么**：储能介电材料发现\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：AI聚合物结构生成与性质预测辅助电介质发现\r\n- **实际作用**：用于储能介电材料发现。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定高温储能**：兼顾聚合物电介质的高温稳定和高能量密度。\r\n2. **AI生成聚合物**：以AI、聚合物化学与分子工程提出候选结构。\r\n3. **筛选两类家族**：重点研究聚降冰片烯与聚酰亚胺家族。\r\n4. **测试高温性能**：对候选电介质进行高温储能测试。\r\n5. **对照商业介质**：某材料200°C下8.3 J cm⁻³，为同温商业介质11倍。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：某电介质在200°C储能密度8.3 J cm⁻³，为同温商业聚合物电介质的11倍。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://github.com/Ramprasad-Group/polyVERSE/tree/main/Virtual-Polymer/VFS/ROMP_and_polyimide\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/Ramprasad-Group/polyVERSE/tree/main/Virtual-Polymer/VFS/ROMP_and_polyimide\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "图神经网络与关系学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-09dd2ce59f7c7306",
+      "major": "生物材料",
+      "short": "核苷水凝胶形成预测",
+      "summary": "论文研究核苷水凝胶性质预测：利用核苷衍生物水凝胶形成能力分类与实验筛选处理71种已报道核苷衍生物及新验证分子所对应的材料问题。",
+      "methods": [
+        "机器学习"
+      ],
+      "method": "机器学习",
+      "metric": "机器学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-09dd2ce59f7c7306",
+      "title": "生物材料＋机器学习｜核苷水凝胶形成预测",
+      "originalTitle": "Developing a machine learning model for accurate nucleoside hydrogels prediction based on descriptors",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-46866-9",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-46866-9",
+      "question": "论文研究核苷水凝胶性质预测：利用核苷衍生物水凝胶形成能力分类与实验筛选处理71种已报道核苷衍生物及新验证分子所对应的材料问题。",
+      "data": "71种已报道核苷衍生物及新验证分子；71种训练衍生物；外推选取24种实验验证",
+      "dataSource": "71种已报道核苷衍生物及新验证分子",
+      "dataType": "核苷结构 · 凝胶形成标签",
+      "availability": "公开",
+      "aiMethod": "核苷衍生物水凝胶形成能力分类与实验筛选",
+      "pipeline": [
+        {
+          "title": "整理核苷衍生物",
+          "detail": "以71种已报道核苷衍生物建立训练数据。"
+        },
+        {
+          "title": "训练成胶分类器",
+          "detail": "由分子描述符预测是否形成水凝胶。"
+        },
+        {
+          "title": "外推筛出二十四",
+          "detail": "选出24个分子用于模型外部应用。"
+        },
+        {
+          "title": "实验检验成胶",
+          "detail": "对所选分子的成胶能力做实验验证。"
+        },
+        {
+          "title": "发现无阳离子胶",
+          "detail": "模型准确率71%，并找到2种无需阳离子的水凝胶。"
+        }
+      ],
+      "result": "模型准确率71%（95% CI 0.69—0.73）；找到2种不依赖阳离子的水凝胶。；论文实际报告：模型准确率71%（95% CI 0.69—0.73）；找到2种不依赖阳离子的水凝胶。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型准确率71%（95% CI 0.69—0.73）；找到2种不依赖阳离子的水凝胶。；论文实际报告：模型准确率71%（95% CI 0.69—0.73）；找到2种不依赖阳离子的水凝胶。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/leescu/NHGPM",
+      "codeUrl": "https://github.com/leescu/NHGPM",
+      "image": "assets/library/paper-09dd2ce59f7c7306.webp",
+      "markdownUrl": "cards/library/paper-09dd2ce59f7c7306.md",
+      "markdown": "# 生物材料 × 机器学习\r\n\r\n> **副标题：核苷水凝胶性质预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Developing a machine learning model for accurate nucleoside hydrogels prediction based on descriptors\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-46866-9\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-46866-9\r\n- **OpenAlex ID**：https://openalex.org/W4393115302\r\n- **OpenAlex API**：https://api.openalex.org/works/W4393115302\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究核苷水凝胶性质预测：利用核苷衍生物水凝胶形成能力分类与实验筛选处理71种已报道核苷衍生物及新验证分子所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：71种已报道核苷衍生物及新验证分子\r\n- **数据规模**：71种训练衍生物；外推选取24种实验验证\r\n- **数据类型**：核苷结构、凝胶形成标签\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data availability All relevant data supporting the key findings of this study are available. The existing datasets analyzed as well as datasets generated during the study also have been made available in GitHub ( https://github.com/leescu/NHGPM ). The chemical information of 71 nucleoside derivatives is available at https://www.nhgpm.com . The X-ray crystallographic coordinates for structures reported in this study have been deposited at the Cambridge Crystallographic Data Centre (CCDC), under deposition numbers 2253566. These data can be obtained free of charge from The Cambridge Crystallographic Data Centre via www.ccdc.cam.ac.uk/data_request/cif . Source data to re-create figures has been deposited on zenodo: https://doi.org/10.5281/zenodo.10723552 .\r\n- **给模型看什么**：71种已报道核苷衍生物及新验证分子；数据类型为核苷结构、凝胶形成标签。\r\n- **让模型判断什么**：核苷水凝胶性质预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：核苷衍生物水凝胶形成能力分类与实验筛选\r\n- **实际作用**：用于核苷水凝胶性质预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理核苷衍生物**：以71种已报道核苷衍生物建立训练数据。\r\n2. **训练成胶分类器**：由分子描述符预测是否形成水凝胶。\r\n3. **外推筛出二十四**：选出24个分子用于模型外部应用。\r\n4. **实验检验成胶**：对所选分子的成胶能力做实验验证。\r\n5. **发现无阳离子胶**：模型准确率71%，并找到2种无需阳离子的水凝胶。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型准确率71%（95% CI 0.69—0.73）；找到2种不依赖阳离子的水凝胶。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/leescu/NHGPM\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/leescu/NHGPM\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-d6d3a671c9c6474d",
+      "major": "生物材料",
+      "short": "双网络水凝胶配方优化",
+      "summary": "论文研究水凝胶配方优化：利用贝叶斯优化与分类/回归模型优化聚丙烯酰胺—海藻酸盐双网络水凝胶处理作者水凝胶配方及五项材料性质实验所对应的材料问题。",
+      "methods": [
+        "贝叶斯优化"
+      ],
+      "method": "贝叶斯优化",
+      "metric": "贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-d6d3a671c9c6474d",
+      "title": "生物材料＋贝叶斯优化｜双网络水凝胶配方优化",
+      "originalTitle": "Integrating machine learning for the optimization of polyacrylamide/alginate hydrogel",
+      "venue": "Regenerative Biomaterials",
+      "year": 2024,
+      "doi": "10.1093/rb/rbae109",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11422183/",
+      "question": "论文研究水凝胶配方优化：利用贝叶斯优化与分类/回归模型优化聚丙烯酰胺—海藻酸盐双网络水凝胶处理作者水凝胶配方及五项材料性质实验所对应的材料问题。",
+      "data": "作者水凝胶配方及五项材料性质实验；5项材料性质；正式摘要未量化配方/迭代总数",
+      "dataSource": "作者水凝胶配方及五项材料性质实验",
+      "dataType": "组分浓度 · 水凝胶力学与传感性能",
+      "availability": "部分公开",
+      "aiMethod": "贝叶斯优化与分类/回归模型优化聚丙烯酰胺—海藻酸盐双网络水凝胶",
+      "pipeline": [
+        {
+          "title": "设定五项性质",
+          "detail": "以双网络水凝胶五项材料性质作为评价标准。"
+        },
+        {
+          "title": "线性加权评分",
+          "detail": "用线性加权方法综合评估不同配方。"
+        },
+        {
+          "title": "贝叶斯设计实验",
+          "detail": "贝叶斯优化建议聚丙烯酰胺—海藻酸盐配方实验。"
+        },
+        {
+          "title": "迭代实验验证",
+          "detail": "根据实验反馈继续调整组分浓度。"
+        },
+        {
+          "title": "比较综合性能",
+          "detail": "验证应变敏感性和柔韧性等综合性能改善。"
+        }
+      ],
+      "result": "实验确认优化配方综合性能改善，尤其应变敏感性与柔韧性；摘要未给统一量化增益。；论文实际报告：实验确认优化配方综合性能改善，尤其应变敏感性与柔韧性；摘要未给统一量化增益。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "实验确认优化配方综合性能改善，尤其应变敏感性与柔韧性；摘要未给统一量化增益。；论文实际报告：实验确认优化配方综合性能改善，尤其应变敏感性与柔韧性；摘要未给统一量化增益。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11422183/",
+      "codeUrl": "",
+      "image": "assets/library/paper-d6d3a671c9c6474d.webp",
+      "markdownUrl": "cards/library/paper-d6d3a671c9c6474d.md",
+      "markdown": "# 生物材料 × 贝叶斯优化\r\n\r\n> **副标题：水凝胶配方优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Integrating machine learning for the optimization of polyacrylamide/alginate hydrogel\r\n- **期刊与年份**：Regenerative Biomaterials，2024\r\n- **DOI**：10.1093/rb/rbae109\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11422183/\r\n- **OpenAlex ID**：https://openalex.org/W4402123956\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402123956\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究水凝胶配方优化：利用贝叶斯优化与分类/回归模型优化聚丙烯酰胺—海藻酸盐双网络水凝胶处理作者水凝胶配方及五项材料性质实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者水凝胶配方及五项材料性质实验\r\n- **数据规模**：5项材料性质；正式摘要未量化配方/迭代总数\r\n- **数据类型**：组分浓度、水凝胶力学与传感性能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式PMC全文附1.4 MB Supplementary Data；未确认完整训练数据独立公开。\r\n- **给模型看什么**：作者水凝胶配方及五项材料性质实验；数据类型为组分浓度、水凝胶力学与传感性能。\r\n- **让模型判断什么**：水凝胶配方优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：贝叶斯优化与分类/回归模型优化聚丙烯酰胺—海藻酸盐双网络水凝胶\r\n- **实际作用**：用于水凝胶配方优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定五项性质**：以双网络水凝胶五项材料性质作为评价标准。\r\n2. **线性加权评分**：用线性加权方法综合评估不同配方。\r\n3. **贝叶斯设计实验**：贝叶斯优化建议聚丙烯酰胺—海藻酸盐配方实验。\r\n4. **迭代实验验证**：根据实验反馈继续调整组分浓度。\r\n5. **比较综合性能**：验证应变敏感性和柔韧性等综合性能改善。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：实验确认优化配方综合性能改善，尤其应变敏感性与柔韧性；摘要未给统一量化增益。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pmc.ncbi.nlm.nih.gov/articles/PMC11422183/\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "传感器、波形与生理信号",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-94a230bf968aee5b",
+      "major": "生物材料",
+      "short": "多糖水凝胶自主实验",
+      "summary": "论文研究多糖水凝胶自主实验：利用四客户端共识贝叶斯优化协同自主设计多糖水凝胶处理高通量水凝胶配方与流变/压缩性能实验所对应的材料问题。",
+      "methods": [
+        "协同贝叶斯优化"
+      ],
+      "method": "协同贝叶斯优化",
+      "metric": "协同贝叶斯优化",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-94a230bf968aee5b",
+      "title": "生物材料＋协同贝叶斯优化｜多糖水凝胶自主实验",
+      "originalTitle": "Scalable Accelerated Materials Discovery of Sustainable Polysaccharide-Based Hydrogels by Autonomous Experimentation and Collaborative Learning",
+      "venue": "ACS Applied Materials & Interfaces",
+      "year": 2024,
+      "doi": "10.1021/acsami.4c16614",
+      "sourceUrl": "https://pubs.acs.org/doi/abs/10.1021/acsami.4c16614",
+      "question": "论文研究多糖水凝胶自主实验：利用四客户端共识贝叶斯优化协同自主设计多糖水凝胶处理高通量水凝胶配方与流变/压缩性能实验所对应的材料问题。",
+      "data": "高通量水凝胶配方与流变/压缩性能实验；4个协同客户端、8轮迭代；正式补充材料含代表性AE数据XLSX",
+      "dataSource": "高通量水凝胶配方与流变/压缩性能实验",
+      "dataType": "水凝胶配方 · 流变模量 · 压缩模量",
+      "availability": "部分公开",
+      "aiMethod": "四客户端共识贝叶斯优化协同自主设计多糖水凝胶",
+      "pipeline": [
+        {
+          "title": "四客户端协同",
+          "detail": "四个客户端共享多糖水凝胶机械优化目标。"
+        },
+        {
+          "title": "共识贝叶斯选点",
+          "detail": "用共识贝叶斯优化协调实验建议。"
+        },
+        {
+          "title": "自主实验八轮",
+          "detail": "在限定预算内进行八轮自主实验。"
+        },
+        {
+          "title": "比较协同基线",
+          "detail": "与独立学习的非协同流程比较。"
+        },
+        {
+          "title": "核验模量配方",
+          "detail": "协同流程更快找到较优G′和E′配方。"
+        }
+      ],
+      "result": "相对于非协同优化，在限定预算下更快找到较优G′和E′配方。；论文实际报告：相对于非协同优化，在限定预算下更快找到较优G′和E′配方。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "相对于非协同优化，在限定预算下更快找到较优G′和E′配方。；论文实际报告：相对于非协同优化，在限定预算下更快找到较优G′和E′配方。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pubs.acs.org/doi/10.1021/acsami.4c16614",
+      "codeUrl": "https://github.com/UMDataScienceLab/Consensus_Bayesian_Opt",
+      "image": "assets/library/paper-94a230bf968aee5b.webp",
+      "markdownUrl": "cards/library/paper-94a230bf968aee5b.md",
+      "markdown": "# 生物材料 × 贝叶斯优化\r\n\r\n> **副标题：多糖水凝胶自主实验**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Scalable Accelerated Materials Discovery of Sustainable Polysaccharide-Based Hydrogels by Autonomous Experimentation and Collaborative Learning\r\n- **期刊与年份**：ACS Applied Materials & Interfaces，2024\r\n- **DOI**：10.1021/acsami.4c16614\r\n- **正式来源**：https://pubs.acs.org/doi/abs/10.1021/acsami.4c16614\r\n- **OpenAlex ID**：https://openalex.org/W4405273119\r\n- **OpenAlex API**：https://api.openalex.org/works/W4405273119\r\n- **OA 状态**：is_oa=true；oa_status=hybrid\r\n\r\n## 研究问题\r\n\r\n论文研究多糖水凝胶自主实验：利用四客户端共识贝叶斯优化协同自主设计多糖水凝胶处理高通量水凝胶配方与流变/压缩性能实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：高通量水凝胶配方与流变/压缩性能实验\r\n- **数据规模**：4个协同客户端、8轮迭代；正式补充材料含代表性AE数据XLSX\r\n- **数据类型**：水凝胶配方、流变模量、压缩模量\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式ACS论文补充信息公开代表性自主实验XLSX与原始传感数据，代码见作者仓库。\r\n- **给模型看什么**：高通量水凝胶配方与流变/压缩性能实验；数据类型为水凝胶配方、流变模量、压缩模量。\r\n- **让模型判断什么**：多糖水凝胶自主实验\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：四客户端共识贝叶斯优化协同自主设计多糖水凝胶\r\n- **实际作用**：用于多糖水凝胶自主实验。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **四客户端协同**：四个客户端共享多糖水凝胶机械优化目标。\r\n2. **共识贝叶斯选点**：用共识贝叶斯优化协调实验建议。\r\n3. **自主实验八轮**：在限定预算内进行八轮自主实验。\r\n4. **比较协同基线**：与独立学习的非协同流程比较。\r\n5. **核验模量配方**：协同流程更快找到较优G′和E′配方。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：相对于非协同优化，在限定预算下更快找到较优G′和E′配方。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pubs.acs.org/doi/10.1021/acsami.4c16614\r\n- **代码状态**：公开\r\n- **代码入口**：https://github.com/UMDataScienceLab/Consensus_Bayesian_Opt\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "智能优化、AutoML与主动学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-d184f07ffaf3a380",
+      "major": "生物材料",
+      "short": "混合水凝胶生物墨水黏度预测",
+      "summary": "论文研究生物墨水性能预测：利用随机森林、决策树和多项式拟合预测生物墨水黏度处理海藻酸盐/明胶/TEMPO-CNF配方流变实验所对应的材料问题。",
+      "methods": [
+        "随机森林"
+      ],
+      "method": "随机森林",
+      "metric": "随机森林",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-d184f07ffaf3a380",
+      "title": "生物材料＋随机森林｜混合水凝胶生物墨水黏度预测",
+      "originalTitle": "Characterization and Machine Learning-Driven Property Prediction of a Novel Hybrid Hydrogel Bioink Considering Extrusion-Based 3D Bioprinting",
+      "venue": "Gels",
+      "year": 2025,
+      "doi": "10.3390/gels11010045",
+      "sourceUrl": "https://www.mdpi.com/2310-2861/11/1/45",
+      "question": "论文研究生物墨水性能预测：利用随机森林、决策树和多项式拟合预测生物墨水黏度处理海藻酸盐/明胶/TEMPO-CNF配方流变实验所对应的材料问题。",
+      "data": "海藻酸盐/明胶/TEMPO-CNF配方流变实验；169次流变测量；80%训练、20%验证",
+      "dataSource": "海藻酸盐/明胶/TEMPO-CNF配方流变实验",
+      "dataType": "生物墨水组分 · 剪切速率 · 黏度",
+      "availability": "公开",
+      "aiMethod": "随机森林、决策树和多项式拟合预测生物墨水黏度",
+      "pipeline": [
+        {
+          "title": "配制混合生物墨",
+          "detail": "改变海藻酸盐、明胶与TEMPO纳米纤维素配比。"
+        },
+        {
+          "title": "采集流变测量",
+          "detail": "在不同剪切速率下得到169次流变测量。"
+        },
+        {
+          "title": "训练三类模型",
+          "detail": "比较多项式拟合、决策树和随机森林预测黏度。"
+        },
+        {
+          "title": "按八二分验证",
+          "detail": "以80%训练、20%验证划分评价。"
+        },
+        {
+          "title": "比较黏度误差",
+          "detail": "随机森林R² 0.99、MAE 0.09，多项式拟合R² 0.95。"
+        }
+      ],
+      "result": "随机森林最优，R²=0.99、MAE=0.09；多项式拟合R²=0.95。；论文实际报告：随机森林最优，R²=0.99、MAE=0.09；多项式拟合R²=0.95。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "随机森林最优，R²=0.99、MAE=0.09；多项式拟合R²=0.95。；论文实际报告：随机森林最优，R²=0.99、MAE=0.09；多项式拟合R²=0.95。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.mdpi.com/2310-2861/11/1/45",
+      "codeUrl": "",
+      "image": "assets/library/paper-d184f07ffaf3a380.webp",
+      "markdownUrl": "cards/library/paper-d184f07ffaf3a380.md",
+      "markdown": "# 生物材料 × 机器学习\r\n\r\n> **副标题：生物墨水性能预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Characterization and Machine Learning-Driven Property Prediction of a Novel Hybrid Hydrogel Bioink Considering Extrusion-Based 3D Bioprinting\r\n- **期刊与年份**：Gels，2025\r\n- **DOI**：10.3390/gels11010045\r\n- **正式来源**：https://www.mdpi.com/2310-2861/11/1/45\r\n- **OpenAlex ID**：https://openalex.org/W4406147062\r\n- **OpenAlex API**：https://api.openalex.org/works/W4406147062\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究生物墨水性能预测：利用随机森林、决策树和多项式拟合预测生物墨水黏度处理海藻酸盐/明胶/TEMPO-CNF配方流变实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：海藻酸盐/明胶/TEMPO-CNF配方流变实验\r\n- **数据规模**：169次流变测量；80%训练、20%验证\r\n- **数据类型**：生物墨水组分、剪切速率、黏度\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：MDPI正式页注明数据在正文与补充材料，附公开补充ZIP。\r\n- **给模型看什么**：海藻酸盐/明胶/TEMPO-CNF配方流变实验；数据类型为生物墨水组分、剪切速率、黏度。\r\n- **让模型判断什么**：生物墨水性能预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：随机森林、决策树和多项式拟合预测生物墨水黏度\r\n- **实际作用**：用于生物墨水性能预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **配制混合生物墨**：改变海藻酸盐、明胶与TEMPO纳米纤维素配比。\r\n2. **采集流变测量**：在不同剪切速率下得到169次流变测量。\r\n3. **训练三类模型**：比较多项式拟合、决策树和随机森林预测黏度。\r\n4. **按八二分验证**：以80%训练、20%验证划分评价。\r\n5. **比较黏度误差**：随机森林R² 0.99、MAE 0.09，多项式拟合R² 0.95。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：随机森林最优，R²=0.99、MAE=0.09；多项式拟合R²=0.95。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://www.mdpi.com/2310-2861/11/1/45\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-49f6d0fa906798dc",
+      "major": "生物材料",
+      "short": "纳米地形巨噬细胞极化",
+      "summary": "论文研究纳米地形免疫响应：利用高斯过程回归从纳米地形高通量实验预测巨噬细胞极化处理组合式纳米生物界面地形与巨噬细胞反应实验所对应的材料问题。",
+      "methods": [
+        "高斯过程回归"
+      ],
+      "method": "高斯过程回归",
+      "metric": "高斯过程回归",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-49f6d0fa906798dc",
+      "title": "生物材料＋高斯过程回归｜纳米地形巨噬细胞极化",
+      "originalTitle": "Probing Nanotopography-Mediated Macrophage Polarization via Integrated Machine Learning and Combinatorial Biophysical Cue Mapping",
+      "venue": "ACS Nano",
+      "year": 2024,
+      "doi": "10.1021/acsnano.4c04406",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13003755/",
+      "question": "论文研究纳米地形免疫响应：利用高斯过程回归从纳米地形高通量实验预测巨噬细胞极化处理组合式纳米生物界面地形与巨噬细胞反应实验所对应的材料问题。",
+      "data": "组合式纳米生物界面地形与巨噬细胞反应实验；超过100万种候选纳米地形设计空间；正式摘要未量化实验表征样本数",
+      "dataSource": "组合式纳米生物界面地形与巨噬细胞反应实验",
+      "dataType": "纳米地形参数 · CD206/CD86等巨噬细胞指标",
+      "availability": "部分公开",
+      "aiMethod": "高斯过程回归从纳米地形高通量实验预测巨噬细胞极化",
+      "pipeline": [
+        {
+          "title": "构建纳米地形库",
+          "detail": "组合生物物理线索阵列覆盖超过100万种候选地形。"
+        },
+        {
+          "title": "高通量测免疫",
+          "detail": "测量纳米地形诱导的巨噬细胞极化响应。"
+        },
+        {
+          "title": "高斯过程建模",
+          "detail": "用高斯过程回归关联地形和免疫表型。"
+        },
+        {
+          "title": "定位响应地形",
+          "detail": "识别促炎与抗炎响应相关地形。"
+        },
+        {
+          "title": "细胞分子复核",
+          "detail": "以细胞和分子表征验证模型定位结果。"
+        }
+      ],
+      "result": "模型定位促炎/抗炎响应相关地形，并通过细胞与分子表征验证；正式摘要未给统一量化增益。；论文实际报告：模型定位促炎/抗炎响应相关地形，并通过细胞与分子表征验证；正式摘要未给统一量化增益。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "模型定位促炎/抗炎响应相关地形，并通过细胞与分子表征验证；正式摘要未给统一量化增益。；论文实际报告：模型定位促炎/抗炎响应相关地形，并通过细胞与分子表征验证；正式摘要未给统一量化增益。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://pubs.acs.org/doi/10.1021/acsnano.4c04406",
+      "codeUrl": "",
+      "image": "assets/library/paper-49f6d0fa906798dc.webp",
+      "markdownUrl": "cards/library/paper-49f6d0fa906798dc.md",
+      "markdown": "# 生物材料 × 机器学习\r\n\r\n> **副标题：纳米地形免疫响应**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Probing Nanotopography-Mediated Macrophage Polarization via Integrated Machine Learning and Combinatorial Biophysical Cue Mapping\r\n- **期刊与年份**：ACS Nano，2024\r\n- **DOI**：10.1021/acsnano.4c04406\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC13003755/\r\n- **OpenAlex ID**：https://openalex.org/W4402187079\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402187079\r\n- **OA 状态**：is_oa=true；oa_status=green\r\n\r\n## 研究问题\r\n\r\n论文研究纳米地形免疫响应：利用高斯过程回归从纳米地形高通量实验预测巨噬细胞极化处理组合式纳米生物界面地形与巨噬细胞反应实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：组合式纳米生物界面地形与巨噬细胞反应实验\r\n- **数据规模**：超过100万种候选纳米地形设计空间；正式摘要未量化实验表征样本数\r\n- **数据类型**：纳米地形参数、CD206/CD86等巨噬细胞指标\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式ACS论文及PMC全文提供Supporting Information；未确认全部原始高通量记录公开。\r\n- **给模型看什么**：组合式纳米生物界面地形与巨噬细胞反应实验；数据类型为纳米地形参数、CD206/CD86等巨噬细胞指标。\r\n- **让模型判断什么**：纳米地形免疫响应\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：高斯过程回归从纳米地形高通量实验预测巨噬细胞极化\r\n- **实际作用**：用于纳米地形免疫响应。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **构建纳米地形库**：组合生物物理线索阵列覆盖超过100万种候选地形。\r\n2. **高通量测免疫**：测量纳米地形诱导的巨噬细胞极化响应。\r\n3. **高斯过程建模**：用高斯过程回归关联地形和免疫表型。\r\n4. **定位响应地形**：识别促炎与抗炎响应相关地形。\r\n5. **细胞分子复核**：以细胞和分子表征验证模型定位结果。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：模型定位促炎/抗炎响应相关地形，并通过细胞与分子表征验证；正式摘要未给统一量化增益。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://pubs.acs.org/doi/10.1021/acsnano.4c04406\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "概率、贝叶斯与核方法",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-2962ae202778de91",
+      "major": "生物材料",
+      "short": "钛植入物表面巨噬细胞响应",
+      "summary": "论文研究钛植入物表面免疫响应：利用随机森林、XGBoost和多层感知机预测钛植入物表面诱导的巨噬细胞极化处理正式论文汇编的钛表面—细胞因子文献数据所对应的材料问题。",
+      "methods": [
+        "多模型学习"
+      ],
+      "method": "多模型学习",
+      "metric": "多模型学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-2962ae202778de91",
+      "title": "生物材料＋多模型学习｜钛植入物表面巨噬细胞响应",
+      "originalTitle": "Machine Learning Approach to Investigating Macrophage Polarization on Various Titanium Surface Characteristics",
+      "venue": "BME Frontiers",
+      "year": 2025,
+      "doi": "10.34133/bmef.0100",
+      "sourceUrl": "https://spj.science.org/doi/10.34133/bmef.0100",
+      "question": "论文研究钛植入物表面免疫响应：利用随机森林、XGBoost和多层感知机预测钛植入物表面诱导的巨噬细胞极化处理正式论文汇编的钛表面—细胞因子文献数据所对应的材料问题。",
+      "data": "正式论文汇编的钛表面—细胞因子文献数据；IL-10数据167条/10特征；TNF-α数据232条/10特征",
+      "dataSource": "正式论文汇编的钛表面—细胞因子文献数据",
+      "dataType": "钛表面性质 · 巨噬细胞因子",
+      "availability": "未公开",
+      "aiMethod": "随机森林、XGBoost和多层感知机预测钛植入物表面诱导的巨噬细胞极化",
+      "pipeline": [
+        {
+          "title": "整理钛表面记录",
+          "detail": "IL-10为167条/10特征，TNF-α为232条/10特征。"
+        },
+        {
+          "title": "比较三类预测器",
+          "detail": "比较随机森林、XGBoost和多层感知机。"
+        },
+        {
+          "title": "预测极化指标",
+          "detail": "由钛表面与细胞实验特征预测巨噬细胞极化。"
+        },
+        {
+          "title": "解释关键表面项",
+          "detail": "分析细胞接种密度、接触角和粗糙度的影响。"
+        },
+        {
+          "title": "外部实验核验",
+          "detail": "IL-10预测与外部实验较吻合；数据依请求获取。"
+        }
+      ],
+      "result": "细胞接种密度、接触角和粗糙度为关键影响因素；预测IL-10水平与外部实验较吻合。；论文实际报告：细胞接种密度、接触角和粗糙度为关键影响因素；预测IL-10水平与外部实验较吻合。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "细胞接种密度、接触角和粗糙度为关键影响因素；预测IL-10水平与外部实验较吻合。；论文实际报告：细胞接种密度、接触角和粗糙度为关键影响因素；预测IL-10水平与外部实验较吻合。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-2962ae202778de91.webp",
+      "markdownUrl": "cards/library/paper-2962ae202778de91.md",
+      "markdown": "# 生物材料 × 机器学习\r\n\r\n> **副标题：钛植入物表面免疫响应**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine Learning Approach to Investigating Macrophage Polarization on Various Titanium Surface Characteristics\r\n- **期刊与年份**：BME Frontiers，2025\r\n- **DOI**：10.34133/bmef.0100\r\n- **正式来源**：https://spj.science.org/doi/10.34133/bmef.0100\r\n- **OpenAlex ID**：https://openalex.org/W4407020260\r\n- **OpenAlex API**：https://api.openalex.org/works/W4407020260\r\n- **OA 状态**：is_oa=true；oa_status=diamond\r\n\r\n## 研究问题\r\n\r\n论文研究钛植入物表面免疫响应：利用随机森林、XGBoost和多层感知机预测钛植入物表面诱导的巨噬细胞极化处理正式论文汇编的钛表面—细胞因子文献数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：正式论文汇编的钛表面—细胞因子文献数据\r\n- **数据规模**：IL-10数据167条/10特征；TNF-α数据232条/10特征\r\n- **数据类型**：钛表面性质、巨噬细胞因子\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：正式全文 Data collection 核明 IL-10 为167条/10特征、TNF-α 为232条/10特征；Data Availability 声明研究结论所需数据可依请求获取，未提供公开下载数据集。\r\n- **给模型看什么**：正式论文汇编的钛表面—细胞因子文献数据；数据类型为钛表面性质、巨噬细胞因子。\r\n- **让模型判断什么**：钛植入物表面免疫响应\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：随机森林、XGBoost和多层感知机预测钛植入物表面诱导的巨噬细胞极化\r\n- **实际作用**：用于钛植入物表面免疫响应。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理钛表面记录**：IL-10为167条/10特征，TNF-α为232条/10特征。\r\n2. **比较三类预测器**：比较随机森林、XGBoost和多层感知机。\r\n3. **预测极化指标**：由钛表面与细胞实验特征预测巨噬细胞极化。\r\n4. **解释关键表面项**：分析细胞接种密度、接触角和粗糙度的影响。\r\n5. **外部实验核验**：IL-10预测与外部实验较吻合；数据依请求获取。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：细胞接种密度、接触角和粗糙度为关键影响因素；预测IL-10水平与外部实验较吻合。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n- **特殊事实口径**：研究数据仅可依请求获取，未提供公开下载数据集。\r\n\r\n- **证据限制**：数据可依请求获取；PMC链接是正式全文申请说明，不是公开数据下载。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-c84ff01e06eada15",
+      "major": "生物材料",
+      "short": "明胶电纺支架形貌力学预测",
+      "summary": "论文研究明胶电纺组织支架性能预测：利用12种机器学习方法建模绿色溶剂对明胶电纺支架的影响处理作者的明胶电纺支架形貌/力学实验所对应的材料问题。",
+      "methods": [
+        "GAMLSS"
+      ],
+      "method": "GAMLSS",
+      "metric": "GAMLSS",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-c84ff01e06eada15",
+      "title": "生物材料＋GAMLSS｜明胶电纺支架形貌力学预测",
+      "originalTitle": "Machine learning to predict morphology, topography and mechanical properties of sustainable gelatin-based electrospun scaffolds",
+      "venue": "Scientific Reports",
+      "year": 2024,
+      "doi": "10.1038/s41598-024-71824-2",
+      "sourceUrl": "https://www.nature.com/articles/s41598-024-71824-2",
+      "question": "论文研究明胶电纺组织支架性能预测：利用12种机器学习方法建模绿色溶剂对明胶电纺支架的影响处理作者的明胶电纺支架形貌/力学实验所对应的材料问题。",
+      "data": "作者的明胶电纺支架形貌/力学实验；2214次观测；12种学习方法、72个模型",
+      "dataSource": "作者的明胶电纺支架形貌/力学实验",
+      "dataType": "溶剂比例 · 纤维形貌 · 支架力学",
+      "availability": "未公开",
+      "aiMethod": "12种机器学习方法建模绿色溶剂对明胶电纺支架的影响",
+      "pipeline": [
+        {
+          "title": "制备明胶支架",
+          "detail": "改变绿色溶剂配比制备明胶电纺支架。"
+        },
+        {
+          "title": "记录六类性质",
+          "detail": "收集2214次形貌、地形和力学性质观测。"
+        },
+        {
+          "title": "训练七十二模型",
+          "detail": "比较12种方法构成的72个预测模型。"
+        },
+        {
+          "title": "预测支架性质",
+          "detail": "预测纤维直径、粗糙度与力学表现。"
+        },
+        {
+          "title": "比较GAMLSS",
+          "detail": "最优GAMLSS的R²提高6.868%、MAPE改善21.16%。"
+        }
+      ],
+      "result": "最优GAMLSS相较常见回归模型R²提高6.868%，MAPE改善21.16%。；论文实际报告：最优GAMLSS相较常见回归模型R²提高6.868%，MAPE改善21.16%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "最优GAMLSS相较常见回归模型R²提高6.868%，MAPE改善21.16%。；论文实际报告：最优GAMLSS相较常见回归模型R²提高6.868%，MAPE改善21.16%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-c84ff01e06eada15.webp",
+      "markdownUrl": "cards/library/paper-c84ff01e06eada15.md",
+      "markdown": "# 生物材料 × 机器学习\r\n\r\n> **副标题：明胶电纺组织支架性能预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning to predict morphology, topography and mechanical properties of sustainable gelatin-based electrospun scaffolds\r\n- **期刊与年份**：Scientific Reports，2024\r\n- **DOI**：10.1038/s41598-024-71824-2\r\n- **正式来源**：https://www.nature.com/articles/s41598-024-71824-2\r\n- **OpenAlex ID**：https://openalex.org/W4402354687\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402354687\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究明胶电纺组织支架性能预测：利用12种机器学习方法建模绿色溶剂对明胶电纺支架的影响处理作者的明胶电纺支架形貌/力学实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者的明胶电纺支架形貌/力学实验\r\n- **数据规模**：2214次观测；12种学习方法、72个模型\r\n- **数据类型**：溶剂比例、纤维形貌、支架力学\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：Data availability The data supporting this article will be made available on request to the correspondence author Elisa.Roldan-Ciudad@mmu.ac.uk .\r\n- **给模型看什么**：作者的明胶电纺支架形貌/力学实验；数据类型为溶剂比例、纤维形貌、支架力学。\r\n- **让模型判断什么**：明胶电纺组织支架性能预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：12种机器学习方法建模绿色溶剂对明胶电纺支架的影响\r\n- **实际作用**：用于明胶电纺组织支架性能预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **制备明胶支架**：改变绿色溶剂配比制备明胶电纺支架。\r\n2. **记录六类性质**：收集2214次形貌、地形和力学性质观测。\r\n3. **训练七十二模型**：比较12种方法构成的72个预测模型。\r\n4. **预测支架性质**：预测纤维直径、粗糙度与力学表现。\r\n5. **比较GAMLSS**：最优GAMLSS的R²提高6.868%、MAPE改善21.16%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：最优GAMLSS相较常见回归模型R²提高6.868%，MAPE改善21.16%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0c977cf9e174e3c5",
+      "major": "生物材料",
+      "short": "细胞液滴生物打印尺寸优化",
+      "summary": "论文研究细胞液滴生物打印优化：利用MLP、决策树等五算法预测细胞液滴尺寸并优化生物打印参数处理作者高通量细胞液滴生物打印实验所对应的材料问题。",
+      "methods": [
+        "MLP"
+      ],
+      "method": "MLP",
+      "metric": "MLP",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0c977cf9e174e3c5",
+      "title": "生物材料＋MLP｜细胞液滴生物打印尺寸优化",
+      "originalTitle": "Machine Learning‐Enhanced Optimization for High‐Throughput Precision in Cellular Droplet Bioprinting",
+      "venue": "Advanced Science",
+      "year": 2025,
+      "doi": "10.1002/advs.202412831",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12120697/",
+      "question": "论文研究细胞液滴生物打印优化：利用MLP、决策树等五算法预测细胞液滴尺寸并优化生物打印参数处理作者高通量细胞液滴生物打印实验所对应的材料问题。",
+      "data": "作者高通量细胞液滴生物打印实验；5项打印参数；每次可同时打印超过50滴",
+      "dataSource": "作者高通量细胞液滴生物打印实验",
+      "dataType": "生物墨水黏度 · 喷嘴和压力参数 · 细胞浓度 · 液滴尺寸",
+      "availability": "未公开",
+      "aiMethod": "MLP、决策树等五算法预测细胞液滴尺寸并优化生物打印参数",
+      "pipeline": [
+        {
+          "title": "采集打印参数",
+          "detail": "记录黏度、喷嘴、时间、压力和细胞浓度五项参数。"
+        },
+        {
+          "title": "高通量打印液滴",
+          "detail": "生物打印机每次可同时打印超过50个细胞液滴。"
+        },
+        {
+          "title": "比较五种算法",
+          "detail": "评估MLP、决策树等五类算法预测液滴尺寸。"
+        },
+        {
+          "title": "优化液滴尺寸",
+          "detail": "依据预测调整打印参数，目标是所需液滴大小。"
+        },
+        {
+          "title": "比较精度速度",
+          "detail": "MLP预测最准确、决策树计算最快；数据依请求获取。"
+        }
+      ],
+      "result": "MLP在比较模型中预测最准确，决策树计算最快；正式摘要未报告统一数值指标。；论文实际报告：MLP在比较模型中预测最准确，决策树计算最快；正式摘要未报告统一数值指标。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "MLP在比较模型中预测最准确，决策树计算最快；正式摘要未报告统一数值指标。；论文实际报告：MLP在比较模型中预测最准确，决策树计算最快；正式摘要未报告统一数值指标。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-0c977cf9e174e3c5.webp",
+      "markdownUrl": "cards/library/paper-0c977cf9e174e3c5.md",
+      "markdown": "# 生物材料 × 深度学习\r\n\r\n> **副标题：细胞液滴生物打印优化**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine Learning‐Enhanced Optimization for High‐Throughput Precision in Cellular Droplet Bioprinting\r\n- **期刊与年份**：Advanced Science，2025\r\n- **DOI**：10.1002/advs.202412831\r\n- **正式来源**：https://pmc.ncbi.nlm.nih.gov/articles/PMC12120697/\r\n- **OpenAlex ID**：https://openalex.org/W4409851860\r\n- **OpenAlex API**：https://api.openalex.org/works/W4409851860\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究细胞液滴生物打印优化：利用MLP、决策树等五算法预测细胞液滴尺寸并优化生物打印参数处理作者高通量细胞液滴生物打印实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：作者高通量细胞液滴生物打印实验\r\n- **数据规模**：5项打印参数；每次可同时打印超过50滴\r\n- **数据类型**：生物墨水黏度、喷嘴和压力参数、细胞浓度、液滴尺寸\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：正式全文 Data Availability Statement 声明支撑研究结果的数据可向通讯作者合理申请；未提供公开下载数据集。\r\n- **给模型看什么**：作者高通量细胞液滴生物打印实验；数据类型为生物墨水黏度、喷嘴和压力参数、细胞浓度、液滴尺寸。\r\n- **让模型判断什么**：细胞液滴生物打印优化\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：MLP、决策树等五算法预测细胞液滴尺寸并优化生物打印参数\r\n- **实际作用**：用于细胞液滴生物打印优化。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集打印参数**：记录黏度、喷嘴、时间、压力和细胞浓度五项参数。\r\n2. **高通量打印液滴**：生物打印机每次可同时打印超过50个细胞液滴。\r\n3. **比较五种算法**：评估MLP、决策树等五类算法预测液滴尺寸。\r\n4. **优化液滴尺寸**：依据预测调整打印参数，目标是所需液滴大小。\r\n5. **比较精度速度**：MLP预测最准确、决策树计算最快；数据依请求获取。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：MLP在比较模型中预测最准确，决策树计算最快；正式摘要未报告统一数值指标。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n- **特殊事实口径**：研究数据须向通讯作者合理申请，未提供公开下载数据集。\r\n\r\n- **证据限制**：数据可依请求获取；PMC链接是正式全文申请说明，不是公开数据下载。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "优化、调度与路径规划",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-565ed3709260639c",
+      "major": "复合材料",
+      "short": "4D打印主动复合结构逆向设计",
+      "summary": "论文研究4D打印主动复合结构逆向设计：利用循环神经网络代理模型结合群智能优化进行主动复合结构逆向设计处理有限元模拟的4D打印主动复合结构设计—形变对所对应的材料问题。",
+      "methods": [
+        "循环神经网络"
+      ],
+      "method": "循环神经网络",
+      "metric": "循环神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-565ed3709260639c",
+      "title": "复合材料＋循环神经网络｜4D打印主动复合结构逆向设计",
+      "originalTitle": "Machine learning and sequential subdomain optimization for ultrafast inverse design of 4D-printed active composite structures",
+      "venue": "Journal of the Mechanics and Physics of Solids",
+      "year": 2024,
+      "doi": "10.1016/j.jmps.2024.105561",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0022509624000279",
+      "question": "论文研究4D打印主动复合结构逆向设计：利用循环神经网络代理模型结合群智能优化进行主动复合结构逆向设计处理有限元模拟的4D打印主动复合结构设计—形变对所对应的材料问题。",
+      "data": "有限元模拟的4D打印主动复合结构设计—形变对；正式论文报告Nx=24、Ny=4的设计网格；训练样本量需核正文",
+      "dataSource": "有限元模拟的4D打印主动复合结构设计—形变对",
+      "dataType": "4D打印材料排布 · 目标形变",
+      "availability": "未公开",
+      "aiMethod": "循环神经网络代理模型结合群智能优化进行主动复合结构逆向设计",
+      "pipeline": [
+        {
+          "title": "设定主动结构",
+          "detail": "以4D打印主动复合结构目标形态为逆向设计任务。"
+        },
+        {
+          "title": "训练循环代理",
+          "detail": "循环神经网络代理模型表示结构响应。"
+        },
+        {
+          "title": "分域序贯优化",
+          "detail": "结合群智能与子域序贯优化搜索结构设计。"
+        },
+        {
+          "title": "输出逆向布局",
+          "detail": "在Nx=24、Ny=4网格上给出候选设计。"
+        },
+        {
+          "title": "比较设计耗时",
+          "detail": "论文报告约1.97秒，对照方案为54分钟和219天。"
+        }
+      ],
+      "result": "逆向设计约1.97秒，相比ML+进化算法54分钟和有限元+进化算法219天。；论文实际报告：逆向设计约1.97秒，相比ML+进化算法54分钟和有限元+进化算法219天。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "逆向设计约1.97秒，相比ML+进化算法54分钟和有限元+进化算法219天。；论文实际报告：逆向设计约1.97秒，相比ML+进化算法54分钟和有限元+进化算法219天。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-565ed3709260639c.webp",
+      "markdownUrl": "cards/library/paper-565ed3709260639c.md",
+      "markdown": "# 复合材料 × 生成式AI\r\n\r\n> **副标题：4D打印主动复合结构逆向设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning and sequential subdomain optimization for ultrafast inverse design of 4D-printed active composite structures\r\n- **期刊与年份**：Journal of the Mechanics and Physics of Solids，2024\r\n- **DOI**：10.1016/j.jmps.2024.105561\r\n- **正式来源**：https://www.sciencedirect.com/science/article/pii/S0022509624000279\r\n- **OpenAlex ID**：https://openalex.org/W4391474594\r\n- **OpenAlex API**：https://api.openalex.org/works/W4391474594\r\n- **OA 状态**：is_oa=true；oa_status=bronze\r\n\r\n## 研究问题\r\n\r\n论文研究4D打印主动复合结构逆向设计：利用循环神经网络代理模型结合群智能优化进行主动复合结构逆向设计处理有限元模拟的4D打印主动复合结构设计—形变对所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：有限元模拟的4D打印主动复合结构设计—形变对\r\n- **数据规模**：正式论文报告Nx=24、Ny=4的设计网格；训练样本量需核正文\r\n- **数据类型**：4D打印材料排布、目标形变\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：正式发表作者版PDF的数据声明为数据可向作者申请获取。\r\n- **给模型看什么**：有限元模拟的4D打印主动复合结构设计—形变对；数据类型为4D打印材料排布、目标形变。\r\n- **让模型判断什么**：4D打印主动复合结构逆向设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：循环神经网络代理模型结合群智能优化进行主动复合结构逆向设计\r\n- **实际作用**：用于4D打印主动复合结构逆向设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **设定主动结构**：以4D打印主动复合结构目标形态为逆向设计任务。\r\n2. **训练循环代理**：循环神经网络代理模型表示结构响应。\r\n3. **分域序贯优化**：结合群智能与子域序贯优化搜索结构设计。\r\n4. **输出逆向布局**：在Nx=24、Ny=4网格上给出候选设计。\r\n5. **比较设计耗时**：论文报告约1.97秒，对照方案为54分钟和219天。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：逆向设计约1.97秒，相比ML+进化算法54分钟和有限元+进化算法219天。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "时序网络与序列学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-320ebf8089fa3c12",
+      "major": "复合材料",
+      "short": "4D打印分级结构形变逆向设计",
+      "summary": "论文研究4D打印分级结构预测与逆向设计：利用ResNet正向代理模型与进化算法逆向设计分级4D打印复合结构处理4D打印分级结构仿真与实验所对应的材料问题。",
+      "methods": [
+        "ResNet"
+      ],
+      "method": "ResNet",
+      "metric": "ResNet",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-320ebf8089fa3c12",
+      "title": "复合材料＋ResNet｜4D打印分级结构形变逆向设计",
+      "originalTitle": "Machine learning driven forward prediction and inverse design for 4D printed hierarchical architecture with arbitrary shapes",
+      "venue": "Applied Materials Today",
+      "year": 2024,
+      "doi": "10.1016/j.apmt.2024.102373",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S2352940724003184",
+      "question": "论文研究4D打印分级结构预测与逆向设计：利用ResNet正向代理模型与进化算法逆向设计分级4D打印复合结构处理4D打印分级结构仿真与实验所对应的材料问题。",
+      "data": "4D打印分级结构仿真与实验；正式论文未在摘要量化训练数据量",
+      "dataSource": "4D打印分级结构仿真与实验",
+      "dataType": "分级结构设计 · 受激形变",
+      "availability": "部分公开",
+      "aiMethod": "ResNet正向代理模型与进化算法逆向设计分级4D打印复合结构",
+      "pipeline": [
+        {
+          "title": "定义分级结构",
+          "detail": "以任意目标形状的4D打印分级结构为任务。"
+        },
+        {
+          "title": "训练形变代理网",
+          "detail": "ResNet正向代理模型预测结构形变。"
+        },
+        {
+          "title": "计算目标形变",
+          "detail": "正向模型将设计映射为目标形变。"
+        },
+        {
+          "title": "进化逆向搜索",
+          "detail": "进化算法在代理模型上逆向搜索结构。"
+        },
+        {
+          "title": "比较形变误差",
+          "detail": "正向损失低于0.01 mm，逆向设计误差约1 mm。"
+        }
+      ],
+      "result": "正向形变损失低于0.01 mm，逆向设计误差约1 mm。；论文实际报告：正向形变损失低于0.01 mm，逆向设计误差约1 mm。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "正向形变损失低于0.01 mm，逆向设计误差约1 mm。；论文实际报告：正向形变损失低于0.01 mm，逆向设计误差约1 mm。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://liuchao-jin.github.io/files/my_essay/jin2024machine.pdf",
+      "codeUrl": "",
+      "image": "assets/library/paper-320ebf8089fa3c12.webp",
+      "markdownUrl": "cards/library/paper-320ebf8089fa3c12.md",
+      "markdown": "# 复合材料 × 生成式AI\r\n\r\n> **副标题：4D打印分级结构预测与逆向设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Machine learning driven forward prediction and inverse design for 4D printed hierarchical architecture with arbitrary shapes\r\n- **期刊与年份**：Applied Materials Today，2024\r\n- **DOI**：10.1016/j.apmt.2024.102373\r\n- **正式来源**：https://www.sciencedirect.com/science/article/pii/S2352940724003184\r\n- **OpenAlex ID**：https://openalex.org/W4401386116\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401386116\r\n- **OA 状态**：is_oa=true；oa_status=green\r\n\r\n## 研究问题\r\n\r\n论文研究4D打印分级结构预测与逆向设计：利用ResNet正向代理模型与进化算法逆向设计分级4D打印复合结构处理4D打印分级结构仿真与实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：4D打印分级结构仿真与实验\r\n- **数据规模**：正式论文未在摘要量化训练数据量\r\n- **数据类型**：分级结构设计、受激形变\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式发表作者版PDF的数据声明称数据包含在论文内。\r\n- **给模型看什么**：4D打印分级结构仿真与实验；数据类型为分级结构设计、受激形变。\r\n- **让模型判断什么**：4D打印分级结构预测与逆向设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：ResNet正向代理模型与进化算法逆向设计分级4D打印复合结构\r\n- **实际作用**：用于4D打印分级结构预测与逆向设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **定义分级结构**：以任意目标形状的4D打印分级结构为任务。\r\n2. **训练形变代理网**：ResNet正向代理模型预测结构形变。\r\n3. **计算目标形变**：正向模型将设计映射为目标形变。\r\n4. **进化逆向搜索**：进化算法在代理模型上逆向搜索结构。\r\n5. **比较形变误差**：正向损失低于0.01 mm，逆向设计误差约1 mm。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：正向形变损失低于0.01 mm，逆向设计误差约1 mm。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://liuchao-jin.github.io/files/my_essay/jin2024machine.pdf\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-c0fcc87f1e496c09",
+      "major": "复合材料",
+      "short": "主动复合板逆向设计",
+      "summary": "论文研究主动复合板逆向设计：利用迭代数据整理和迁移学习，辅以遗传算法逆向设计主动复合板处理有限元生成的受激复合板设计—变形数据所对应的材料问题。",
+      "methods": [
+        "迁移学习"
+      ],
+      "method": "迁移学习",
+      "metric": "迁移学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-c0fcc87f1e496c09",
+      "title": "复合材料＋迁移学习｜主动复合板逆向设计",
+      "originalTitle": "Iterative Data Curation for Machine Learning‐Based Inverse Design of Active Composite Plates for Four‐Dimensional Printing",
+      "venue": "Advanced Intelligent Systems",
+      "year": 2025,
+      "doi": "10.1002/aisy.202500916",
+      "sourceUrl": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202500916",
+      "question": "论文研究主动复合板逆向设计：利用迭代数据整理和迁移学习，辅以遗传算法逆向设计主动复合板处理有限元生成的受激复合板设计—变形数据所对应的材料问题。",
+      "data": "有限元生成的受激复合板设计—变形数据；相对初始训练方案所需数据减少8倍；正文涉及56,250次初始有限元模拟",
+      "dataSource": "有限元生成的受激复合板设计—变形数据",
+      "dataType": "材料图案 · 目标形状 · 有限元变形",
+      "availability": "部分公开",
+      "aiMethod": "迭代数据整理和迁移学习，辅以遗传算法逆向设计主动复合板",
+      "pipeline": [
+        {
+          "title": "采集有限元数据",
+          "detail": "以主动复合板有限元模拟作为模型数据来源。"
+        },
+        {
+          "title": "迭代剔冗整理",
+          "detail": "迭代保留非冗余且不同于已有样本的数据。"
+        },
+        {
+          "title": "迁移学习建模",
+          "detail": "迁移学习在精简数据上建立结构响应模型。"
+        },
+        {
+          "title": "遗传逆向设计",
+          "detail": "机器学习模型与遗传算法联合搜索目标形态。"
+        },
+        {
+          "title": "对照数据需求",
+          "detail": "维持设计性能时训练数据需求降至原方案八分之一。"
+        }
+      ],
+      "result": "维持设计性能的同时将训练数据需求降至原方案的八分之一。；论文实际报告：维持设计性能的同时将训练数据需求降至原方案的八分之一。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "维持设计性能的同时将训练数据需求降至原方案的八分之一。；论文实际报告：维持设计性能的同时将训练数据需求降至原方案的八分之一。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202500916",
+      "codeUrl": "",
+      "image": "assets/library/paper-c0fcc87f1e496c09.webp",
+      "markdownUrl": "cards/library/paper-c0fcc87f1e496c09.md",
+      "markdown": "# 复合材料 × 迁移学习\r\n\r\n> **副标题：主动复合板逆向设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Iterative Data Curation for Machine Learning‐Based Inverse Design of Active Composite Plates for Four‐Dimensional Printing\r\n- **期刊与年份**：Advanced Intelligent Systems，2025\r\n- **DOI**：10.1002/aisy.202500916\r\n- **正式来源**：https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202500916\r\n- **OpenAlex ID**：https://openalex.org/W4414836665\r\n- **OpenAlex API**：https://api.openalex.org/works/W4414836665\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究主动复合板逆向设计：利用迭代数据整理和迁移学习，辅以遗传算法逆向设计主动复合板处理有限元生成的受激复合板设计—变形数据所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：有限元生成的受激复合板设计—变形数据\r\n- **数据规模**：相对初始训练方案所需数据减少8倍；正文涉及56,250次初始有限元模拟\r\n- **数据类型**：材料图案、目标形状、有限元变形\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：正式论文提供Supporting Information，基础数据按论文数据声明向作者申请。\r\n- **给模型看什么**：有限元生成的受激复合板设计—变形数据；数据类型为材料图案、目标形状、有限元变形。\r\n- **让模型判断什么**：主动复合板逆向设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：迭代数据整理和迁移学习，辅以遗传算法逆向设计主动复合板\r\n- **实际作用**：用于主动复合板逆向设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **采集有限元数据**：以主动复合板有限元模拟作为模型数据来源。\r\n2. **迭代剔冗整理**：迭代保留非冗余且不同于已有样本的数据。\r\n3. **迁移学习建模**：迁移学习在精简数据上建立结构响应模型。\r\n4. **遗传逆向设计**：机器学习模型与遗传算法联合搜索目标形态。\r\n5. **对照数据需求**：维持设计性能时训练数据需求降至原方案八分之一。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：维持设计性能的同时将训练数据需求降至原方案的八分之一。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/aisy.202500916\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-6f176062b0f3dbbf",
+      "major": "复合材料",
+      "short": "纤维复合材料应力预测",
+      "summary": "论文研究纤维复合材料显微图像应力预测：利用改进StressNet全卷积网络从微CT截面预测非线性有限元应力场处理纤维增强聚合物微CT分割图和同结构有限元仿真所对应的材料问题。",
+      "methods": [
+        "StressNet"
+      ],
+      "method": "StressNet",
+      "metric": "StressNet",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-6f176062b0f3dbbf",
+      "title": "复合材料＋StressNet｜纤维复合材料应力预测",
+      "originalTitle": "Predicting Mechanical Properties from Microstructure Images in Fiber-Reinforced Polymers Using Convolutional Neural Networks",
+      "venue": "Journal of Composites Science",
+      "year": 2024,
+      "doi": "10.3390/jcs8100387",
+      "sourceUrl": "https://www.mdpi.com/2504-477X/8/10/387",
+      "question": "论文研究纤维复合材料显微图像应力预测：利用改进StressNet全卷积网络从微CT截面预测非线性有限元应力场处理纤维增强聚合物微CT分割图和同结构有限元仿真所对应的材料问题。",
+      "data": "纤维增强聚合物微CT分割图和同结构有限元仿真；每个截面5321个数据点；正式摘要未给截面总数",
+      "dataSource": "纤维增强聚合物微CT分割图和同结构有限元仿真",
+      "dataType": "微CT分割图 · 应力场",
+      "availability": "部分公开",
+      "aiMethod": "改进StressNet全卷积网络从微CT截面预测非线性有限元应力场",
+      "pipeline": [
+        {
+          "title": "获取微CT截面",
+          "detail": "以纤维增强复合材料微CT分割截面为输入。"
+        },
+        {
+          "title": "有限元生成应力",
+          "detail": "非线性有限元为原始微结构生成应力场标签。"
+        },
+        {
+          "title": "训练应力网络",
+          "detail": "改进全卷积StressNet学习图像到应力场映射。"
+        },
+        {
+          "title": "预测截面应力",
+          "detail": "模型由新截面微结构直接预测局部应力。"
+        },
+        {
+          "title": "比较时间精度",
+          "detail": "笔记本数秒预测，对照有限元92.5小时；测试R²为0.33—0.69。"
+        }
+      ],
+      "result": "普通笔记本数秒预测应力场，完整高性能集群有限元计算耗时92.5小时；测试R²随截面为0.33—0.69。；论文实际报告：普通笔记本数秒预测应力场，完整高性能集群有限元计算耗时92.5小时；测试R²随截面为0.33—0.69。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "普通笔记本数秒预测应力场，完整高性能集群有限元计算耗时92.5小时；测试R²随截面为0.33—0.69。；论文实际报告：普通笔记本数秒预测应力场，完整高性能集群有限元计算耗时92.5小时；测试R²随截面为0.33—0.69。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/iamyixuan/stress_fiber_polymer",
+      "codeUrl": "",
+      "image": "assets/library/paper-6f176062b0f3dbbf.webp",
+      "markdownUrl": "cards/library/paper-6f176062b0f3dbbf.md",
+      "markdown": "# 复合材料 × 深度学习\r\n\r\n> **副标题：纤维复合材料显微图像应力预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Predicting Mechanical Properties from Microstructure Images in Fiber-Reinforced Polymers Using Convolutional Neural Networks\r\n- **期刊与年份**：Journal of Composites Science，2024\r\n- **DOI**：10.3390/jcs8100387\r\n- **正式来源**：https://www.mdpi.com/2504-477X/8/10/387\r\n- **OpenAlex ID**：https://openalex.org/W4402864289\r\n- **OpenAlex API**：https://api.openalex.org/works/W4402864289\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究纤维复合材料显微图像应力预测：利用改进StressNet全卷积网络从微CT截面预测非线性有限元应力场处理纤维增强聚合物微CT分割图和同结构有限元仿真所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：纤维增强聚合物微CT分割图和同结构有限元仿真\r\n- **数据规模**：每个截面5321个数据点；正式摘要未给截面总数\r\n- **数据类型**：微CT分割图、应力场\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：MDPI正式全文公开处理后数据的作者GitHub入口。\r\n- **给模型看什么**：纤维增强聚合物微CT分割图和同结构有限元仿真；数据类型为微CT分割图、应力场。\r\n- **让模型判断什么**：纤维复合材料显微图像应力预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：改进StressNet全卷积网络从微CT截面预测非线性有限元应力场\r\n- **实际作用**：用于纤维复合材料显微图像应力预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **获取微CT截面**：以纤维增强复合材料微CT分割截面为输入。\r\n2. **有限元生成应力**：非线性有限元为原始微结构生成应力场标签。\r\n3. **训练应力网络**：改进全卷积StressNet学习图像到应力场映射。\r\n4. **预测截面应力**：模型由新截面微结构直接预测局部应力。\r\n5. **比较时间精度**：笔记本数秒预测，对照有限元92.5小时；测试R²为0.33—0.69。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：普通笔记本数秒预测应力场，完整高性能集群有限元计算耗时92.5小时；测试R²随截面为0.33—0.69。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://github.com/iamyixuan/stress_fiber_polymer\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "影像方向",
+      "dataSubtype": "自然、工业与艺术图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-a2ee9e49794a4092",
+      "major": "复合材料",
+      "short": "仿生抗裂超材料设计",
+      "summary": "论文研究抗裂复合超材料设计：利用机器学习加速裂纹路径可编程复合超材料元胞设计处理数值模拟与实验断裂测试所对应的材料问题。",
+      "methods": [
+        "机器学习"
+      ],
+      "method": "机器学习",
+      "metric": "机器学习",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-a2ee9e49794a4092",
+      "title": "复合材料＋机器学习｜仿生抗裂超材料设计",
+      "originalTitle": "Damage-programmable design of metamaterials achieving crack-resisting mechanisms seen in nature",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "doi": "10.1038/s41467-024-51757-0",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-51757-0",
+      "question": "论文研究抗裂复合超材料设计：利用机器学习加速裂纹路径可编程复合超材料元胞设计处理数值模拟与实验断裂测试所对应的材料问题。",
+      "data": "数值模拟与实验断裂测试；正式摘要未量化训练样本数；多种裂纹偏折/屏蔽单元实验",
+      "dataSource": "数值模拟与实验断裂测试",
+      "dataType": "元胞微结构 · 裂纹路径 · 断裂能",
+      "availability": "部分公开",
+      "aiMethod": "机器学习加速裂纹路径可编程复合超材料元胞设计",
+      "pipeline": [
+        {
+          "title": "定义裂纹目标",
+          "detail": "设置裂纹偏折、屏蔽等仿生抗裂目标。"
+        },
+        {
+          "title": "构建可编程元胞",
+          "detail": "在超材料元胞中设计可调微纤维。"
+        },
+        {
+          "title": "机器学习加速",
+          "detail": "机器学习加速裂纹路径可编程元胞生成。"
+        },
+        {
+          "title": "实验比较裂纹",
+          "detail": "验证裂纹偏折与屏蔽等抗裂机制。"
+        },
+        {
+          "title": "核验断裂能",
+          "detail": "吸收断裂能相对传统超材料最多提高1235%。"
+        }
+      ],
+      "result": "吸收断裂能相对传统超材料最多提高1235%。；论文实际报告：吸收断裂能相对传统超材料最多提高1235%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "吸收断裂能相对传统超材料最多提高1235%。；论文实际报告：吸收断裂能相对传统超材料最多提高1235%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://www.nature.com/articles/s41467-024-51757-0",
+      "codeUrl": "",
+      "image": "assets/library/paper-a2ee9e49794a4092.webp",
+      "markdownUrl": "cards/library/paper-a2ee9e49794a4092.md",
+      "markdown": "# 复合材料 × 机器学习\r\n\r\n> **副标题：抗裂复合超材料设计**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Damage-programmable design of metamaterials achieving crack-resisting mechanisms seen in nature\r\n- **期刊与年份**：Nature Communications，2024\r\n- **DOI**：10.1038/s41467-024-51757-0\r\n- **正式来源**：https://www.nature.com/articles/s41467-024-51757-0\r\n- **OpenAlex ID**：https://openalex.org/W4401915848\r\n- **OpenAlex API**：https://api.openalex.org/works/W4401915848\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究抗裂复合超材料设计：利用机器学习加速裂纹路径可编程复合超材料元胞设计处理数值模拟与实验断裂测试所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：数值模拟与实验断裂测试\r\n- **数据规模**：正式摘要未量化训练样本数；多种裂纹偏折/屏蔽单元实验\r\n- **数据类型**：元胞微结构、裂纹路径、断裂能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：部分公开\r\n- **数据可得性原文/核实口径**：Data availability The data supporting the findings of this study are included within the paper and its Supplementary Information. All other data are available from the corresponding authors upon request. Source data are provided with this paper.\r\n- **给模型看什么**：数值模拟与实验断裂测试；数据类型为元胞微结构、裂纹路径、断裂能。\r\n- **让模型判断什么**：抗裂复合超材料设计\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：机器学习加速裂纹路径可编程复合超材料元胞设计\r\n- **实际作用**：用于抗裂复合超材料设计。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **定义裂纹目标**：设置裂纹偏折、屏蔽等仿生抗裂目标。\r\n2. **构建可编程元胞**：在超材料元胞中设计可调微纤维。\r\n3. **机器学习加速**：机器学习加速裂纹路径可编程元胞生成。\r\n4. **实验比较裂纹**：验证裂纹偏折与屏蔽等抗裂机制。\r\n5. **核验断裂能**：吸收断裂能相对传统超材料最多提高1235%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：吸收断裂能相对传统超材料最多提高1235%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：部分公开\r\n- **数据入口**：https://www.nature.com/articles/s41467-024-51757-0\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "传统统计与经典机器学习",
+      "problemType": "设计、发现与合成",
+      "laboratory": "时序方向",
+      "dataSubtype": "仿真、数值场与实验参数",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-12df7364d164c648",
+      "major": "复合材料",
+      "short": "混杂天然纤维力学预测",
+      "summary": "论文研究混杂天然纤维复合材料性能预测：利用随机森林等回归预测混杂天然纤维复合材料力学性能处理黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验所对应的材料问题。",
+      "methods": [
+        "随机森林"
+      ],
+      "method": "随机森林",
+      "metric": "随机森林",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-12df7364d164c648",
+      "title": "复合材料＋随机森林｜混杂天然纤维力学预测",
+      "originalTitle": "Investigation and machine learning-based prediction of mechanical properties in hybrid natural fiber composites",
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-18944-5",
+      "sourceUrl": "https://www.nature.com/articles/s41598-025-18944-5",
+      "question": "论文研究混杂天然纤维复合材料性能预测：利用随机森林等回归预测混杂天然纤维复合材料力学性能处理黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验所对应的材料问题。",
+      "data": "黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验；正式摘要未量化试样总数；比较多种纤维配比",
+      "dataSource": "黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验",
+      "dataType": "纤维组成 · 拉伸/弯曲/冲击强度",
+      "availability": "未公开",
+      "aiMethod": "随机森林等回归预测混杂天然纤维复合材料力学性能",
+      "pipeline": [
+        {
+          "title": "制备混杂纤维",
+          "detail": "改变黄麻、椰壳、香蕉及菠萝叶等纤维配比。"
+        },
+        {
+          "title": "测试力学表现",
+          "detail": "测量拉伸、弯曲等复合材料性质。"
+        },
+        {
+          "title": "随机森林回归",
+          "detail": "比较随机森林等回归模型预测性能。"
+        },
+        {
+          "title": "筛选优选配方",
+          "detail": "识别20%黄麻+20%椰壳+10%菠萝叶组合。"
+        },
+        {
+          "title": "核验强度指标",
+          "detail": "该配方拉伸85.8 MPa、弯曲134.5 MPa；RF拉伸R² 0.968。"
+        }
+      ],
+      "result": "20%黄麻+20%椰壳+10%菠萝叶配方拉伸强度85.8 MPa、弯曲强度134.5 MPa；RF拉伸R²=0.968。；论文实际报告：20%黄麻+20%椰壳+10%菠萝叶配方拉伸强度85.8 MPa、弯曲强度134.5 MPa；RF拉伸R²=0.968。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "20%黄麻+20%椰壳+10%菠萝叶配方拉伸强度85.8 MPa、弯曲强度134.5 MPa；RF拉伸R²=0.968。；论文实际报告：20%黄麻+20%椰壳+10%菠萝叶配方拉伸强度85.8 MPa、弯曲强度134.5 MPa；RF拉伸R²=0.968。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-12df7364d164c648.webp",
+      "markdownUrl": "cards/library/paper-12df7364d164c648.md",
+      "markdown": "# 复合材料 × 机器学习\r\n\r\n> **副标题：混杂天然纤维复合材料性能预测**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Investigation and machine learning-based prediction of mechanical properties in hybrid natural fiber composites\r\n- **期刊与年份**：Scientific Reports，2025\r\n- **DOI**：10.1038/s41598-025-18944-5\r\n- **正式来源**：https://www.nature.com/articles/s41598-025-18944-5\r\n- **OpenAlex ID**：https://openalex.org/W4414601969\r\n- **OpenAlex API**：https://api.openalex.org/works/W4414601969\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究混杂天然纤维复合材料性能预测：利用随机森林等回归预测混杂天然纤维复合材料力学性能处理黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验\r\n- **数据规模**：正式摘要未量化试样总数；比较多种纤维配比\r\n- **数据类型**：纤维组成、拉伸/弯曲/冲击强度\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：Data availability The datasets used and/or analysed during the current study available from the corresponding author on reasonable request.\r\n- **给模型看什么**：黄麻/椰壳/香蕉/菠萝叶纤维复合材料实验；数据类型为纤维组成、拉伸/弯曲/冲击强度。\r\n- **让模型判断什么**：混杂天然纤维复合材料性能预测\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：随机森林等回归预测混杂天然纤维复合材料力学性能\r\n- **实际作用**：用于混杂天然纤维复合材料性能预测。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **制备混杂纤维**：改变黄麻、椰壳、香蕉及菠萝叶等纤维配比。\r\n2. **测试力学表现**：测量拉伸、弯曲等复合材料性质。\r\n3. **随机森林回归**：比较随机森林等回归模型预测性能。\r\n4. **筛选优选配方**：识别20%黄麻+20%椰壳+10%菠萝叶组合。\r\n5. **核验强度指标**：该配方拉伸85.8 MPa、弯曲134.5 MPa；RF拉伸R² 0.968。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：20%黄麻+20%椰壳+10%菠萝叶配方拉伸强度85.8 MPa、弯曲强度134.5 MPa；RF拉伸R²=0.968。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-c7e921ba42605d0f",
+      "major": "复合材料",
+      "short": "天然纤维聚合物性能预测",
+      "summary": "论文研究天然纤维复合材料深度学习：利用深度神经网络预测天然纤维增强聚合物复合材料力学处理亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验所对应的材料问题。",
+      "methods": [
+        "深度神经网络"
+      ],
+      "method": "深度神经网络",
+      "metric": "深度神经网络",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-c7e921ba42605d0f",
+      "title": "复合材料＋深度神经网络｜天然纤维聚合物性能预测",
+      "originalTitle": "Deep learning for property prediction of natural fiber polymer composites",
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "doi": "10.1038/s41598-025-10841-1",
+      "sourceUrl": "https://www.nature.com/articles/s41598-025-10841-1",
+      "question": "论文研究天然纤维复合材料深度学习：利用深度神经网络预测天然纤维增强聚合物复合材料力学处理亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验所对应的材料问题。",
+      "data": "亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验；180组实验，经自助抽样扩展至1500条训练记录",
+      "dataSource": "亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验",
+      "dataType": "纤维与基体类型 · 表面处理 · 力学性能",
+      "availability": "公开",
+      "aiMethod": "深度神经网络预测天然纤维增强聚合物复合材料力学",
+      "pipeline": [
+        {
+          "title": "整理一百八十组",
+          "detail": "以180组天然纤维复合材料实验为基础。"
+        },
+        {
+          "title": "自助抽样扩展",
+          "detail": "通过自助抽样扩展至1500条训练记录。"
+        },
+        {
+          "title": "训练深度网络",
+          "detail": "深度神经网络预测复合材料力学性质。"
+        },
+        {
+          "title": "比较提升模型",
+          "detail": "与梯度提升等模型比较预测。"
+        },
+        {
+          "title": "核验R²与MAE",
+          "detail": "DNN最高R²约0.89，MAE相对梯度提升降低约9%—12%。"
+        }
+      ],
+      "result": "DNN最高R²约0.89，MAE较梯度提升模型降低约9%—12%。；论文实际报告：DNN最高R²约0.89，MAE较梯度提升模型降低约9%—12%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "DNN最高R²约0.89，MAE较梯度提升模型降低约9%—12%。；论文实际报告：DNN最高R²约0.89，MAE较梯度提升模型降低约9%—12%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "https://github.com/catauggie/TPCM",
+      "codeUrl": "",
+      "image": "assets/library/paper-c7e921ba42605d0f.webp",
+      "markdownUrl": "cards/library/paper-c7e921ba42605d0f.md",
+      "markdown": "# 复合材料 × 深度学习\r\n\r\n> **副标题：天然纤维复合材料深度学习**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep learning for property prediction of natural fiber polymer composites\r\n- **期刊与年份**：Scientific Reports，2025\r\n- **DOI**：10.1038/s41598-025-10841-1\r\n- **正式来源**：https://www.nature.com/articles/s41598-025-10841-1\r\n- **OpenAlex ID**：https://openalex.org/W4412740775\r\n- **OpenAlex API**：https://api.openalex.org/works/W4412740775\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究天然纤维复合材料深度学习：利用深度神经网络预测天然纤维增强聚合物复合材料力学处理亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验\r\n- **数据规模**：180组实验，经自助抽样扩展至1500条训练记录\r\n- **数据类型**：纤维与基体类型、表面处理、力学性能\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：公开\r\n- **数据可得性原文/核实口径**：Data Availability The datasets and code used to support the findings of this study are available in the public GitHub repository: https://github.com/catauggie/TPCM .\r\n- **给模型看什么**：亚麻/棉/剑麻/大麻与PLA/PP/环氧树脂复合材料实验；数据类型为纤维与基体类型、表面处理、力学性能。\r\n- **让模型判断什么**：天然纤维复合材料深度学习\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：深度神经网络预测天然纤维增强聚合物复合材料力学\r\n- **实际作用**：用于天然纤维复合材料深度学习。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **整理一百八十组**：以180组天然纤维复合材料实验为基础。\r\n2. **自助抽样扩展**：通过自助抽样扩展至1500条训练记录。\r\n3. **训练深度网络**：深度神经网络预测复合材料力学性质。\r\n4. **比较提升模型**：与梯度提升等模型比较预测。\r\n5. **核验R²与MAE**：DNN最高R²约0.89，MAE相对梯度提升降低约9%—12%。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：DNN最高R²约0.89，MAE较梯度提升模型降低约9%—12%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：公开\r\n- **数据入口**：https://github.com/catauggie/TPCM\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-5c4c19d67891ddbf",
+      "major": "复合材料",
+      "short": "电镜损伤五类识别",
+      "summary": "论文研究纤维复合材料显微损伤识别：利用EfficientNet等迁移学习图像模型识别纤维复合材料SEM微观损伤处理五类纤维/基体失效SEM图像所对应的材料问题。",
+      "methods": [
+        "EfficientNet"
+      ],
+      "method": "EfficientNet",
+      "metric": "EfficientNet",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-5c4c19d67891ddbf",
+      "title": "复合材料＋EfficientNet｜电镜损伤五类识别",
+      "originalTitle": "Deep Learning-Based Microscopic Damage Assessment of Fiber-Reinforced Polymer Composites",
+      "venue": "Materials",
+      "year": 2024,
+      "doi": "10.3390/ma17215265",
+      "sourceUrl": "https://www.mdpi.com/1996-1944/17/21/5265",
+      "question": "论文研究纤维复合材料显微损伤识别：利用EfficientNet等迁移学习图像模型识别纤维复合材料SEM微观损伤处理五类纤维/基体失效SEM图像所对应的材料问题。",
+      "data": "五类纤维/基体失效SEM图像；原始及增强后合计1110张SEM图像，五种失效类别",
+      "dataSource": "五类纤维/基体失效SEM图像",
+      "dataType": "SEM图像 · 失效类别",
+      "availability": "未公开",
+      "aiMethod": "EfficientNet等迁移学习图像模型识别纤维复合材料SEM微观损伤",
+      "pipeline": [
+        {
+          "title": "收集损伤电镜",
+          "detail": "整理五类纤维复合材料SEM微观损伤图像。"
+        },
+        {
+          "title": "训练迁移模型",
+          "detail": "比较EfficientNet等预训练图像模型。"
+        },
+        {
+          "title": "辨识失效类别",
+          "detail": "模型对SEM图像判别微观损伤模式。"
+        },
+        {
+          "title": "未知图像测试",
+          "detail": "在未见测试图像上评价分类。"
+        },
+        {
+          "title": "核验分类准确",
+          "detail": "EfficientNet准确率97.75%；原始与增强图像共1110张。"
+        }
+      ],
+      "result": "EfficientNet在未知测试图像上分类准确率97.75%。；论文实际报告：EfficientNet在未知测试图像上分类准确率97.75%。",
+      "validation": "源批次 MAT-EXP-20260926-B02；用户已确认本站公开发布，源第二审核记录保留",
+      "metrics": "EfficientNet在未知测试图像上分类准确率97.75%。；论文实际报告：EfficientNet在未知测试图像上分类准确率97.75%。",
+      "boundary": "结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-5c4c19d67891ddbf.webp",
+      "markdownUrl": "cards/library/paper-5c4c19d67891ddbf.md",
+      "markdown": "# 复合材料 × 迁移学习\r\n\r\n> **副标题：纤维复合材料显微损伤识别**\r\n\r\n## 原论文信息\r\n\r\n- **英文题名**：Deep Learning-Based Microscopic Damage Assessment of Fiber-Reinforced Polymer Composites\r\n- **期刊与年份**：Materials，2024\r\n- **DOI**：10.3390/ma17215265\r\n- **正式来源**：https://www.mdpi.com/1996-1944/17/21/5265\r\n- **OpenAlex ID**：https://openalex.org/W4403866364\r\n- **OpenAlex API**：https://api.openalex.org/works/W4403866364\r\n- **OA 状态**：is_oa=true；oa_status=gold\r\n\r\n## 研究问题\r\n\r\n论文研究纤维复合材料显微损伤识别：利用EfficientNet等迁移学习图像模型识别纤维复合材料SEM微观损伤处理五类纤维/基体失效SEM图像所对应的材料问题。\r\n\r\n## 数据基础\r\n\r\n- **数据来源**：五类纤维/基体失效SEM图像\r\n- **数据规模**：原始及增强后合计1110张SEM图像，五种失效类别\r\n- **数据类型**：SEM图像、失效类别\r\n- **数据格式**：具体文件格式以正式数据入口为准\r\n- **数据状态**：未公开\r\n- **数据可得性原文/核实口径**：MDPI正式全文数据声明称可向通讯作者申请获取。\r\n- **给模型看什么**：五类纤维/基体失效SEM图像；数据类型为SEM图像、失效类别。\r\n- **让模型判断什么**：纤维复合材料显微损伤识别\r\n\r\n## 核心 AI 方法\r\n\r\n- **论文方法**：EfficientNet等迁移学习图像模型识别纤维复合材料SEM微观损伤\r\n- **实际作用**：用于纤维复合材料显微损伤识别。\r\n\r\n## 五步论文 Pipeline\r\n\r\n以下是依据交接包和数据档案归纳的研究链条，不代替论文全文中的逐项实验协议。\r\n\r\n1. **收集损伤电镜**：整理五类纤维复合材料SEM微观损伤图像。\r\n2. **训练迁移模型**：比较EfficientNet等预训练图像模型。\r\n3. **辨识失效类别**：模型对SEM图像判别微观损伤模式。\r\n4. **未知图像测试**：在未见测试图像上评价分类。\r\n5. **核验分类准确**：EfficientNet准确率97.75%；原始与增强图像共1110张。\r\n\r\n## 指标与代表结果\r\n\r\n论文报告：EfficientNet在未知测试图像上分类准确率97.75%。\r\n\r\n未披露的样本数或统一量化指标不补造。\r\n\r\n## 数据与代码入口\r\n\r\n- **数据状态**：未公开\r\n- **数据入口**：未确认独立公开下载入口\r\n- **代码状态**：正式页未确认公开代码\r\n- **代码入口**：未确认公开代码入口\r\n\r\n## 边界说明\r\n\r\n结论限于论文所述材料、数据与实验条件；实际材料开发仍需独立实验验证。\r\n\r\n## 证据口径\r\n\r\n方法、数据与结果来自已批准交接包及核实数据档案登记的一手来源；OpenAlex仅支持书目与OA状态。\r\n\r\n**源制卡阶段记录（历史）：基础卡完成，待第二审核；当时未请求发布。**\n\n**本站发布记录：用户已于 2026-09-30 确认本批 64 张 GPT 终稿可公开部署；源第二审核记录保持原样。**\r\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "识别、诊断与筛查",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0c2badec09a6f6c0",
+      "major": "水泥材料",
+      "short": "实时识别水泥窑火焰、熟料与烟羽",
+      "summary": "根据水泥窑内部视频，随燃料和工况变化实时识别火焰、熟料与烟羽。",
+      "methods": [
+        "YOLOv8"
+      ],
+      "method": "YOLOv8",
+      "metric": "YOLOv8",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0c2badec09a6f6c0",
+      "title": "水泥工业 + YOLOv8｜实时识别水泥窑火焰、熟料与烟羽",
+      "originalTitle": "Deep Learning Techniques for Enhanced Flame Monitoring in Cement Rotary Kilns Using Petcoke and Refuse-Derived Fuel (RDF)",
+      "venue": "Sustainability",
+      "year": 2024,
+      "doi": "10.3390/su16166862",
+      "sourceUrl": "https://doi.org/10.3390/su16166862",
+      "question": "根据水泥窑内部视频，随燃料和工况变化实时识别火焰、熟料与烟羽。",
+      "data": "水泥回转窑内部视频帧及三类区域标注；数据集1为1225张（857训练、245验证、123测试），增强后2920张；数据集2为106张（75训练、20验证、11测试）",
+      "dataSource": "水泥回转窑内部视频帧及三类区域标注",
+      "dataType": "工业视频帧、火焰／熟料／烟羽区域标注",
+      "availability": "原始工业数据受保密协议限制，需向作者申请",
+      "aiMethod": "YOLOv8实例检测与分割，结合迁移学习适应新工况。",
+      "pipeline": [
+        {
+          "title": "采集窑内视频",
+          "detail": "采集窑内视频"
+        },
+        {
+          "title": "标注火焰、熟料与烟羽三类区域",
+          "detail": "标注火焰、熟料与烟羽三类区域"
+        },
+        {
+          "title": "训练YOLOv8分割模型",
+          "detail": "训练YOLOv8分割模型"
+        },
+        {
+          "title": "对新工况做小样本微调",
+          "detail": "对新工况做小样本微调"
+        },
+        {
+          "title": "实时推理和评估",
+          "detail": "实时推理和评估"
+        }
+      ],
+      "result": "推理速度：25 FPS；mAP@0.5：98.8%；E9 mAP@0.5:0.95：72.8%",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "推理速度：25 FPS；mAP@0.5：98.8%；E9 mAP@0.5:0.95：72.8%",
+      "boundary": "仅作水泥窑操作辅助，不替代安全联锁与人工判断。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-0c2badec09a6f6c0.webp",
+      "markdownUrl": "cards/library/paper-0c2badec09a6f6c0.md",
+      "markdown": "# 水泥工业 + YOLOv8\n\n## 实时识别水泥窑火焰、熟料与烟羽\n\n### 论文来源\n\n- 原论文：Deep Learning Techniques for Enhanced Flame Monitoring in Cement Rotary Kilns Using Petcoke and Refuse-Derived Fuel (RDF)\n- 期刊/会议：Sustainability（2024）\n- DOI：[10.3390/su16166862](https://doi.org/10.3390/su16166862)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：根据水泥窑内部视频，随燃料和工况变化实时识别火焰、熟料与烟羽。\n- 数据来源：水泥回转窑内部视频帧及三类区域标注\n- 数据规模：数据集1为1225张（857训练、245验证、123测试），增强后2920张；数据集2为106张（75训练、20验证、11测试）\n- 数据类型：工业视频帧、火焰／熟料／烟羽区域标注\n- 数据状态：原始工业数据受保密协议限制，需向作者申请\n\n### 02 AI 怎么参与\n\n- 核心方法：YOLOv8实例检测与分割，结合迁移学习适应新工况。\n\n### 03 论文 Pipeline\n\n1. 采集窑内视频\n2. 标注火焰、熟料与烟羽三类区域\n3. 训练YOLOv8分割模型\n4. 对新工况做小样本微调\n5. 实时推理和评估\n\n### 04 指标与成果\n\n- 推理速度：25 FPS\n- mAP@0.5：98.8%\n- E9 mAP@0.5:0.95：72.8%\n- 使用边界：仅作水泥窑操作辅助，不替代安全联锁与人工判断。\n\n### 数据与代码入口\n\n- 数据入口：原始工业数据受保密协议限制，需向作者申请\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "检测、定位与异常发现",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "知识图谱与语义关系",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-b8e35c5b767c3003",
+      "major": "水泥材料",
+      "short": "预测钢筋腐蚀临界氯离子阈值",
+      "summary": "根据胶凝材料组成、暴露钢筋面积与试验条件，预测钢筋活化腐蚀的临界氯离子阈值并解释关键变量。",
+      "methods": [
+        "投票集成"
+      ],
+      "method": "投票集成",
+      "metric": "投票集成",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-b8e35c5b767c3003",
+      "title": "水泥耐久 + 投票集成｜预测钢筋腐蚀临界氯离子阈值",
+      "originalTitle": "Exploring machine learning to study and predict the chloride threshold level for carbon steel reinforcement",
+      "venue": "Cement and Concrete Composites",
+      "year": 2024,
+      "doi": "10.1016/j.cemconcomp.2024.105796",
+      "sourceUrl": "https://doi.org/10.1016/j.cemconcomp.2024.105796",
+      "question": "根据胶凝材料组成、暴露钢筋面积与试验条件，预测钢筋活化腐蚀的临界氯离子阈值并解释关键变量。",
+      "data": "423条文献汇总记录；423条记录、21项输入特征",
+      "dataSource": "423条文献汇总记录",
+      "dataType": "胶凝材料、钢筋面积和试验条件等结构化特征",
+      "availability": "数据可向作者申请",
+      "aiMethod": "比较六类模型，以平均投票集成预测，并用偏依赖图和随机森林重要度解释。",
+      "pipeline": [
+        {
+          "title": "抽取文献数据",
+          "detail": "抽取文献数据"
+        },
+        {
+          "title": "编码21项特征",
+          "detail": "编码21项特征"
+        },
+        {
+          "title": "训练六类模型",
+          "detail": "训练六类模型"
+        },
+        {
+          "title": "集成投票预测",
+          "detail": "集成投票预测"
+        },
+        {
+          "title": "解释关键变量",
+          "detail": "解释关键变量"
+        }
+      ],
+      "result": "MAE：0.218 wt.% binder；RMSE：0.321%（按成品卡标注）；R²：0.751",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "MAE：0.218 wt.% binder；RMSE：0.321%（按成品卡标注）；R²：0.751",
+      "boundary": "受试验协议异质性影响，仅辅助判断，不替代标准化腐蚀试验。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-b8e35c5b767c3003.webp",
+      "markdownUrl": "cards/library/paper-b8e35c5b767c3003.md",
+      "markdown": "# 水泥耐久 + 投票集成\n\n## 预测钢筋腐蚀临界氯离子阈值\n\n### 论文来源\n\n- 原论文：Exploring machine learning to study and predict the chloride threshold level for carbon steel reinforcement\n- 期刊/会议：Cement and Concrete Composites（2024）\n- DOI：[10.1016/j.cemconcomp.2024.105796](https://doi.org/10.1016/j.cemconcomp.2024.105796)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：根据胶凝材料组成、暴露钢筋面积与试验条件，预测钢筋活化腐蚀的临界氯离子阈值并解释关键变量。\n- 数据来源：423条文献汇总记录\n- 数据规模：423条记录、21项输入特征\n- 数据类型：胶凝材料、钢筋面积和试验条件等结构化特征\n- 数据状态：数据可向作者申请\n\n### 02 AI 怎么参与\n\n- 核心方法：比较六类模型，以平均投票集成预测，并用偏依赖图和随机森林重要度解释。\n\n### 03 论文 Pipeline\n\n1. 抽取文献数据\n2. 编码21项特征\n3. 训练六类模型\n4. 集成投票预测\n5. 解释关键变量\n\n### 04 指标与成果\n\n- MAE：0.218 wt.% binder\n- RMSE：0.321%（按成品卡标注）\n- R²：0.751\n- 使用边界：受试验协议异质性影响，仅辅助判断，不替代标准化腐蚀试验。\n\n### 数据与代码入口\n\n- 数据入口：数据可向作者申请\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-102e37f7392c55c0",
+      "major": "水泥材料",
+      "short": "由配合比与龄期预测水化热曲线",
+      "summary": "利用配合比和龄期预测多时间点水化热，并检验未见过的水泥基材料配方。",
+      "methods": [
+        "ANN"
+      ],
+      "method": "ANN",
+      "metric": "ANN",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-102e37f7392c55c0",
+      "title": "水泥材料 + ANN｜由配合比与龄期预测水化热曲线",
+      "originalTitle": "Prediction of Hydration Heat for Diverse Cementitious Composites through a Machine Learning-Based Approach",
+      "venue": "Materials",
+      "year": 2024,
+      "doi": "10.3390/ma17030715",
+      "sourceUrl": "https://doi.org/10.3390/ma17030715",
+      "question": "利用配合比和龄期预测多时间点水化热，并检验未见过的水泥基材料配方。",
+      "data": "13种胶凝材料的水化热实验曲线；13种材料×18个时间点＝234条；10种材料180条用于训练／验证／测试，另3种材料54条作额外验证",
+      "dataSource": "13种胶凝材料的水化热实验曲线",
+      "dataType": "配合比、龄期与水化热曲线",
+      "availability": "数据包含于论文正文与表格",
+      "aiMethod": "五变量单隐层人工神经网络（ANN），比较网络规模与数据划分。",
+      "pipeline": [
+        {
+          "title": "采集量热曲线",
+          "detail": "采集量热曲线"
+        },
+        {
+          "title": "提取时间节点",
+          "detail": "提取时间节点"
+        },
+        {
+          "title": "构建五变量ANN",
+          "detail": "构建五变量ANN"
+        },
+        {
+          "title": "优化网络与数据划分",
+          "detail": "优化网络与数据划分"
+        },
+        {
+          "title": "验证未见配方",
+          "detail": "验证未见配方"
+        }
+      ],
+      "result": "训练内相关系数 R＞0.999；NN20额外集 MSE＝12.06；预测范围：24.5小时内",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "训练内相关系数 R＞0.999；NN20额外集 MSE＝12.06；预测范围：24.5小时内",
+      "boundary": "仅在既定配方与20°C实验域内验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-102e37f7392c55c0.webp",
+      "markdownUrl": "cards/library/paper-102e37f7392c55c0.md",
+      "markdown": "# 水泥材料 + ANN\n\n## 由配合比与龄期预测水化热曲线\n\n### 论文来源\n\n- 原论文：Prediction of Hydration Heat for Diverse Cementitious Composites through a Machine Learning-Based Approach\n- 期刊/会议：Materials（2024）\n- DOI：[10.3390/ma17030715](https://doi.org/10.3390/ma17030715)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：利用配合比和龄期预测多时间点水化热，并检验未见过的水泥基材料配方。\n- 数据来源：13种胶凝材料的水化热实验曲线\n- 数据规模：13种材料×18个时间点＝234条；10种材料180条用于训练／验证／测试，另3种材料54条作额外验证\n- 数据类型：配合比、龄期与水化热曲线\n- 数据状态：数据包含于论文正文与表格\n\n### 02 AI 怎么参与\n\n- 核心方法：五变量单隐层人工神经网络（ANN），比较网络规模与数据划分。\n\n### 03 论文 Pipeline\n\n1. 采集量热曲线\n2. 提取时间节点\n3. 构建五变量ANN\n4. 优化网络与数据划分\n5. 验证未见配方\n\n### 04 指标与成果\n\n- 训练内相关系数 R＞0.999\n- NN20额外集 MSE＝12.06\n- 预测范围：24.5小时内\n- 使用边界：仅在既定配方与20°C实验域内验证。\n\n### 数据与代码入口\n\n- 数据入口：数据包含于论文正文与表格\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "通用深度神经网络",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "时间序列与业务指标",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-0afc6eea95bddeb1",
+      "major": "水泥材料",
+      "short": "预测流变参数与3D打印可打印区间",
+      "summary": "由3D打印混凝土配方变量与加水后时间预测塑性黏度、屈服应力，并判断新配方能否打印。",
+      "methods": [
+        "XGBoost"
+      ],
+      "method": "XGBoost",
+      "metric": "XGBoost",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-0afc6eea95bddeb1",
+      "title": "水泥打印 + XGBoost｜预测流变参数与3D打印可打印区间",
+      "originalTitle": "Rheological behavior of 3D printed concrete: Influential factors and printability prediction scheme",
+      "venue": "Journal of Building Engineering",
+      "year": 2024,
+      "doi": "10.1016/j.jobe.2024.109626",
+      "sourceUrl": "https://doi.org/10.1016/j.jobe.2024.109626",
+      "question": "由3D打印混凝土配方变量与加水后时间预测塑性黏度、屈服应力，并判断新配方能否打印。",
+      "data": "系统配方实验与流变实测；成品卡未给统一样本量",
+      "dataSource": "系统配方实验与流变实测",
+      "dataType": "水泥、粉煤灰、硅灰、硫铝酸盐水泥、减水剂、水胶比、时间及流变测量",
+      "availability": "数据可向作者申请",
+      "aiMethod": "比较五类模型，以XGBoost预测流变参数，并用特征重要度和SHAP解释。",
+      "pipeline": [
+        {
+          "title": "设计配方实验",
+          "detail": "设计配方实验"
+        },
+        {
+          "title": "测量流变参数",
+          "detail": "测量流变参数"
+        },
+        {
+          "title": "训练五类模型",
+          "detail": "训练五类模型"
+        },
+        {
+          "title": "解释关键变量",
+          "detail": "解释关键变量"
+        },
+        {
+          "title": "验证可打印区间",
+          "detail": "验证可打印区间"
+        }
+      ],
+      "result": "塑性黏度预测 R²＞0.9；屈服应力预测 R²＞0.9；可打印区间经新配方实验验证",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "塑性黏度预测 R²＞0.9；屈服应力预测 R²＞0.9；可打印区间经新配方实验验证",
+      "boundary": "可打印区间依赖本研究材料与设备，新配方仍需实际打印验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-0afc6eea95bddeb1.webp",
+      "markdownUrl": "cards/library/paper-0afc6eea95bddeb1.md",
+      "markdown": "# 水泥打印 + XGBoost\n\n## 预测流变参数与3D打印可打印区间\n\n### 论文来源\n\n- 原论文：Rheological behavior of 3D printed concrete: Influential factors and printability prediction scheme\n- 期刊/会议：Journal of Building Engineering（2024）\n- DOI：[10.1016/j.jobe.2024.109626](https://doi.org/10.1016/j.jobe.2024.109626)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：由3D打印混凝土配方变量与加水后时间预测塑性黏度、屈服应力，并判断新配方能否打印。\n- 数据来源：系统配方实验与流变实测\n- 数据规模：成品卡未给统一样本量\n- 数据类型：水泥、粉煤灰、硅灰、硫铝酸盐水泥、减水剂、水胶比、时间及流变测量\n- 数据状态：数据可向作者申请\n\n### 02 AI 怎么参与\n\n- 核心方法：比较五类模型，以XGBoost预测流变参数，并用特征重要度和SHAP解释。\n\n### 03 论文 Pipeline\n\n1. 设计配方实验\n2. 测量流变参数\n3. 训练五类模型\n4. 解释关键变量\n5. 验证可打印区间\n\n### 04 指标与成果\n\n- 塑性黏度预测 R²＞0.9\n- 屈服应力预测 R²＞0.9\n- 可打印区间经新配方实验验证\n- 使用边界：可打印区间依赖本研究材料与设备，新配方仍需实际打印验证。\n\n### 数据与代码入口\n\n- 数据入口：数据可向作者申请\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "树模型与集成学习",
+      "problemType": "数值、状态与趋势预测",
+      "laboratory": "时序方向",
+      "dataSubtype": "结构化表格与临床记录",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-d3cee48834b06591",
+      "major": "水泥材料",
+      "short": "生成可验证的水泥浆微结构",
+      "summary": "基于真实水泥浆微结构切片，生成相组成、连通性与微力学性质接近真实样本的微结构。",
+      "methods": [
+        "扩散模型"
+      ],
+      "method": "扩散模型",
+      "metric": "扩散模型",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-d3cee48834b06591",
+      "title": "水泥材料 + 扩散模型｜生成可验证的水泥浆微结构",
+      "originalTitle": "Generation of cement paste microstructure using machine learning models",
+      "venue": "Developments in the Built Environment",
+      "year": 2025,
+      "doi": "10.1016/j.dibe.2025.100624",
+      "sourceUrl": "https://doi.org/10.1016/j.dibe.2025.100624",
+      "question": "基于真实水泥浆微结构切片，生成相组成、连通性与微力学性质接近真实样本的微结构。",
+      "data": "真实水泥浆SEM／BSE微结构切片；约15000个128×128 BSE图像块",
+      "dataSource": "真实水泥浆SEM／BSE微结构切片",
+      "dataType": "背散射电子显微图像及微结构相分割",
+      "availability": "数据可向作者申请，未见独立公开仓库",
+      "aiMethod": "以U-Net为骨干的去噪扩散概率模型（DDPM）学习真实微结构分布。",
+      "pipeline": [
+        {
+          "title": "采集拼接切片",
+          "detail": "采集拼接切片"
+        },
+        {
+          "title": "裁剪并标准化图像",
+          "detail": "裁剪并标准化图像"
+        },
+        {
+          "title": "训练扩散模型",
+          "detail": "训练扩散模型"
+        },
+        {
+          "title": "生成微结构",
+          "detail": "生成微结构"
+        },
+        {
+          "title": "验证物相与力学",
+          "detail": "验证物相与力学"
+        }
+      ],
+      "result": "生成图像灰度统计接近真实图；三类主要物相分布与连通性合理；微力学分析支持相似性",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "生成图像灰度统计接近真实图；三类主要物相分布与连通性合理；微力学分析支持相似性",
+      "boundary": "合成样本不能替代真实材料表征。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-d3cee48834b06591.webp",
+      "markdownUrl": "cards/library/paper-d3cee48834b06591.md",
+      "markdown": "# 水泥材料 + 扩散模型\n\n## 生成可验证的水泥浆微结构\n\n### 论文来源\n\n- 原论文：Generation of cement paste microstructure using machine learning models\n- 期刊/会议：Developments in the Built Environment（2025）\n- DOI：[10.1016/j.dibe.2025.100624](https://doi.org/10.1016/j.dibe.2025.100624)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：基于真实水泥浆微结构切片，生成相组成、连通性与微力学性质接近真实样本的微结构。\n- 数据来源：真实水泥浆SEM／BSE微结构切片\n- 数据规模：约15000个128×128 BSE图像块\n- 数据类型：背散射电子显微图像及微结构相分割\n- 数据状态：数据可向作者申请，未见独立公开仓库\n\n### 02 AI 怎么参与\n\n- 核心方法：以U-Net为骨干的去噪扩散概率模型（DDPM）学习真实微结构分布。\n\n### 03 论文 Pipeline\n\n1. 采集拼接切片\n2. 裁剪并标准化图像\n3. 训练扩散模型\n4. 生成微结构\n5. 验证物相与力学\n\n### 04 指标与成果\n\n- 生成图像灰度统计接近真实图\n- 三类主要物相分布与连通性合理\n- 微力学分析支持相似性\n- 使用边界：合成样本不能替代真实材料表征。\n\n### 数据与代码入口\n\n- 数据入口：数据可向作者申请，未见独立公开仓库\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "生成式模型与生成设计",
+      "problemType": "仿真、反演与科学计算",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-58bd7eeafd63a540",
+      "major": "水泥材料",
+      "short": "超分辨率重建并量化水泥显微相",
+      "summary": "从低分辨率BSE显微图恢复细节，分割并量化孔隙、未水化水泥和水化产物。",
+      "methods": [
+        "LIIF"
+      ],
+      "method": "LIIF",
+      "metric": "LIIF",
+      "metricLabel": "核心方法",
+      "color": "#B06A24",
+      "tone": "#F5EFE8",
+      "id": "paper-58bd7eeafd63a540",
+      "title": "水泥材料 + LIIF｜超分辨率重建并量化水泥显微相",
+      "originalTitle": "Resolution enhancement of cementitious microstructure images and phases quantification using deep learning",
+      "venue": "Construction and Building Materials",
+      "year": 2025,
+      "doi": "10.1016/j.conbuildmat.2025.139909",
+      "sourceUrl": "https://doi.org/10.1016/j.conbuildmat.2025.139909",
+      "question": "从低分辨率BSE显微图恢复细节，分割并量化孔隙、未水化水泥和水化产物。",
+      "data": "不同配比、倍率和分辨率的BSE图像；全尺度图像2400张，裁剪后258818张",
+      "dataSource": "不同配比、倍率和分辨率的BSE图像",
+      "dataType": "低／高分辨率BSE显微图及物相标注",
+      "availability": "原始BSE数据未见公开仓库",
+      "aiMethod": "LIIF超分重建，再以SegFormer分割显微物相。",
+      "pipeline": [
+        {
+          "title": "采集BSE图像",
+          "detail": "采集BSE图像"
+        },
+        {
+          "title": "构造分辨率对",
+          "detail": "构造分辨率对"
+        },
+        {
+          "title": "LIIF超分重建",
+          "detail": "LIIF超分重建"
+        },
+        {
+          "title": "SegFormer分相",
+          "detail": "SegFormer分相"
+        },
+        {
+          "title": "实验交叉验证",
+          "detail": "实验交叉验证"
+        }
+      ],
+      "result": "最高30倍超分；mIoU优于U-Net与DeepLabv3+；物相定量与实验一致",
+      "validation": "源批次 CEMENT-AI-20260923-01；本地待验收",
+      "metrics": "最高30倍超分；mIoU优于U-Net与DeepLabv3+；物相定量与实验一致",
+      "boundary": "跨设备、跨实验室稳定性仍需复核；成品卡说明图片数量在不同来源有差异。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-58bd7eeafd63a540.webp",
+      "markdownUrl": "cards/library/paper-58bd7eeafd63a540.md",
+      "markdown": "# 水泥材料 + LIIF\n\n## 超分辨率重建并量化水泥显微相\n\n### 论文来源\n\n- 原论文：Resolution enhancement of cementitious microstructure images and phases quantification using deep learning\n- 期刊/会议：Construction and Building Materials（2025）\n- DOI：[10.1016/j.conbuildmat.2025.139909](https://doi.org/10.1016/j.conbuildmat.2025.139909)\n- 源批次：CEMENT-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：从低分辨率BSE显微图恢复细节，分割并量化孔隙、未水化水泥和水化产物。\n- 数据来源：不同配比、倍率和分辨率的BSE图像\n- 数据规模：全尺度图像2400张，裁剪后258818张\n- 数据类型：低／高分辨率BSE显微图及物相标注\n- 数据状态：原始BSE数据未见公开仓库\n\n### 02 AI 怎么参与\n\n- 核心方法：LIIF超分重建，再以SegFormer分割显微物相。\n\n### 03 论文 Pipeline\n\n1. 采集BSE图像\n2. 构造分辨率对\n3. LIIF超分重建\n4. SegFormer分相\n5. 实验交叉验证\n\n### 04 指标与成果\n\n- 最高30倍超分\n- mIoU优于U-Net与DeepLabv3+\n- 物相定量与实验一致\n- 使用边界：跨设备、跨实验室稳定性仍需复核；成品卡说明图片数量在不同来源有差异。\n\n### 数据与代码入口\n\n- 数据入口：原始BSE数据未见公开仓库\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "材料科学",
+      "domainGroups": [
+        "材料科学"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "数据清洗、补全与信号增强",
+      "laboratory": "影像方向",
+      "dataSubtype": "病理、显微与细胞图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-64b30ea7691cd108",
+      "major": "非物质文化遗产",
+      "short": "构建中国国家级非遗多模态知识图谱",
+      "summary": "汇集中国国家级非遗的文本、标题与代表图片，筛除噪声图片并组织统一知识图谱。",
+      "methods": [
+        "多模态学习"
+      ],
+      "method": "多模态学习",
+      "metric": "多模态学习",
+      "metricLabel": "核心方法",
+      "color": "#7954A8",
+      "tone": "#F0ECF7",
+      "id": "paper-64b30ea7691cd108",
+      "title": "非遗保护 + 多模态学习｜构建中国国家级非遗多模态知识图谱",
+      "originalTitle": "CICHMKG: a large-scale and comprehensive Chinese intangible cultural heritage multimodal knowledge graph",
+      "venue": "Heritage Science",
+      "year": 2023,
+      "doi": "10.1186/s40494-023-00927-2",
+      "sourceUrl": "https://doi.org/10.1186/s40494-023-00927-2",
+      "question": "汇集中国国家级非遗的文本、标题与代表图片，筛除噪声图片并组织统一知识图谱。",
+      "data": "官网、百科与图像搜索中的非遗文本和图片；3040个非遗实体、37527条文本知识三元组、289413张代表图片、1774005条最终多模态三元组",
+      "dataSource": "官网、百科与图像搜索中的非遗文本和图片",
+      "dataType": "文本、图片、标题及知识图谱三元组",
+      "availability": "数据可向作者申请，未提供公开下载仓库",
+      "aiMethod": "融合全局、局部视觉特征与图片标题，以CNIFA去噪并排序选图。",
+      "pipeline": [
+        {
+          "title": "抓取非遗实体",
+          "detail": "抓取非遗实体"
+        },
+        {
+          "title": "采集图片标题",
+          "detail": "采集图片标题"
+        },
+        {
+          "title": "融合多模态特征",
+          "detail": "融合多模态特征"
+        },
+        {
+          "title": "去噪筛选代表图",
+          "detail": "去噪筛选代表图"
+        },
+        {
+          "title": "生成RDF图谱",
+          "detail": "生成RDF图谱"
+        }
+      ],
+      "result": "构建1774005条多模态三元组；覆盖3040个非遗实体；筛选289413张代表图片",
+      "validation": "源批次 ICH-AI-20260923-01；本地待验收",
+      "metrics": "构建1774005条多模态三元组；覆盖3040个非遗实体；筛选289413张代表图片",
+      "boundary": "多源网络图片需核验版权与授权；跨文化社区泛化仍待验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-64b30ea7691cd108.webp",
+      "markdownUrl": "cards/library/paper-64b30ea7691cd108.md",
+      "markdown": "# 非遗保护 + 多模态学习\n\n## 构建中国国家级非遗多模态知识图谱\n\n### 论文来源\n\n- 原论文：CICHMKG: a large-scale and comprehensive Chinese intangible cultural heritage multimodal knowledge graph\n- 期刊/会议：Heritage Science（2023）\n- DOI：[10.1186/s40494-023-00927-2](https://doi.org/10.1186/s40494-023-00927-2)\n- 源批次：ICH-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：汇集中国国家级非遗的文本、标题与代表图片，筛除噪声图片并组织统一知识图谱。\n- 数据来源：官网、百科与图像搜索中的非遗文本和图片\n- 数据规模：3040个非遗实体、37527条文本知识三元组、289413张代表图片、1774005条最终多模态三元组\n- 数据类型：文本、图片、标题及知识图谱三元组\n- 数据状态：数据可向作者申请，未提供公开下载仓库\n\n### 02 AI 怎么参与\n\n- 核心方法：融合全局、局部视觉特征与图片标题，以CNIFA去噪并排序选图。\n\n### 03 论文 Pipeline\n\n1. 抓取非遗实体\n2. 采集图片标题\n3. 融合多模态特征\n4. 去噪筛选代表图\n5. 生成RDF图谱\n\n### 04 指标与成果\n\n- 构建1774005条多模态三元组\n- 覆盖3040个非遗实体\n- 筛选289413张代表图片\n- 使用边界：多源网络图片需核验版权与授权；跨文化社区泛化仍待验证。\n\n### 数据与代码入口\n\n- 数据入口：数据可向作者申请，未提供公开下载仓库\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "艺术与体育",
+      "domainGroups": [
+        "艺术与体育"
+      ],
+      "methodFamily": "多模态与跨模态学习",
+      "problemType": "检索、问答与信息抽取",
+      "laboratory": "AI+ 方向",
+      "dataSubtype": "知识图谱与语义关系",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-5dfc2c243b0ba854",
+      "major": "非物质文化遗产",
+      "short": "轻量化识别金苍绣八类核心针法",
+      "summary": "在金属线反光、细粒度纹理和复杂背景下定位并分类金苍绣八类核心针法，同时降低模型规模。",
+      "methods": [
+        "Lite-YOLOv11s"
+      ],
+      "method": "Lite-YOLOv11s",
+      "metric": "Lite-YOLOv11s",
+      "metricLabel": "核心方法",
+      "color": "#7954A8",
+      "tone": "#F0ECF7",
+      "id": "paper-5dfc2c243b0ba854",
+      "title": "非遗视觉 + Lite-YOLOv11s｜轻量化识别金苍绣八类核心针法",
+      "originalTitle": "Deep Learning-Based Recognition and Classification of Jin Cang Embroidery Stitches",
+      "venue": "Mathematics",
+      "year": 2026,
+      "doi": "10.3390/math14081259",
+      "sourceUrl": "https://doi.org/10.3390/math14081259",
+      "question": "在金属线反光、细粒度纹理和复杂背景下定位并分类金苍绣八类核心针法，同时降低模型规模。",
+      "data": "专家标注的金苍绣图像；3050张图像、8类核心针法",
+      "dataSource": "专家标注的金苍绣图像",
+      "dataType": "刺绣图像与针法边框标注",
+      "availability": "数据仅可向通讯作者申请",
+      "aiMethod": "以YOLOv11s为基线，将骨干替换为MobileNetV4-Conv-Small形成Lite-YOLOv11s。",
+      "pipeline": [
+        {
+          "title": "采集标注针法",
+          "detail": "采集标注针法"
+        },
+        {
+          "title": "比较检测基线",
+          "detail": "比较检测基线"
+        },
+        {
+          "title": "替换轻量骨干",
+          "detail": "替换轻量骨干"
+        },
+        {
+          "title": "评估检测性能",
+          "detail": "评估检测性能"
+        },
+        {
+          "title": "验证纹理关注",
+          "detail": "验证纹理关注"
+        }
+      ],
+      "result": "mAP@0.5＝0.951；参数量约减40%；FLOPs减46%，体积减38.5%",
+      "validation": "源批次 ICH-AI-20260923-01；本地待验收",
+      "metrics": "mAP@0.5＝0.951；参数量约减40%；FLOPs减46%，体积减38.5%",
+      "boundary": "仅验证金苍绣八类针法；跨工艺及边缘部署仍需验证。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-5dfc2c243b0ba854.webp",
+      "markdownUrl": "cards/library/paper-5dfc2c243b0ba854.md",
+      "markdown": "# 非遗视觉 + Lite-YOLOv11s\n\n## 轻量化识别金苍绣八类核心针法\n\n### 论文来源\n\n- 原论文：Deep Learning-Based Recognition and Classification of Jin Cang Embroidery Stitches\n- 期刊/会议：Mathematics（2026）\n- DOI：[10.3390/math14081259](https://doi.org/10.3390/math14081259)\n- 源批次：ICH-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：在金属线反光、细粒度纹理和复杂背景下定位并分类金苍绣八类核心针法，同时降低模型规模。\n- 数据来源：专家标注的金苍绣图像\n- 数据规模：3050张图像、8类核心针法\n- 数据类型：刺绣图像与针法边框标注\n- 数据状态：数据仅可向通讯作者申请\n\n### 02 AI 怎么参与\n\n- 核心方法：以YOLOv11s为基线，将骨干替换为MobileNetV4-Conv-Small形成Lite-YOLOv11s。\n\n### 03 论文 Pipeline\n\n1. 采集标注针法\n2. 比较检测基线\n3. 替换轻量骨干\n4. 评估检测性能\n5. 验证纹理关注\n\n### 04 指标与成果\n\n- mAP@0.5＝0.951\n- 参数量约减40%\n- FLOPs减46%，体积减38.5%\n- 使用边界：仅验证金苍绣八类针法；跨工艺及边缘部署仍需验证。\n\n### 数据与代码入口\n\n- 数据入口：数据仅可向通讯作者申请\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "艺术与体育",
+      "domainGroups": [
+        "艺术与体育"
+      ],
+      "methodFamily": "计算机视觉、检测与分割",
+      "problemType": "识别、诊断与筛查",
+      "laboratory": "影像方向",
+      "dataSubtype": "自然、工业与艺术图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-7fe65af01ba104e0",
+      "major": "非物质文化遗产",
+      "short": "评测大模型的非遗知识与上下文学习",
+      "summary": "评测开源大语言模型的非遗知识、指令遵循与上下文学习能力。",
+      "methods": [
+        "大语言模型"
+      ],
+      "method": "大语言模型",
+      "metric": "大语言模型",
+      "metricLabel": "核心方法",
+      "color": "#7954A8",
+      "tone": "#F0ECF7",
+      "id": "paper-7fe65af01ba104e0",
+      "title": "非遗 + 大语言模型｜评测大模型的非遗知识与上下文学习",
+      "originalTitle": "Evaluation of large language models for the intangible cultural heritage domain",
+      "venue": "npj Heritage Science",
+      "year": 2025,
+      "doi": "10.1038/s40494-025-02013-1",
+      "sourceUrl": "https://doi.org/10.1038/s40494-025-02013-1",
+      "question": "评测开源大语言模型的非遗知识、指令遵循与上下文学习能力。",
+      "data": "中国非遗网权威文本与五类任务；1557个国家级项目，分层抽样1400条评测记录，评测7B—9B开源对话模型",
+      "dataSource": "中国非遗网权威文本与五类任务",
+      "dataType": "非遗文本、问答、分类、填空、术语解释与实体抽取",
+      "availability": "项目、代码与评测数据公开",
+      "aiMethod": "在统一vLLM环境评测任务指标和语义评分，并比较上下文提示。",
+      "pipeline": [
+        {
+          "title": "采集权威文本",
+          "detail": "采集权威文本"
+        },
+        {
+          "title": "标注生成任务",
+          "detail": "标注生成任务"
+        },
+        {
+          "title": "分层抽样1400条",
+          "detail": "分层抽样1400条"
+        },
+        {
+          "title": "统一模型推理",
+          "detail": "统一模型推理"
+        },
+        {
+          "title": "对比任务表现",
+          "detail": "对比任务表现"
+        }
+      ],
+      "result": "Qwen上下文问答得分51.45，无上下文为25.73；分类最高89.95，填空最高22.00；综合最佳模型：Qwen2.5-7B-Chat",
+      "validation": "源批次 ICH-AI-20260923-01；本地待验收",
+      "metrics": "Qwen上下文问答得分51.45，无上下文为25.73；分类最高89.95，填空最高22.00；综合最佳模型：Qwen2.5-7B-Chat",
+      "boundary": "中文评测与自动指标不等同模型真正理解文化语境。",
+      "dataUrl": "",
+      "codeUrl": "https://github.com/njauzzx/ich_eval",
+      "image": "assets/library/paper-7fe65af01ba104e0.webp",
+      "markdownUrl": "cards/library/paper-7fe65af01ba104e0.md",
+      "markdown": "# 非遗 + 大语言模型\n\n## 评测大模型的非遗知识与上下文学习\n\n### 论文来源\n\n- 原论文：Evaluation of large language models for the intangible cultural heritage domain\n- 期刊/会议：npj Heritage Science（2025）\n- DOI：[10.1038/s40494-025-02013-1](https://doi.org/10.1038/s40494-025-02013-1)\n- 源批次：ICH-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：评测开源大语言模型的非遗知识、指令遵循与上下文学习能力。\n- 数据来源：中国非遗网权威文本与五类任务\n- 数据规模：1557个国家级项目，分层抽样1400条评测记录，评测7B—9B开源对话模型\n- 数据类型：非遗文本、问答、分类、填空、术语解释与实体抽取\n- 数据状态：项目、代码与评测数据公开\n\n### 02 AI 怎么参与\n\n- 核心方法：在统一vLLM环境评测任务指标和语义评分，并比较上下文提示。\n\n### 03 论文 Pipeline\n\n1. 采集权威文本\n2. 标注生成任务\n3. 分层抽样1400条\n4. 统一模型推理\n5. 对比任务表现\n\n### 04 指标与成果\n\n- Qwen上下文问答得分51.45，无上下文为25.73\n- 分类最高89.95，填空最高22.00\n- 综合最佳模型：Qwen2.5-7B-Chat\n- 使用边界：中文评测与自动指标不等同模型真正理解文化语境。\n\n### 数据与代码入口\n\n- 数据入口：项目、代码与评测数据公开\n- 代码入口：https://github.com/njauzzx/ich_eval\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "艺术与体育",
+      "domainGroups": [
+        "艺术与体育"
+      ],
+      "methodFamily": "大语言模型、NLP与知识增强",
+      "problemType": "机制解释、关联与效果评估",
+      "laboratory": "时序方向",
+      "dataSubtype": "文本、语言与代码序列",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
+    },
+    {
+      "slug": "paper-d1c0a6fa0a45b876",
+      "major": "非物质文化遗产",
+      "short": "结合专家反馈生成非遗刺绣纹样",
+      "summary": "根据刺绣内容图、流派风格、文化元数据和专家偏好生成兼顾内容、风格与文化契合度的纹样。",
+      "methods": [
+        "RLHF"
+      ],
+      "method": "RLHF",
+      "metric": "RLHF",
+      "metricLabel": "核心方法",
+      "color": "#7954A8",
+      "tone": "#F0ECF7",
+      "id": "paper-d1c0a6fa0a45b876",
+      "title": "非遗设计 + RLHF｜结合专家反馈生成非遗刺绣纹样",
+      "originalTitle": "Human–machine collaborative model for dynamic translation of intangible cultural heritage patterns based on generative adversarial network and reinforcement learning from human feedback",
+      "venue": "Discover Artificial Intelligence",
+      "year": 2026,
+      "doi": "10.1007/s44163-026-01365-2",
+      "sourceUrl": "https://doi.org/10.1007/s44163-026-01365-2",
+      "question": "根据刺绣内容图、流派风格、文化元数据和专家偏好生成兼顾内容、风格与文化契合度的纹样。",
+      "data": "刺绣内容图、流派风格、文化元数据与专家偏好；超过30000张刺绣图与内容图；12名设计师交叉实验",
+      "dataSource": "刺绣内容图、流派风格、文化元数据与专家偏好",
+      "dataType": "刺绣图像、文化元数据、专家偏好反馈",
+      "availability": "数据使用受文化敏感与非商业限制",
+      "aiMethod": "cGAN条件生成，结合多尺度奖励模型与PPO约束优化专家偏好。",
+      "pipeline": [
+        {
+          "title": "清洗刺绣数据",
+          "detail": "清洗刺绣数据"
+        },
+        {
+          "title": "解耦内容与风格",
+          "detail": "解耦内容与风格"
+        },
+        {
+          "title": "采集专家偏好",
+          "detail": "采集专家偏好"
+        },
+        {
+          "title": "训练奖励模型",
+          "detail": "训练奖励模型"
+        },
+        {
+          "title": "PPO优化与验证",
+          "detail": "PPO优化与验证"
+        }
+      ],
+      "result": "FID＝28.5，LPIPS＝0.162；LAB相关＝0.857；流派分类准确率89.3%；设计时间185→79分钟，迭代9.5→3.0",
+      "validation": "源批次 ICH-AI-20260923-01；本地待验收",
+      "metrics": "FID＝28.5，LPIPS＝0.162；LAB相关＝0.857；流派分类准确率89.3%；设计时间185→79分钟，迭代9.5→3.0",
+      "boundary": "不得用于商业开发或分发；须尊重社区权益与意义完整性。",
+      "dataUrl": "",
+      "codeUrl": "",
+      "image": "assets/library/paper-d1c0a6fa0a45b876.webp",
+      "markdownUrl": "cards/library/paper-d1c0a6fa0a45b876.md",
+      "markdown": "# 非遗设计 + RLHF\n\n## 结合专家反馈生成非遗刺绣纹样\n\n### 论文来源\n\n- 原论文：Human–machine collaborative model for dynamic translation of intangible cultural heritage patterns based on generative adversarial network and reinforcement learning from human feedback\n- 期刊/会议：Discover Artificial Intelligence（2026）\n- DOI：[10.1007/s44163-026-01365-2](https://doi.org/10.1007/s44163-026-01365-2)\n- 源批次：ICH-AI-20260923-01\n\n### 01 数据与问题\n\n- 研究问题：根据刺绣内容图、流派风格、文化元数据和专家偏好生成兼顾内容、风格与文化契合度的纹样。\n- 数据来源：刺绣内容图、流派风格、文化元数据与专家偏好\n- 数据规模：超过30000张刺绣图与内容图；12名设计师交叉实验\n- 数据类型：刺绣图像、文化元数据、专家偏好反馈\n- 数据状态：数据使用受文化敏感与非商业限制\n\n### 02 AI 怎么参与\n\n- 核心方法：cGAN条件生成，结合多尺度奖励模型与PPO约束优化专家偏好。\n\n### 03 论文 Pipeline\n\n1. 清洗刺绣数据\n2. 解耦内容与风格\n3. 采集专家偏好\n4. 训练奖励模型\n5. PPO优化与验证\n\n### 04 指标与成果\n\n- FID＝28.5，LPIPS＝0.162\n- LAB相关＝0.857；流派分类准确率89.3%\n- 设计时间185→79分钟，迭代9.5→3.0\n- 使用边界：不得用于商业开发或分发；须尊重社区权益与意义完整性。\n\n### 数据与代码入口\n\n- 数据入口：数据使用受文化敏感与非商业限制\n- 代码入口：成品卡未列出独立代码入口\n\n### 来源说明\n\n本页依据用户提供的 GPT 终稿图片及同批次卡片清单整理；图片未提供的细节不补造。\n",
+      "domainGroup": "艺术与体育",
+      "domainGroups": [
+        "艺术与体育"
+      ],
+      "methodFamily": "强化学习、多智能体与模仿学习",
+      "problemType": "内容生成与艺术创作",
+      "laboratory": "影像方向",
+      "dataSubtype": "自然、工业与艺术图像",
+      "classificationReview": {
+        "method": false,
+        "problem": false,
+        "sourceDataTypeMissing": false
+      }
     }
   ],
   "taxonomy": {
@@ -53947,7 +59201,16 @@ window.PAPER_LIBRARY = {
         "化学工程"
       ],
       "材料科学": [
-        "材料科学"
+        "材料科学",
+        "高分子材料",
+        "纳米材料",
+        "金属材料",
+        "无机材料",
+        "光电材料",
+        "能源材料",
+        "生物材料",
+        "复合材料",
+        "水泥材料"
       ],
       "计算机与网络安全": [
         "计算机科学",
@@ -54011,7 +59274,8 @@ window.PAPER_LIBRARY = {
       "艺术与体育": [
         "艺术学",
         "舞蹈",
-        "体育"
+        "体育",
+        "非物质文化遗产"
       ]
     },
     "methodFamilies": [
