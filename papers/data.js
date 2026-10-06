@@ -13029,8 +13029,8 @@ window.PAPER_LIBRARY = {
       "doi": "10.1080/15309576.2024.2389864",
       "sourceUrl": "https://www.tandfonline.com/doi/abs/10.1080/15309576.2024.2389864",
       "question": "政府聊天机器人对组织和政民互动的影响",
-      "data": "US state agency interview study；美国22个州政府机构官员与员工深度访谈",
-      "dataSource": "US state agency interview study；美国22个州政府机构官员与员工深度访谈",
+      "data": "US state agency interview study；美国22个州政府机构官员与工作人员深度访谈",
+      "dataSource": "US state agency interview study；美国22个州政府机构官员与工作人员深度访谈",
       "dataType": "",
       "availability": "未公开",
       "aiMethod": "公共部门AI聊天机器人实证分析",
@@ -13064,7 +13064,7 @@ window.PAPER_LIBRARY = {
       "codeUrl": "",
       "image": "assets/library/paper-33fce2f182b34859.webp",
       "markdownUrl": "cards/library/paper-33fce2f182b34859.md",
-      "markdown": "# 公共管理 × 人工智能\n\n## 政府聊天机器人对组织和政民互动的影响\n\n> 本地批次：LOCAL-05；源批次：PUBADMIN-AI-20260822-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：Uncovering the Results of AI Chatbot Use in the Public Sector: Evidence from US State Governments\n- 期刊/会议：Public Performance & Management Review（2024）\n- DOI：[10.1080/15309576.2024.2389864](https://doi.org/10.1080/15309576.2024.2389864)\n- 正式来源：[https://www.tandfonline.com/doi/abs/10.1080/15309576.2024.2389864](https://www.tandfonline.com/doi/abs/10.1080/15309576.2024.2389864)\n\n### 01 数据与问题\n\n- 研究问题：政府聊天机器人对组织和政民互动的影响\n- 数据来源：US state agency interview study；美国22个州政府机构官员与员工深度访谈\n- 数据集/样本：详见论文正文\n- 数据规模：详见论文正文\n- 数据格式：详见论文正文\n- 数据类型：详见论文正文\n- 数据状态：未公开\n\n### 02 AI 怎么参与\n\n- AI 技术：人工智能\n- 核心方法：公共部门AI聊天机器人实证分析\n\n### 03 论文 Pipeline\n\n1. 案例采集\n2. 材料编码\n3. 机制识别\n4. 跨案比较\n5. 治理建议\n\n### 04 指标与成果\n\n- 重点指标：机制覆盖、透明度、可理解性、参与度\n- 代表结果：识别聊天机器人带来的流程、产品、组织和政民互动结果\n- 使用边界：结论仅适用于论文报告的数据、任务与实验条件。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：pending_publish_review\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
+      "markdown": "# 公共管理 × 人工智能\n\n## 政府聊天机器人对组织和政民互动的影响\n\n> 本地批次：LOCAL-05；源批次：PUBADMIN-AI-20260822-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：Uncovering the Results of AI Chatbot Use in the Public Sector: Evidence from US State Governments\n- 期刊/会议：Public Performance & Management Review（2024）\n- DOI：[10.1080/15309576.2024.2389864](https://doi.org/10.1080/15309576.2024.2389864)\n- 正式来源：[https://www.tandfonline.com/doi/abs/10.1080/15309576.2024.2389864](https://www.tandfonline.com/doi/abs/10.1080/15309576.2024.2389864)\n\n### 01 数据与问题\n\n- 研究问题：政府聊天机器人对组织和政民互动的影响\n- 数据来源：US state agency interview study；美国22个州政府机构官员与工作人员深度访谈\n- 数据集/样本：详见论文正文\n- 数据规模：详见论文正文\n- 数据格式：详见论文正文\n- 数据类型：详见论文正文\n- 数据状态：未公开\n\n### 02 AI 怎么参与\n\n- AI 技术：人工智能\n- 核心方法：公共部门AI聊天机器人实证分析\n\n### 03 论文 Pipeline\n\n1. 案例采集\n2. 材料编码\n3. 机制识别\n4. 跨案比较\n5. 治理建议\n\n### 04 指标与成果\n\n- 重点指标：机制覆盖、透明度、可理解性、参与度\n- 代表结果：识别聊天机器人带来的流程、产品、组织和政民互动结果\n- 使用边界：结论仅适用于论文报告的数据、任务与实验条件。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：pending_publish_review\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
       "sourceReview": "pending_publish_review",
       "batch": "PUBADMIN-AI-20260822-01",
       "localWave": "LOCAL-05",
@@ -23711,15 +23711,15 @@ window.PAPER_LIBRARY = {
       "doi": "10.1093/polsoc/puae034",
       "sourceUrl": "https://doi.org/10.1093/polsoc/puae034",
       "question": "生成式AI如何改变低技能呼叫中心劳动者的情绪劳动，以及他们形成社会学与政治想象的能力。",
-      "data": "奥地利维也纳呼叫中心员工与工会代表关于生成式AI日常使用的半结构访谈；2023年3月线下访谈11名呼叫中心员工与3名工会代表，共14人",
-      "dataSource": "奥地利维也纳呼叫中心员工与工会代表关于生成式AI日常使用的半结构访谈",
+      "data": "奥地利维也纳呼叫中心工作人员与工会代表关于生成式AI日常使用的半结构访谈；2023年3月线下访谈11名呼叫中心工作人员与3名工会代表，共14人",
+      "dataSource": "奥地利维也纳呼叫中心工作人员与工会代表关于生成式AI日常使用的半结构访谈",
       "dataType": "访谈录音 · 匿名逐字稿 · 扎根理论编码 · 质性访谈数据 · 劳动过程叙事",
       "availability": "未公开；访谈逐字稿涉及劳动者隐私，正式页面未给出公共数据下载入口",
       "aiMethod": "开展半结构访谈，对匿名逐字稿进行初始、聚焦与理论三阶段编码，形成建构主义扎根理论解释。",
       "pipeline": [
         {
           "title": "招募劳工样本",
-          "detail": "纳入呼叫中心员工与工会代表。"
+          "detail": "纳入呼叫中心工作人员与工会代表。"
         },
         {
           "title": "半结构式访谈",
@@ -23746,7 +23746,7 @@ window.PAPER_LIBRARY = {
       "codeUrl": "",
       "image": "assets/library/paper-0d0e2fe2666092cf.webp",
       "markdownUrl": "cards/library/paper-0d0e2fe2666092cf.md",
-      "markdown": "# 社会学 × 生成式AI\n\n## 呼叫中心的情绪劳动与想象\n\n> 本地批次：LOCAL-08；源批次：SOCIOLOGY-AI-20260830-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：Artificial intelligence, emotional labor, and the quest for sociological and political imagination among low-skilled workers\n- 期刊/会议：Policy and Society（2024）\n- DOI：[10.1093/polsoc/puae034](https://doi.org/10.1093/polsoc/puae034)\n- 正式来源：[https://doi.org/10.1093/polsoc/puae034](https://doi.org/10.1093/polsoc/puae034)\n\n### 01 数据与问题\n\n- 研究问题：生成式AI如何改变低技能呼叫中心劳动者的情绪劳动，以及他们形成社会学与政治想象的能力。\n- 数据来源：奥地利维也纳呼叫中心员工与工会代表关于生成式AI日常使用的半结构访谈\n- 数据集/样本：Austrian call-centre generative-AI interviews\n- 数据规模：2023年3月线下访谈11名呼叫中心员工与3名工会代表，共14人\n- 数据格式：访谈录音、匿名逐字稿、扎根理论编码\n- 数据类型：质性访谈数据、劳动过程叙事\n- 数据状态：未公开；访谈逐字稿涉及劳动者隐私，正式页面未给出公共数据下载入口\n\n### 02 AI 怎么参与\n\n- AI 技术：生成式AI\n- 核心方法：开展半结构访谈，对匿名逐字稿进行初始、聚焦与理论三阶段编码，形成建构主义扎根理论解释。\n\n### 03 论文 Pipeline\n\n1. 招募劳工样本：纳入呼叫中心员工与工会代表。\n2. 半结构式访谈：记录生成式AI日常使用经验。\n3. 整理匿名转录：形成保护隐私的访谈逐字稿。\n4. 三阶段式编码：依次开展初始、聚焦与理论编码。\n5. 形成扎根解释：归纳情绪劳动与想象能力变化。\n\n### 04 指标与成果\n\n- 重点指标：详见论文正文\n- 代表结果：情绪劳动：纠错、解释与安抚负担增加：（AI输出存在缺陷时）\n- 代表结果：社会学想象：仅少数受访者形成：（把个人困境连接到社会结构）\n- 代表结果：政治想象：未观察到问题政治化：（论文实际质性发现）\n- 使用边界：这是特定国家与行业的小规模质性研究，不外推为全部低技能劳动者的量化效应或普遍因果结论。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：未标注\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
+      "markdown": "# 社会学 × 生成式AI\n\n## 呼叫中心的情绪劳动与想象\n\n> 本地批次：LOCAL-08；源批次：SOCIOLOGY-AI-20260830-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：Artificial intelligence, emotional labor, and the quest for sociological and political imagination among low-skilled workers\n- 期刊/会议：Policy and Society（2024）\n- DOI：[10.1093/polsoc/puae034](https://doi.org/10.1093/polsoc/puae034)\n- 正式来源：[https://doi.org/10.1093/polsoc/puae034](https://doi.org/10.1093/polsoc/puae034)\n\n### 01 数据与问题\n\n- 研究问题：生成式AI如何改变低技能呼叫中心劳动者的情绪劳动，以及他们形成社会学与政治想象的能力。\n- 数据来源：奥地利维也纳呼叫中心工作人员与工会代表关于生成式AI日常使用的半结构访谈\n- 数据集/样本：Austrian call-centre generative-AI interviews\n- 数据规模：2023年3月线下访谈11名呼叫中心工作人员与3名工会代表，共14人\n- 数据格式：访谈录音、匿名逐字稿、扎根理论编码\n- 数据类型：质性访谈数据、劳动过程叙事\n- 数据状态：未公开；访谈逐字稿涉及劳动者隐私，正式页面未给出公共数据下载入口\n\n### 02 AI 怎么参与\n\n- AI 技术：生成式AI\n- 核心方法：开展半结构访谈，对匿名逐字稿进行初始、聚焦与理论三阶段编码，形成建构主义扎根理论解释。\n\n### 03 论文 Pipeline\n\n1. 招募劳工样本：纳入呼叫中心工作人员与工会代表。\n2. 半结构式访谈：记录生成式AI日常使用经验。\n3. 整理匿名转录：形成保护隐私的访谈逐字稿。\n4. 三阶段式编码：依次开展初始、聚焦与理论编码。\n5. 形成扎根解释：归纳情绪劳动与想象能力变化。\n\n### 04 指标与成果\n\n- 重点指标：详见论文正文\n- 代表结果：情绪劳动：纠错、解释与安抚负担增加：（AI输出存在缺陷时）\n- 代表结果：社会学想象：仅少数受访者形成：（把个人困境连接到社会结构）\n- 代表结果：政治想象：未观察到问题政治化：（论文实际质性发现）\n- 使用边界：这是特定国家与行业的小规模质性研究，不外推为全部低技能劳动者的量化效应或普遍因果结论。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：未标注\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
       "sourceReview": "",
       "batch": "SOCIOLOGY-AI-20260830-01",
       "localWave": "LOCAL-08",
@@ -23792,15 +23792,15 @@ window.PAPER_LIBRARY = {
       "doi": "10.1016/j.jik.2024.100590",
       "sourceUrl": "https://doi.org/10.1016/j.jik.2024.100590",
       "question": "AI引发的工作不安全感如何经心理安全影响知识隐藏，AI学习自我效能又能否缓冲不利关系。",
-      "data": "韩国多行业员工AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷；402名韩国员工，三个时间点；中介效应使用10,000次bootstrap",
-      "dataSource": "韩国多行业员工AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷",
+      "data": "韩国多行业工作人员AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷；402名韩国工作人员，三个时间点；中介效应使用10,000次bootstrap",
+      "dataSource": "韩国多行业工作人员AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷",
       "dataType": "问卷量表 · 三时点面板记录 · 结构方程输出 · 组织行为调查数据 · 纵向面板数据",
       "availability": "部分公开；论文声明用于结论的数据已纳入正式出版物，未给出独立原始微观数据下载入口",
       "aiMethod": "采用三时点滞后设计、结构方程、10,000次bootstrap中介检验与调节回归。",
       "pipeline": [
         {
           "title": "开展三时问卷",
-          "detail": "分三个时间点收集员工回答。"
+          "detail": "分三个时间点收集工作人员回答。"
         },
         {
           "title": "测量四类构念",
@@ -23822,12 +23822,12 @@ window.PAPER_LIBRARY = {
       "result": "直接效应：0.313：（AI工作不安全感→知识隐藏）；间接效应：0.057：（经降低心理安全）；调节交互项：0.274：（AI学习自我效能）；显著性：p<0.001：（调节交互项）",
       "validation": "源批次 SOCIOLOGY-AI-20260830-01；本地待确认",
       "metrics": "",
-      "boundary": "三时点调查和结构模型支持理论路径但不等同于普遍因果证明；结论受韩国员工样本与自陈量表限制。",
+      "boundary": "三时点调查和结构模型支持理论路径但不等同于普遍因果证明；结论受韩国工作人员样本与自陈量表限制。",
       "dataUrl": "",
       "codeUrl": "",
       "image": "assets/library/paper-8d26959a87877f55.webp",
       "markdownUrl": "cards/library/paper-8d26959a87877f55.md",
-      "markdown": "# 社会学 × 人工智能\n\n## 工作不安全感与知识隐藏\n\n> 本地批次：LOCAL-08；源批次：SOCIOLOGY-AI-20260830-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：How artificial intelligence-induced job insecurity shapes knowledge dynamics: the mitigating role of artificial intelligence self-efficacy\n- 期刊/会议：Journal of Innovation & Knowledge（2024）\n- DOI：[10.1016/j.jik.2024.100590](https://doi.org/10.1016/j.jik.2024.100590)\n- 正式来源：[https://doi.org/10.1016/j.jik.2024.100590](https://doi.org/10.1016/j.jik.2024.100590)\n\n### 01 数据与问题\n\n- 研究问题：AI引发的工作不安全感如何经心理安全影响知识隐藏，AI学习自我效能又能否缓冲不利关系。\n- 数据来源：韩国多行业员工AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷\n- 数据集/样本：South Korea three-wave employee survey\n- 数据规模：402名韩国员工，三个时间点；中介效应使用10,000次bootstrap\n- 数据格式：问卷量表、三时点面板记录、结构方程输出\n- 数据类型：组织行为调查数据、纵向面板数据\n- 数据状态：部分公开；论文声明用于结论的数据已纳入正式出版物，未给出独立原始微观数据下载入口\n\n### 02 AI 怎么参与\n\n- AI 技术：人工智能\n- 核心方法：采用三时点滞后设计、结构方程、10,000次bootstrap中介检验与调节回归。\n\n### 03 论文 Pipeline\n\n1. 开展三时问卷：分三个时间点收集员工回答。\n2. 测量四类构念：测量不安全感、心理安全、自我效能与隐藏。\n3. 估计结构方程：检验变量间的直接路径。\n4. 检验中介效应：用10,000次bootstrap估计间接效应。\n5. 检验调节作用：回归评估AI学习自我效能的缓冲。\n\n### 04 指标与成果\n\n- 重点指标：详见论文正文\n- 代表结果：直接效应：0.313：（AI工作不安全感→知识隐藏）\n- 代表结果：间接效应：0.057：（经降低心理安全）\n- 代表结果：调节交互项：0.274：（AI学习自我效能）\n- 代表结果：显著性：p<0.001：（调节交互项）\n- 使用边界：三时点调查和结构模型支持理论路径但不等同于普遍因果证明；结论受韩国员工样本与自陈量表限制。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：未标注\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
+      "markdown": "# 社会学 × 人工智能\n\n## 工作不安全感与知识隐藏\n\n> 本地批次：LOCAL-08；源批次：SOCIOLOGY-AI-20260830-01；网站状态：待本地确认。\n\n### 论文来源\n\n- 原论文：How artificial intelligence-induced job insecurity shapes knowledge dynamics: the mitigating role of artificial intelligence self-efficacy\n- 期刊/会议：Journal of Innovation & Knowledge（2024）\n- DOI：[10.1016/j.jik.2024.100590](https://doi.org/10.1016/j.jik.2024.100590)\n- 正式来源：[https://doi.org/10.1016/j.jik.2024.100590](https://doi.org/10.1016/j.jik.2024.100590)\n\n### 01 数据与问题\n\n- 研究问题：AI引发的工作不安全感如何经心理安全影响知识隐藏，AI学习自我效能又能否缓冲不利关系。\n- 数据来源：韩国多行业工作人员AI工作不安全感、心理安全、AI学习自我效能与知识隐藏三时点问卷\n- 数据集/样本：South Korea three-wave employee survey\n- 数据规模：402名韩国工作人员，三个时间点；中介效应使用10,000次bootstrap\n- 数据格式：问卷量表、三时点面板记录、结构方程输出\n- 数据类型：组织行为调查数据、纵向面板数据\n- 数据状态：部分公开；论文声明用于结论的数据已纳入正式出版物，未给出独立原始微观数据下载入口\n\n### 02 AI 怎么参与\n\n- AI 技术：人工智能\n- 核心方法：采用三时点滞后设计、结构方程、10,000次bootstrap中介检验与调节回归。\n\n### 03 论文 Pipeline\n\n1. 开展三时问卷：分三个时间点收集工作人员回答。\n2. 测量四类构念：测量不安全感、心理安全、自我效能与隐藏。\n3. 估计结构方程：检验变量间的直接路径。\n4. 检验中介效应：用10,000次bootstrap估计间接效应。\n5. 检验调节作用：回归评估AI学习自我效能的缓冲。\n\n### 04 指标与成果\n\n- 重点指标：详见论文正文\n- 代表结果：直接效应：0.313：（AI工作不安全感→知识隐藏）\n- 代表结果：间接效应：0.057：（经降低心理安全）\n- 代表结果：调节交互项：0.274：（AI学习自我效能）\n- 代表结果：显著性：p<0.001：（调节交互项）\n- 使用边界：三时点调查和结构模型支持理论路径但不等同于普遍因果证明；结论受韩国工作人员样本与自陈量表限制。\n\n### 数据与代码入口\n\n- 数据入口：论文未提供可核实的独立公开入口\n- 代码入口：论文未提供可核实的独立开源入口\n\n### 本地验收状态\n\n- 源卡状态：未标注\n- 网站状态：待本地逐卡确认；当前未进入公开发布包。\n",
       "sourceReview": "",
       "batch": "SOCIOLOGY-AI-20260830-01",
       "localWave": "LOCAL-08",

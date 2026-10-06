@@ -1,0 +1,19 @@
+:root{
+  --paper-primary:#00468b;--paper-secondary:#65727a;--paper-text:#202d35;--paper-background:#f8f7f3;
+  --paper-card-bg:#fff;--paper-border:#e5e5e5;--modern-primary:#145ddd;--modern-secondary:#596579;
+  --modern-text:#142338;--modern-background:#f5f8fb;--modern-card-bg:#fff;--modern-border:#e5e7eb;
+  --success:#10b981;--warning:#f59e0b;--error:#ef4444;--info:#3b82f6;
+  --font-heading-paper:"Source Serif Pro","Noto Serif SC",Georgia,"Songti SC",serif;
+  --font-body-paper:Inter,"PingFang SC","Microsoft YaHei",sans-serif;
+  --font-sans:Inter,"Segoe UI","PingFang SC","Microsoft YaHei UI",sans-serif;
+  --text-xl-paper:24px;--text-base-paper:16px;--text-sm-paper:14px;
+  --text-3xl:48px;--text-2xl:32px;--text-xl:24px;--text-lg:18px;--text-base:16px;--text-sm:14px;
+  --spacing-2:8px;--spacing-3:12px;--spacing-4:16px;--spacing-6:24px;--spacing-8:32px;--spacing-12:48px;
+  --container-max-width:1280px;--card-gap-paper:24px;--card-gap-modern:32px;
+  --ease-standard:cubic-bezier(.4,0,.2,1);--ease-decelerate:cubic-bezier(0,0,.2,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1);--duration-fast:200ms;--duration-normal:300ms;--duration-slow:400ms;
+}
+html{scroll-behavior:smooth}body{font-family:var(--font-sans);-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}
+:focus-visible{outline:3px solid var(--modern-primary);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}

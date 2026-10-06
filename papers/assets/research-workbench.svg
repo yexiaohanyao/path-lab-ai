@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="paper-research-scene" viewBox="0 0 860 430" width="860" height="430" role="img" aria-labelledby="prm-title prm-description">
+<title id="prm-title">学者在电脑前发现跨学科论文的共同方法</title>
+<desc id="prm-description">学者坐在电脑前，双手自然放在键盘上。电脑光标轻微移动，右侧两篇不同学科的论文沿连线汇聚到共同 AI 方法。</desc>
+<g stroke-linecap="round" stroke-linejoin="round">
+ <rect x="22" y="48" width="824" height="342" rx="32" fill="#ebefe8"/>
+ <path d="M48 82H246 M58 385H808" fill="none" stroke="#cedbd1" stroke-width="2"/>
+ <!-- SVG computer behind the unmodified researcher illustration. -->
+ <g id="prm-computer">
+  <path d="M271 227L306 216L308 302L273 313Z" fill="#d4e0d8" stroke="#55727b" stroke-width="1.8"/>
+  <path d="M277 233L301 226L302 296L279 303Z" fill="#304e5b"/>
+  <path d="M285 311L286 330M278 333L305 326" fill="none" stroke="#738b90" stroke-width="2.5"/>
+  <path class="prm-scene-motion prm-screen-pulse" d="M282 246L296 242M282 253L296 249M283 279L297 275" fill="none" stroke="#a3c2bc" stroke-width="1.2"/>
+  <g class="prm-scene-motion prm-cursor"><path d="m285 259 1 11 3-3 3 4 2-1-3-4 5-1Z" fill="#f4f5ec" stroke="#304e5b" stroke-width=".7"/></g>
+ </g>
+ <image id="prm-selected-researcher" href="assets/researcher-line-v7.png" x="-2" y="11" width="317" height="396" preserveAspectRatio="xMidYMid meet"/>
+</g></svg>

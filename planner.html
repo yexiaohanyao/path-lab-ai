@@ -1,29 +1,143 @@
 <!doctype html>
-<html lang="zh-CN" data-theme="blue"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="按专业、基础、目标和时间生成五阶段学习路线，记录进度，导出 Markdown、长图或分享路线链接。"><meta name="theme-color" content="#00468B"><meta property="og:type" content="website"><meta property="og:title" content="学习路线生成器｜点头教育-AI路径实验室demo"><meta property="og:description" content="按专业、基础、目标和时间生成五阶段学习路线，记录进度，导出 Markdown、长图或分享路线链接。"><title>学习路线生成器｜点头教育-AI路径实验室demo</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="assets/d703e375d4fe1572.css"></head><body data-page="planner" class="site-planner"><header class="site-header"><div class="site-header-inner"><a class="site-brand" href="index.html" aria-label="点头教育-AI路径实验室demo首页"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="1" width="28" height="28" rx="8" fill="#141414"></rect><rect x="7" y="13" width="10" height="10" rx="2" fill="#FFE500"></rect><rect x="13" y="6" width="10" height="10" rx="2" fill="white"></rect></svg><span>点头教育<small>AI路径实验室demo</small></span></a><button id="menuToggle" class="menu-toggle" type="button" aria-label="打开或关闭导航" aria-expanded="false" aria-controls="siteMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></button><nav id="siteMenu" class="site-nav" aria-label="站点导航"><a href="index.html">首页</a><a href="planner.html" aria-current="page">专业 × AI</a><a href="ai-product-manager/index.html">AI 产品经理</a><a href="papers/index.html">论文交互馆</a><a href="resources.html">数据资源</a><a href="guide.html">使用指南</a></nav></div></header><noscript><p class="no-script">本站的路线生成与筛选需要启用 JavaScript。专业介绍、来源链接和指南可以继续阅读。</p></noscript><div class="planner-intro"><div><p class="site-eyebrow">把目标变成每周行动</p><h1>专业 × AI 学习路线生成器</h1><p>选择你的起点，生成包含数据、任务、验收与每周安排的路线。</p></div><a href="guide.html">第一次使用？看看指南 ↗</a></div>  <main id="generator" class="workspace">
-    <aside class="config-panel"><div class="panel-heading"><span class="section-index">01</span><h2>设定你的起点</h2><button id="resetButton" class="text-button" type="button">重置参数</button></div>
-      <form id="profileForm">
-        <fieldset><legend>你从哪个专业出发？</legend><div id="majorOptions" class="major-options"></div></fieldset>
-        <label class="field-label" for="foundation">目前的基础</label><select id="foundation" name="foundation"><option value="beginner">从零开始</option><option value="python" selected>会一点 Python</option><option value="ml">做过机器学习项目</option></select>
-        <label class="field-label" for="goal">这次想做到哪一步？</label><select id="goal" name="goal"><option value="project">做出第一个作品</option><option value="research">验证一个研究想法</option><option value="demo">做一个工作演示</option></select>
-        <label class="field-label" for="dataMode">准备用什么数据？</label><select id="dataMode" name="data"><option value="public">先用公开数据练习</option><option value="own">已有自己的数据，先评估</option></select>
+<html lang="zh-CN" data-theme="blue"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="结合专业、数据、学习基础和指导需求，生成课程与项目路线。"><meta name="theme-color" content="#00468B"><meta property="og:type" content="website"><meta property="og:title" content="专业 × AI 学习路线｜点头教育"><meta property="og:description" content="结合专业、数据、学习基础和指导需求，生成课程与项目路线。"><title>专业 × AI 学习路线｜点头教育</title><link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="assets/d9377b8471601a1a.css"></head><body data-page="planner" class="site-planner"><header class="site-header"><div class="site-header-inner"><a class="site-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="1" width="28" height="28" rx="8" fill="#141414"></rect><rect x="7" y="13" width="10" height="10" rx="2" fill="#FFE500"></rect><rect x="13" y="6" width="10" height="10" rx="2" fill="white"></rect></svg><span>点头教育<small>AI路径实验室</small></span></a><button id="menuToggle" class="menu-toggle" type="button" aria-label="打开或关闭导航" aria-expanded="false" aria-controls="siteMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"></path></svg></button><nav id="siteMenu" class="site-nav" aria-label="站点导航"><a href="index.html" >首页</a><a href="papers/index.html" >论文交互馆</a><details class="nav-group"><summary>学习路线 <span>⌄</span></summary><div class="nav-menu"><a href="planner.html">专业 × AI 路线</a><a href="ai-product-manager/index.html">AI 产品经理路径</a></div></details><details class="nav-group"><summary>资源中心 <span>⌄</span></summary><div class="nav-menu"><a href="resources.html">数据资源</a><a href="guide.html">使用指南</a></div></details><details class="nav-group"><summary>关于 <span>⌄</span></summary><div class="nav-menu"><a href="about.html">团队介绍</a><a href="cases.html">学习案例</a><span>课程报名 · 筹备中</span></div></details><a class="nav-search" href="papers/index.html?search=1#explore" aria-label="搜索论文">搜索</a><a href="papers/index.html#saved">收藏</a><span class="nav-disabled" aria-disabled="true">登录 · 待开放</span></nav></div></header><noscript><p class="no-script">本站的路线生成与筛选需要启用 JavaScript。专业介绍、来源链接和指南可以继续阅读。</p></noscript>  <nav class="breadcrumb" aria-label="当前位置"><a href="index.html">首页</a><span aria-hidden="true">/</span><span>学习路线</span></nav><section class="planner-intro has-route-motion" aria-labelledby="planner-title">
+  <div class="planner-intro-copy">
+    <p class="site-eyebrow">从你的起点，走向下一步</p>
+    <h1 id="planner-title">专业 × AI<br><span>学习路线定制</span></h1>
+    <p class="planner-intro-lead">结合你的专业、数据与学习目标，<br>找到适合的实验室和课程路线。</p>
+    <a class="planner-intro-guide" href="guide.html">第一次使用？看看指南 <span aria-hidden="true">↗</span></a>
+  </div>
+  <figure class="route-entry-motion" id="route-entry-motion" data-motion="paused" tabindex="0" aria-label="学习路线生成示意。聚焦可暂停动画。">
+    <svg class="route-entry-svg route-entry-wide" viewBox="0 0 680 360" role="img" aria-labelledby="route-motion-title route-motion-desc">
+      <title id="route-motion-title">从专业与数据，走向你的学习路线</title>
+      <desc id="route-motion-desc">结合专业背景、数据与目标，在影像、时序和 AI+ 三个实验室中选择适合的方向，再安排基础学习、数据处理、项目实践与成果整理。图中为过程示意。</desc>
+      <defs>
+        <linearGradient id="route-field-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef5fc"/><stop offset="1" stop-color="#e8f1f0"/></linearGradient>
+        <linearGradient id="route-hub-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#446b94"/><stop offset="1" stop-color="#24455f"/></linearGradient>
+        <pattern id="route-dots" width="19" height="19" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#adc2d6" opacity=".45"/></pattern>
+      </defs>
+      <path d="M75 44C163 13 185 65 265 58S365 9 476 30 656 104 653 203 558 332 443 322 307 296 215 321 31 291 22 203 22 62 75 44Z" fill="url(#route-field-fill)"/>
+      <rect x="33" y="37" width="612" height="285" rx="35" fill="url(#route-dots)"/>
+      <g fill="none" stroke="#b9cddd" stroke-width="1" opacity=".6"><path d="M79 74h11m-5-5v10M313 298h12m-6-6v12M611 66h10m-5-5v10"/><circle cx="284" cy="52" r="3"/><circle cx="164" cy="296" r="3"/></g>
+
+      <!-- Paths sit behind the cards; each laboratory is one possible direction. -->
+      <g fill="none" stroke="#c3d2df" stroke-width="1.5">
+        <path d="M172 180H218"/>
+        <path d="M322 180H340Q349 180 349 170V94Q349 84 359 84H370M322 180H370M322 180H340Q349 180 349 190V266Q349 276 359 276H370"/>
+        <path d="M476 84H485Q495 84 495 94V170Q495 180 505 180H520M476 180H520M476 276H485Q495 276 495 266V190Q495 180 505 180H520"/>
+      </g>
+      <path class="rla-motion rla-input-flow" d="M172 180H218" fill="none" stroke="#729bc3" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 44"/>
+      <g class="rla-motion rla-channel" style="--channel-delay:0s" fill="none" stroke="#6e9cc8" stroke-width="2.5" stroke-linecap="round">
+        <path class="rla-motion rla-stream" d="M322 180H340Q349 180 349 170V94Q349 84 359 84H370M476 84H485Q495 84 495 94V170Q495 180 505 180H520"/>
+        <rect x="368" y="59" width="110" height="50" rx="13" stroke-width="2"/>
+      </g>
+      <g class="rla-motion rla-channel" style="--channel-delay:-8s" fill="none" stroke="#69a494" stroke-width="2.5" stroke-linecap="round">
+        <path class="rla-motion rla-stream" d="M322 180H370M476 180H520"/>
+        <rect x="368" y="155" width="110" height="50" rx="13" stroke-width="2"/>
+      </g>
+      <g class="rla-motion rla-channel" style="--channel-delay:-4s" fill="none" stroke="#c29a61" stroke-width="2.5" stroke-linecap="round">
+        <path class="rla-motion rla-stream" d="M322 180H340Q349 180 349 190V266Q349 276 359 276H370M476 276H485Q495 276 495 266V190Q495 180 505 180H520"/>
+        <rect x="368" y="251" width="110" height="50" rx="13" stroke-width="2"/>
+      </g>
+
+      <!-- A profile card gives the flow a tangible starting point. -->
+      <g class="rla-motion rla-profile">
+        <rect x="30" y="111" width="138" height="148" rx="15" fill="#d7e3ef" transform="rotate(-5 99 185)"/>
+        <rect x="34" y="107" width="138" height="148" rx="15" fill="#fffefa" stroke="#b8cadb" stroke-width="1.4"/>
+        <rect x="50" y="123" width="43" height="40" rx="11" fill="#eaf1f8"/>
+        <g fill="none" stroke="#507599" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m56 139 16-7 16 7-16 7Zm6 4v9q10 7 20 0v-9M88 140v12"/></g>
+        <text x="51" y="190" class="rla-title">专业背景</text>
+        <text x="51" y="213" class="rla-small">你的研究方向</text>
+        <path d="M51 231h62M120 231h20" stroke="#d1dfec" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+      <!-- Data and goal determine the laboratory, not the discipline alone. -->
+      <rect class="rla-motion rla-hub-halo" x="211" y="128" width="118" height="104" rx="25" fill="none" stroke="#a6bdd5"/>
+      <rect x="218" y="135" width="104" height="90" rx="20" fill="url(#route-hub-fill)" stroke="#486c8e"/>
+      <g fill="none" stroke="#d4e6f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m270 149 14 7-14 7-14-7Zm-14 14 14 7 14-7m-28 7 14 7 14-7"/></g>
+      <text x="270" y="201" text-anchor="middle" class="rla-hub-title">数据与目标</text>
+
+      <!-- Three course laboratories, with restrained colour coding. -->
+      <rect x="370" y="61" width="106" height="46" rx="11" fill="#f7fbff" stroke="#bdcede"/>
+      <g fill="none" stroke="#6b94ba" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="382" y="73" width="19" height="21" rx="3"/><circle cx="387" cy="79" r="1.5"/><path d="m384 90 5-6 4 3 5-7"/></g>
+      <text x="410" y="89" class="rla-lab" fill="#416987">影像</text>
+      <rect x="370" y="157" width="106" height="46" rx="11" fill="#f6fbf8" stroke="#b4d3c8"/>
+      <path d="M381 181h4l3-9 5 18 4-13 3 4h4" fill="none" stroke="#6b9c8b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="410" y="185" class="rla-lab" fill="#507d6c">时序</text>
+      <rect x="370" y="253" width="106" height="46" rx="11" fill="#fffaf0" stroke="#dcc8a6"/>
+      <g stroke="#b38c56" fill="#fffaf0" stroke-width="1.4"><path d="m385 271 14 10-14 5Zm0 0 14-7v17"/><circle cx="385" cy="271" r="3"/><circle cx="399" cy="264" r="3"/><circle cx="399" cy="281" r="3"/><circle cx="385" cy="286" r="3"/></g>
+      <text x="410" y="281" class="rla-lab" fill="#997947">AI+</text>
+      <text x="423" y="39" text-anchor="middle" class="rla-small rla-column-label">选择实验室</text>
+
+      <!-- A route is assembled gradually, without changing any form values. -->
+      <rect x="523" y="98" width="137" height="193" rx="13" fill="#dce6ed"/>
+      <rect x="520" y="94" width="137" height="193" rx="13" fill="#fffefa" stroke="#b7cad9" stroke-width="1.4"/>
+      <path d="M633 94v21h24" fill="#e9f0f4" stroke="#b7cad9" stroke-width="1.2" stroke-linejoin="round"/>
+      <text x="534" y="131" class="rla-route-title">我的学习路线</text>
+      <path d="M534 144h108" stroke="#dde6eb"/>
+      <path d="M540 164v97" stroke="#cfdee8" stroke-width="1.4" stroke-dasharray="3 4"/>
+      <g class="rla-route-step"><circle cx="540" cy="165" r="6" fill="#e3edf5"/><text x="554" y="170">基础学习</text><g class="rla-motion rla-step-tick" data-step="1"><circle cx="540" cy="165" r="6" fill="#7199b9"/><path d="m537 165 2 2 4-4"/></g></g>
+      <g class="rla-route-step"><circle cx="540" cy="195" r="6" fill="#e3edf5"/><text x="554" y="200">处理数据</text><g class="rla-motion rla-step-tick" data-step="2"><circle cx="540" cy="195" r="6" fill="#7199b9"/><path d="m537 195 2 2 4-4"/></g></g>
+      <g class="rla-route-step"><circle cx="540" cy="225" r="6" fill="#e3edf5"/><text x="554" y="230">项目实践</text><g class="rla-motion rla-step-tick" data-step="3"><circle cx="540" cy="225" r="6" fill="#7199b9"/><path d="m537 225 2 2 4-4"/></g></g>
+      <g class="rla-route-step"><circle cx="540" cy="255" r="6" fill="#e3edf5"/><text x="554" y="260">整理成果</text><g class="rla-motion rla-step-tick" data-step="4"><circle cx="540" cy="255" r="6" fill="#7199b9"/><path d="m537 255 2 2 4-4"/></g></g>
+      <g fill="none" stroke="#b8cbdc" stroke-width="1.2" stroke-linecap="round"><path d="M26 278h115M532 310h103"/></g>
+    </svg>
+    <svg class="route-entry-svg route-entry-mobile" viewBox="0 0 360 330" role="img" aria-labelledby="route-mobile-title route-mobile-desc">
+      <title id="route-mobile-title">从专业与数据，到学习路线</title>
+      <desc id="route-mobile-desc">先明确专业背景、数据与目标，选择适合的影像、时序或 AI+ 实验室，再规划课程与项目。</desc>
+      <rect x="4" y="10" width="352" height="309" rx="32" fill="#eaf2f8"/>
+      <circle cx="245" cy="200" r="108" fill="#e4efee" opacity=".65"/>
+      <g fill="none" stroke="#bdcfdf" stroke-width="1.5"><path d="M120 74h51M236 111v16H62v29M180 127v29M236 127h62v29M62 200v21h118v25M180 200v46M298 200v21H180"/></g>
+      <path class="rla-motion rla-input-flow" d="M120 74h51" fill="none" stroke="#729bc3" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 44"/>
+      <g class="rla-motion rla-channel" style="--channel-delay:0s" fill="none" stroke="#6e9cc8" stroke-width="2"><path class="rla-motion rla-stream" d="M236 111v16H62v29M62 200v21h118v25"/><rect x="12" y="154" width="100" height="48" rx="12"/></g>
+      <g class="rla-motion rla-channel" style="--channel-delay:-8s" fill="none" stroke="#69a494" stroke-width="2"><path class="rla-motion rla-stream" d="M236 111v16h-56v29M180 200v46"/><rect x="130" y="154" width="100" height="48" rx="12"/></g>
+      <g class="rla-motion rla-channel" style="--channel-delay:-4s" fill="none" stroke="#c29a61" stroke-width="2"><path class="rla-motion rla-stream" d="M236 111v16h62v29M298 200v21H180v25"/><rect x="248" y="154" width="100" height="48" rx="12"/></g>
+      <g class="rla-motion rla-profile"><rect x="17" y="30" width="103" height="92" rx="13" fill="#dbe5ef"/><rect x="14" y="26" width="106" height="92" rx="13" fill="#fffefa" stroke="#b8cadb"/>
+        <g stroke="#7195b7" fill="none" stroke-width="1.5" stroke-linejoin="round"><path d="m27 47 12-5 12 5-12 5Zm5 3v7q7 4 14 0v-7"/></g><text x="27" y="79" class="rla-mobile-title">专业背景</text><text x="27" y="100" class="rla-mobile-small">研究方向</text></g>
+      <rect x="166" y="34" width="140" height="82" rx="22" fill="none" stroke="#b5c9dc"/>
+      <rect x="171" y="39" width="130" height="72" rx="18" fill="#355b7b"/>
+      <g fill="none" stroke="#d5e7f5" stroke-width="1.4"><path d="m236 50 12 6-12 6-12-6Zm-12 13 12 6 12-6"/></g><text x="236" y="92" text-anchor="middle" class="rla-mobile-hub">数据与目标</text>
+      <rect x="14" y="156" width="96" height="44" rx="10" fill="#f9fcff" stroke="#bdcede"/><text x="62" y="183" text-anchor="middle" class="rla-mobile-lab">影像</text>
+      <rect x="132" y="156" width="96" height="44" rx="10" fill="#f6fbf8" stroke="#b4d3c8"/><text x="180" y="183" text-anchor="middle" class="rla-mobile-lab">时序</text>
+      <rect x="250" y="156" width="96" height="44" rx="10" fill="#fffaf0" stroke="#dcc8a6"/><text x="298" y="183" text-anchor="middle" class="rla-mobile-lab">AI+</text>
+      <rect x="21" y="250" width="320" height="68" rx="13" fill="#dce7ed"/><rect x="18" y="246" width="324" height="68" rx="13" fill="#fffefa" stroke="#b7cad9"/>
+      <text x="32" y="269" class="rla-mobile-title">我的学习路线</text>
+      <g class="rla-mobile-course"><text x="53" y="299" text-anchor="middle">基础</text><text x="137" y="299" text-anchor="middle">数据</text><text x="221" y="299" text-anchor="middle">项目</text><text x="305" y="299" text-anchor="middle">成果</text></g>
+      <path d="M79 294h22m62 0h22m62 0h22" stroke="#c5d7e5" stroke-width="1.4" stroke-dasharray="3 3"/>
+      <g class="rla-mobile-progress" fill="#79a398"><rect class="rla-motion rla-step-tick" data-step="1" x="35" y="305" width="36" height="2" rx="1"/><rect class="rla-motion rla-step-tick" data-step="2" x="119" y="305" width="36" height="2" rx="1"/><rect class="rla-motion rla-step-tick" data-step="3" x="203" y="305" width="36" height="2" rx="1"/><rect class="rla-motion rla-step-tick" data-step="4" x="287" y="305" width="36" height="2" rx="1"/></g>
+    </svg>
+    <figcaption>根据数据与目标，选择适合的实验室。</figcaption>
+  </figure>
+</section>
+<div class="route-mode-switch site-container" role="group" aria-label="生成方式"><button type="button" data-planner-mode="wizard" aria-pressed="true">引导式定制</button><button type="button" data-planner-mode="form" aria-pressed="false">快捷调整</button><span>专业背景 → 想做什么 → 基础与需求 → 信息复核</span></div><section id="route-wizard" class="route-wizard site-container" aria-live="polite"></section><main id="generator" class="workspace">
+    <aside class="config-panel"><div class="panel-heading"><span class="section-index">01</span><h2>你的规划信息</h2><button id="resetButton" class="text-button" type="button">重置参数</button></div>
+      <form id="profileForm"><div id="staffProfileInputs"></div>
+        <fieldset><legend>专业背景</legend><div id="majorOptions" hidden></div><div id="formMajorPicker"></div></fieldset>
+        <label class="field-label" for="background">具体专业或方向（选填）</label><input id="background" name="background" type="text" maxlength="120" placeholder="如：复合材料、护理学、数字经济">
+        <fieldset><legend>想做什么</legend><div id="formStaffIntake"></div></fieldset>
+        <label class="field-label" for="foundation">你目前的基础</label><select id="foundation" name="foundation"><option value="beginner">从零开始</option><option value="python" selected>会一点 Python</option><option value="ml">做过机器学习项目</option><option value="dl">有深度学习经验</option></select>
+        <input id="goal" type="hidden" name="goal" value="learn">
+        <div id="formLearningSurvey"></div>
+        <input id="dataMode" type="hidden" name="data" value="unknown">
+        <label class="field-label" for="staffNotes">学习计划补充</label><textarea id="staffNotes" rows="3" maxlength="1000" placeholder="例如：先学会读表和画图，每周做一次练习。"></textarea><label class="field-label" for="needs">还有什么想补充的？（选填）</label><textarea id="needs" name="needs" rows="3" maxlength="500" placeholder="研究方向、数据条件、学习偏好…"></textarea>
         <div class="range-heading"><label for="hours">每周可投入</label><output id="hoursOutput" for="hours">8 <small>小时</small></output></div><input id="hours" name="hours" type="range" min="3" max="20" step="1" value="8"><div class="range-ends"><span>3 小时 · 轻量</span><span>20 小时 · 集中</span></div>
         <div class="range-heading"><label for="weeks">这次安排多久</label><output id="weeksOutput" for="weeks">12 <small>周</small></output></div><input id="weeks" name="weeks" type="range" min="4" max="24" step="1" value="12"><div class="range-ends"><span>4 周</span><span>24 周</span></div>
-        <div class="budget-preview"><span>你的本期时间预算</span><strong id="budgetPreview">96 <small>小时</small></strong></div>
+        <div class="budget-preview"><span>本期时间预算</span><strong id="budgetPreview">96 <small>小时</small></strong></div>
         <button class="primary-button generate" id="generateButton" type="submit"><span>生成我的学习路线</span><span aria-hidden="true">↗</span></button><p id="formHint" class="form-hint" aria-live="polite">右侧是当前参数生成的路线。</p>
       </form>
-      <div class="form-note"><span>一条可执行的路线</span><p>先跑通基线，再考虑复杂模型。时间不足时保留起步任务，把后续工作明确列出来。</p></div>
+      <div class="form-note"><span>让计划更适合你</span><p>先确认数据、任务和实验室，再核对课程、项目范围和投入时间。你可以随时调整路线并导出保存。</p></div>
     </aside>
     <section class="result-panel" id="resultPanel" aria-labelledby="resultTitle">
       <div class="result-topline"><div class="result-caption"><span class="section-index">02</span><span>你的学习路线</span><span id="routeMode" class="outline-pill"></span></div><div class="theme-picker" role="group" aria-label="路线配色"><button data-theme-choice="blue" class="swatch blue" title="经典深蓝" aria-label="经典深蓝" aria-pressed="true"></button><button data-theme-choice="red" class="swatch red" title="自然暖朱红" aria-label="自然暖朱红" aria-pressed="false"></button><button data-theme-choice="gold" class="swatch gold" title="友好明橙" aria-label="友好明橙" aria-pressed="false"></button></div></div>
       <div id="routeIntro"></div>
       <div id="timeSummary"></div>
-      <div class="export-row"><span class="local-hint"><span class="status-dot"></span>进度保存在当前浏览器</span><div class="export-actions"><button id="shareRoute" class="secondary-button" type="button">复制路线链接 ↗</button><button id="exportMd" class="secondary-button" type="button">↓ Markdown</button><button id="exportPng" class="secondary-button" type="button">↓ 路线长图</button></div></div>
+      <div class="export-row"><span class="local-hint"><span class="status-dot"></span>进度保存在当前浏览器</span><div class="export-actions"><button id="shareRoute" class="secondary-button" type="button">复制路线链接 ↗</button><button id="exportPdf" class="secondary-button" type="button">打印／存 PDF</button><button id="exportMd" class="secondary-button" type="button">↓ Markdown</button><button id="exportPng" class="secondary-button" type="button">编辑长图 / 导出 PNG</button></div></div>
       <div id="phaseStrip" class="phase-strip" aria-label="五阶段时间分配"></div>
       <div class="progress-heading"><h3>沿着 5 个阶段，一步一步做</h3><span id="progressText"></span></div><div class="progress-track"><div id="progressBar"></div></div>
       <div id="phases" class="phases"></div>
       <details id="weekPlan" class="week-plan"><summary><div><span class="section-index">03</span><strong>展开每周安排</strong><span id="weekSummary"></span></div><span class="plus" aria-hidden="true">+</span></summary><div id="weeksList" class="weeks-list"></div></details>
       <section id="sources" class="source-section"><div class="section-heading"><span class="section-index">04</span><h3>从这些数据与资源开始</h3></div><div id="sourceContent"></div></section>
     </section>
-  </main><footer class="site-footer"><div class="site-footer-inner"><div><strong>点头教育-AI路径实验室demo</strong><p>用本地规划规则组织学习，以实际练习留下证据。<br>工时是规划估计，数据与教程保留原始来源。</p></div><div class="footer-links"><a href="resources.html">数据来源</a><a href="guide.html#share">保存与分享</a><button id="helpButton" class="text-button" type="button">快捷帮助</button><button id="aboutButton" class="text-button" type="button">生成规则</button></div></div></footer>  <dialog id="infoDialog" aria-labelledby="dialogTitle"><button class="dialog-close" type="button" aria-label="关闭">×</button><h2 id="dialogTitle"></h2><div id="dialogContent"></div><button class="primary-button dialog-ok" type="button">明白了</button></dialog>
+  </main>
+<footer class="site-footer"><div class="site-footer-inner"><div><strong>点头教育 · AI路径实验室</strong><p>从真实研究问题出发，把学习变成可以检查的行动。</p></div><div class="footer-links"><a href="papers/index.html">论文交互馆</a><a href="resources.html">数据资源</a><a href="about.html">关于我们</a><button id="helpButton" class="text-button" type="button">使用帮助</button><button id="aboutButton" class="text-button" type="button">生成规则</button></div></div></footer>  <dialog id="infoDialog" aria-labelledby="dialogTitle"><button class="dialog-close" type="button" aria-label="关闭">×</button><h2 id="dialogTitle"></h2><div id="dialogContent"></div><button class="primary-button dialog-ok" type="button">明白了</button></dialog>
   <dialog id="promptDialog" aria-labelledby="promptTitle"><button class="dialog-close" type="button" aria-label="关闭">×</button><p class="eyebrow">把路线带到你的 AI 对话里</p><h2 id="promptTitle">这一阶段的学习提示词</h2><textarea id="promptText" readonly aria-label="学习提示词"></textarea><div class="dialog-actions"><button id="copyPrompt" class="primary-button" type="button">复制提示词</button><button class="secondary-button dialog-ok" type="button">关闭</button></div></dialog>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div><dialog id="shareDialog" aria-labelledby="shareTitle"><button class="dialog-close" type="button" aria-label="关闭">×</button><h2 id="shareTitle">分享这条学习路线</h2><p class="share-explainer" id="shareExplain"></p><textarea class="share-url" id="shareURL" rows="4" readonly aria-label="路线链接"></textarea><div class="dialog-actions"><button id="copyRouteLink" class="primary-button" type="button">复制链接</button><button class="secondary-button dialog-ok" type="button">关闭</button></div><p id="copyStatus" role="status" style="margin-top:13px"></p></dialog><script src="assets/6bcb266e625b54f6.js"></script><script src="assets/e68f6cf9ce1d8edb.js"></script><script src="assets/35fc8d73acc732cf.js"></script><script src="assets/c3894557a4e22658.js"></script><script src="assets/583636c8e992a4eb.js"></script></body></html>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div><dialog id="shareDialog" aria-labelledby="shareTitle"><button class="dialog-close" type="button" aria-label="关闭">×</button><h2 id="shareTitle">分享这条学习路线</h2><p class="share-explainer" id="shareExplain"></p><textarea class="share-url" id="shareURL" rows="4" readonly aria-label="路线链接"></textarea><div class="dialog-actions"><button id="copyRouteLink" class="primary-button" type="button">复制链接</button><button class="secondary-button dialog-ok" type="button">关闭</button></div><p id="copyStatus" role="status" style="margin-top:13px"></p></dialog><script src="assets/8b780b76a83df720.js"></script><script src="assets/dacf3744ea3266de.js"></script><script src="assets/aa4427f764d173cb.js"></script><script src="assets/3fd7dace18975c7e.js"></script><script src="assets/2d6019071b49c0b6.js"></script><script src="assets/5cc65d5a91c15efd.js"></script><script src="assets/5fea448331109287.js"></script><script src="assets/5f1b2e91c6713b0b.js"></script><script src="assets/99bda8f7d9f4d66d.js"></script><script src="assets/54eab21216fbdde4.js"></script><script src="assets/69bd8af0a316bffa.js"></script><script src="assets/9aae911acd549207.js"></script><script src="assets/a93843a65bdff5f7.js"></script><script src="assets/dec4fd1b11003923.js"></script><script src="assets/29e46ca3ea0d688e.js"></script><script src="assets/98ce287564918e2f.js"></script><script src="assets/eced1e52ca53ded2.js"></script><script src="assets/8159a8d96d0ceab4.js"></script></body></html>

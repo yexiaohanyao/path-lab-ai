@@ -1,0 +1,90 @@
+/* The paper hall keeps its own local tabs and owner-only library export. */
+body{font-size:16px;background:#f8f7f3;color:#213245}
+.dt-network{position:relative;z-index:40}
+body>.site-header{position:sticky;top:0;z-index:30;height:auto;min-height:58px;background:#f8f7f3!important;backdrop-filter:blur(12px)}
+body>.site-header .header-inner{max-width:1344px;height:auto;min-height:58px;padding:0 32px;justify-content:flex-start;gap:24px}
+body>.site-header .brand{display:none}
+body>.site-header .main-nav{height:auto;gap:7px;margin-right:auto}
+body>.site-header .main-nav>a{font-size:14px;padding:14px 16px;border-radius:0;border-bottom:2px solid transparent}
+body>.site-header .main-nav>a.active{border-bottom-color:#00468b;color:#00468b}
+body>.site-header .export-top{font-size:13px;padding:8px 12px}
+.paper-intro{padding-top:43px;padding-bottom:34px;border-bottom:1px solid #e3e7e5}
+.paper-intro .breadcrumb{max-width:none;padding:0;margin:0 0 19px;font-size:14px}
+.paper-intro .eyebrow{font-size:13px;color:#00468b;letter-spacing:.03em;margin-bottom:8px}
+.paper-intro h1{font:600 clamp(32px,3.4vw,49px)/1.35 Georgia,"Noto Serif SC","Songti SC",serif;letter-spacing:-.025em;margin:0 0 13px;color:#192f43}
+.paper-intro>p{font-size:17px;line-height:1.8;color:#5e6d78;max-width:750px;margin:0 0 23px}
+.paper-intro-stats{display:flex;flex-wrap:wrap;gap:10px 26px;color:#647681;font-size:14px}
+.paper-intro-stats strong{font-size:18px;color:#00468b;margin-right:5px}
+.collection{padding-top:36px}
+.collection-heading{align-items:center;margin-bottom:26px}
+.collection-heading h2{font:600 clamp(24px,2.2vw,32px)/1.4 Georgia,"Noto Serif SC","Songti SC",serif;letter-spacing:-.02em;color:#1d3144}
+.eyebrow.small{font-size:13px;letter-spacing:.04em;color:#617d93}
+.count-badge{font:600 13px var(--sans);padding:5px 10px}
+.collection-note{font-size:14px}
+.search-row{gap:12px;margin-bottom:28px}
+.searchbox{height:52px;border-radius:9px;padding:0 17px}
+.searchbox input{font-size:15px}.searchbox kbd{font-size:12px}
+.sort-label select{font-size:14px;padding-left:14px}
+.collection-layout{grid-template-columns:220px minmax(0,1fr);gap:34px}
+.filter-heading>span,.filter-section summary{font-size:15px;font-weight:650}
+.filter-heading>button{font-size:13px}
+.domain-filter{font-size:14px;min-height:38px;padding:8px 10px 8px 0}
+.domain-filter .n,.year-filter,.filter-helper{font-size:12px}
+.filter-subgroup p{font-size:13px}
+.method-filter{font-size:13px;line-height:1.4;padding:7px 9px}
+.collection-tip strong{font-size:14px}.collection-tip p,.collection-tip a{font-size:13px}
+.paper-grid{gap:28px}
+.paper-card{border-radius:12px;border-color:#e1e5e6;box-shadow:0 3px 12px rgba(29,55,73,.025);animation:paper-reveal .45s both}
+.paper-card:hover{box-shadow:0 16px 35px rgba(20,53,81,.12)}
+.paper-cover{height:250px;padding:17px 22px 0}
+.paper-body{padding:20px 22px 18px}
+.paper-meta{font-size:13px;margin-bottom:12px}
+.paper-domain:before{width:6px;height:6px}
+.paper-title{font:600 22px/1.5 Georgia,"Noto Serif SC","Songti SC",serif;letter-spacing:-.025em;margin-bottom:11px}
+.paper-summary{font-size:15px;line-height:1.75;color:#596a76;margin-bottom:17px}
+.paper-form{font-size:13px}.paper-taxonomy button{font-size:12px;padding:5px 7px}
+.paper-journal{font-size:12px;line-height:1.55;margin-top:10px}
+.paper-foot{font-size:13px;gap:8px;padding-top:13px}
+.paper-foot button,.paper-foot a{font-size:13px}
+.paper-foot a{color:#00468b;font-weight:650}
+.interactive-pill{font-size:11px;padding:5px 9px}
+.small-tool{height:34px;width:34px}
+.results-footer{font-size:14px}
+.map-view{border-radius:15px;box-shadow:0 5px 24px rgba(23,56,78,.05);overflow:hidden}
+.map-head h3{font:600 24px/1.4 Georgia,"Noto Serif SC","Songti SC",serif}
+.map-head p,.map-caption,.map-legend{font-size:13px}
+.map-canvas{min-height:560px;transition:opacity .3s,transform .3s}
+.method-overview{gap:18px;padding:12px 15px 24px}
+.method-overview-card{min-height:225px;padding:20px;grid-template-rows:auto auto 60px 1fr auto;border-radius:12px}
+.method-overview-index{font-size:12px}.method-overview-card>b{font-size:17px;line-height:1.35}
+.method-overview-card>strong{font-size:32px}
+.method-thumbnails{grid-column:1/3;display:flex;gap:7px;align-items:center;margin-top:9px}
+.method-thumbnails img{width:40px;height:54px;object-fit:cover;object-position:top center;border:1px solid #dce5eb;border-radius:4px;box-shadow:0 2px 6px #183c5f18}
+.method-overview-card>small,.method-overview-card>em{font-size:12px;line-height:1.5}
+.graph-paper{cursor:grab;transform-origin:center;animation:graph-pop .35s var(--ease-spring) both}
+.graph-paper:active{cursor:grabbing}.graph-paper image{pointer-events:none}
+.map-edge{stroke-dasharray:800;stroke-dashoffset:800;animation:edge-draw .55s ease-out forwards}
+.graph-paper:hover rect{filter:drop-shadow(0 4px 8px #16477520)}
+@keyframes graph-pop{from{opacity:.3}to{opacity:1}}
+@keyframes edge-draw{to{stroke-dashoffset:0}}
+body[data-page="map"] .map-canvas{animation:map-enter .42s ease-out both}
+.reader{border-radius:15px;box-shadow:0 30px 80px rgba(16,34,50,.22)}
+.reader[open]{animation:reader-enter .25s ease-out both}
+.reader h2{font:600 27px/1.5 Georgia,"Noto Serif SC","Songti SC",serif}
+.reader-panel,.reading-section p,.full-body{font-size:16px;line-height:1.85}
+.full-body h3{font-size:24px}.full-body h4{font-size:20px}.full-body h5{font-size:18px}
+.full-body table{font-size:14px}.full-body code{font-size:13px}
+.reader-tabs button,.reader-source,.reader-aside,.resource-links a{font-size:14px}
+.note-field{font-size:15px}.notes-intro{font-size:14px}
+.related-papers{border-top:1px solid #e4e9ec;margin-top:34px;padding-top:22px}
+.related-papers h3{font:600 20px/1.4 Georgia,"Noto Serif SC","Songti SC",serif;margin:0 0 15px}
+.related-papers-list{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}
+.related-papers-list a{display:flex;align-items:center;gap:10px;flex:0 0 205px;border:1px solid #dfe7ea;border-radius:8px;background:#fff;padding:8px;color:#254c68;font-size:13px;line-height:1.5}
+.related-papers-list a:hover{border-color:#00468b;box-shadow:0 4px 13px #143e5c16}
+.related-papers-list img{width:39px;height:53px;flex:none;object-fit:cover;object-position:top;border-radius:3px}
+@keyframes paper-reveal{from{opacity:0;transform:translateY(11px)}to{opacity:1;transform:translateY(0)}}
+@keyframes map-enter{from{opacity:.35;transform:scale(.985)}to{opacity:1;transform:scale(1)}}
+@keyframes reader-enter{from{opacity:.5;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){.collection-layout{grid-template-columns:190px minmax(0,1fr);gap:22px}.paper-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.paper-title{font-size:20px}}
+@media(max-width:760px){body>.site-header .header-inner{padding:0 16px;min-height:51px;flex-wrap:nowrap}body>.site-header{height:auto}body>.site-header .main-nav{order:1;height:auto;gap:2px;flex:1;justify-content:space-between}body>.site-header .main-nav>a{font-size:12px;padding:14px 6px;white-space:nowrap}body>.site-header .export-top{order:2;margin-left:0;font-size:11px;padding:6px}body>.site-header .export-top span:last-child{display:none}.paper-intro{padding-top:26px;padding-bottom:25px}.paper-intro h1{font-size:32px}.paper-intro>p{font-size:15px}.paper-intro-stats{gap:8px 16px}.collection{padding-top:26px}.collection-heading h2{font-size:23px}.collection-note{font-size:13px}.searchbox input{font-size:14px}.collection-layout{display:block}.mobile-filter{font-size:14px;min-height:44px}.filter-heading>span,.filter-section summary{font-size:14px}.domain-filter{font-size:13px}.paper-grid{grid-template-columns:1fr;gap:20px}.paper-cover{height:260px}.paper-body{padding:19px}.paper-meta{font-size:12px}.paper-title{font-size:21px}.paper-summary{font-size:14px}.paper-journal,.paper-foot button,.paper-foot a{font-size:12px}.reader{height:96vh;max-height:96vh;border-radius:12px 12px 0 0}.reader h2{font-size:23px}.reader-panel,.reading-section p,.full-body{font-size:15px}.map-head h3{font-size:22px}.map-head p,.map-caption{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.paper-card,.reader[open],body[data-page="map"] .map-canvas,.graph-paper,.map-edge{animation:none;stroke-dashoffset:0}}

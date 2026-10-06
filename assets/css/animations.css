@@ -1,0 +1,9 @@
+@keyframes lab-fade-up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes lab-slide-up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes lab-scale-in{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:scale(1)}}
+@keyframes lab-spring-in{0%{opacity:0;transform:scale(.72)}65%{opacity:1;transform:scale(1.04)}100%{transform:scale(1)}}
+@keyframes lab-draw{from{stroke-dashoffset:1200}to{stroke-dashoffset:0}}
+@keyframes lab-shimmer{from{background-position:180% 0}to{background-position:-180% 0}}
+.lab-fade-up{animation:lab-fade-up var(--duration-slow) var(--ease-decelerate) both}
+.lab-stagger>*{animation:lab-fade-up var(--duration-slow) var(--ease-decelerate) both;animation-delay:calc(var(--order,0)*45ms)}
+@media(prefers-reduced-motion:reduce){.lab-fade-up,.lab-stagger>*{animation:none!important}}

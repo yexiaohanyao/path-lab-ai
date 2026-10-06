@@ -1,0 +1,31 @@
+/* One primary navigation; module-specific tabs stay inside the page. */
+.nav-account{border:1px solid #dce5ed;border-radius:7px;background:#f5f8fb;color:#718399;font-size:13px;padding:9px 12px;white-space:nowrap}
+.dt-brand small{display:block!important;margin-left:0!important}.dt-network nav a{justify-content:flex-start!important}
+.site-header,.dt-network{background:rgba(255,255,255,.96)!important;border-bottom:1px solid #e4e9ef!important;box-shadow:0 3px 22px rgba(18,41,72,.035);backdrop-filter:blur(16px)}
+.site-header-inner,.dt-network{max-width:1344px;margin:0 auto;min-height:76px}
+.site-brand,.dt-brand{gap:10px!important;color:var(--modern-text)!important}
+.site-brand small,.dt-brand small{color:#6c7887!important;font-size:12px!important;letter-spacing:0!important}
+.site-nav,.dt-network nav{gap:6px!important;align-items:center}
+.site-nav>a,.dt-network nav a{font-size:14px!important;font-weight:550!important;color:#415368!important;padding:10px 13px!important;border-radius:9px!important}
+.site-nav>a:hover,.site-nav>a[aria-current],.dt-network nav a:hover,.dt-network nav a[aria-current]{background:#ecf3ff!important;color:var(--modern-primary)!important}
+.site-nav .nav-group,.dt-network .nav-group{position:relative;display:flex;align-items:center}
+.site-nav .nav-group>summary,.dt-network .nav-group>summary{list-style:none;cursor:pointer;padding:10px 13px;border-radius:9px;color:#415368;font-size:14px;font-weight:550}
+.site-nav .nav-group>summary::-webkit-details-marker,.dt-network .nav-group>summary::-webkit-details-marker{display:none}
+.site-nav .nav-group>summary:hover,.dt-network .nav-group>summary:hover,.site-nav .nav-group[open]>summary,.dt-network .nav-group[open]>summary{background:#ecf3ff;color:var(--modern-primary)}
+.nav-menu{position:absolute;z-index:90;top:calc(100% + 8px);left:0;min-width:195px;padding:8px;background:#fff;border:1px solid #dfe7f0;border-radius:12px;box-shadow:0 15px 40px rgba(25,53,84,.14);display:grid;gap:3px}
+.nav-menu a,.nav-menu span{display:block;padding:10px 12px;border-radius:7px;font-size:14px;color:#34475d;white-space:nowrap;text-decoration:none}
+.nav-menu a:hover{background:#f0f5fc;color:var(--modern-primary)}.nav-menu span{color:#8390a1}
+.nav-search{font-size:14px!important;font-weight:600!important;color:var(--modern-primary)!important}
+.breadcrumb{display:flex;align-items:center;gap:9px;font-size:14px;color:#718093;margin:24px auto 0;max-width:1280px;padding:0 32px}
+.breadcrumb a{color:#526780;text-decoration:none}.breadcrumb a:hover{color:var(--modern-primary)}.breadcrumb span[aria-hidden]{color:#aab5c1}
+.site-home,.site-resources,.site-guide,.site-about,.site-cases{background:var(--modern-background);color:var(--modern-text)}
+.site-primary,.primary-button,.button-primary{background:var(--modern-primary)!important;border-color:var(--modern-primary)!important;border-radius:9px!important;color:#fff!important;transition:transform var(--duration-fast) var(--ease-standard),box-shadow var(--duration-fast) var(--ease-standard),background var(--duration-fast)}
+.site-primary:hover,.primary-button:hover,.button-primary:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(20,93,221,.2);background:#104dbb!important}
+.secondary-button,.button-secondary{border-radius:9px!important}
+.site-footer{border-top:1px solid #e5eaf0}
+@media(max-width:900px){.site-nav,.dt-network nav{gap:3px!important}.site-nav>a,.dt-network nav a,.site-nav .nav-group>summary,.dt-network .nav-group>summary{font-size:13px!important;padding:9px 8px!important}.breadcrumb{padding:0 20px}}
+@media(max-width:760px){.dt-network{max-width:none;padding:12px 18px!important}.dt-network nav{display:flex!important;overflow-x:auto;flex-wrap:nowrap!important;width:100%;padding-bottom:2px}.dt-network nav>*{flex:0 0 auto}.nav-menu{position:fixed;left:16px;right:16px;top:117px}.site-nav .nav-group{display:block}.site-nav .nav-menu{position:static;box-shadow:none;border:0;padding:2px 8px}.breadcrumb{margin-top:14px;font-size:13px}.site-nav.is-open{max-height:85vh;overflow-y:auto}}
+.site-header-inner{height:76px!important;padding-inline:32px}.dt-network{min-height:76px!important;padding-block:12px!important;padding-inline:max(32px,calc((100vw - 1360px)/2))!important}.dt-network .menu-toggle{display:none}.dt-network nav{width:auto}.site-nav .nav-group>summary,.dt-network .nav-group>summary{display:flex;gap:7px;align-items:center}.site-nav .nav-group>summary span,.dt-network .nav-group>summary span{color:#8191a1}.site-nav .nav-search,.dt-network nav .nav-search{border-left:1px solid #dce5ed;border-radius:0!important;margin-left:6px}.site-brand small,.dt-brand small{font-size:13px!important}.site-footer p,.footer-links a{font-size:14px!important}
+@media(max-width:1050px){.site-header{position:sticky;top:0;z-index:50}.site-header-inner{padding:0 24px!important;min-height:72px;height:72px!important}.dt-network{position:sticky;top:0;z-index:50;min-height:72px!important;padding:14px 24px!important;flex-direction:row!important;align-items:center!important}.menu-toggle,.dt-network .menu-toggle{display:flex!important;align-items:center;justify-content:center;width:42px;height:42px;margin-left:auto;border:1px solid #d9e3ed;border-radius:8px;background:#fff;color:#24527a;font-size:22px}.site-nav,.dt-network nav{display:none!important;position:absolute!important;top:71px!important;left:0!important;right:0!important;width:100%!important;max-height:80vh;overflow-y:auto!important;background:#fff!important;border-bottom:1px solid #dce5ed;padding:16px 24px!important;flex-direction:column!important;align-items:stretch!important;gap:5px!important}.site-nav.is-open,.dt-network nav.is-open{display:flex!important}.site-nav>a,.dt-network nav a,.site-nav .nav-group>summary,.dt-network .nav-group>summary{font-size:15px!important;padding:12px!important;min-height:44px}.site-nav .nav-group,.dt-network .nav-group{display:block}.site-nav .nav-menu,.dt-network .nav-menu{position:static!important;box-shadow:none;border:0;background:#f5f8fc;padding:8px;margin-top:3px}.nav-account{text-align:left;min-height:44px;font-size:14px}.site-nav .nav-search,.dt-network nav .nav-search{border-left:0;margin-left:0}}
+
+.site-brand small,.dt-brand small{color:#586b7d!important}.breadcrumb{color:#586b7d}

@@ -1,0 +1,52 @@
+/* AI product studio: native SVG and a readable, responsive introduction. */
+.pm-entry{display:grid;grid-template-columns:minmax(0,.91fr) minmax(0,1.09fr);align-items:center;gap:28px;padding:38px 0 40px}
+.pm-entry-copy{min-width:0}
+.pm-entry-kicker{display:flex;align-items:center;gap:9px;margin:0 0 17px;color:#527393;font-size:13px;font-weight:600;letter-spacing:.06em}
+.pm-entry-kicker>span{width:7px;height:7px;border-radius:2px;background:#5686cf;box-shadow:0 0 0 4px #e7effc}
+.pm-entry h1{margin:0;color:#203b56;font-size:clamp(36px,3.6vw,55px);font-weight:750;line-height:1.23;letter-spacing:-.035em}
+.pm-entry h1 em{font-style:normal;color:#245fc5}
+.pm-entry-lead{margin:20px 0 0;font-size:16px;line-height:1.95;color:#60768d}
+.pm-entry-start{display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:46px;padding:0 20px;margin-top:23px;border:1px solid #c4d6ef;background:#edf3fd;border-radius:9px;font-size:14px;font-weight:650;color:#265b9f;text-decoration:none}
+.pm-entry-start>span{font-size:20px;font-weight:400}
+.pm-entry-start:hover{background:#e0ecff;border-color:#8eb3e6;transform:translateY(-2px)}
+.pm-entry-start:focus-visible{outline:2px solid #245fc5;outline-offset:4px}
+.pm-entry-note{margin:13px 0 0;font-size:12px;color:#7e91a3}
+.pm-entry-figure{min-width:0;margin:0;outline-offset:5px}
+.pm-entry-figure:focus-visible{outline:2px solid #709cd0;border-radius:14px}
+.pm-entry-svg{display:block;width:100%;height:auto;overflow:visible}
+.pm-entry-mobile{display:none}
+.pm-entry-svg text{font-family:"Segoe UI","Microsoft YaHei UI","PingFang SC",sans-serif;fill:#45627d;letter-spacing:0}
+.pm-entry-svg .pm-svg-title{font-size:16px;font-weight:650;fill:#304e6c}
+.pm-entry-svg .pm-svg-small{font-size:13px;font-weight:400;fill:#70849b}
+.pm-entry-svg .pm-svg-index{font:600 12px "Consolas",monospace;fill:#7e7c73}
+.pm-entry-svg .pm-svg-ai{font-size:13px;font-weight:600;fill:#fff}
+.pm-entry-svg .pm-svg-caption{font-size:13px;fill:#7890a9;letter-spacing:.03em}
+.pm-entry-phases{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:10px 22px 0}
+.pm-entry-phases>span{display:flex;gap:8px;align-items:center;padding:10px 2px 0;border-top:2px solid #dce6f2;font:11px/1.5 "Consolas",monospace;color:#7c92ac;animation:pm-stage-tab 12s linear infinite}
+.pm-entry-phases b{font:500 13px/1.5 "Segoe UI","Microsoft YaHei UI",sans-serif;color:#5d7997}
+.pm-svg-phase{opacity:.15;animation:pm-stage-focus 12s linear infinite}
+.pm-svg-phase-2,.pm-entry-phases>span:nth-child(2){animation-delay:-9s}
+.pm-svg-phase-3,.pm-entry-phases>span:nth-child(3){animation-delay:-6s}
+.pm-svg-phase-4,.pm-entry-phases>span:nth-child(4){animation-delay:-3s}
+.pm-svg-flow{animation:pm-flow 2s linear infinite}
+.pm-svg-return{animation:pm-flow 4s linear infinite;opacity:.6}
+.pm-svg-build{animation:pm-build 12s ease-in-out infinite}
+.pm-svg-checked{animation:pm-check 12s ease-in-out infinite}
+.pm-svg-dot{animation:pm-node 2.4s ease-in-out infinite}
+.pm-svg-cursor{animation:pm-cursor 12s ease-in-out infinite}
+.pm-entry-figure *{animation-play-state:paused}
+.pm-entry-figure[data-motion=running] *{animation-play-state:running}
+#pm-workspace{scroll-margin-top:110px}
+@keyframes pm-stage-focus{0%,23%{opacity:1}27%,96%{opacity:.12}100%{opacity:1}}
+@keyframes pm-stage-tab{0%,23%{border-color:#638ecc;color:#326abb}27%,96%{border-color:#dce6f2;color:#7c92ac}100%{border-color:#638ecc;color:#326abb}}
+@keyframes pm-flow{to{stroke-dashoffset:-36}}
+@keyframes pm-build{0%,23%{opacity:.55}31%,90%{opacity:1}100%{opacity:.55}}
+@keyframes pm-check{0%,67%{opacity:.22}76%,95%{opacity:1}100%{opacity:.22}}
+@keyframes pm-node{50%{fill:#6b99e2;stroke:#6b99e2}}
+@keyframes pm-cursor{0%,15%{transform:translate(10px,12px)}29%,40%{transform:translate(-7px,-12px)}45%{transform:translate(-7px,-10px)}53%,72%{transform:translate(-26px,51px)}86%,100%{transform:translate(10px,12px)}}
+@media(min-width:1450px){.pm-entry{padding-top:44px;padding-bottom:46px;gap:34px}}
+@media(max-width:1100px){.pm-entry{grid-template-columns:minmax(0,.83fr) minmax(0,1.17fr);gap:16px}.pm-entry h1{font-size:42px}.pm-entry-lead{font-size:14px}.pm-entry-copy-break{display:none}.pm-entry-phases{margin-inline:12px}}
+@media(max-width:900px){.pm-entry{grid-template-columns:1fr;gap:21px;padding:32px 0}.pm-entry-copy{max-width:620px}.pm-entry h1{font-size:46px}.pm-entry-lead{font-size:16px;max-width:550px}.pm-entry-figure{width:100%;max-width:650px;justify-self:center}.pm-entry-note{display:inline-block;margin-left:15px}}
+@media(max-width:520px){.pm-entry{gap:25px;padding:28px 0}.pm-entry-kicker{font-size:12px;margin-bottom:14px}.pm-entry h1{font-size:40px;line-height:1.25}.pm-entry-lead{font-size:14px;margin-top:16px}.pm-entry-start{margin-top:18px}.pm-entry-note{display:block;margin:12px 0 0}.pm-entry-desktop{display:none}.pm-entry-mobile{display:block;max-width:385px;margin-inline:auto}.pm-entry-phases{margin:10px 8px 0;gap:10px}.pm-entry-phases b{font-size:12px}.pm-entry-phases>span{gap:6px}}
+@media(prefers-reduced-motion:reduce){.pm-entry-figure *{animation:none!important}.pm-svg-phase,.pm-svg-checked,.pm-svg-build{opacity:1}.pm-svg-return{opacity:.4}.pm-entry-start:hover{transform:none}}
+@media print{.pm-entry-figure,.pm-entry-start,.pm-entry-note{display:none!important}.pm-entry{display:block;padding:20px 0}.pm-entry h1{font-size:30px}.pm-entry h1 br{display:none}}

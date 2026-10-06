@@ -1,0 +1,30 @@
+/* Static SVG introductions for the two resource-centre pages. */
+.page-intro.has-resource-visual{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);align-items:center;gap:46px;padding:28px 0 38px}
+.has-resource-visual .resource-intro-copy{min-width:0}
+.has-resource-visual .site-eyebrow{font-size:13px;font-weight:600;letter-spacing:.08em;margin:0 0 17px;color:#50789a}
+.page-intro.has-resource-visual h1{font-size:clamp(34px,3.2vw,46px);line-height:1.32;letter-spacing:-.035em;margin:0;color:#203c58}
+.has-resource-visual h1 span{margin-top:4px;color:#2b65b3}
+.has-resource-visual .resource-intro-lead{font-size:16px;line-height:1.95;max-width:500px;color:#687f96;margin:21px 0 0}
+.resource-intro-links{display:flex;gap:25px;align-items:center;margin-top:18px;flex-wrap:wrap}
+.resource-intro-links a{display:inline-flex;align-items:center;gap:18px;min-height:44px;color:#35699f;font-size:14px;font-weight:550;text-decoration:none}
+.resource-intro-links a:hover{text-decoration:underline;text-underline-offset:5px}
+.resource-intro-links a:focus-visible{outline:2px solid #2b65b3;outline-offset:5px;border-radius:4px}
+.resource-visual{margin:0;min-width:0}
+.resource-visual svg{display:block;width:100%;height:auto;overflow:visible}
+.resource-visual svg text{font-family:"Segoe UI","Microsoft YaHei UI","PingFang SC",sans-serif;fill:#52718f;letter-spacing:0}
+.resource-visual .rv-title{font-size:20px;font-weight:650;fill:#284a6a}
+.resource-visual .rv-label{font-size:18px;font-weight:550}
+.resource-visual .rv-note{font-size:15px;fill:#7b92a8}
+.resource-visual .rv-number{font:600 13px "Consolas",monospace;fill:#6c8da9}
+.resource-visual .rv-white{fill:#f7fbff}
+.resource-visual figcaption{display:flex;justify-content:center;gap:13px;align-items:center;margin-top:10px;font-size:13px;color:#728aa0;line-height:1.7}
+.resource-visual figcaption i{font-style:normal;color:#9ab3ca}
+#resourceFilters,#official-tutorials{scroll-margin-top:22px}
+.site-guide .guide-visual .rv-title{fill:#3e537f}
+.site-guide .guide-visual figcaption{color:#7e88a4}
+@media(min-width:1450px){.page-intro.has-resource-visual{gap:60px;padding-top:26px;padding-bottom:46px}}
+@media(max-width:1100px){.page-intro.has-resource-visual{gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}.page-intro.has-resource-visual h1{font-size:36px}.has-resource-visual .resource-intro-lead{font-size:15px}}
+@media(max-width:850px){.page-intro.has-resource-visual{grid-template-columns:1fr;gap:24px;padding-top:22px}.resource-visual{width:100%;max-width:590px;justify-self:center}.has-resource-visual .resource-intro-lead{max-width:590px}.page-intro.has-resource-visual h1{font-size:40px}}
+@media(max-width:520px){.page-intro.has-resource-visual{padding-top:15px;padding-bottom:28px;gap:24px}.page-intro.has-resource-visual h1{font-size:34px}.has-resource-visual .site-eyebrow{font-size:12px;margin-bottom:13px}.has-resource-visual .resource-intro-lead{font-size:14px;margin-top:16px}.resource-intro-links{margin-top:12px;gap:25px}.resource-intro-links a{font-size:13px}.resource-visual .rv-title{font-size:24px}.resource-visual .rv-label{font-size:23px}.resource-visual .rv-note{font-size:19px}.resource-visual .rv-number{font-size:18px}.resource-visual figcaption{font-size:12px;gap:10px;margin-top:7px}}
+@media(max-width:360px){.page-intro.has-resource-visual h1{font-size:30px}.resource-visual figcaption{font-size:11px}}
+@media print{.resource-visual,.resource-intro-links{display:none}.page-intro.has-resource-visual{display:block;padding:20px 0}}
