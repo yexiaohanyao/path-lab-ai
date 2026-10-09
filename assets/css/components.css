@@ -7,6 +7,7 @@
 .dt-network{width:100%;max-width:none;margin:0;min-height:76px}
 .dt-network>nav{flex:0 0 auto;flex-wrap:nowrap}
 .dt-network .nav-group>summary{white-space:nowrap}
+.site-nav>a{white-space:nowrap}
 .nav-disabled{display:inline-flex;align-items:center;min-height:40px;padding:9px 12px;border:1px solid #dce5ed;border-radius:7px;background:#f5f8fb;color:#718399;font-size:13px;white-space:nowrap}
 .site-brand,.dt-brand{gap:10px!important;color:var(--modern-text)!important}
 .site-brand small,.dt-brand small{color:#6c7887!important;font-size:12px!important;letter-spacing:0!important}
