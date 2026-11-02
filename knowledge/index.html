@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>点头教育 - AI运营知识展示台</title>
+    <meta
+      name="description"
+      content="点头教育 - AI运营知识展示台。从中心图谱走进门户，再看到每条知识。"
+    />
+    <meta name="theme-color" content="#f3efe6" />
+    <meta property="og:title" content="点头教育 - AI运营知识展示台" />
+    <meta property="og:description" content="知识图谱展示窗口。公开知识展示台。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/index-BYXNbgkh.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BLp98FV0.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到主要内容</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#about">
+          <span class="seal" aria-hidden="true">点</span>
+          <span class="brand-text">
+            <span class="brand-name">点头教育 -</span>
+            <span class="brand-sub">AI运营知识展示台</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="页内目录">
+          <a href="#about">我们是谁</a>
+          <a href="#graph">知识图谱</a>
+          <a href="#featured">精选专题</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="wrap about-row">
+          <div>
+            <p class="kicker">我们是谁</p>
+            <h1 id="about-title">点头教育 - AI运营知识展示台</h1>
+            <p class="lead">知识展示窗口，不是完整资料库。中心连出五条门户，门户再连到条目。</p>
+          </div>
+          <dl class="counts" aria-label="条目统计">
+            <div>
+              <dd>18</dd>
+              <dt>条目</dt>
+            </div>
+            <div>
+              <dd>3</dd>
+              <dt>公开可看</dt>
+            </div>
+            <div>
+              <dd>13</dd>
+              <dt>申请查看</dt>
+            </div>
+            <div>
+              <dd>1</dd>
+              <dt>内测</dt>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="graph" aria-labelledby="graph-title">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="kicker">知识图谱</p>
+              <h2 id="graph-title">从中心走到条目</h2>
+            </div>
+            <p>点一条门户，这一支会亮起来。点条目上的名称打开说明。</p>
+          </div>
+          <div class="graph-layout">
+            <div class="stage">
+              <svg id="graph-desktop" class="graph-svg graph-desktop" role="group" aria-label="知识图谱"></svg>
+              <p class="stage-note graph-desktop-note">点门户，这一支高亮，其它名称仍能看见。点条目名称打开说明。</p>
+              <div class="graph-mobile">
+                <svg id="graph-mobile" class="graph-svg" role="group" aria-label="简化图谱"></svg>
+                <p class="stage-note">中心连着五条门户。点一条，下面只留这一支。</p>
+              </div>
+              <noscript>
+                <p>脚本停用时，图谱不能点选。下面三则公开页面仍可打开。申请时请记下材料名称。</p>
+              </noscript>
+            </div>
+            <div class="panel" id="panel" aria-live="polite">
+              <p id="graph-status" class="sr-only"></p>
+              <div class="panel-mount" id="panel-mount">
+                <p class="panel-wait">正在铺开图谱…</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="featured" aria-labelledby="featured-title">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="kicker">精选专题</p>
+              <h2 id="featured-title">三则可以直接打开</h2>
+            </div>
+            <p>论文交互馆、水手、六维测试会在新标签页打开。其余条目只留到名称。</p>
+          </div>
+          <div class="cases" id="featured-mount"></div>
+          <noscript>
+            <ul class="noscript-links">
+              <li><a href="https://yexiaohanyao.github.io/path-lab-ai/papers/index.html">论文交互馆</a></li>
+              <li><a href="https://shuishou-xhs-image-maker-20260820.b348894768.chatgpt.site">水手｜红书制帖师 Agent 演示站</a></li>
+              <li><a href="https://ai-ops-six-dim-test.b348894768.chatgpt.site">AI 运营六维能力测试</a></li>
+            </ul>
+          </noscript>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div class="footer-brand">
+          <span class="seal seal-sm" aria-hidden="true">点</span>
+          <div>
+            <p class="footer-name">点头教育 - AI运营知识展示台</p>
+            <p class="footer-sub">公开知识展示</p>
+          </div>
+        </div>
+        <p class="footer-note">本站是公开的知识图谱展示台。</p>
+        <a class="footer-top" href="#about">回到页首</a>
+      </div>
+    </footer>
+
+    <dialog class="detail" id="detail" aria-labelledby="detail-title">
+      <article class="detail-card">
+        <button class="detail-close" id="detail-close" type="button">关闭</button>
+        <div class="shot detail-shot" id="detail-shot"></div>
+        <div class="detail-body">
+          <p class="detail-kicker" id="detail-kicker"></p>
+          <h3 id="detail-title"></h3>
+          <p class="detail-summary" id="detail-summary"></p>
+          <p class="detail-copy" id="detail-copy"></p>
+          <ul class="parts" id="detail-parts" hidden></ul>
+          <div class="detail-gallery" id="detail-gallery"></div>
+          <div class="detail-actions" id="detail-actions"></div>
+        </div>
+      </article>
+    </dialog>
+
+  </body>
+</html>
