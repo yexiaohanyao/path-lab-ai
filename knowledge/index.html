@@ -6,16 +6,17 @@
     <title>点头教育 - AI运营知识展示台</title>
     <meta
       name="description"
-      content="点头教育 - AI运营知识展示台。从中心图谱走进门户，再看到每条知识。"
+      content="点头教育 - AI运营知识展示台。五色栏目做成瓷砖岛，点开看到每条知识。"
     />
     <meta name="theme-color" content="#f3efe6" />
     <meta property="og:title" content="点头教育 - AI运营知识展示台" />
-    <meta property="og:description" content="知识图谱展示窗口。公开知识展示台。" />
+    <meta property="og:description" content="栏目瓷砖岛。公开知识展示台。" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_CN" />
+    <meta property="og:url" content="https://yexiaohanyao.github.io/path-lab-ai/knowledge/" />
+    <link rel="canonical" href="https://yexiaohanyao.github.io/path-lab-ai/knowledge/" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <script type="module" crossorigin src="./assets/index-BYXNbgkh.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BLp98FV0.css">
+    <link rel="stylesheet" href="./assets/showcase.css" />
   </head>
   <body>
     <a class="skip" href="#main">跳到主要内容</a>
@@ -30,7 +31,7 @@
         </a>
         <nav class="nav" aria-label="页内目录">
           <a href="#about">我们是谁</a>
-          <a href="#graph">知识图谱</a>
+          <a href="#tiles">知识瓷砖</a>
           <a href="#featured">精选专题</a>
         </nav>
       </div>
@@ -42,7 +43,7 @@
           <div>
             <p class="kicker">我们是谁</p>
             <h1 id="about-title">点头教育 - AI运营知识展示台</h1>
-            <p class="lead">知识展示窗口，不是完整资料库。中心连出五条门户，门户再连到条目。</p>
+            <p class="lead">知识展示窗口，不是完整资料库。五条栏目铺成瓷砖岛，点开一格看到说明。</p>
           </div>
           <dl class="counts" aria-label="条目统计">
             <div>
@@ -65,34 +66,123 @@
         </div>
       </section>
 
-      <section class="section" id="graph" aria-labelledby="graph-title">
+      <section class="section tiles" id="tiles" aria-labelledby="tiles-title">
         <div class="wrap">
-          <div class="section-head">
+          <div class="section-head" id="graph">
             <div>
-              <p class="kicker">知识图谱</p>
-              <h2 id="graph-title">从中心走到条目</h2>
+              <p class="kicker">栏目瓷砖岛</p>
+              <h2 id="tiles-title">五色栏目，格内短名</h2>
             </div>
-            <p>点一条门户，这一支会亮起来。点条目上的名称打开说明。</p>
+            <p>悬停、聚焦或点选会点亮整块岛。点格子打开说明，不必连线。</p>
           </div>
-          <div class="graph-layout">
-            <div class="stage">
-              <svg id="graph-desktop" class="graph-svg graph-desktop" role="group" aria-label="知识图谱"></svg>
-              <p class="stage-note graph-desktop-note">点门户，这一支高亮，其它名称仍能看见。点条目名称打开说明。</p>
-              <div class="graph-mobile">
-                <svg id="graph-mobile" class="graph-svg" role="group" aria-label="简化图谱"></svg>
-                <p class="stage-note">中心连着五条门户。点一条，下面只留这一支。</p>
+
+          <div class="islands">
+            <section class="island" id="ops" data-portal="ops" aria-labelledby="ops-title">
+              <h3 class="island-title" id="ops-title"><span class="island-index">01</span>流量运营</h3>
+              <div class="cells">
+                <button type="button" class="cell" data-id="ops-materials" aria-haspopup="dialog" aria-controls="detail" aria-label="运营使用的资料，申请查看">
+                  <strong>运营资料</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="prompt-skill" aria-haspopup="dialog" aria-controls="detail" aria-label="提示词 vs 上下文 vs Skill，申请查看">
+                  <strong>提示词</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="juguang-risk" aria-haspopup="dialog" aria-controls="detail" aria-label="聚光风险表达，申请查看">
+                  <strong>聚光风险</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="data-review" aria-haspopup="dialog" aria-controls="detail" aria-label="数据复盘表格，申请查看">
+                  <strong>数据复盘</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="material-lib" aria-haspopup="dialog" aria-controls="detail" aria-label="素材库，申请查看">
+                  <strong>素材库</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="xhs-library" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书资料库 2.0，申请查看">
+                  <strong>资料库</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="major-list" aria-haspopup="dialog" aria-controls="detail" aria-label="专业列表（三版本），申请查看">
+                  <strong>专业列表</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="sop-five" aria-haspopup="dialog" aria-controls="detail" aria-label="五套运营 SOP，申请查看">
+                  <strong>五套 SOP</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
               </div>
-              <noscript>
-                <p>脚本停用时，图谱不能点选。下面三则公开页面仍可打开。申请时请记下材料名称。</p>
-              </noscript>
-            </div>
-            <div class="panel" id="panel" aria-live="polite">
-              <p id="graph-status" class="sr-only"></p>
-              <div class="panel-mount" id="panel-mount">
-                <p class="panel-wait">正在铺开图谱…</p>
+            </section>
+
+            <section class="island" id="product" data-portal="product" aria-labelledby="product-title">
+              <h3 class="island-title" id="product-title"><span class="island-index">02</span>产品可视化</h3>
+              <div class="cells">
+                <button type="button" class="cell" data-id="v7-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="V7.0 系统班产品手册，申请查看">
+                  <strong>系统班</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="employment-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="就业班产品手册 / AI职通车，申请查看">
+                  <strong>就业班</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
               </div>
-            </div>
+            </section>
+
+            <section class="island" id="vibe" data-portal="vibe" aria-labelledby="vibe-title">
+              <h3 class="island-title" id="vibe-title"><span class="island-index">03</span>工具站点</h3>
+              <div class="cells">
+                <button type="button" class="cell" data-id="path-lab" aria-haspopup="dialog" aria-controls="detail" aria-label="AI路径实验室，当前站点">
+                  <strong>路径实验室</strong>
+                  <span class="badge" data-access="site">当前站点</span>
+                </button>
+                <button type="button" class="cell" data-id="papers" aria-haspopup="dialog" aria-controls="detail" aria-label="论文交互馆，公开可看">
+                  <strong>论文馆</strong>
+                  <span class="badge" data-access="public">公开可看</span>
+                </button>
+                <button type="button" class="cell" data-id="material-collector" aria-haspopup="dialog" aria-controls="detail" aria-label="多平台素材采集器，申请查看">
+                  <strong>素材采集</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="island" id="beta" data-portal="beta" aria-labelledby="beta-title">
+              <h3 class="island-title" id="beta-title"><span class="island-index">04</span>测试中</h3>
+              <div class="cells">
+                <button type="button" class="cell" data-id="jev" aria-haspopup="dialog" aria-controls="detail" aria-label="jev 接量助手，内测">
+                  <strong>jev</strong>
+                  <span class="badge" data-access="beta">内测</span>
+                </button>
+                <button type="button" class="cell" data-id="shuishou" aria-haspopup="dialog" aria-controls="detail" aria-label="水手｜红书制帖师 Agent 演示站，公开可看">
+                  <strong>水手</strong>
+                  <span class="badge" data-access="public">公开可看</span>
+                </button>
+                <button type="button" class="cell" data-id="six" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 运营六维能力测试，公开可看">
+                  <strong>六维测试</strong>
+                  <span class="badge" data-access="public">公开可看</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="island" id="fengxu" data-portal="fengxu" aria-labelledby="fengxu-title">
+              <h3 class="island-title" id="fengxu-title"><span class="island-index">05</span>风絮</h3>
+              <div class="cells">
+                <button type="button" class="cell" data-id="dedao-ai" aria-haspopup="dialog" aria-controls="detail" aria-label="得到AI圈，申请查看">
+                  <strong>得到AI</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="shengcai" aria-haspopup="dialog" aria-controls="detail" aria-label="生财有术，申请查看">
+                  <strong>生财</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+              </div>
+            </section>
           </div>
+          <p id="tiles-status" class="sr-only" aria-live="polite"></p>
+          <noscript>
+            <p class="stage-note">脚本停用时，栏目名称仍可阅读。下面三则公开页面仍可打开。申请查看的材料请记下名称。</p>
+          </noscript>
         </div>
       </section>
 
@@ -103,9 +193,62 @@
               <p class="kicker">精选专题</p>
               <h2 id="featured-title">三则可以直接打开</h2>
             </div>
-            <p>论文交互馆、水手、六维测试会在新标签页打开。其余条目只留到名称。</p>
+            <p>论文交互馆、水手、六维测试会在新标签页打开。其余条目在瓷砖岛上打开说明。</p>
           </div>
-          <div class="cases" id="featured-mount"></div>
+          <div class="cases">
+            <article class="case">
+              <button type="button" class="card-open" data-id="papers" aria-haspopup="dialog" aria-controls="detail">
+                <span class="shot">
+                  <img src="./covers/papers-atlas.jpg" alt="论文交互馆页面：从真实研究出发，发现不同学科的共同方法" width="1600" height="1000" decoding="async" />
+                </span>
+                <span>
+                  <span class="card-top">
+                    <span class="badge" data-access="public">公开可看</span>
+                    <span class="child-tag">子节点 · AI路径实验室</span>
+                  </span>
+                  <span class="card-title">论文交互馆</span>
+                  <span class="card-summary">从一篇论文走到一个方法，公开可看。</span>
+                </span>
+              </button>
+              <div class="card-actions">
+                <a class="btn" href="https://yexiaohanyao.github.io/path-lab-ai/papers/index.html" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：论文交互馆（新标签页打开）</span></a>
+              </div>
+            </article>
+            <article class="case">
+              <button type="button" class="card-open" data-id="shuishou" aria-haspopup="dialog" aria-controls="detail">
+                <span class="shot">
+                  <img src="./covers/shuishou.jpg" alt="水手红书制帖师演示站首页：把专业方向做成可审阅的小红书图文" width="1600" height="1000" decoding="async" />
+                </span>
+                <span>
+                  <span class="card-top">
+                    <span class="badge" data-access="public">公开可看</span>
+                  </span>
+                  <span class="card-title">水手｜红书制帖师 Agent 演示站</span>
+                  <span class="card-summary">把一个专业方向做成一套可审阅的图文。</span>
+                </span>
+              </button>
+              <div class="card-actions">
+                <a class="btn" href="https://shuishou-xhs-image-maker-20260820.b348894768.chatgpt.site" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：水手｜红书制帖师 Agent 演示站（新标签页打开）</span></a>
+              </div>
+            </article>
+            <article class="case">
+              <button type="button" class="card-open" data-id="six" aria-haspopup="dialog" aria-controls="detail">
+                <span class="shot">
+                  <img src="./covers/six-hero.jpg" alt="AI 运营六维能力测试首页：雷达图和开始测试" width="1600" height="1000" decoding="async" />
+                </span>
+                <span>
+                  <span class="card-top">
+                    <span class="badge" data-access="public">公开可看</span>
+                  </span>
+                  <span class="card-title">AI 运营六维能力测试</span>
+                  <span class="card-summary">六维雷达，做完能看见自己落在哪一块。</span>
+                </span>
+              </button>
+              <div class="card-actions">
+                <a class="btn" href="https://ai-ops-six-dim-test.b348894768.chatgpt.site" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：AI 运营六维能力测试（新标签页打开）</span></a>
+              </div>
+            </article>
+          </div>
           <noscript>
             <ul class="noscript-links">
               <li><a href="https://yexiaohanyao.github.io/path-lab-ai/papers/index.html">论文交互馆</a></li>
@@ -115,7 +258,6 @@
           </noscript>
         </div>
       </section>
-
     </main>
 
     <footer class="site-footer">
@@ -127,7 +269,7 @@
             <p class="footer-sub">公开知识展示</p>
           </div>
         </div>
-        <p class="footer-note">本站是公开的知识图谱展示台。</p>
+        <p class="footer-note">本站是公开的知识瓷砖展示台。</p>
         <a class="footer-top" href="#about">回到页首</a>
       </div>
     </footer>
@@ -148,5 +290,6 @@
       </article>
     </dialog>
 
+    <script src="./assets/showcase.js" defer></script>
   </body>
 </html>
