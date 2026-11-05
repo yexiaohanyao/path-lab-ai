@@ -32,7 +32,6 @@
         <nav class="nav" aria-label="页内目录">
           <a href="#about">我们是谁</a>
           <a href="#tiles">知识瓷砖</a>
-          <a href="#featured">精选专题</a>
         </nav>
       </div>
     </header>
@@ -47,7 +46,7 @@
           </div>
           <dl class="counts" aria-label="条目统计">
             <div>
-              <dd>18</dd>
+              <dd>26</dd>
               <dt>条目</dt>
             </div>
             <div>
@@ -55,12 +54,24 @@
               <dt>公开可看</dt>
             </div>
             <div>
-              <dd>13</dd>
+              <dd>17</dd>
               <dt>申请查看</dt>
+            </div>
+            <div>
+              <dd>3</dd>
+              <dt>让团队知道</dt>
+            </div>
+            <div>
+              <dd>1</dd>
+              <dt>仅内部</dt>
             </div>
             <div>
               <dd>1</dd>
               <dt>内测</dt>
+            </div>
+            <div>
+              <dd>1</dd>
+              <dt>当前站点</dt>
             </div>
           </dl>
         </div>
@@ -108,9 +119,21 @@
                   <strong>专业列表</strong>
                   <span class="badge" data-access="request">申请查看</span>
                 </button>
-                <button type="button" class="cell" data-id="sop-five" aria-haspopup="dialog" aria-controls="detail" aria-label="五套运营 SOP，申请查看">
-                  <strong>五套 SOP</strong>
+                <button type="button" class="cell" data-id="sop-marketing" aria-haspopup="dialog" aria-controls="detail" aria-label="营销 SOP ver2.0，申请查看">
+                  <strong>营销 SOP</strong>
                   <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="sop-xhs" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书运营 SOP，申请查看">
+                  <strong>小红书运营 SOP</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="topic-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI+专业课题入门包，让团队知道">
+                  <strong>课题入门包</strong>
+                  <span class="badge" data-access="team">让团队知道</span>
+                </button>
+                <button type="button" class="cell" data-id="algo-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI算法入门包，让团队知道">
+                  <strong>算法入门包</strong>
+                  <span class="badge" data-access="team">让团队知道</span>
                 </button>
               </div>
             </section>
@@ -124,6 +147,10 @@
                 </button>
                 <button type="button" class="cell" data-id="employment-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="就业班产品手册 / AI职通车，申请查看">
                   <strong>就业班</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="conversion" aria-haspopup="dialog" aria-controls="detail" aria-label="转化产品介绍，申请查看">
+                  <strong>转化产品介绍</strong>
                   <span class="badge" data-access="request">申请查看</span>
                 </button>
               </div>
@@ -144,13 +171,29 @@
                   <strong>素材采集</strong>
                   <span class="badge" data-access="request">申请查看</span>
                 </button>
+                <button type="button" class="cell" data-id="workbench-daily" aria-haspopup="dialog" aria-controls="detail" aria-label="每日工作台，仅内部">
+                  <strong>每日工作台</strong>
+                  <span class="badge" data-access="internal">仅内部</span>
+                </button>
+                <button type="button" class="cell" data-id="workbench-creator" aria-haspopup="dialog" aria-controls="detail" aria-label="素材创作台，申请查看">
+                  <strong>素材创作台</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
+                <button type="button" class="cell" data-id="workbench-research" aria-haspopup="dialog" aria-controls="detail" aria-label="科研工作台，让团队知道">
+                  <strong>科研工作台</strong>
+                  <span class="badge" data-access="team">让团队知道</span>
+                </button>
+                <button type="button" class="cell" data-id="papers-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 论文包，申请查看">
+                  <strong>AI 论文包</strong>
+                  <span class="badge" data-access="request">申请查看</span>
+                </button>
               </div>
             </section>
 
             <section class="island" id="beta" data-portal="beta" aria-labelledby="beta-title">
               <h3 class="island-title" id="beta-title"><span class="island-index">04</span>测试中</h3>
               <div class="cells">
-                <button type="button" class="cell" data-id="jev" aria-haspopup="dialog" aria-controls="detail" aria-label="jev 接量助手，内测">
+                <button type="button" class="cell" data-id="jev" aria-haspopup="dialog" aria-controls="detail" aria-label="jev 接量助手，中断、内测">
                   <strong>jev</strong>
                   <span class="badge" data-access="beta">内测</span>
                 </button>
@@ -181,80 +224,7 @@
           </div>
           <p id="tiles-status" class="sr-only" aria-live="polite"></p>
           <noscript>
-            <p class="stage-note">脚本停用时，栏目名称仍可阅读。下面三则公开页面仍可打开。申请查看的材料请记下名称。</p>
-          </noscript>
-        </div>
-      </section>
-
-      <section class="section section-band" id="featured" aria-labelledby="featured-title">
-        <div class="wrap">
-          <div class="section-head">
-            <div>
-              <p class="kicker">精选专题</p>
-              <h2 id="featured-title">三则可以直接打开</h2>
-            </div>
-            <p>论文交互馆、水手、六维测试会在新标签页打开。其余条目在瓷砖岛上打开说明。</p>
-          </div>
-          <div class="cases">
-            <article class="case">
-              <button type="button" class="card-open" data-id="papers" aria-haspopup="dialog" aria-controls="detail">
-                <span class="shot">
-                  <img src="./covers/papers-atlas.jpg" alt="论文交互馆页面：从真实研究出发，发现不同学科的共同方法" width="1600" height="1000" decoding="async" />
-                </span>
-                <span>
-                  <span class="card-top">
-                    <span class="badge" data-access="public">公开可看</span>
-                    <span class="child-tag">子节点 · AI路径实验室</span>
-                  </span>
-                  <span class="card-title">论文交互馆</span>
-                  <span class="card-summary">从一篇论文走到一个方法，公开可看。</span>
-                </span>
-              </button>
-              <div class="card-actions">
-                <a class="btn" href="https://yexiaohanyao.github.io/path-lab-ai/papers/index.html" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：论文交互馆（新标签页打开）</span></a>
-              </div>
-            </article>
-            <article class="case">
-              <button type="button" class="card-open" data-id="shuishou" aria-haspopup="dialog" aria-controls="detail">
-                <span class="shot">
-                  <img src="./covers/shuishou.jpg" alt="水手红书制帖师演示站首页：把专业方向做成可审阅的小红书图文" width="1600" height="1000" decoding="async" />
-                </span>
-                <span>
-                  <span class="card-top">
-                    <span class="badge" data-access="public">公开可看</span>
-                  </span>
-                  <span class="card-title">水手｜红书制帖师 Agent 演示站</span>
-                  <span class="card-summary">把一个专业方向做成一套可审阅的图文。</span>
-                </span>
-              </button>
-              <div class="card-actions">
-                <a class="btn" href="https://shuishou-xhs-image-maker-20260820.b348894768.chatgpt.site" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：水手｜红书制帖师 Agent 演示站（新标签页打开）</span></a>
-              </div>
-            </article>
-            <article class="case">
-              <button type="button" class="card-open" data-id="six" aria-haspopup="dialog" aria-controls="detail">
-                <span class="shot">
-                  <img src="./covers/six-hero.jpg" alt="AI 运营六维能力测试首页：雷达图和开始测试" width="1600" height="1000" decoding="async" />
-                </span>
-                <span>
-                  <span class="card-top">
-                    <span class="badge" data-access="public">公开可看</span>
-                  </span>
-                  <span class="card-title">AI 运营六维能力测试</span>
-                  <span class="card-summary">六维雷达，做完能看见自己落在哪一块。</span>
-                </span>
-              </button>
-              <div class="card-actions">
-                <a class="btn" href="https://ai-ops-six-dim-test.b348894768.chatgpt.site" target="_blank" rel="noopener noreferrer">打开页面<span class="sr-only">：AI 运营六维能力测试（新标签页打开）</span></a>
-              </div>
-            </article>
-          </div>
-          <noscript>
-            <ul class="noscript-links">
-              <li><a href="https://yexiaohanyao.github.io/path-lab-ai/papers/index.html">论文交互馆</a></li>
-              <li><a href="https://shuishou-xhs-image-maker-20260820.b348894768.chatgpt.site">水手｜红书制帖师 Agent 演示站</a></li>
-              <li><a href="https://ai-ops-six-dim-test.b348894768.chatgpt.site">AI 运营六维能力测试</a></li>
-            </ul>
+            <p class="stage-note">脚本停用时，栏目名称仍可阅读。申请查看、让团队知道、仅内部和内测的材料请记下名称。</p>
           </noscript>
         </div>
       </section>
