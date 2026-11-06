@@ -65,7 +65,7 @@
       detail: "适合做小红书引流和后置交付的运营。打开后能用：公司分发资料、可发可改的内容素材，以及小红书运营工作全景图（从选题、制作到起号、获客一眼看清）。登录后进 CRM / 资料入口取文件，别在对外渠道直接贴内部提取码。",
       access: "internal",
       href: "https://ai4s.org.cn/crm-admin/#/home",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40c36dad3b2981f3ad2cc2e95e811619",
       cover: "cover-ops-materials.png",
       alt: "运营资料：小红书运营资料库和工作全景",
       gallery: [
@@ -82,7 +82,7 @@
       detail: "适合写提示词、搭 Agent/Skill 的运营与创作者。打开后能对照三者的边界和适用场景，决定该改一句提示、补一段上下文，还是做成可复用 Skill。登录后打开飞书页即可查阅。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/B7BGw8M4wimv2fkFdmRc8mb1nyd",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b298123977cf4f9a445cba8",
       cover: "prompt-context-skill.png",
       alt: "提示词、上下文与 Skill 的对照",
       gallery: [
@@ -98,7 +98,7 @@
       detail: "适合投放、文案和审核相关同事。打开后按表达类型与风险等级对照，避开高风险措辞再发。本页只展示结构说明，具体词表在内部资料里取用。",
       access: "internal",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b29818085cdc1f26e68c600",
       cover: "juguang-risk.jpg",
       alt: "聚光风险表达表：类型、风险等级和规避词",
     },
@@ -111,7 +111,7 @@
       detail: "适合运营执行和内容跟进同学。打开金山跟进表可登记帖子、模板、钩子和进度；详情里是打码后的表样预览，方便新人知道表长什么样。登录后打开完整表协作，勿外传运营人姓名。",
       access: "internal",
       href: "https://www.kdocs.cn/l/coKrv1YTp1eu",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981249789df38025345dc",
       cover: "gallery/followup-L-redacted.png",
       alt: "已打码的帖子测试复盘表，测试人和账号已遮盖",
       gallery: [
@@ -127,7 +127,7 @@
       detail: "适合内容运营和素材整理同学。打开飞书素材库可按类浏览已沉淀的帖子图文，拆解结构、借镜封面与钩子，少从零冷启动。登录后进入素材库取用。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/Ml6CwwgBjinJiVk9UCqcVa5Inob",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981f5b3c2c9a6a121abcd",
       cover: "material-lib.jpg",
       alt: "素材库：小红书帖子素材",
       gallery: [
@@ -144,7 +144,7 @@
       detail: "适合新人和需要全局感的运营。一张总览看清资料库模块（系统产品、SOP、Skill 库等），知道某件事该去哪一格找。登录后打开公司资料入口/飞书总览；日常执行再下钻具体 SOP。",
       access: "internal",
       href: "https://ai4s.org.cn/crm-admin/#/home",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981179addeb4f5a71ca3e",
       cover: "xhs-library.jpg",
       alt: "小红书运营资料库 2.0 总览：工作流程连向数据库模块",
     },
@@ -164,7 +164,7 @@
       ],
       access: "internal",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b29815ca3ecd165f6d41fda",
       cover: "major-list.png",
       alt: "专业列表三版本：爆款优先、精准用户、专业探索，以及学员参考画像和 AI 用 MD",
     },
@@ -177,7 +177,7 @@
       detail: "适合系统班营销与执行运营。打开飞书 SOP 可按阶段推进策划、素材、投放与跟进，统一口径和检查点。详情里是流程示意页；登录后打开完整 SOP。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/WSROwhVH2i8cdqksxH1c0S5zn4f",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b298134b263f0b60a573e40",
       cover: "gallery/sop-marketing.png",
       alt: "营销 SOP ver2.0：从策划到执行的流程页",
     },
@@ -190,7 +190,7 @@
       detail: "适合负责小红书账号的运营。打开飞书资料库可跟流程做选题拆解、模板制作、发布与复盘；详情有流程总览和选题/话术/进阶示意。登录后进入资料库执行，不要把含账号密码的截图外传。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/Gby1wIXfNisScXkvToKcr0LnnOc",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981b595c3d160b3373f73",
       cover: "gallery/sop-banner.png",
       alt: "小红书运营 SOP 流程总览：运营、选题、话术、进阶、营销",
       gallery: [
@@ -208,7 +208,7 @@
       detail: "适合内容运营做招生/课题向引流，也适合想快速了解「AI+专业课题」怎么入门的同事。包内是入门向材料（非完整论文墙）。站上先让团队知道有这套；完整包入口待补，需要导出或领取找风絮/负责人。",
       access: "pack",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b29813cbb24d7a4eee9d34c",
       cover: "gallery/topic-pack-intro.png",
       alt: "AI+专业课题入门资料：交叉课题能做什么",
       gallery: [
@@ -224,7 +224,7 @@
       detail: "适合内容运营做算法向引流，以及需要给学生补算法基础的同事。比完整论文包更轻，强调入门路径。入口待补；需要领取或导出找风絮/负责人。",
       access: "pack",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b2981b29c0ae24199091ac9",
       cover: "gallery/algo-pack.png",
       alt: "AI 算法入门资料",
     },
@@ -237,7 +237,7 @@
       detail: "适合转化、招生咨询和要对外讲清课程价值的人。打开手册可讲清从 AI 通识到影像/时序/AI+ 实验室项目的路径与交付物。详情是封面与目录示意；登录后打开飞书手册。价格与内部条款不写在本页。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/EwaKwdGr1iiXGDkj2macob2vn4f",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981098902eed9e9d1300b",
       cover: "v7-manual.jpg",
       alt: "点头人工智能课程 V7.0 产品手册封面",
       gallery: [
@@ -255,7 +255,7 @@
       detail: "适合转化和就业方向咨询。打开课纲可按阶段说明学员怎么从入门走到就业冲刺，以及 WorkBuddy 主线占哪一段。详情是手册/课纲页；登录后打开飞书。内部草案口径不要对外照念。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/EwaKwdGr1iiXGDkj2macob2vn4f",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981b889f2ebfbd7ed3657",
       cover: "employment-manual.jpg",
       alt: "点头就业班 AI 职通车产品手册封面",
       gallery: [
@@ -272,7 +272,7 @@
       detail: "适合转化、销售和需要快速了解产品卖点的运营。打开腾讯文档看产品介绍与协作口径（通常需微信登录）。本卡与系统班/就业班手册分开，专给转化话术与产品对照。登录后打开文档。",
       access: "internal",
       href: "https://docs.qq.com/doc/DTnJwZXJ4RXRxWUto",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b298145abbbfe74df62ce71",
       cover: "gallery/conversion-intro.png",
       alt: "转化产品介绍文档",
       gallery: [
@@ -288,7 +288,7 @@
       detail: "适合想从实验室首页看路径、论文与工具的同事和访客。这条知识瓷砖岛就挂在路径实验室下面。打开页面即可进入公开首页，不必登录。",
       access: "public",
       href: "https://yexiaohanyao.github.io/path-lab-ai/",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b2981eab2b9cec8a5ec365d",
       cover: "path-lab.jpg",
       alt: "AI 路径实验室首页：让灵感，找到下一步",
     },
@@ -302,7 +302,7 @@
       detail: "适合科研路径访客、转化与教研。打开站点可浏览论文墙、沿路径点选方法，不必申请。它和「AI 论文包」（内部多学科资料包）是两个入口：这里看交互与路径，资料包在内部领取。",
       access: "public",
       href: "https://yexiaohanyao.github.io/path-lab-ai/papers/index.html",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b29819d9883cd74187df595",
       cover: "papers-atlas.jpg",
       alt: "论文交互馆页面：从真实研究出发，发现不同学科的共同方法",
       gallery: [
@@ -319,7 +319,7 @@
       detail: "适合要跨小红书等平台采集素材的运营。打开飞书说明可看工具版本、流程和接手上下文，减少口口相传。登录后打开说明页；具体安装与权限按内部规范。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/K4cWwHIzPi72fRkXTOJcSsmknVi",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981aca3c7f61cfcbeddd9",
       cover: "material-collector.jpg",
       alt: "多平台素材采集器界面：已读取帖子、图片素材和保存素材包",
       gallery: [
@@ -336,7 +336,7 @@
       detail: "适合团队内部日常排期和执行。本机工具，不对外提供安装包或公网地址。站上只告知有这套能力；需要开通或演示找内部负责人。预览里的个人链接已遮盖。",
       access: "internal",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b298117b2f9df9b304f3930",
       cover: "gallery/workbench-daily.png",
       alt: "每日工作台：今日任务和推进事项。记事里的个人链接已遮盖",
     },
@@ -349,7 +349,7 @@
       detail: "适合内容创作和运营同学。打开飞书分享可了解工作台能做什么、怎么协作；完整工具在本地。登录后打开飞书说明；要本机环境找团队开通。",
       access: "internal",
       href: "https://wagf4cewrtn.feishu.cn/wiki/PjOHwAHFsiN75XkTYfFc5sEIn6c",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981cf9b3cc11329facde7",
       cover: "gallery/creator-wall.png",
       alt: "素材创作台：本地素材库",
       gallery: [
@@ -365,7 +365,7 @@
       detail: "适合内容运营了解「科研工作台」卖点，以及对接学生/科研方向访客。登录后可从 CRM 相关入口进入；站上按资料包展示，方便团队统一口径。具体功能清单若有更新，以 CRM/负责人说明为准。",
       access: "pack",
       href: "https://ai4s.org.cn/crm-admin/#/home",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/41036dad3b2981959009f9c88704ab83",
       cover: "gallery/research-desk.png",
       alt: "科研工作台：探索方向和文献助手",
       gallery: [
@@ -381,7 +381,7 @@
       detail: "适合教研、转化和需要论文资料的同事。与公开「论文交互馆」不同：这里是可下载/分发的资料包。登录后从 CRM 入口领取；不要在对外页写网盘提取码。学科清单以包内目录为准。",
       access: "internal",
       href: "https://ai4s.org.cn/crm-admin/#/home",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981249334d0005cc15086",
       cover: "gallery/papers-pack-guide.png",
       alt: "AI 论文包中的阅读路线",
       gallery: [
@@ -397,7 +397,7 @@
       detail: "适合知道项目状态的内测同学。当前是中断后的内测保留，不是废弃删除，也没有对外入口。稳定后再评估是否开放。本页只同步状态，不要对外承诺可立刻使用。",
       access: "beta",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981d7a52bc07070498ee8",
       cover: "jev.jpg",
       alt: "Jev 智能接量助手：中断、内测，没有入口",
       gallery: [
@@ -413,7 +413,7 @@
       detail: "适合想了解运营向 Agent 的同事和访客。打开演示站可走选题→画面→文案的辅助流程，产出供人审阅，不自动发布。用来评估 Agent 边界和能否接入你们的制帖流程。",
       access: "public",
       href: "https://shuishou-xhs-image-maker-20260820.b348894768.chatgpt.site",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981d39220f514b24277e3",
       cover: "shuishou.jpg",
       alt: "水手红书制帖师演示站首页：把专业方向做成可审阅的小红书图文",
       gallery: [
@@ -430,7 +430,7 @@
       detail: "适合想快速体验互动小站的人，也适合当轻量引流页。打开即测，结果是六维雷达，非严肃测评、非核心业务。可直接分享给需要「先玩一下再聊运营」的访客。",
       access: "public",
       href: "https://ai-ops-six-dim-test.b348894768.chatgpt.site",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40736dad3b2981e0b1ffcb8cfb5de145",
       cover: "six-landing.png",
       alt: "AI 运营六维能力测试落地页：六维雷达和开始测试",
       gallery: [{ src: "six-dims.jpg", alt: "六维能力测试列出的六个维度" }],
@@ -445,7 +445,7 @@
       remark: FENGXU_REMARK,
       access: "exhibit",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40c36dad3b298162a7e5f70ddc23fe4a",
       cover: "cover-dedao.png",
       alt: "得到AI圈",
       gallery: [
@@ -462,7 +462,7 @@
       remark: FENGXU_REMARK,
       access: "exhibit",
       href: "",
-      notionEditUrl: "",
+      notionEditUrl: "https://www.notion.so/40c36dad3b29811c90a3f35fd3aacdd1",
       cover: "cover-shengcai.png",
       alt: "生财有术",
       gallery: [
@@ -655,9 +655,9 @@
     actions.append(note);
   }
 
-  function appendLink(actions, href, label, title) {
+  function appendLink(actions, href, label, title, className) {
     var link = document.createElement("a");
-    link.className = "btn";
+    link.className = className || "btn";
     link.href = href;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
@@ -672,16 +672,8 @@
   function appendAdmin(actions, item) {
     if (!isLoggedIn()) return;
     var editUrl = httpUrl(item.notionEditUrl);
-    if (editUrl) {
-      appendLink(actions, editUrl, "在 Notion 编辑", item.title);
-      return;
-    }
-    var disabled = document.createElement("button");
-    disabled.type = "button";
-    disabled.className = "btn btn-ghost";
-    disabled.disabled = true;
-    disabled.textContent = "在 Notion 编辑";
-    actions.append(disabled);
+    if (!editUrl) return;
+    appendLink(actions, editUrl, "在 Notion 编辑", item.title, "btn btn-ghost");
     appendCallout(actions, NOTION_EMPTY);
   }
 
