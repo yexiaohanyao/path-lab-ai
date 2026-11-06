@@ -33,6 +33,7 @@
           <a href="#about">我们是谁</a>
           <a href="#tiles">知识瓷砖</a>
         </nav>
+        <div class="session" id="session-slot"></div>
       </div>
     </header>
 
@@ -46,31 +47,31 @@
           </div>
           <dl class="counts" aria-label="条目统计">
             <div>
-              <dd>26</dd>
+              <dd data-count="all">26</dd>
               <dt>条目</dt>
             </div>
             <div>
-              <dd>3</dd>
-              <dt>公开可看</dt>
+              <dd data-count="internal">16</dd>
+              <dt>内部资料</dt>
             </div>
             <div>
-              <dd>17</dd>
-              <dt>申请查看</dt>
+              <dd data-count="public">3</dd>
+              <dt>公共站点</dt>
             </div>
             <div>
-              <dd>3</dd>
-              <dt>让团队知道</dt>
+              <dd data-count="pack">3</dd>
+              <dt>资料包</dt>
             </div>
             <div>
-              <dd>1</dd>
-              <dt>仅内部</dt>
+              <dd data-count="exhibit">2</dd>
+              <dt>仅展示</dt>
             </div>
             <div>
-              <dd>1</dd>
+              <dd data-count="beta">1</dd>
               <dt>内测</dt>
             </div>
             <div>
-              <dd>1</dd>
+              <dd data-count="site">1</dd>
               <dt>当前站点</dt>
             </div>
           </dl>
@@ -91,49 +92,49 @@
             <section class="island" id="ops" data-portal="ops" aria-labelledby="ops-title">
               <h3 class="island-title" id="ops-title"><span class="island-index">01</span>流量运营</h3>
               <div class="cells">
-                <button type="button" class="cell" data-id="ops-materials" aria-haspopup="dialog" aria-controls="detail" aria-label="运营使用的资料，申请查看">
+                <button type="button" class="cell" data-id="ops-materials" aria-haspopup="dialog" aria-controls="detail" aria-label="运营使用的资料，内部资料">
                   <strong>运营资料</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="prompt-skill" aria-haspopup="dialog" aria-controls="detail" aria-label="提示词 vs 上下文 vs Skill，申请查看">
+                <button type="button" class="cell" data-id="prompt-skill" aria-haspopup="dialog" aria-controls="detail" aria-label="提示词 vs 上下文 vs Skill，内部资料">
                   <strong>提示词</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="juguang-risk" aria-haspopup="dialog" aria-controls="detail" aria-label="聚光风险表达，申请查看">
+                <button type="button" class="cell" data-id="juguang-risk" aria-haspopup="dialog" aria-controls="detail" aria-label="聚光风险表达，内部资料">
                   <strong>聚光风险</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="data-review" aria-haspopup="dialog" aria-controls="detail" aria-label="数据复盘表格，申请查看">
+                <button type="button" class="cell" data-id="data-review" aria-haspopup="dialog" aria-controls="detail" aria-label="数据复盘表格，内部资料">
                   <strong>数据复盘</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="material-lib" aria-haspopup="dialog" aria-controls="detail" aria-label="素材库，申请查看">
+                <button type="button" class="cell" data-id="material-lib" aria-haspopup="dialog" aria-controls="detail" aria-label="素材库，内部资料">
                   <strong>素材库</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="xhs-library" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书资料库 2.0，申请查看">
+                <button type="button" class="cell" data-id="xhs-library" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书资料库 2.0，内部资料">
                   <strong>资料库</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="major-list" aria-haspopup="dialog" aria-controls="detail" aria-label="专业列表（三版本），申请查看">
+                <button type="button" class="cell" data-id="major-list" aria-haspopup="dialog" aria-controls="detail" aria-label="专业列表（三版本），内部资料">
                   <strong>专业列表</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="sop-marketing" aria-haspopup="dialog" aria-controls="detail" aria-label="营销 SOP ver2.0，申请查看">
+                <button type="button" class="cell" data-id="sop-marketing" aria-haspopup="dialog" aria-controls="detail" aria-label="营销 SOP ver2.0，内部资料">
                   <strong>营销 SOP</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="sop-xhs" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书运营 SOP，申请查看">
+                <button type="button" class="cell" data-id="sop-xhs" aria-haspopup="dialog" aria-controls="detail" aria-label="小红书运营 SOP，内部资料">
                   <strong>小红书运营 SOP</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="topic-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI+专业课题入门包，让团队知道">
+                <button type="button" class="cell" data-id="topic-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI+专业课题入门包，资料包">
                   <strong>课题入门包</strong>
-                  <span class="badge" data-access="team">让团队知道</span>
+                  <span class="badge" data-access="pack">资料包</span>
                 </button>
-                <button type="button" class="cell" data-id="algo-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI算法入门包，让团队知道">
+                <button type="button" class="cell" data-id="algo-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI算法入门包，资料包">
                   <strong>算法入门包</strong>
-                  <span class="badge" data-access="team">让团队知道</span>
+                  <span class="badge" data-access="pack">资料包</span>
                 </button>
               </div>
             </section>
@@ -141,17 +142,17 @@
             <section class="island" id="product" data-portal="product" aria-labelledby="product-title">
               <h3 class="island-title" id="product-title"><span class="island-index">02</span>产品可视化</h3>
               <div class="cells">
-                <button type="button" class="cell" data-id="v7-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="V7.0 系统班产品手册，申请查看">
+                <button type="button" class="cell" data-id="v7-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="V7.0 系统班产品手册，内部资料">
                   <strong>系统班</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="employment-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="就业班产品手册 / AI职通车，申请查看">
+                <button type="button" class="cell" data-id="employment-manual" aria-haspopup="dialog" aria-controls="detail" aria-label="就业班产品手册 / AI职通车，内部资料">
                   <strong>就业班</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="conversion" aria-haspopup="dialog" aria-controls="detail" aria-label="转化产品介绍，申请查看">
+                <button type="button" class="cell" data-id="conversion" aria-haspopup="dialog" aria-controls="detail" aria-label="转化产品介绍，内部资料">
                   <strong>转化产品介绍</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
               </div>
             </section>
@@ -163,29 +164,29 @@
                   <strong>路径实验室</strong>
                   <span class="badge" data-access="site">当前站点</span>
                 </button>
-                <button type="button" class="cell" data-id="papers" aria-haspopup="dialog" aria-controls="detail" aria-label="论文交互馆，公开可看">
+                <button type="button" class="cell" data-id="papers" aria-haspopup="dialog" aria-controls="detail" aria-label="论文交互馆，公共站点">
                   <strong>论文馆</strong>
-                  <span class="badge" data-access="public">公开可看</span>
+                  <span class="badge" data-access="public">公共站点</span>
                 </button>
-                <button type="button" class="cell" data-id="material-collector" aria-haspopup="dialog" aria-controls="detail" aria-label="多平台素材采集器，申请查看">
+                <button type="button" class="cell" data-id="material-collector" aria-haspopup="dialog" aria-controls="detail" aria-label="多平台素材采集器，内部资料">
                   <strong>素材采集</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="workbench-daily" aria-haspopup="dialog" aria-controls="detail" aria-label="每日工作台，仅内部">
+                <button type="button" class="cell" data-id="workbench-daily" aria-haspopup="dialog" aria-controls="detail" aria-label="每日工作台，内部资料">
                   <strong>每日工作台</strong>
-                  <span class="badge" data-access="internal">仅内部</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="workbench-creator" aria-haspopup="dialog" aria-controls="detail" aria-label="素材创作台，申请查看">
+                <button type="button" class="cell" data-id="workbench-creator" aria-haspopup="dialog" aria-controls="detail" aria-label="素材创作台，内部资料">
                   <strong>素材创作台</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
-                <button type="button" class="cell" data-id="workbench-research" aria-haspopup="dialog" aria-controls="detail" aria-label="科研工作台，让团队知道">
+                <button type="button" class="cell" data-id="workbench-research" aria-haspopup="dialog" aria-controls="detail" aria-label="科研工作台，资料包">
                   <strong>科研工作台</strong>
-                  <span class="badge" data-access="team">让团队知道</span>
+                  <span class="badge" data-access="pack">资料包</span>
                 </button>
-                <button type="button" class="cell" data-id="papers-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 论文包，申请查看">
+                <button type="button" class="cell" data-id="papers-pack" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 论文包，内部资料">
                   <strong>AI 论文包</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="internal">内部资料</span>
                 </button>
               </div>
             </section>
@@ -197,13 +198,13 @@
                   <strong>jev</strong>
                   <span class="badge" data-access="beta">内测</span>
                 </button>
-                <button type="button" class="cell" data-id="shuishou" aria-haspopup="dialog" aria-controls="detail" aria-label="水手｜红书制帖师 Agent 演示站，公开可看">
+                <button type="button" class="cell" data-id="shuishou" aria-haspopup="dialog" aria-controls="detail" aria-label="水手｜红书制帖师 Agent 演示站，公共站点">
                   <strong>水手</strong>
-                  <span class="badge" data-access="public">公开可看</span>
+                  <span class="badge" data-access="public">公共站点</span>
                 </button>
-                <button type="button" class="cell" data-id="six" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 运营六维能力测试，公开可看">
+                <button type="button" class="cell" data-id="six" aria-haspopup="dialog" aria-controls="detail" aria-label="AI 运营六维能力测试，公共站点">
                   <strong>六维测试</strong>
-                  <span class="badge" data-access="public">公开可看</span>
+                  <span class="badge" data-access="public">公共站点</span>
                 </button>
               </div>
             </section>
@@ -211,20 +212,20 @@
             <section class="island" id="fengxu" data-portal="fengxu" aria-labelledby="fengxu-title">
               <h3 class="island-title" id="fengxu-title"><span class="island-index">05</span>风絮</h3>
               <div class="cells">
-                <button type="button" class="cell" data-id="dedao-ai" aria-haspopup="dialog" aria-controls="detail" aria-label="得到AI圈，申请查看">
+                <button type="button" class="cell" data-id="dedao-ai" aria-haspopup="dialog" aria-controls="detail" aria-label="得到AI圈，仅展示">
                   <strong>得到AI</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="exhibit">仅展示</span>
                 </button>
-                <button type="button" class="cell" data-id="shengcai" aria-haspopup="dialog" aria-controls="detail" aria-label="生财有术，申请查看">
+                <button type="button" class="cell" data-id="shengcai" aria-haspopup="dialog" aria-controls="detail" aria-label="生财有术，仅展示">
                   <strong>生财</strong>
-                  <span class="badge" data-access="request">申请查看</span>
+                  <span class="badge" data-access="exhibit">仅展示</span>
                 </button>
               </div>
             </section>
           </div>
           <p id="tiles-status" class="sr-only" aria-live="polite"></p>
           <noscript>
-            <p class="stage-note">脚本停用时，栏目名称仍可阅读。申请查看、让团队知道、仅内部和内测的材料请记下名称。</p>
+            <p class="stage-note">脚本停用时，栏目名称仍可阅读。内部资料和资料包的链接需要登录后打开，这里只能看到名称。</p>
           </noscript>
         </div>
       </section>
@@ -253,11 +254,30 @@
           <h3 id="detail-title"></h3>
           <p class="detail-summary" id="detail-summary"></p>
           <p class="detail-copy" id="detail-copy"></p>
+          <p class="detail-remark" id="detail-remark" hidden></p>
           <ul class="parts" id="detail-parts" hidden></ul>
           <div class="detail-gallery" id="detail-gallery"></div>
           <div class="detail-actions" id="detail-actions"></div>
         </div>
       </article>
+    </dialog>
+
+    <dialog class="login" id="login" aria-labelledby="login-title" aria-describedby="login-help">
+      <form class="login-card" id="login-form" method="post" action="#">
+        <h3 id="login-title">管理员登录</h3>
+        <p class="login-help" id="login-help">软登录，只保存在这台浏览器里，大约 12 小时。GitHub Pages 没有服务器校验。</p>
+        <label class="login-field">用户名
+          <input id="login-user" name="username" autocomplete="username" />
+        </label>
+        <label class="login-field">密码
+          <input id="login-pass" name="password" type="password" autocomplete="current-password" />
+        </label>
+        <p class="login-error" id="login-error" role="alert" hidden></p>
+        <div class="login-actions">
+          <button class="btn btn-ghost" id="login-cancel" type="button">取消</button>
+          <button class="btn" type="submit">登录</button>
+        </div>
+      </form>
     </dialog>
 
     <script src="./assets/showcase.js" defer></script>
