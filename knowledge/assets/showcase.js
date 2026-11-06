@@ -7,7 +7,6 @@
     pack: "资料包",
     exhibit: "仅展示",
     beta: "内测",
-    site: "当前站点",
   };
 
   var SESSION_KEY = "pathlab-knowledge-session";
@@ -285,10 +284,10 @@
       portal: "vibe",
       title: "AI路径实验室",
       short: "路径实验室",
-      summary: "你正在看的展示窗口所属站点：路径、论文与工具收在同一实验室。",
-      detail: "适合想知道「这套东西挂在哪」的同事和访客。瓷砖岛是实验室的知识展示层；下面的论文交互馆可公开打开做论文/路径浏览。本格不外链到别处，点论文馆格子即可进入公开子站。",
-      access: "site",
-      href: "",
+      summary: "公开实验室首页：路径、论文与工具收在同一处，可直接打开。",
+      detail: "适合想从实验室首页看路径、论文与工具的同事和访客。这条知识瓷砖岛就挂在路径实验室下面。打开页面即可进入公开首页，不必登录。",
+      access: "public",
+      href: "https://yexiaohanyao.github.io/path-lab-ai/",
       notionEditUrl: "",
       cover: "path-lab.jpg",
       alt: "AI 路径实验室首页：让灵感，找到下一步",
@@ -746,18 +745,7 @@
     var href = item.access === "exhibit" ? "" : httpUrl(item.href);
     var loggedIn = isLoggedIn();
 
-    if (item.access === "site") {
-      appendCallout(actions, "你正在浏览的就是这个站点。");
-      var childItem = items.find(function (entry) { return entry.parent === item.id; });
-      if (childItem) {
-        var openChild = document.createElement("button");
-        openChild.type = "button";
-        openChild.className = "btn btn-ghost";
-        openChild.textContent = "打开子节点：" + childItem.title;
-        openChild.addEventListener("click", function () { openDetail(childItem.id); });
-        actions.append(openChild);
-      }
-    } else if (item.access === "public" && href) {
+    if (item.access === "public" && href) {
       appendLink(actions, href, "打开页面", item.title);
     } else if (item.access === "beta") {
       appendCallout(actions, "内测 / 中断 · 暂无入口");
@@ -807,7 +795,7 @@
   }
 
   function syncCounts() {
-    var tally = { all: items.length, internal: 0, public: 0, pack: 0, exhibit: 0, beta: 0, site: 0 };
+    var tally = { all: items.length, internal: 0, public: 0, pack: 0, exhibit: 0, beta: 0 };
     items.forEach(function (item) {
       if (tally[item.access] != null) tally[item.access] += 1;
     });
