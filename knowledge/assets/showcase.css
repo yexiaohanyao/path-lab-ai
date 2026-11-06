@@ -292,7 +292,6 @@ h2 {
 .badge[data-access="pack"] { --badge-bg: #e4eef8; --badge-ink: #24557a; }
 .badge[data-access="exhibit"] { --badge-bg: #efe6f6; --badge-ink: #5c3d78; }
 .badge[data-access="beta"] { --badge-bg: #e7e9f1; --badge-ink: #3e4860; }
-.badge[data-access="site"] { --badge-bg: #efe8da; --badge-ink: #1c1915; }
 
 .stage-note {
   margin: 14px 0 0;
