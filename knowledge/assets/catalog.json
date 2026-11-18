@@ -561,6 +561,24 @@
           "alt": "生财有术社区信息流"
         }
       ]
+    },
+    {
+      "id": "card-20261118-140947",
+      "portal": "ops",
+      "title": "转化用案例素材库",
+      "short": "转化素材库",
+      "summary": "转化用的素材",
+      "detail": "转化用的素材，可以给流量运营提供支撑素材。",
+      "access": "internal",
+      "href": "https://diantou-material-lib.app.workbuddy.host/?sharecode=2JZDDKRFQA",
+      "cover": "card-20261118-140947-cover.png",
+      "alt": "转化用案例素材库",
+      "gallery": [
+        {
+          "src": "gallery/card-20261118-140947-1.png",
+          "alt": "转化用案例素材库"
+        }
+      ]
     }
   ]
 }
